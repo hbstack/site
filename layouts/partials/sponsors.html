@@ -1,0 +1,12 @@
+<ul class="nav flex-column border-top pt-2 d-none d-lg-flex">
+  {{- range $name, $sponsor := site.Data.sponsors }}
+    {{- if not (in (slice "ko-fi") $name) }}
+      {{- continue }}
+    {{- end }}
+    <li class="nav-item my-2">
+      <a class="mav-link" href="{{ .url }}" target="_blank" rel="external">
+        <img class="sponsor-img img-fluid h-auto" width="200" src="{{ .img }}" alt="{{ .alt }}" />
+      </a>
+    </li>
+  {{- end }}
+</ul>

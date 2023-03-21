@@ -1,0 +1,29 @@
+{
+  "author": "Razon Yang <razonyang@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/hbstack/site/issues"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "prettier-plugin-go-template": "^0.0.13"
+  },
+  "homepage": "https://github.com/hbstack/site",
+  "license": "MIT",
+  "name": "HB Site",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hbstack/site.git"
+  },
+  "scripts": {
+    "dev": "hugo server -p 13131 --gc --disableFastRender --buildDrafts",
+    "prod": "rm -f hugo_stats.json && rm -rf public/ && hugo server -e production --minify --gc --renderToDisk --disableFastRender -b http://localhost:13132 -p 13132"
+  },
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "autoprefix": "^1.0.1",
+    "autoprefixer": "^10.4.13",
+    "postcss-cli": "^10.1.0",
+    "postcss-purgecss": "^2.0.3",
+    "rtlcss": "^4.0.0"
+  }
+}
