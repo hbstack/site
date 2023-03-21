@@ -1,0 +1,16 @@
+{{- $page := . }}
+{{- with site.Data.modules }}
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Module Path</th>
+        <th>Version</th>
+        <th>Stats</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{ partial "modules" (dict "Modules" . "Page" $page) }}
+    </tbody>
+  </table>
+{{- end -}}
