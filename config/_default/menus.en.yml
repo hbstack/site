@@ -1,0 +1,248 @@
+main:
+  - name: Support
+    identifier: support
+    weight: 100
+    url: https://github.com/hbstack
+    params:
+      header: The HB support community.
+      icon:
+        vendor: font-awesome-solid
+        name: headset
+
+  - name: GitHub
+    parent: support
+    url: https://github.com/hbstack
+    weight: 1
+    params:
+      icon:
+        vendor: fab
+        name: github
+      description: The code repository.
+
+  - name: Discussion
+    parent: support
+    url: https://github.com/orgs/hbstack/discussions
+    weight: 2
+    params:
+      icon:
+        vendor: font-awesome-regular
+        name: comments
+        color: green
+      description: Ask questions and share your ideas.
+
+  - name: Bug Report
+    parent: support
+    url: https://github.com/orgs/hbstack/discussions/new?category=issues-and-bugs
+    weight: 3
+    params:
+      icon:
+        vendor: font-awesome-solid
+        name: bug
+        color: red
+      description: Tell us about a bug or issue.
+
+  - name: Feature Request
+    parent: support
+    url: https://github.com/orgs/hbstack/discussions/new?category=ideas
+    weight: 4
+    params:
+      icon:
+        vendor: font-awesome-regular
+        name: lightbulb
+        color: orange
+      description: Suggest new or updated features.
+
+  - name: Sponsor
+    identifier: sponsor
+    parent: support
+    weight: 10
+    params:
+      divider: true
+
+  - name: PayPal
+    weight: 11
+    parent: support
+    url: https://paypal.me/razonyang
+    params:
+      description: Sponsor via PayPal.
+      icon:
+        vendor: simple-icons
+        name: paypal
+
+  - name: Ko-fi
+    weight: 12
+    parent: support
+    url: https://ko-fi.com/razonyang
+    params:
+      description: Sponsor via Ko-fi.
+      icon:
+        vendor: simple-icons
+        name: kofi
+
+footer:
+  - name: Modules
+    identifier: modules
+    weight: 10
+    params:
+      icon:
+        vendor: bootstrap
+        name: boxes
+        color: skyblue
+  - name: HugoPress
+    parent: modules
+    weight: 11
+    url: https://github.com/hugomods/hugopress
+    params:
+      icon:
+        vendor: simple-icons
+        name: hugo
+        color: '#FF4088'
+  - name: Base
+    parent: modules
+    weight: 12
+    url: https://github.com/hugomods/base
+    params:
+      icon:
+        vendor: simple-icons
+        name: hugo
+        color: '#FF4088'
+  - name: Icons
+    parent: modules
+    weight: 13
+    url: https://github.com/hugomods/icons
+    params:
+      icon:
+        vendor: font-awesome-solid
+        name: icons
+        color: '#F76119'
+  - name: SEO
+    parent: modules
+    weight: 14
+    url: https://github.com/hugomods/seo
+    params:
+      icon:
+        vendor: font-awesome-solid
+        name: magnifying-glass
+        color: '#87CEEB'
+  - name: Search
+    parent: modules
+    weight: 15
+    url: https://github.com/hugomods/search
+    params:
+      icon:
+        vendor: bootstrap
+        name: search
+        color: '#712cf9'
+  - name: Code Block Panel
+    parent: modules
+    weight: 16
+    url: https://github.com/hugomods/code-block-panel
+    params:
+      icon:
+        vendor: bootstrap
+        name: code-square
+        color: '#712cf9'
+  # - name: Giscus
+  #   parent: modules
+  #   weight: 17
+  #   url: https://github.com/hugomods/giscus
+  #   params:
+  #     icon:
+  #       vendor: fas
+  #       name: comments
+  # - name: Utterances
+  #   parent: modules
+  #   weight: 18
+  #   url: https://github.com/hugomods/utterances
+  #   params:
+  #     icon:
+  #       vendor: fas
+  #       name: comments
+  
+  - name: HB Base
+    parent: hb-modules
+    weight: 21
+    url: https://github.com/hbstack/base
+    params:
+      icon:
+        vendor: bs
+        name: window-sidebar
+  - name: HB Blog
+    parent: hb-modules
+    weight: 24
+    url: https://github.com/hbstack/blog
+    params:
+      icon:
+        vendor: font-awesome-solid
+        name: blog
+  - name: HB Docs
+    parent: hb-modules
+    weight: 25
+    url: https://github.com/hbstack/docs
+    params:
+      icon:
+        vendor: bootstrap
+        name: file-earmark-richtext
+
+  - name: Support
+    identifier: support
+    weight: 40
+    url: https://github.com/hbstack
+    params:
+      icon:
+        vendor: font-awesome-solid
+        name: headset
+        color: '#0A5DB9'
+  - name: GitHub
+    parent: support
+    url: https://github.com/hbstack
+    weight: 41
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: github
+  - name: Discussion
+    parent: support
+    url: https://github.com/orgs/hbstack/discussions
+    weight: 42
+    params:
+      icon:
+        vendor: far
+        name: comments
+        color: green
+  - name: Bug Report
+    parent: support
+    url: https://github.com/orgs/hbstack/discussions/new?category=issues-and-bugs
+    weight: 43
+    params:
+      icon:
+        vendor: font-awesome-solid
+        name: bug
+        color: red
+
+  - name: Feature Request
+    parent: support
+    url: https://github.com/orgs/hbstack/discussions/new?category=ideas
+    weight: 44
+    params:
+      icon:
+        vendor: font-awesome-regular
+        name: lightbulb
+        color: orange
+  - name: PayPal
+    weight: 45
+    parent: support
+    url: https://paypal.me/razonyang
+    params:
+      icon:
+        vendor: simple-icons
+        name: paypal
+  - name: Ko-fi
+    parent: support
+    weight: 46
+    params:
+      description: Sponsor via Ko-fi.
+      icon:
+        vendor: simple
+        name: kofi
+    url: https://ko-fi.com/razonyang
