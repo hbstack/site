@@ -40,7 +40,7 @@ require (
 	github.com/hbstack/meta/standard v0.1.0 // indirect
 	github.com/hbstack/noscript v0.1.0 // indirect
 	github.com/hbstack/progress-bar v0.1.0 // indirect
-	github.com/hbstack/pwa v0.1.0 // indirect
+	github.com/hbstack/pwa v0.1.1 // indirect
 	github.com/hbstack/scrollbar v0.1.0 // indirect
 	github.com/hbstack/syntax-highlighting v0.1.0 // indirect
 	github.com/hbstack/syntax-highlighting/styles/gruvbox v0.1.0 // indirect
