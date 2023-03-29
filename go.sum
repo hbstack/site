@@ -6,6 +6,7 @@ github.com/hbstack/back-to-top v0.1.0/go.mod h1:tizllOjHSs5xXgqN5IkHNQccyFaqzeMF
 github.com/hbstack/back-to-top v0.1.1/go.mod h1:nxpBIKKF+S6K16p2+aQ3vZ46DcKatEJRpoZIJUrElTg=
 github.com/hbstack/base v0.1.1 h1:1ehqqiEVEWC2tFrj2M8NhynBTYxt2uiZrpydB3j/pgY=
 github.com/hbstack/base v0.1.1/go.mod h1:7J9OWva2kKpSSLHmVCErdcu9x5rkM9Y9EXBdumon/0Q=
+github.com/hbstack/base v0.1.3/go.mod h1:tein3kLAihnlcXe+xAprntZNjCvA/hRDkrxmZHOyelI=
 github.com/hbstack/bigger-picture v0.1.0 h1:J82wCd22ZUSBLlBU94ZXf3qSaIfyxzHWE8Uo9cfwEjQ=
 github.com/hbstack/bigger-picture v0.1.0/go.mod h1:xSAUzBZk67EskLpaStl0+00o4pwEJxXej6vABPYwj9U=
 github.com/hbstack/blog v0.2.2 h1:JdCR0NtxqSBndMp5WdSMwbyOoOhWfXsmG2nw0efnB2w=
@@ -45,6 +46,7 @@ github.com/hbstack/footer/modules/socials v0.1.1 h1:DYXIePcWaU6QdPRp28HSKLQKS65B
 github.com/hbstack/footer/modules/socials v0.1.1/go.mod h1:CMWFFKQqoCGji8IPWZGt9zezRecvubfWVC4Y97DVsQM=
 github.com/hbstack/header v0.1.5 h1:ojdlCfqWM2/uaNJ9WlVHmVmYJYmWf1yVCoFig1WvqZU=
 github.com/hbstack/header v0.1.5/go.mod h1:fHUeyEtniqtZTHPoHpwh9vjOJHIT2HWv2zzCjy1LEC0=
+github.com/hbstack/header v0.1.6/go.mod h1:fHUeyEtniqtZTHPoHpwh9vjOJHIT2HWv2zzCjy1LEC0=
 github.com/hbstack/header/modules/language-picker v0.1.1 h1:Q+rtFGnt/QEromR1cNlmDmxYr/iaVaVxBMzIH+q9a1Q=
 github.com/hbstack/header/modules/language-picker v0.1.1/go.mod h1:gMfppUtgfFMg0Qm/C9971mvS+LS3AqarohRmDgFZ3Ow=
 github.com/hbstack/header/modules/search v0.1.1 h1:WnbtrF3BKu3eYB2Daw489djhSA/9ZTC9kATHa6n8AY4=
