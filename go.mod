@@ -15,10 +15,10 @@ require (
 	github.com/hbstack/blog/modules/post-nav v0.1.1 // indirect
 	github.com/hbstack/blog/modules/related-posts v0.1.1 // indirect
 	github.com/hbstack/bootstrap v0.1.1 // indirect
-	github.com/hbstack/carousel v0.1.4 // indirect
+	github.com/hbstack/carousel v0.1.6 // indirect
 	github.com/hbstack/code-block-panel v0.1.0 // indirect
 	github.com/hbstack/docs v0.1.1 // indirect
-	github.com/hbstack/docs/modules/breadcrumb v0.1.0 // indirect
+	github.com/hbstack/docs/modules/breadcrumb v0.1.2 // indirect
 	github.com/hbstack/docs/modules/doc-nav v0.1.1 // indirect
 	github.com/hbstack/docs/modules/featured-image v0.1.1 // indirect
 	github.com/hbstack/docs/modules/giscus v0.1.1 // indirect
