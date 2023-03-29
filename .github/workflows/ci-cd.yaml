@@ -33,7 +33,7 @@ jobs:
           tags: ghcr.io/hbstack/site:latest,ghcr.io/hbstack/site:${{ github.sha }}
 
       - name: Set k8s context
-        uses: Azure/k8s-set-context@v1
+        uses: Azure/k8s-set-context@v2
         with:
           kubeconfig: ${{ secrets.KUBE_CONFIG }}
 
