@@ -37,7 +37,7 @@ jobs:
         with:
           kubeconfig: ${{ secrets.KUBE_CONFIG }}
 
-      - uses: azure/k8s-bake@v2.2
+      - uses: azure/k8s-bake@v2.4
         with:
           renderEngine: 'helm'
           helmChart: './deploy/'
