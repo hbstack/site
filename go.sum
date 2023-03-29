@@ -53,6 +53,7 @@ github.com/hbstack/header/modules/socials v0.1.1 h1:I40kDx7sa7BmjBjeCesz3AHDG5UU
 github.com/hbstack/header/modules/socials v0.1.1/go.mod h1:FggNPqINvsrFALKr9N7kAeiBSOOBBWlKC3sV+5R0vbU=
 github.com/hbstack/header/modules/theme-toggle v0.1.0 h1:z7xPtuCXvA6z5bLrUlWKC0gQfPIi5djpecnkbhCe7H4=
 github.com/hbstack/header/modules/theme-toggle v0.1.0/go.mod h1:fy47P45Urpxae0J2m7dYyGKvgG503uUxsRONcIRPhc8=
+github.com/hbstack/header/modules/theme-toggle v0.1.1/go.mod h1:Rc0Exf502x9adQI4vwi1I9XWRM1MPo0/OZYEpC5zhSU=
 github.com/hbstack/mermaid v0.1.0 h1:T/3Az7xujbFmbC4r1tZGKTwt6GOcz/72yc2N9oFNU2I=
 github.com/hbstack/mermaid v0.1.0/go.mod h1:dQAfzX1SA4b3k5ytA8WPR5luxjX4ii7EdtoRsr8WLNw=
 github.com/hbstack/meta/blog v0.1.0 h1:HUOwI4nOjBxhf1S5OqP65j73U6DhfbpxbfuUADhgdaM=
