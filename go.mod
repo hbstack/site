@@ -50,7 +50,7 @@ require (
 	github.com/hugomods/gravatar v0.1.0 // indirect
 	github.com/hugomods/hugopress v0.1.0 // indirect
 	github.com/hugomods/icons v0.6.0 // indirect
-	github.com/hugomods/icons/vendors/font-awesome v0.5.0 // indirect
+	github.com/hugomods/icons/vendors/font-awesome v0.6.0 // indirect
 	github.com/hugomods/icons/vendors/simple-icons v0.7.0 // indirect
 	github.com/hugomods/images v0.1.1 // indirect
 	github.com/hugomods/seo/modules/alternatives v0.1.0 // indirect
