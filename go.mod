@@ -20,7 +20,7 @@ require (
 	github.com/hbstack/docs v0.1.2 // indirect
 	github.com/hbstack/docs/modules/breadcrumb v0.1.2 // indirect
 	github.com/hbstack/docs/modules/doc-nav v0.1.1 // indirect
-	github.com/hbstack/docs/modules/featured-image v0.1.1 // indirect
+	github.com/hbstack/docs/modules/featured-image v0.1.2 // indirect
 	github.com/hbstack/docs/modules/giscus v0.1.1 // indirect
 	github.com/hbstack/docs/modules/heading-sign v0.1.1 // indirect
 	github.com/hbstack/footer/modules/socials v0.1.2 // indirect
