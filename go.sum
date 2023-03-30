@@ -21,6 +21,7 @@ github.com/hbstack/blog/modules/breadcrumb v0.1.0/go.mod h1:fzVk6rVNKJIUYjIO9rzM
 github.com/hbstack/blog/modules/breadcrumb v0.1.2/go.mod h1:dO1yAUWsIFGH3KnIcI3CgV/7/udTLUNjKeEsLPre5gs=
 github.com/hbstack/blog/modules/featured-image v0.1.1 h1:bSzEhTPqBWJ7q2c1KcZiq3Z69rMFxcjn2cdStNGGFFE=
 github.com/hbstack/blog/modules/featured-image v0.1.1/go.mod h1:pwpibd3sitLutMa3qpDehw7NdHBACtF4FijSY6AGMf4=
+github.com/hbstack/blog/modules/featured-image v0.1.2/go.mod h1:JKpidw9qi7LsXusD1sEzUvte32xPJ2E2/YnYE5Mvm/o=
 github.com/hbstack/blog/modules/giscus v0.1.1 h1:jVAMKXs+hHePmjVfgQazgfzDmMnZTMcP39UfoHktFu8=
 github.com/hbstack/blog/modules/giscus v0.1.1/go.mod h1:a3Ed4PlU3hCGRYBTAdPnSPNSMXHh6o2pIYpiJQTn8O8=
 github.com/hbstack/blog/modules/heading-sign v0.1.1 h1:MYtmEdL2scb/5fI5agxc2R9CTT8ajEszeYnESDHqfi0=
