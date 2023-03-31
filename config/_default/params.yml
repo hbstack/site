@@ -55,7 +55,9 @@ pwa:
     - url: /en/
     - url: /zh-hans/
   manifest:
+    background_color: '#712cf9'
     theme_color: '#712cf9'
+    short_name: 'HB'
 
 seo:
   favicons:
