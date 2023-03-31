@@ -43,7 +43,7 @@ require (
 	github.com/hbstack/progress-bar v0.1.0 // indirect
 	github.com/hbstack/pwa v0.1.2 // indirect
 	github.com/hbstack/scrollbar v0.1.0 // indirect
-	github.com/hbstack/search v0.1.4 // indirect
+	github.com/hbstack/search v0.1.5 // indirect
 	github.com/hbstack/syntax-highlighting v0.1.0 // indirect
 	github.com/hbstack/syntax-highlighting/styles/gruvbox v0.1.0 // indirect
 	github.com/hugomods/base v0.1.0 // indirect
