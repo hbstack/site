@@ -6,6 +6,8 @@ series:
 categories:
 tags:
 images:
+authors:
+  - HB
 ---
 
 <!--more-->

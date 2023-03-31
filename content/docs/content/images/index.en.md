@@ -8,7 +8,9 @@ categories = [
   "Content"
 ]
 authors = [
-  "hb"
+  "HB",
+  "HugoMods",
+  "RazonYang"
 ]
 tags = [
   "Image",
