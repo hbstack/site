@@ -39,8 +39,6 @@ draft: true
 ---
 ```
 
-Hugo 提供了[内容原型]({{< ref "docs/content/archetypes" >}})以更好地定制初始化内容。
-
 {{< bootstrap/alert >}}
 {{< markdownify >}}
 一般地，新创建的内容处于草稿阶段（`draft: true`），在发布之前，可以通过指定 `hugo server` 的 `--buildDrafts` 或 `-D` 参数进行预览。当内容准备就绪，则需要将 `draft` 改为 `false` 或者删除 `draft` 以发布该内容。
