@@ -7,6 +7,7 @@ github.com/hbstack/base v0.1.3 h1:h868EZ54SzQHdGO+3aeoninXkUhUSqWC4ZPkivC5THo=
 github.com/hbstack/base v0.1.3/go.mod h1:tein3kLAihnlcXe+xAprntZNjCvA/hRDkrxmZHOyelI=
 github.com/hbstack/bigger-picture v0.3.1 h1:zb9JgXnofSsqZyg8zbJfr3EtH85x8H4OCIkZbH6Tm6k=
 github.com/hbstack/bigger-picture v0.3.1/go.mod h1:bgc11l8sJkXiugzyhYvnK/agdslguCOU7Np0qhe0K10=
+github.com/hbstack/bigger-picture v0.3.2/go.mod h1:bgc11l8sJkXiugzyhYvnK/agdslguCOU7Np0qhe0K10=
 github.com/hbstack/blog v0.5.2 h1:+zEKLuQa7T7GenfQZdutKCSTIDXYqOW880CqxHxTYts=
 github.com/hbstack/blog v0.5.2/go.mod h1:l4lnv2V//VcfmjW9p0e9MfLxXwwJgfGznp7JmSegI6Y=
 github.com/hbstack/blog/modules/breadcrumb v0.1.2 h1:GVkpwY17UKkfkeSn825HzK9ATKWqaZEws0JYMY93zPQ=
