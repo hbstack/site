@@ -41,4 +41,4 @@ This article offers some use cases for showing how to process images via URL que
 
 <!--more-->
 
-Read more on [images usage](https://hugomods.com/en/docs/images#usage).
+Read more on [images usage](https://hugomods.com/en/docs/images#aligning-images).
