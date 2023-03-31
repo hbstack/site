@@ -20,7 +20,7 @@ menu:
         name: download
 ---
 
-我们提供了一个[入门博客主题模板](https://github.com/hbstack/theme-blog)，以便你快速地创建一个 HB 站点。
+我们提供了一个[入门主题模板](https://github.com/hbstack/theme)，以便你快速地创建一个 HB 站点。
 
 <!--more-->
 
@@ -29,7 +29,7 @@ menu:
 ### 克隆仓库
 
 ```sh
-git clone --depth 1 https://github.com/hbstack/theme-blog blog
+git clone --depth 1 https://github.com/hbstack/theme blog
 
 cd blog
 ```
@@ -38,10 +38,10 @@ cd blog
 
 ### 模块路径
 
-首先修改位于 `go.mod` 的模块路径，将其中的 `module github.com/hbstack/theme-blog` 替换为你的，如：`module github.com/user/repo`。
+首先修改位于 `go.mod` 的模块路径，将其中的 `module github.com/hbstack/theme` 替换为你的，如：`module github.com/user/repo`。
 
 ```sh
-sed -i -e 's/module\ github.com\/hbstack\/theme-blog/module\ github.com\/user\/repo/' go.mod
+sed -i -e 's/module\ github.com\/hbstack\/theme/module\ github.com\/user\/repo/' go.mod
 ```
 
 ### 推送到远程仓库
@@ -70,12 +70,18 @@ git push origin main
 
 ## Hugo 模块代理（可选）
 
-如果你在中国大陆没有VPN，雨果模块的下载可能会失败。
+如果你在中国大陆没有 VPN，Hugo 模块的下载可能会失败。
 
-对此有两个代理：GOPROXY.CN 和 GOPROXY.IO。
+对此有若干个代理：[阿里云](https://mirrors.aliyun.com/goproxy)、GOPROXY.CN 和 GOPROXY.IO。
 
 ```sh
-export HUGO_MODULE_PROXY=https://goproxy.cn
+export HUGO_MODULE_PROXY=https://mirrors.aliyun.com/goproxy,direct
+```
+
+或者
+
+```sh
+export HUGO_MODULE_PROXY=https://mirrors.aliyun.com/goproxy,https://goproxy.cn,https://goproxy.io,direct
 ```
 
 {{< bootstrap/alert info >}}
@@ -94,11 +100,16 @@ module:
 ## 本地预览
 
 ```sh
-hugo server --gc --disableFastRender
+hugo server --gc --disableFastRender -D
 ```
+
+{{% bootstrap/collapse "-D" %}}
+Build drafts.
+{{% /bootstrap/collapse %}}
 
 ## 下一步
 
-- 调整[配置]({{< ref "docs/configuration" >}})
-- 创建[内容]({{< ref "docs/content" >}})
-- [部署]({{< ref "docs/deployment" >}})
+- 调整[配置]({{< ref "docs/configuration" >}})和参数，如 `baseURL`、`giscus.*` 等。
+- 清理：移除不需要的配置、内容和图片。
+- 创建[内容]({{< ref "docs/content" >}})。
+- [部署]({{< ref "docs/deployment" >}})。

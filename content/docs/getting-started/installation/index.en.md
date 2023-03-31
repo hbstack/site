@@ -20,7 +20,7 @@ menu:
         name: download
 ---
 
-We provide a [starter blog theme template](https://github.com/hbstack/theme-blog) for you to create a HB site quickly.
+We provide a [starter theme template](https://github.com/hbstack/theme) for you to create a HB site quickly.
 
 <!--more-->
 
@@ -29,7 +29,7 @@ We provide a [starter blog theme template](https://github.com/hbstack/theme-blog
 ### Clone Repository
 
 ```sh
-git clone --depth 1 https://github.com/hbstack/theme-blog blog
+git clone --depth 1 https://github.com/hbstack/theme blog
 
 cd blog
 ```
@@ -38,10 +38,10 @@ The `blog` is the local directory, change it at will.
 
 ### Module Path
 
-Firstly, we need to change the module path located in `go.mod`, replace the `module github.com/hbstack/theme-blog` with your own, such as `module github.com/user/repo`.
+Firstly, we need to change the module path located in `go.mod`, replace the `module github.com/hbstack/theme` with your own, such as `module github.com/user/repo`.
 
 ```sh
-sed -i -e 's/module\ github.com\/hbstack\/theme-blog/module\ github.com\/user\/repo/' go.mod
+sed -i -e 's/module\ github.com\/hbstack\/theme/module\ github.com\/user\/repo/' go.mod
 ```
 
 ### Push to Remote Repository
@@ -72,10 +72,16 @@ git push origin main
 
 If you're located at China mainland without VPN, the Hugo module download may fail.
 
-There are two proxies for this: GOPROXY.CN and GOPROXY.IO.
+There are three proxies for this: [Aliyun Go Proxy](https://mirrors.aliyun.com/goproxy), GOPROXY.CN and GOPROXY.IO.
 
 ```sh
-export HUGO_MODULE_PROXY=https://goproxy.cn
+export HUGO_MODULE_PROXY=https://mirrors.aliyun.com/goproxy,direct
+```
+
+Or
+
+```sh
+export HUGO_MODULE_PROXY=https://mirrors.aliyun.com/goproxy,https://goproxy.cn,https://goproxy.io,direct
 ```
 
 {{< bootstrap/alert info >}}
@@ -94,11 +100,16 @@ proxy: https://goproxy.cn
 ## Preview
 
 ```sh
-hugo server --gc --disableFastRender
+hugo server --gc --disableFastRender -D
 ```
+
+{{% bootstrap/collapse "-D" %}}
+Build drafts.
+{{% /bootstrap/collapse %}}
 
 ## What's Next?
 
-- Tweak [Configuration]({{< ref "docs/configuration" >}})
-- Create [Content]({{< ref "docs/content" >}})
-- [Deployment]({{< ref "docs/deployment" >}})
+- Tweak [Configuration]({{< ref "docs/configuration" >}}) and parameters, such as `baseURL`, `giscus.*`.
+- Clean up: remove the unused configurations, content and images.
+- Create [Content]({{< ref "docs/content" >}}).
+- [Deployment]({{< ref "docs/deployment" >}}).
