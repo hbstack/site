@@ -9,7 +9,7 @@ require (
 	github.com/hbstack/bigger-picture v0.3.1 // indirect
 	github.com/hbstack/blog v0.5.2 // indirect
 	github.com/hbstack/blog/modules/breadcrumb v0.1.2 // indirect
-	github.com/hbstack/blog/modules/featured-image v0.1.2 // indirect
+	github.com/hbstack/blog/modules/featured-image v0.1.1 // indirect
 	github.com/hbstack/blog/modules/giscus v0.1.1 // indirect
 	github.com/hbstack/blog/modules/heading-sign v0.1.1 // indirect
 	github.com/hbstack/blog/modules/post-nav v0.1.1 // indirect
@@ -23,8 +23,9 @@ require (
 	github.com/hbstack/docs/modules/featured-image v0.1.2 // indirect
 	github.com/hbstack/docs/modules/giscus v0.1.1 // indirect
 	github.com/hbstack/docs/modules/heading-sign v0.1.1 // indirect
+	github.com/hbstack/footer v0.1.4 // indirect
 	github.com/hbstack/footer/modules/socials v0.1.2 // indirect
-	github.com/hbstack/header v0.1.7 // indirect
+	github.com/hbstack/header v0.1.8 // indirect
 	github.com/hbstack/header/modules/language-picker v0.1.1 // indirect
 	github.com/hbstack/header/modules/search v0.1.1 // indirect
 	github.com/hbstack/header/modules/socials v0.1.1 // indirect
@@ -42,6 +43,7 @@ require (
 	github.com/hbstack/progress-bar v0.1.0 // indirect
 	github.com/hbstack/pwa v0.1.2 // indirect
 	github.com/hbstack/scrollbar v0.1.0 // indirect
+	github.com/hbstack/search v0.1.4 // indirect
 	github.com/hbstack/syntax-highlighting v0.1.0 // indirect
 	github.com/hbstack/syntax-highlighting/styles/gruvbox v0.1.0 // indirect
 	github.com/hugomods/base v0.1.0 // indirect
