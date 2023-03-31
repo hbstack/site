@@ -6,3 +6,5 @@ nav_icon:
   name: code
   color: '#ff4088'
 ---
+
+- [Bootstrap Shortcodes](https://hugomods.com/en/docs/bootstrap)

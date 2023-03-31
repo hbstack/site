@@ -59,15 +59,8 @@ Please make sure you meet the prerequisites prior to using or developing the HB 
 HB doesn't require NPM or Yarn, but it's recommended to have one, to install PostCSS CLI, RTLCSS, Autoprefixer and PurgeCSS with one command.
 
 ```sh
-npm i postcss-cli @fullhuman/postcss-purgecss autoprefixer rtlcss
-```
-
-You can also install those packages globally (with `-g` or `--global` flag).
-
-```sh
 sudo npm i -g postcss-cli @fullhuman/postcss-purgecss autoprefixer rtlcss
 ```
-
 
 ## Notes
 

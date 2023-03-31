@@ -59,14 +59,6 @@ menu:
 HB 并不需要 NPM 或 Yarn，但建议有一个，以便用一个命令安装 PostCSS CLI、RTLCSS、Autoprefixer 和 PurgeCSS。
 
 ```sh
-npm i postcss-cli @fullhuman/postcss-purgecss autoprefixer rtlcss
-```
-
-你也可以使用 `-g` 或 `--global` 标志于在全局范围内安装这些软件包。
-
-You can also install those packages globally (with `-g` or `--global` flag).
-
-```sh
 sudo npm i -g postcss-cli @fullhuman/postcss-purgecss autoprefixer rtlcss
 ```
 
