@@ -8,8 +8,7 @@ enableRobotsTXT: true
 
 module:
   imports:
-    # recommended modules.
-    - path: github.com/hbstack/meta/recommended
+    - path: github.com/hugomods/google-analytics
 
     # icons modules.
     - path: github.com/hugomods/icons/vendors/font-awesome
@@ -27,6 +26,9 @@ module:
     # others.
     # - path: github.com/hbstack/background-image
     # - path: github.com/hbstack/cloudflare-rocket-loader
+
+    # recommended modules.
+    - path: github.com/hbstack/meta/recommended
 
 outputs:
   home:
