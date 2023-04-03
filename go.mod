@@ -3,7 +3,7 @@ module github.com/hbstack/site
 go 1.18
 
 require (
-	github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20001 // indirect
+	github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20002 // indirect
 	github.com/hbstack/back-to-top v0.1.2 // indirect
 	github.com/hbstack/base v0.1.3 // indirect
 	github.com/hbstack/bigger-picture v0.3.2 // indirect
