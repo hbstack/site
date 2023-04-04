@@ -47,6 +47,12 @@ hb:
       paypal: razonyang
       twitter: razonyang
       mastodon: razonyang
+  content_panel:
+    repo:
+      service: github
+      repo: hbstack/site
+      branch: main
+      # subpath: exampleSite
 
 pwa:
   icon_path: images/logo.png

@@ -23,6 +23,8 @@ module:
     # - path: github.com/hbstack/docs/modules/utterances
     # - path: github.com/hbstack/docs/modules/disqus
 
+    - path: github.com/hbstack/docs/modules/content-panel
+
     # others.
     # - path: github.com/hbstack/background-image
     # - path: github.com/hbstack/cloudflare-rocket-loader

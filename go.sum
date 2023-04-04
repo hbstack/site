@@ -27,10 +27,14 @@ github.com/hbstack/carousel v0.1.13 h1:UZQyrJqfqu5ns2tjUwUI0MDpiIN9liEr/0qFvZyuG
 github.com/hbstack/carousel v0.1.13/go.mod h1:LYQ0nZwyBEOpHVbBCDbml3C7fx+MWxEEXKQjkixBJfA=
 github.com/hbstack/code-block-panel v0.1.0 h1:nD84TnRIYgCK03COeZsFTAluHx0WvF2cP2he7Da9cUk=
 github.com/hbstack/code-block-panel v0.1.0/go.mod h1:q+IPDYgXNArqkrnUSV0UptW+QlPUSap1YbcQ699Qk+U=
+github.com/hbstack/content-panel v0.1.0 h1:2d0FMbU8vgLWHQ7Pqg+TqiZbonmcPQJrKVI4Fon2qiY=
+github.com/hbstack/content-panel v0.1.0/go.mod h1:8/7NImX1TFlXyk15S/mlYjG0cnS4PtkGYSlNF3hh8O4=
 github.com/hbstack/docs v0.1.2 h1:yqwUW5bPQT4uVzw2Ri7mbNaDTO8r71CfuXpdSvGseq8=
 github.com/hbstack/docs v0.1.2/go.mod h1:k4kzz8Mu1OlubbgmavGuFQrpEPNc25cGAh4DBRAwlNo=
 github.com/hbstack/docs/modules/breadcrumb v0.1.2 h1:f2BxzQWg1sQnGb///SVuiW68wDeQM+XkV/f5ppIZrgw=
 github.com/hbstack/docs/modules/breadcrumb v0.1.2/go.mod h1:tD2ukJTqwxngo6vp6x/DHbJvjvc5CIUPn6bKoFx1yQU=
+github.com/hbstack/docs/modules/content-panel v0.1.0 h1:qRiBmIp64Md0b9nKZDmwotru9aL+tN6s39C4ezPKJVw=
+github.com/hbstack/docs/modules/content-panel v0.1.0/go.mod h1:aix+v3Xb+LlOvgb5OfgAuxAmFkbH18XM9CUmP9G4QPs=
 github.com/hbstack/docs/modules/doc-nav v0.1.1 h1:s3Tzzj1cMJapqczKMBMXhzsFoMO/Ja3OEySuE7mb6Ps=
 github.com/hbstack/docs/modules/doc-nav v0.1.1/go.mod h1:+MrRy7QqMcKsCQe5Dvjpzb2c8iItA+R2DpsuurxbaAk=
 github.com/hbstack/docs/modules/featured-image v0.1.2 h1:3Ni4hw7q4v8T/658f5RCV/xCNlZuRV+QgyE5nzAEpdQ=
@@ -123,6 +127,8 @@ github.com/hugomods/seo/modules/twitter-cards v0.1.0 h1:jH9WfmFZ3kCndUkATM/D/BYL
 github.com/hugomods/seo/modules/twitter-cards v0.1.0/go.mod h1:QYs7SWbhXSQrsn/RHZSD7DwzaCHFpoLQdVPxEI3j63k=
 github.com/hugomods/snackbar v0.1.1 h1:tw5RFmNL7Wc0YGkoMFAevJIZDCmVFwrMpQ4dPSF3BWQ=
 github.com/hugomods/snackbar v0.1.1/go.mod h1:ykFm0IFibeQPuPAm8Gaa27xJS/bNZcSez4omVSl2gQ0=
+github.com/hugomods/utterances v0.1.0 h1:0mEKjG4eke/jdTPIxL2qfdm9W9TFpqgWh1x6d1n7Xg8=
+github.com/hugomods/utterances v0.1.0/go.mod h1:p6YjYb9iUozzKTP6V6Rhw3DCaZeXv+qonNVl+UZE0A8=
 github.com/hugomods/workbox v0.1.0 h1:yxuTj3gT1BNf6OitxrjxSJXfmbFBj2UTwdWr142eYFQ=
 github.com/hugomods/workbox v0.1.0/go.mod h1:RpFcIcltqYsiHWJV6PHPOdMagFZxO7nrO5XUpn/TMoc=
 github.com/jakearchibald/idb v7.1.1+incompatible h1:/o1ng3qUjgMUeeKFim3J3tiQAitcVXU12pXIjSzwT/c=
