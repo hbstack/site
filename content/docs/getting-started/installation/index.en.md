@@ -24,6 +24,10 @@ We provide a [starter theme template](https://github.com/hbstack/theme) for you 
 
 <!--more-->
 
+## Build Tools
+
+The theme requires those [build tools]({{< relref "docs/getting-started/prerequisites#build-tools" >}}), please make sure you've installed it on your environment.
+
 ## Installation
 
 ### Clone Repository
@@ -94,7 +98,7 @@ You can also set the `module.proxy` instead of using env var.
 
 {{< bootstrap/config-toggle filename=hugo >}}
 module:
-proxy: https://goproxy.cn
+  proxy: https://goproxy.cn
 {{< /bootstrap/config-toggle >}}
 
 ## Preview

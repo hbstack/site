@@ -56,11 +56,17 @@ menu:
 
 > 推荐尽可能使用以上构建工具的最新版本。
 
-HB 并不需要 NPM 或 Yarn，但建议有一个，以便用一个命令安装 PostCSS CLI、RTLCSS、Autoprefixer 和 PurgeCSS。
+NPM 包含于 Node 安装中，只需要用一个命令安装 PostCSS CLI、RTLCSS、Autoprefixer 和 PurgeCSS。
 
 ```sh
 sudo npm i -g postcss-cli @fullhuman/postcss-purgecss autoprefixer rtlcss
 ```
+
+{{< bs/alert >}}
+{{% markdownify %}}
+带有 `-g` 标识的命令会全局地安装这些工具，因此你无需为每个 HB 站点都执行该命令。
+{{% /markdownify %}}
+{{< /bs/alert >}}
 
 ## 注意
 
