@@ -17,12 +17,12 @@ module:
     - path: github.com/hbstack/blog/modules/giscus
     # - path: github.com/hbstack/blog/modules/disqus
     # - path: github.com/hbstack/blog/modules/utterances
+    - path: github.com/hbstack/blog/modules/content-panel
   
     # docs comments engine.
     - path: github.com/hbstack/docs/modules/giscus
     # - path: github.com/hbstack/docs/modules/utterances
     # - path: github.com/hbstack/docs/modules/disqus
-
     - path: github.com/hbstack/docs/modules/content-panel
 
     # others.

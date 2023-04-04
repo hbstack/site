@@ -9,8 +9,12 @@ github.com/hbstack/bigger-picture v0.3.2 h1:ChE+ot7Ab4PS45tsVoR4CfvhZSVwld8GYbJH
 github.com/hbstack/bigger-picture v0.3.2/go.mod h1:bgc11l8sJkXiugzyhYvnK/agdslguCOU7Np0qhe0K10=
 github.com/hbstack/blog v0.5.4 h1:nvQyJXpJsti642zdkyWq35o8NpXcTlcOS+L6FvnX7ws=
 github.com/hbstack/blog v0.5.4/go.mod h1:iZrKv9aOpoTwjGI3DQdulBmZkV95lrDUi8G+jR7wl8M=
+github.com/hbstack/blog v0.6.0 h1:mRAWuxAqdqRbMMV90WVDNwffvFbqaEvDzyruOpZpYWc=
+github.com/hbstack/blog v0.6.0/go.mod h1:MEW0e5vhNK72cG34rgPU/E2YTvyU4mcr552DMX+17qE=
 github.com/hbstack/blog/modules/breadcrumb v0.1.2 h1:GVkpwY17UKkfkeSn825HzK9ATKWqaZEws0JYMY93zPQ=
 github.com/hbstack/blog/modules/breadcrumb v0.1.2/go.mod h1:dO1yAUWsIFGH3KnIcI3CgV/7/udTLUNjKeEsLPre5gs=
+github.com/hbstack/blog/modules/content-panel v0.1.0 h1:sL17HqyOMC4dtp5NP2LKC/5Sj2I+CTAdnyk7ou8mj4E=
+github.com/hbstack/blog/modules/content-panel v0.1.0/go.mod h1:q2RDn6UEtcFHB041i7U0V6IiyK4qE7hYFGc/3Pt3wxM=
 github.com/hbstack/blog/modules/featured-image v0.1.2 h1:24BNh9vw2qzybqvp0ETIWjuvnJUyduTz9Me2YSA7mt0=
 github.com/hbstack/blog/modules/featured-image v0.1.2/go.mod h1:JKpidw9qi7LsXusD1sEzUvte32xPJ2E2/YnYE5Mvm/o=
 github.com/hbstack/blog/modules/giscus v0.1.1 h1:jVAMKXs+hHePmjVfgQazgfzDmMnZTMcP39UfoHktFu8=
@@ -136,4 +140,5 @@ github.com/jakearchibald/idb v7.1.1+incompatible/go.mod h1:AuDoW54s2DKfbclM+Scrn
 github.com/twbs/bootstrap v5.3.0-alpha3+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/icons v1.10.3 h1:8i0wcDkk04KXd2ofLtMHUERkA5OkrpAzDyBVv/PJaL0=
 github.com/twbs/icons v1.10.3/go.mod h1:GnRlymgVWp5iVJCMa0Me5b6tFyGpVc2bSxPMRGIJmyA=
+github.com/twbs/icons v1.10.4 h1:dTJ908V3hAjfooZfF2FaXo76dEX+FV9/PMY60RNq0YY=
 github.com/twbs/icons v1.10.4/go.mod h1:GnRlymgVWp5iVJCMa0Me5b6tFyGpVc2bSxPMRGIJmyA=
