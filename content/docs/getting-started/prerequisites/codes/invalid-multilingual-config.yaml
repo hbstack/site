@@ -1,0 +1,13 @@
+language:
+  en:
+    params:
+      hb:
+        foo: bar
+      hugopress:
+        foo: bar
+  zh-hans:
+    params:
+      hb:
+        foo: bar
+      hugopress:
+        foo: bar

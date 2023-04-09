@@ -16,7 +16,7 @@
   },
   "scripts": {
     "dev": "hugo server -p 13131 --gc --disableFastRender --buildDrafts --enableGitInfo",
-    "prod": "rm -f hugo_stats.json && rm -rf public/ && hugo server -e production --minify --gc --renderToDisk --disableFastRender -b  --enableGitInfo http://localhost:13132 -p 13132"
+    "prod": "rm -f hugo_stats.json && rm -rf public/ && hugo server -e production --minify --gc --renderToDisk --disableFastRender -b --enableGitInfo http://localhost:13132 -p 13132"
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^5.0.0",

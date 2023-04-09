@@ -17,4 +17,4 @@ menu:
         color: orange
 ---
 
-欢迎来到 Hugo Bootstrap 框架（HB）。
+欢迎来到 HB （Hugo Bootstrap） 框架，很荣幸能吸引到你的注意。

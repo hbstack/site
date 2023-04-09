@@ -1,7 +1,8 @@
 [fast]
 weight = 1
 title = "快速"
-description = "不俗的 Google PageSpeed Insights 表现 💯。"
+url = "https://pagespeed.web.dev/analysis?url=https://hb-theme.hugomods.com/en/"
+description = "于 Google PageSpeed Insights 的移动和桌面的四项指标中均获得满分 💯。"
 [fast.icon]
 name = "speedometer"
 color = "green"
@@ -32,6 +33,7 @@ name = "boxes"
 [pwa]
 weight = 5
 title = "PWA"
+url = "https://hugomods.com/en/docs/pwa/"
 description = "使网站可安装、可脱机使用、如同原生应用一般。"
 [pwa.icon]
 name = "rocket"
@@ -40,6 +42,7 @@ color = "#DC3545"
 [search]
 weight = 6
 title = "搜索"
+url = "https://hugomods.com/en/docs/search/"
 description = "强大而快速的客户端模糊搜索模块。"
 [search.icon]
 name = "search"
@@ -80,6 +83,7 @@ name = "arrow-right-square"
 [icons]
 weight = 11
 title = "图标"
+url = "https://hugomods.com/zh-hans/icons/"
 description = "Bootstrap, FontAwesome, Feather 等图标。"
 [icons.icon]
 vendor = "fas"

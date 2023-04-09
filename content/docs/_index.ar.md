@@ -18,4 +18,4 @@ menu:
         color: orange
 ---
 
-Welcome to the Hugo Bootstrap framework (HB).
+Welcome to the HB (Hugo Bootstrap) framework, we're excited that you're interested in it.

@@ -32,6 +32,6 @@ layout: landing
 
 {{< sponsors >}}
 
-<h2 class="text-center mb-0">功能特性</h2>
+## 功能特性 {#features .text-center .mb-5}
 
 {{< bootstrap/icon-grid "zh-hans.features" >}}

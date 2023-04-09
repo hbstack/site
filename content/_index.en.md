@@ -38,6 +38,6 @@ Fast, responsive, flexible, open source (MIT), modular and feature-rich Hugo Boo
 
 {{< sponsors >}}
 
-<h2 class="text-center mb-0" id="features">Features</h2>
+## Features {#features .text-center .mb-5}
 
 {{< bootstrap/icon-grid key="en.features" >}}

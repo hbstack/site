@@ -8,7 +8,7 @@ series:
 tags:
   - Introduction
 authors:
-  - hb
+  - HB
 menu:
   footer:
     parent: docs
@@ -19,15 +19,12 @@ menu:
         name: hands-clapping
 ---
 
-HB (Hugo Bootstrap) is a modular framework that built on top of [Hugo](https://gohugo.io) and [Bootstrap v5.3.0+](https://getbootstrap.com).
-HB is not a theme, it's used to build one.
+HB (Hugo Bootstrap) is a modular framework that built on top of [Hugo](https://gohugo.io) and [Bootstrap v5.3.0+](https://getbootstrap.com). HB is not a theme, it's used to build one.
 
 ## Motivations
 
-I'm creating and maintaining a feature-rich theme called [Hugo Bootstrap Theme](https://hbs.razonyang.com/), but everyone has their own unique tastes and one theme can't satisfy everyone, so why not modularize the features? Thus, HB was born. With HB and it's powerful modules, creating a brand-new theme will become much easier.
+I created and maintain a feature-rich theme - [Hugo Bootstrap Theme](https://hbs.razonyang.com/), but I didn't think about modularity at the beginning of the development, and when developing a new theme, I realized that I couldn't reuse existing features very well. So, I set out to modularize the theme's functionalities, aiming to make theme development easier.
 
-## Goals
+## Features
 
-- Flexible.
-- SEO.
-- Friendly User Experience.
+{{< bootstrap/icon-grid key="en.features" >}}

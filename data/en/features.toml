@@ -1,7 +1,8 @@
 [fast]
 weight = 1
 title = "Fast"
-description = "Impressive Google PageSpeed Insights performance 💯."
+url = "https://pagespeed.web.dev/analysis?url=https://hb-theme.hugomods.com/en/"
+description = "Google PageSpeed Insights scored perfect 💯 of four metrics on mobile and desktop."
 [fast.icon]
 name = "speedometer"
 color = "green"
@@ -25,13 +26,14 @@ color = "7633F9"
 [modular]
 weight = 4
 title = "Modular"
-description = "Over 100 built-in modules."
+description = "Over 100 built-in modules, automated load CSS, JS and so on."
 [modular.icon]
 name = "boxes"
 
 [pwa]
 weight = 5
 title = "PWA"
+url = "https://hugomods.com/en/docs/pwa/"
 description = "Make sites installable, offline available, works as a native application."
 [pwa.icon]
 name = "rocket"
@@ -40,6 +42,7 @@ color = "#DC3545"
 [search]
 weight = 6
 title = "Search"
+url = "https://hugomods.com/en/docs/search/"
 description = "Powerful and fast client side fuzzy search module."
 [search.icon]
 name = "search"
@@ -80,6 +83,7 @@ name = "arrow-right-square"
 [icons]
 weight = 11
 title = "Icons"
+url = "https://hugomods.com/en/icons/"
 description = "Bootstrap, FontAwesome, Feather, Tabler, Material Design and Simple icons."
 [icons.icon]
 vendor = "fas"
