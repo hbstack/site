@@ -4,5 +4,5 @@ copyright = "Copyright © 2022-{year} [COMPANY](https://example.com). All Rights
 [params]
 description = "Fast, responsive, flexible, modular, open source and feature-rich Hugo Bootstrap Framework."
 
-[params.hb.header]
+[params.hb.footer]
 powered_by = true

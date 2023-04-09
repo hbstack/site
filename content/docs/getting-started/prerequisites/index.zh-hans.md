@@ -97,7 +97,7 @@ NPM 已被包含于 Node.js 安装中，你可以选择局部或全局地安装�
 
 {{% bs/collapse "全局安装" success true %}}
 {{< code-snippet npm-i-g >}}
-全局安装只需执行一次，后续的 HB 站点无需再次执行此命令。
+该命令只需执行一次，后续的 HB 站点无需再次执行此命令。
 {{% /bs/collapse %}}
 
 两者都是有效的，HB 会优先局部查找需要的包。

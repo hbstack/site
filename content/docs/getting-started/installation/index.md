@@ -24,19 +24,11 @@ We provide a [starter theme template](https://github.com/hbstack/theme) for you 
 
 <!--more-->
 
-## Build Tools
-
-The theme requires those [build tools]({{< relref "docs/getting-started/prerequisites#build-tools" >}}), please make sure you've installed it on your environment.
-
 ## Installation
 
 ### Clone Repository
 
-```sh
-git clone --depth 1 https://github.com/hbstack/theme blog
-
-cd blog
-```
+{{% code-snippet clone %}}
 
 The `blog` is the local directory, change it at will.
 
@@ -74,46 +66,33 @@ git push origin main
 
 ## Hugo Module Proxy (Optional)
 
-If you're located at China mainland without VPN, the Hugo module download may fail.
+If you're located at China mainland without VPN, the Hugo module download may fail, see [Go and Hugo Proxy Servers](https://hugomods.com/en/blog/2023/04/go-and-hugo-proxy-servers/) for setting up the Hugo Modules proxy.
 
-There are three proxies for this: [Aliyun Go Proxy](https://mirrors.aliyun.com/goproxy), GOPROXY.CN and GOPROXY.IO.
-
-```sh
-export HUGO_MODULE_PROXY=https://mirrors.aliyun.com/goproxy,direct
-```
-
-Or
+## Install Build Tools
 
 ```sh
-export HUGO_MODULE_PROXY=https://mirrors.aliyun.com/goproxy,https://goproxy.cn,https://goproxy.io,direct
+npm ci
 ```
 
-{{< bootstrap/alert info >}}
-{{% markdownify %}}
-Hugo doesn't respect the `GOPROXY` env var, please use `HUGO_MODULE_PROXY` instead.
-{{% /markdownify %}}
-{{< /bootstrap/alert >}}
+Read more on [build tools]({{< relref "docs/getting-started/prerequisites#build-tools" >}}).
 
-You can also set the `module.proxy` instead of using env var.
+## Start Hugo Server
 
-{{< bootstrap/config-toggle filename=hugo >}}
-module:
-  proxy: https://goproxy.cn
-{{< /bootstrap/config-toggle >}}
-
-## Preview
+### Preview in Development Mode
 
 ```sh
-hugo server --gc --disableFastRender -D
+npm run dev
 ```
 
-{{% bootstrap/collapse "-D" %}}
-Build drafts.
-{{% /bootstrap/collapse %}}
+### Preview in Production Mode
+
+```sh
+npm run prod
+```
 
 ## What's Next?
 
-- Tweak [Configuration]({{< ref "docs/configuration" >}}) and parameters, such as `baseURL`, `giscus.*`.
-- Clean up: remove the unused configurations, content and images.
-- Create [Content]({{< ref "docs/content" >}}).
-- [Deployment]({{< ref "docs/deployment" >}}).
+- Remove the unused configurations, menus, content, images and GitHub actions (workflows).
+- Tweak [configuration]({{< ref "docs/configuration" >}}) and parameters, such as `baseURL`, `giscus.*`.
+- Create [content]({{< ref "docs/content" >}}).
+- [Deploy sites]({{< ref "docs/deployment" >}}).

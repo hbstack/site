@@ -28,11 +28,7 @@ menu:
 
 ### 克隆仓库
 
-```sh
-git clone --depth 1 https://github.com/hbstack/theme blog
-
-cd blog
-```
+{{% code-snippet clone %}}
 
 其中的 `blog` 是本地目录名称，请随意修改。
 
@@ -70,46 +66,33 @@ git push origin main
 
 ## Hugo 模块代理（可选）
 
-如果你在中国大陆没有 VPN，Hugo 模块的下载可能会失败。
+如果你在中国大陆没有 VPN，Hugo 模块的下载可能会失败。另请参阅[Go 和 Hugo 代理服务器](https://hugomods.com/zh-hans/blog/2023/04/go-和-hugo-代理服务器/)。
 
-对此有若干个代理：[阿里云](https://mirrors.aliyun.com/goproxy)、GOPROXY.CN 和 GOPROXY.IO。
-
-```sh
-export HUGO_MODULE_PROXY=https://mirrors.aliyun.com/goproxy,direct
-```
-
-或者
+## 安装构建工具
 
 ```sh
-export HUGO_MODULE_PROXY=https://mirrors.aliyun.com/goproxy,https://goproxy.cn,https://goproxy.io,direct
+npm ci
 ```
 
-{{< bootstrap/alert info >}}
-{{% markdownify %}}
-Hugo 不遵循 `GOPROXY` 环境变量，请使用 `HUGO_MODULE_PROXY` 代替。
-{{% /markdownify %}}
-{{< /bootstrap/alert >}}
+阅读有关[构建工具]({{< relref "docs/getting-started/prerequisites#build-tools" >}})的更多信息。
 
-你也可以设置 `module.proxy` 配置替代环境变量。
+## 启动 Hugo 服务器
 
-{{< bootstrap/config-toggle filename=hugo >}}
-module:
-  proxy: https://goproxy.cn
-{{< /bootstrap/config-toggle >}}
-
-## 本地预览
+### 于开发模式下预览
 
 ```sh
-hugo server --gc --disableFastRender -D
+npm run dev
 ```
 
-{{% bootstrap/collapse "-D" %}}
-Build drafts.
-{{% /bootstrap/collapse %}}
+### 于生产模式下预览
+
+```sh
+npm run prod
+```
 
 ## 下一步
 
 - 调整[配置]({{< ref "docs/configuration" >}})和参数，如 `baseURL`、`giscus.*` 等。
-- 清理：移除不需要的配置、内容和图片。
+- 移除不需要的配置、菜单、内容、图片和 GitHub actions（workflows）。
 - 创建[内容]({{< ref "docs/content" >}})。
-- [部署]({{< ref "docs/deployment" >}})。
+- [部署站点]({{< ref "docs/deployment" >}})。
