@@ -19,6 +19,7 @@ github.com/hbstack/blog v0.6.1/go.mod h1:HpZsR667F7vWvVoFnboVidzZC9J48pN3S25mHcp
 github.com/hbstack/blog v0.7.1 h1:nA/Co6EUdczeHK0fHSgXvipaP3miqeXkhZaOqNKK6do=
 github.com/hbstack/blog v0.7.1/go.mod h1:HpZsR667F7vWvVoFnboVidzZC9J48pN3S25mHcp7sPo=
 github.com/hbstack/blog v0.8.0/go.mod h1:mx4d8XFoFzyg3LumMazAWdZUmu5/RHeXKywqM+wQb6g=
+github.com/hbstack/blog v0.8.1/go.mod h1:FuLsXE7JmTK2d3gUXvHN5HpiEnxyO7zB45Q2GeikFNA=
 github.com/hbstack/blog/modules/breadcrumb v0.1.2 h1:GVkpwY17UKkfkeSn825HzK9ATKWqaZEws0JYMY93zPQ=
 github.com/hbstack/blog/modules/breadcrumb v0.1.2/go.mod h1:dO1yAUWsIFGH3KnIcI3CgV/7/udTLUNjKeEsLPre5gs=
 github.com/hbstack/blog/modules/content-panel v0.1.0 h1:sL17HqyOMC4dtp5NP2LKC/5Sj2I+CTAdnyk7ou8mj4E=
@@ -44,6 +45,7 @@ github.com/hbstack/bootstrap v0.1.2 h1:poh7IOc3E7hiMaml/D8+RjOzLzse08oTPUyhfMn5o
 github.com/hbstack/bootstrap v0.1.2/go.mod h1:qItlWJ+9sxaiCdMQGXT+oxnsGfOxwDFnrcpgKUccSLQ=
 github.com/hbstack/carousel v0.1.13 h1:UZQyrJqfqu5ns2tjUwUI0MDpiIN9liEr/0qFvZyuGHI=
 github.com/hbstack/carousel v0.1.13/go.mod h1:LYQ0nZwyBEOpHVbBCDbml3C7fx+MWxEEXKQjkixBJfA=
+github.com/hbstack/carousel v0.2.0/go.mod h1:qUmtQEgnnNrnNumiCbAV9hgiitlW4KrQs1W7b2TlAqI=
 github.com/hbstack/code-block-panel v0.1.0 h1:nD84TnRIYgCK03COeZsFTAluHx0WvF2cP2he7Da9cUk=
 github.com/hbstack/code-block-panel v0.1.0/go.mod h1:q+IPDYgXNArqkrnUSV0UptW+QlPUSap1YbcQ699Qk+U=
 github.com/hbstack/code-block-panel v0.1.1/go.mod h1:EJ9PgJrLnJ8DQ0SxU6DrdOesLF1h+YF1MCtMd0DodQg=
