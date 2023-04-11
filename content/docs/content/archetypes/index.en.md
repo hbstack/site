@@ -1,0 +1,18 @@
+---
+title: "Archetypes"
+date: 2023-02-16T13:44:47+08:00
+nav_weight: 2
+draft: true
+series:
+  - Docs
+categories:
+  - Content
+tags:
+  - Archetypes
+authors:
+  - hb
+---
+
+Archetypes are templates used when creating new content.
+
+<!--more-->

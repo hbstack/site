@@ -1,0 +1,56 @@
+{{- $page := .Page }}
+{{- range sort .Modules "path" }}
+  {{- if .hide }}
+    {{- continue }}
+  {{- end }}
+  {{- $repo := default .path $.Repo }}
+  <tr>
+    <td>
+      {{- $link := printf "https://%s" $repo }}
+      {{- with .ref }}
+        {{- $link = ref $page (dict "path" . "lang" "en") }}
+      {{- end }}
+      <a href="{{ $link }}" target="_blank" rel="external">
+        {{- .name -}}
+      </a>
+    </td>
+    <td>
+      <code class="user-select-all">{{ .path }}</code>
+    </td>
+    <td>
+      {{- $prefix := "" }}
+      {{- if ne $repo .path }}
+        {{- $prefix = substr (replace .path $repo ``) 1 | printf "%s/" }}
+      {{- end }}
+      {{- $url := printf "https://api.razonyang.com/v1/github/tag/%s?prefix=%s" (replace $repo "github.com/" "") $prefix }}
+      <a href="https://{{ $repo }}/tags" target="_blank" rel="external">
+        <img
+          src="https://img.shields.io/badge/dynamic/json?color=blue&label=tag&query=name&url={{ $url | urlquery }}"
+          alt="Latest version" />
+      </a>
+    </td>
+    <td>
+      <a
+        class="text-decoration-none"
+        href="https://{{ $repo }}/stargazers"
+        target="_blank"
+        rel="external">
+        <img
+          alt="GitHub Repo stars"
+          src="https://img.shields.io/github/stars/{{ replace $repo `github.com/` `` }}" />
+      </a>
+      <a
+        class="text-decoration-none"
+        href="https://{{ $repo }}/network/dependents"
+        target="_blank"
+        rel="external">
+        <img
+          alt="Used By"
+          src="https://img.shields.io/badge/dynamic/json?color=success&label=used+by&query=repositories_humanize&url=https://api.razonyang.com/v1/github/dependents/{{ replace $repo `github.com/` `` }}" />
+      </a>
+    </td>
+  </tr>
+  {{- with .children }}
+    {{ partial "modules" (dict "Modules" . "Repo" $repo "Page" $page) }}
+  {{- end }}
+{{- end }}
