@@ -20,6 +20,7 @@ github.com/hbstack/blog v0.7.1 h1:nA/Co6EUdczeHK0fHSgXvipaP3miqeXkhZaOqNKK6do=
 github.com/hbstack/blog v0.7.1/go.mod h1:HpZsR667F7vWvVoFnboVidzZC9J48pN3S25mHcp7sPo=
 github.com/hbstack/blog v0.8.0/go.mod h1:mx4d8XFoFzyg3LumMazAWdZUmu5/RHeXKywqM+wQb6g=
 github.com/hbstack/blog v0.8.1/go.mod h1:FuLsXE7JmTK2d3gUXvHN5HpiEnxyO7zB45Q2GeikFNA=
+github.com/hbstack/blog v0.8.3/go.mod h1:FuLsXE7JmTK2d3gUXvHN5HpiEnxyO7zB45Q2GeikFNA=
 github.com/hbstack/blog/modules/breadcrumb v0.1.2 h1:GVkpwY17UKkfkeSn825HzK9ATKWqaZEws0JYMY93zPQ=
 github.com/hbstack/blog/modules/breadcrumb v0.1.2/go.mod h1:dO1yAUWsIFGH3KnIcI3CgV/7/udTLUNjKeEsLPre5gs=
 github.com/hbstack/blog/modules/content-panel v0.1.0 h1:sL17HqyOMC4dtp5NP2LKC/5Sj2I+CTAdnyk7ou8mj4E=
@@ -41,6 +42,7 @@ github.com/hbstack/blog/modules/post-nav v0.2.0 h1:+hQSgrZHChUs/niOeroBKzzJ3If2F
 github.com/hbstack/blog/modules/post-nav v0.2.0/go.mod h1:v+e/Mra2ziX9W/Wx/0Wdc5yEq+uMTmb9rMOCmeO1a4g=
 github.com/hbstack/blog/modules/related-posts v0.1.1 h1:jVD0DZIcLLCF0ngeej7O6fZsvlHKF2zQXlSP9EmU9HQ=
 github.com/hbstack/blog/modules/related-posts v0.1.1/go.mod h1:kxIQpp6L4zXfOxkAFef1gcpskKZ502SRoc/JCDHelgQ=
+github.com/hbstack/blog/modules/related-posts v0.1.2/go.mod h1:FiNMpbZ1PN+GL+Vwc+KFej8RcxZgEo8vPovQIbcFywQ=
 github.com/hbstack/bootstrap v0.1.2 h1:poh7IOc3E7hiMaml/D8+RjOzLzse08oTPUyhfMn5o3M=
 github.com/hbstack/bootstrap v0.1.2/go.mod h1:qItlWJ+9sxaiCdMQGXT+oxnsGfOxwDFnrcpgKUccSLQ=
 github.com/hbstack/carousel v0.1.13 h1:UZQyrJqfqu5ns2tjUwUI0MDpiIN9liEr/0qFvZyuGHI=
@@ -77,6 +79,7 @@ github.com/hbstack/footer/modules/socials v0.1.2 h1:2/sxul4bcmIydYDTu62Ja2zxuXNv
 github.com/hbstack/footer/modules/socials v0.1.2/go.mod h1:CMWFFKQqoCGji8IPWZGt9zezRecvubfWVC4Y97DVsQM=
 github.com/hbstack/header v0.1.10 h1:Y85up1uoe0BdJnn5rk7tkD3U98ofAs9Och3J/fWgd2w=
 github.com/hbstack/header v0.1.10/go.mod h1:GTEtmH6u2C2gaJoadFE41yBqo1vH6r9Zu5AJYXx4U48=
+github.com/hbstack/header v0.1.11/go.mod h1:2oiFsujD8aUmdmBfcSHYvdOg7mYLqYPqB7zaXHkH+/A=
 github.com/hbstack/header/modules/language-picker v0.1.2 h1:K7II5rqbEA69/ZZM+EtCN5pFR6QHTUP60czWjZMyS/0=
 github.com/hbstack/header/modules/language-picker v0.1.2/go.mod h1:VW86iVj/CcopYTIrD0iRF+LBoUBPsYOwo580vIoqqrs=
 github.com/hbstack/header/modules/search v0.1.4 h1:IBS+HjzjYbGfwCU4/SzsGvHvJfVn/IluwcGhgl7nmgE=
