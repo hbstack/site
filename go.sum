@@ -125,6 +125,7 @@ github.com/hugomods/base v0.1.0 h1:3o9Y85BvXHjkYzZfswM/EtthQ8GOYKN8aXHkIWqu3/8=
 github.com/hugomods/base v0.1.0/go.mod h1:hnWCPbVxuhXBwdFax3mmbMlWKmIo/7OP36MCLOyHtT4=
 github.com/hugomods/bootstrap v0.4.0 h1:+LjPNnoD06HEX2s6AWQpMvdnC/16TdhlzHzt4Awhf/A=
 github.com/hugomods/bootstrap v0.4.0/go.mod h1:MfowtRlnj0TzwxpTgCABFu6TqV/xO0Dfo5Vf3iyZNAA=
+github.com/hugomods/bootstrap v0.5.0/go.mod h1:9TI50sOorZ+hlfE3stSNXoRWBB9q6ZS5d3yjW1JU8vs=
 github.com/hugomods/fuse-js v0.1.0 h1:CmWHBZANvjOP44RDNQNLntqlLf9GLqeM29jekxTNcPE=
 github.com/hugomods/fuse-js v0.1.0/go.mod h1:srCqvtBQR02HS/abTraDU4oINv1D3PljNPdexdoHhpo=
 github.com/hugomods/giscus v0.1.0 h1:tIu1TzYByC/XlxxiBl9+CkQp9OeR4UhoZjbQSlcDt5E=
