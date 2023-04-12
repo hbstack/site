@@ -22,12 +22,12 @@ The header module is a universal top app bar that ships with some useful sub mod
 
 ## Site Parameters
 
-| Parameter    |  Type   |   Default    | Description                   |
-| ------------ | :-----: | :----------: | ----------------------------- |
-| `brand`      | string  | Site's title | The brand text.               |
-| `theme`      | string  |      -       | Available themes: `classic`.  |
-| `full_width` | boolean |    `true`    | Whether to take full width.   |
-| `sticky`     | boolean |    `true`    | Whether to sticky the header. |
+| Parameter    |  Type   | Default  | Description           |
+| ------------ | :-----: | :------: | --------------------- |
+| `brand`      | string  | 站点标题 | 品牌文本。            |
+| `theme`      | string  |    -     | 可用主题：`classic`。 |
+| `full_width` | boolean |  `true`  | 是否全宽。            |
+| `sticky`     | boolean |  `true`  | 是否固定头部。        |
 
 {{< bs/config-toggle filename=hugo >}}
 {{% code-snippet params.toml %}}
