@@ -10,7 +10,7 @@ categories:
 tags:
 images:
 authors:
-  - hb
+  - HB
 menu:
   footer:
     parent: docs
@@ -21,7 +21,7 @@ menu:
         name: folder-tree
 ---
 
-本文将尽量简单地介绍 Hugo 的配置结构，以便你能更好地理解文档中的配置，即使你刚刚接触 Hugo。
+本文将尽量简单地介绍 Hugo 的配置结构。
 
 <!--more-->
 
@@ -31,9 +31,7 @@ menu:
 
 ## 配置名称
 
-自 Hugo `0.110.0` 版本后，Hugo 将优先使用 `hugo.*` 配置文件，尽管 `config.*` 仍起作用，不过笔者建议使用 `hugo.*` 作为配置名称，以更好地区分 Hugo 和其他项目的配置。
-
-> HB 要求 Hugo `0.110.0` 以上版本，文档中的配置均以 `hugo.*` 命名。
+自 Hugo `0.110.0` 版本后，Hugo 将优先使用 `hugo.*` 配置文件，尽管 `config.*` 仍起作用，不过笔者建议使用 `hugo.*` 作为配置名称，以与其他项目的配置区分开来。
 
 ## 单配置文件
 
@@ -45,13 +43,7 @@ menu:
 
 虽然单配置文件简单便捷，但缺点也很明显，一旦配置过多，就难以阅读，在多环境、多语言的情况下更为糟糕，而配置目录可以更好地应对这种情况。
 
-{{< bootstrap/alert info >}}
-HB 文档均使用配置目录这一方式。
-{{< /bootstrap/alert >}}
-
-```sh
-{{% docs/configuration/structure/tree %}}
-```
+{{% code-snippet structure %}}
 
 如上所示，站点们定义了四种环境：
 
@@ -62,7 +54,11 @@ HB 文档均使用配置目录这一方式。
 | `staging`     | 自定义环境，可以通过 `-e staging` 加载。 |
 | `production`  | 生产环境，`hugo` 默认环境。              |
 
-通常我们需要在本地预览其他环境，如生产环境，只需要通过 `hugo server -e production -b http://localhost:1313 -p 1313`。
+{{< bs/alert danger >}}
+{{% markdownify %}}
+若需使用 Hugo Server 模拟生产环境，需要指定 `--disableFastRender` 和 `--renderToDisk`。
+{{% /markdownify %}}
+{{< /bs/alert >}}
 
 | 配置文件      | 描述          |
 | ------------- | ------------- |
@@ -73,8 +69,12 @@ HB 文档均使用配置目录这一方式。
 
 Hugo 支持对某一特定语言进行配置，如上所展示的 `menus.en.toml`、`menus.zh-hans.toml`、`params.en.toml` 和 `params.zh-hans.toml`。
 
-{{< bootstrap/alert warning >}}
+{{< bs/alert danger >}}
 {{% markdownify %}}
-请不要于 `languages.*` 和 `params.*.*` 中更改 `hb*` 和 `hugopress*` 相关的配置。
+请勿于 `languages.*` 和 `params.*.*` 中更改 `hb*` 和 `hugopress*` 相关的配置。
 {{% /markdownify %}}
-{{< /bootstrap/alert >}}
+{{< /bs/alert >}}
+
+## 了解更多
+
+* [Configure Hugo](https://gohugo.io/getting-started/configuration/)

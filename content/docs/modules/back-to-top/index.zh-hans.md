@@ -6,7 +6,7 @@ categories = ["模块"]
 tags = ["返回顶部", "回到顶部"]
 series = ["文档"]
 images = []
-authors = ["hb"]
+authors = ["HB"]
 +++
 
 又称回到顶部，一个用于返回顶部的按钮。
@@ -26,6 +26,6 @@ authors = ["hb"]
 | `position_bottom` | `v0.2.0` | number  |    -    |  `1rem`  | 按钮的 `bottom` 属性值。                       |
 | `position_end`    | `v0.2.0` | number  |    -    |  `1rem`  | 按钮的 `right`（LTR）或 `left`（RTL） 属性值。 |
 
-{{< bootstrap/config-toggle filename=hugo >}}
+{{< bs/config-toggle filename=hugo >}}
 {{% docs/modules/back-to-top/params %}}
-{{< /bootstrap/config-toggle >}}
+{{< /bs/config-toggle >}}

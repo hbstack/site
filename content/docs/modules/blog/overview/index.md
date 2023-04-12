@@ -30,7 +30,7 @@ The blog module provides the basic layouts and templates for blog site.
 | `home.featured_posts` | number | `10` | The number of featured posts. |
 | `home.main_sections` | array | - | Posts of other sections will be filtered if set. |
 
-{{< bootstrap/config-toggle params >}}
+{{< bs/config-toggle params >}}
 hb:
   blog:
     paginate: 9
@@ -41,4 +41,4 @@ hb:
       main_sections:
         - docs
         - blog
-{{< /bootstrap/config-toggle >}}
+{{< /bs/config-toggle >}}

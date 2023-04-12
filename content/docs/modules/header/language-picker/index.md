@@ -12,7 +12,7 @@ tags:
   - Multilingual
 images:
 authors:
-  - hb
+  - HB
 ---
 
 The header's language picker module for users to switch supported languages, it's useful for multilingual sites.

@@ -27,4 +27,4 @@ I created and maintain a feature-rich theme - [Hugo Bootstrap Theme](https://hbs
 
 ## Features
 
-{{< bootstrap/icon-grid key="en.features" >}}
+{{< bs/icon-grid key="en.features" >}}

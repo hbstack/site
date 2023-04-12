@@ -27,4 +27,4 @@ HB（Hugo Bootstrap）是一个模块化的框架，其构建于 [Hugo](https://
 
 ## 特性
 
-{{< bootstrap/icon-grid key="zh-hans.features" >}}
+{{< bs/icon-grid key="zh-hans.features" >}}

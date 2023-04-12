@@ -104,13 +104,19 @@ Both are valid, HB will try to look up the packages locally first.
 
 ## Notes
 
+### Required Parameters for Hugo Server Production Mode
+
+If you need to use Hugo Server in production mode, you need to specify `-disableFastRender` and `-renderToDisk`, otherwise PurgeCSS and PostCSS will have unexpected problems.
+
+{{% code-snippet hugo-server-production %}}
+
 ### Please Do Not Changing `hb` and `hugopress` Parameters via Language-Scoped Configurations
 
 HB relies on deep merging of configurations between modules, however language-scoped parameters will override the configuration of overriding modules rather than deep merging, which will lead to all sorts of unexpected problems. For example, the following configuration example is **not allowed**.
 
-{{< bootstrap/config-toggle filename=hugo >}}
+{{< bs/config-toggle filename=hugo >}}
 {{< code-snippet invalid-multilingual-config.yaml >}}
-{{< /bootstrap/config-toggle >}}
+{{< /bs/config-toggle >}}
 
 ### Please Disable Cloudflare Rocket Loader
 

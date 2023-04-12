@@ -9,7 +9,7 @@ categories:
 tags:
   - 代码块面板
 authors:
-  - hb
+  - HB
 ---
 
 代码块面板提供了展开代码、复制代码、代码换行和切换代码行号等功能。
@@ -20,6 +20,6 @@ authors:
 
 ## 必要条件
 
-{{< bootstrap/config-toggle filename=hugo >}}
+{{< bs/config-toggle filename=hugo >}}
 {{% docs/modules/code-block-panel/requirements %}}
-{{< /bootstrap/config-toggle >}}
+{{< /bs/config-toggle >}}

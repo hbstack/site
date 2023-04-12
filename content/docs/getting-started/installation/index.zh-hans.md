@@ -9,7 +9,7 @@ categories:
   - 安装
 tags:
 authors:
-  - hb
+  - HB
 menu:
   footer:
     parent: docs
@@ -25,6 +25,12 @@ menu:
 <!--more-->
 
 ## 安装
+
+一分钟安装 HB 主题。
+
+{{< asciinema id=576711 speed=2 >}}
+
+由于有不少图片，Hugo 服务器在第一次运行时需要很长的时间来处理。你可能想提交 `resources/images` 文件夹以提高构建性能。
 
 ### 克隆仓库
 

@@ -10,7 +10,7 @@ tags:
   - Scrollbar
 images:
 authors:
-  - hb
+  - HB
 ---
 
 The scrollbar module changes the default browser scrollbar style.
@@ -29,6 +29,6 @@ The scrollbar module changes the default browser scrollbar style.
 | `thumb_bg`  | string | `#909294` | The background color of thumb.  |
 | `corner_bg` | string | `#909294` | The background color of corner. |
 
-{{< bootstrap/config-toggle filename=hugo >}}
+{{< bs/config-toggle filename=hugo >}}
 {{% docs/modules/scrollbar/params %}}
-{{< /bootstrap/config-toggle >}}
+{{< /bs/config-toggle >}}

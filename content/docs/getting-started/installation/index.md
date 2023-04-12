@@ -9,7 +9,7 @@ categories:
   - Installation
 tags:
 authors:
-  - hb
+  - HB
 menu:
   footer:
     parent: docs
@@ -25,6 +25,12 @@ We provide a [starter theme template](https://github.com/hbstack/theme) for you 
 <!--more-->
 
 ## Installation
+
+Install the HB theme in one minute.
+
+{{< asciinema id=576711 speed=2 >}}
+
+Since there are a lot of images, Hugo server takes a long time to process on first run. You may want to commit the `resources/images` folder to improve the build performance.
 
 ### Clone Repository
 

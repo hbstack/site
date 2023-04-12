@@ -11,7 +11,7 @@ tags:
   - 多语言
 images:
 authors:
-  - hb
+  - HB
 menu:
   footer:
     parent: docs
@@ -22,7 +22,7 @@ menu:
         name: translate
 ---
 
-于[配置结构]({{< ref "docs/configuration/structure" >}})一文中，我们对配置有了一个清晰的了解，接下来将介绍如何对多语言站点进行语言配置。
+先前我们粗略地了解了 Hugo 的[配置结构]({{< ref "docs/configuration/structure" >}})，接下来将介绍如何对多语言站点进行配置。
 
 <!--more-->
 
@@ -33,9 +33,9 @@ menu:
 | `defaultContentLanguage`         | 站点的默认语言                                  |
 | `defaultContentLanguageInSubdir` | 默认语言的 URLs 是否包含语言代码，比如：`/en`。 |
 
-{{< bootstrap/config-toggle filename=hugo >}}
-{{% docs/configuration/multilingual/site-config %}}
-{{< /bootstrap/config-toggle >}}
+{{% bs/config-toggle hugo %}}
+{{% code-snippet site-config.yaml %}}
+{{% /bs/config-toggle %}}
 
 ## 语言参数
 
@@ -49,9 +49,9 @@ menu:
 
 ## 多语言配置
 
-{{< bootstrap/config-toggle filename=languages >}}
-{{% docs/configuration/multilingual/config %}}
-{{< /bootstrap/config-toggle >}}
+{{% bs/config-toggle languages %}}
+{{% code-snippet config.yaml %}}
+{{% /bs/config-toggle %}}
 
 ## 多语言参数和菜单
 
@@ -64,4 +64,4 @@ menu:
 | `menus.zh-hans.*`  | 中文站点菜单。|
 | `params.zh-hans.*` | 中文站点参数。|
 
-更多详情请查阅 [Hugo Multilingual Mode](https://gohugo.io/content-management/multilingual/)。
+详情请参阅 [Hugo Multilingual Mode](https://gohugo.io/content-management/multilingual/)。

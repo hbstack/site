@@ -34,4 +34,4 @@ layout: landing
 
 ## 功能特性 {#features .text-center .mb-5}
 
-{{< bootstrap/icon-grid "zh-hans.features" >}}
+{{< bs/icon-grid "zh-hans.features" >}}

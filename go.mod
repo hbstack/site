@@ -50,7 +50,7 @@ require (
 	github.com/hbstack/syntax-highlighting v0.1.0 // indirect
 	github.com/hbstack/syntax-highlighting/styles/gruvbox v0.1.0 // indirect
 	github.com/hugomods/base v0.1.0 // indirect
-	github.com/hugomods/bootstrap v0.5.0 // indirect
+	github.com/hugomods/bootstrap v0.6.0 // indirect
 	github.com/hugomods/fuse-js v0.1.0 // indirect
 	github.com/hugomods/giscus v0.1.0 // indirect
 	github.com/hugomods/google-analytics v0.1.0 // indirect
@@ -67,6 +67,7 @@ require (
 	github.com/hugomods/seo/modules/schema v0.1.1 // indirect
 	github.com/hugomods/seo/modules/translations v0.1.0 // indirect
 	github.com/hugomods/seo/modules/twitter-cards v0.1.0 // indirect
+	github.com/hugomods/shortcodes v0.7.0 // indirect
 	github.com/hugomods/snackbar v0.1.1 // indirect
 	github.com/hugomods/workbox v0.1.0 // indirect
 	github.com/jakearchibald/idb v7.1.1+incompatible // indirect

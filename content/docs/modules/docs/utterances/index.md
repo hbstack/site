@@ -24,9 +24,9 @@ This module adds support for the [Utterances](https://utteranc.es) comments engi
 | --------- | :--: | :-----: | ----------- |
 | `repo` | string | - | The GitHub repo name. |
 
-{{< bootstrap/config-toggle params >}}
+{{< bs/config-toggle params >}}
 hb:
   docs:
     utterances:
       repo: user/site
-{{< /bootstrap/config-toggle >}}
+{{< /bs/config-toggle >}}

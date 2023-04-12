@@ -11,7 +11,7 @@ tags:
   - 菜单
 images:
 authors:
-  - hb
+  - HB
 menu:
   footer:
     parent: docs
@@ -33,11 +33,11 @@ menu:
 | `name`       | string | 菜单名称                              |
 | `identifier` | string | 菜单标识，一般用于定义多层级菜单。    |
 | `weight`     | number | 菜单权重，越小优先级越高。            |
-| `parent`     | string | 上级菜单的标识，也就是 `identifier`。 |
+| `parent`     | string | 父级菜单的标识，也就是 `identifier`。 |
 | `url`        | string | 菜单 URL。                            |
 | `pre`        | string | 菜单的前置字符串。                    |
 | `post`       | string | 菜单的尾部字符串。                    |
-| `params`     | object | 模块范围的特定参数。                  |
+| `params`     | object | 模块的特定参数。                      |
 
 ## 菜单集标识
 
@@ -49,22 +49,18 @@ Hugo 支持两种配置菜单的方式：菜单配置文件和页面参数（又
 
 ### 菜单配置文件
 
-{{< bootstrap/config-toggle filename=menus >}}
-main:
-  - name: Example
-    url: https://example.com
-{{< /bootstrap/config-toggle >}}
+{{% bs/config-toggle filename=menus %}}
+{{% code-snippet menu.yaml %}}
+{{% /bs/config-toggle %}}
 
-> 其中 `main` 为菜单集的标识。
+> 其中 `main` 为[菜单集标识](#菜单集标识)。
 
 ### 页面参数配置
 
 当我们打算将某一页面添加到菜单集，最简便的方法是于页面设置的以下参数。
 
-{{< bootstrap/config-toggle >}}
-menu:
-  main:
-    weight: 2
-{{< /bootstrap/config-toggle >}}
+{{% bs/config-toggle filename=menus %}}
+{{% code-snippet front-matter.yaml %}}
+{{% /bs/config-toggle %}}
 
-这种方式不需要额外指定菜单的名称和 URL。
+这种方式不需要显式地指定菜单的名称和 URL。

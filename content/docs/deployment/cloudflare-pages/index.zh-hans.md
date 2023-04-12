@@ -11,7 +11,7 @@ tags:
   - Cloudflare Pages
 images:
 authors:
-  - hb
+  - HB
 ---
 
 本文将详细说明如何在 Cloudflare Pages 上部署站点。

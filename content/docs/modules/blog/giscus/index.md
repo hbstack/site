@@ -28,11 +28,11 @@ This module adds support for the [Giscus](https://giscus.app) comments engine, w
 
 Those parameter's values can be fetched on [Giscus](https://giscus.app).
 
-{{< bootstrap/config-toggle params >}}
+{{< bs/config-toggle params >}}
 hb:
   blog:
     giscus:
       repo: user/site
       repo_id: XXXXXXXXXXXX
       category_id: XXXXXXXXXXXXXXXXXXXX
-{{< /bootstrap/config-toggle >}}
+{{< /bs/config-toggle >}}

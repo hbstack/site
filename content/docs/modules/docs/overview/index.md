@@ -25,8 +25,8 @@ The docs module provides the basic layouts and templates for blog site.
 | --------- | :--: | :-----: | ----------- |
 | `paginate` | number | `9` | How many posts per list page. |
 
-{{< bootstrap/config-toggle params >}}
+{{< bs/config-toggle params >}}
 hb:
   docs:
 
-{{< /bootstrap/config-toggle >}}
+{{< /bs/config-toggle >}}

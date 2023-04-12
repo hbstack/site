@@ -104,6 +104,12 @@ NPM 已被包含于 Node.js 安装中，你可以选择局部或全局地安装�
 
 ## 注意
 
+### Hugo Server 生产模式的必要参数
+
+若需要在生产模式下使用 Hugo Server，需要指定 `--disableFastRender` 和 `--renderToDisk`，否则 PurgeCSS 和 PostCSS 会出现意想不到的问题。
+
+{{% code-snippet hugo-server-production %}}
+
 ### 请勿于语言范围配置中修改 `hb` 和 `hugopress` 参数
 
 HB 依赖于模块间配置的深度合并，然而语言范围的参数将会覆盖覆盖模块的配置，而非深度合并，这将导致各种意想不到的问题。比如以下的配置示例是**不允许**的。

@@ -12,7 +12,7 @@ tags:
   - 原型
 images:
 authors:
-  - hb
+  - HB
 ---
 
 内容原型是用于创建内容的模板。

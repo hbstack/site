@@ -11,7 +11,7 @@ tags:
   - Footer
 images:
 authors:
-  - hb
+  - HB
 ---
 
 The footer modules is a universal footer.
@@ -39,6 +39,6 @@ The footer modules is a universal footer.
 | ------------ | :-----: | :-----: | ------------------------------- |
 | `powered-by` | boolean | `true`  | Whether to show the powered by. |
 
-{{< bootstrap/config-toggle filename=hugo >}}
+{{< bs/config-toggle filename=hugo >}}
 {{% docs/modules/footer/config %}}
-{{< /bootstrap/config-toggle >}}
+{{< /bs/config-toggle >}}

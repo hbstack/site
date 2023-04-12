@@ -11,7 +11,7 @@ tags:
   - Search
 images:
 authors:
-  - hb
+  - HB
 ---
 
 The header's search module displays a search button to open the search modal.

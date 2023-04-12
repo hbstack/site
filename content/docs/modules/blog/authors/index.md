@@ -22,20 +22,20 @@ The blog module supports multiple authors by default.
 
 To enable the multiple authors, please make sure that the `authors` is present under the `taxonomies`.
 
-{{< bootstrap/config-toggle hugo >}}
+{{< bs/config-toggle hugo >}}
 taxonomies:
   authors: authors
-{{< /bootstrap/config-toggle >}}
+{{< /bs/config-toggle >}}
 
 ## Note Authors
 
 And then note the authors on content's front matter.
 
-{{< bootstrap/config-toggle >}}
+{{< bs/config-toggle >}}
 authors:
   - HB
   - Hugo
-{{< /bootstrap/config-toggle >}}
+{{< /bs/config-toggle >}}
 
 Now the page was co-authored by `HB` and `Hugo`, and will be shown on the page.
 
@@ -51,7 +51,7 @@ hugo new authors/hb/_index.md
 
 2. And then tweak the author page's parameter.
 
-{{< bootstrap/config-toggle >}}
+{{< bs/config-toggle >}}
 title: HB Framework Authors
 description: HB (Hugo Bootstrap) Framework codes and documentations contributors
 # email_hash: XXXXX
@@ -59,7 +59,7 @@ images:
   - https://avatars.githubusercontent.com/u/127904984?s=200&v=4
 socials:
   github: hbstack
-{{< /bootstrap/config-toggle >}}
+{{< /bs/config-toggle >}}
 
 | Parameter | Type | Description |
 | --------- | :--: | ----------- |

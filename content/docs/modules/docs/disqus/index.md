@@ -24,6 +24,6 @@ This module adds support for the [Disqus](https://disqus.com) comments engine.
 | --------- | :--: | :-----: | ----------- |
 | `disqusShortname` | string | - | The Disqus site identifier. |
 
-{{< bootstrap/config-toggle hugo >}}
+{{< bs/config-toggle hugo >}}
 disqusShortname: XXXXX
-{{< /bootstrap/config-toggle >}}
+{{< /bs/config-toggle >}}

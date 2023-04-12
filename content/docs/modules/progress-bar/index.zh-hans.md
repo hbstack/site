@@ -6,7 +6,7 @@ categories = ["模块"]
 tags = ["进度条"]
 series = ["文档"]
 images = []
-authors = ["hb"]
+authors = ["HB"]
 +++
 
 当在当前标签页和窗口打开一个新页面时，将显示进度条。
@@ -24,6 +24,6 @@ authors = ["hb"]
 | `interval`      | number |    -    |  `50`   | 进度条更新的时间间隔，单位：毫秒。 |
 | `time`          | number |    -    |   `2`   | 进度条完成所需的时间，单位：秒。   |
 
-{{< bootstrap/config-toggle filename=hugo >}}
+{{< bs/config-toggle filename=hugo >}}
 {{% docs/modules/progress-bar/params %}}
-{{< /bootstrap/config-toggle >}}
+{{< /bs/config-toggle >}}

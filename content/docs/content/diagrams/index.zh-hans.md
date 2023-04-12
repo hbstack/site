@@ -4,7 +4,7 @@ date = 2023-01-22T15:20:32+08:00
 tags = ["Mermaid", "GoAT"]
 categories = ["图表"]
 series = ["文档"]
-authors = ["hb"]
+authors = ["HB"]
 +++
 
 HB 支持 GoAT 和 Mermaid 来渲染图表。

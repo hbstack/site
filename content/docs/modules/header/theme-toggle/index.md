@@ -13,7 +13,7 @@ tags:
   - Dark Mode
 images:
 authors:
-  - hb
+  - HB
 ---
 
 The header's theme toggle module for switching light, dark or auto color mode.

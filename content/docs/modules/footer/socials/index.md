@@ -12,7 +12,7 @@ tags:
   - Social Links
 images:
 authors:
-  - hb
+  - HB
 ---
 
 The footer's socials generates social links.
@@ -27,6 +27,6 @@ The footer's socials generates social links.
 | --------- | :----: | :-----: | ----------------------------------------------- |
 | `socials` | object |    -    | Mapping from [social media]({{< ref "docs/modules/socials#socials-media" >}}) to their [identifiers]({{< ref "docs/modules/socials#identifiers" >}}). |
 
-{{< bootstrap/config-toggle filename=hugo >}}
+{{< bs/config-toggle filename=hugo >}}
 {{% docs/modules/footer/socials/params %}}
-{{< /bootstrap/config-toggle >}}
+{{< /bs/config-toggle >}}

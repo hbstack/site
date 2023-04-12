@@ -29,6 +29,7 @@ hb:
       repo_id: R_kgDOJLvAsw
       category: General
       category_id: DIC_kwDOJLvAs84CVBSG
+      mapping: og:title
     utterances:
       repo: hbstack/site
   docs:
@@ -37,6 +38,7 @@ hb:
       repo_id: R_kgDOJLvAsw
       category: General
       category_id: DIC_kwDOJLvAs84CVBSG
+      mapping: og:title
     utterances:
       repo: hbstack/site
   footer:
