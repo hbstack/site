@@ -133,6 +133,18 @@ Tables aren't part of the core Markdown spec, but Hugo supports supports them ou
 - [ ] WIP
 - [ ] TODO
 
+## Images
+
+```markdown
+![text](url)
+```
+
+{{% bs/clearfix %}}
+![Float start](featured.jpeg?width=200px#float-start) The starter theme integrated with the [images](https://hugomods.com/en/docs/images) module, which allow processing images via URL query string and fragment, such as resize, crop, fit, fill and align images.
+
+Read more on [images usage](https://hugomods.com/en/docs/images#aligning-images), start processing images in Markdown way.
+{{% /bs/clearfix %}}
+
 ## Other Elements — abbr, sub, sup, kbd, mark
 
 <abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.

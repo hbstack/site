@@ -1,12 +1,12 @@
 ---
-title: "Overview"
+title: "概览"
 date: 2023-02-16T23:58:05+08:00
 draft: false
 nav_weight: 1
 series:
-  - Docs
+  - 文档
 categories:
-  - Module
+  - 模块
 tags:
   - Header
 images:
@@ -14,13 +14,13 @@ authors:
   - HB
 ---
 
-The header module is a universal top app bar that ships with some useful sub modules, such as search form, social links, light/dark mode toggle and language picker.
+页头模块是一个通用的顶部应用栏，其带有一些实用的子模块，比如搜索表单、社交链接、浅色/深色切换以及语言切换等。
 
 <!--more-->
 
 {{% hb-module header %}}
 
-## Site Parameters
+## 站点参数
 
 | Parameter    |  Type   |   Default    | Description                   |
 | ------------ | :-----: | :----------: | ----------------------------- |

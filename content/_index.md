@@ -24,15 +24,28 @@ Fast, responsive, flexible, open source (MIT), modular and feature-rich Hugo Boo
   <a class="btn btn-lg btn-primary fw-semibold mb-2 py-3" href="{{< relref `docs` >}}">
     {{< icons/icon vendor=bootstrap name=book className="me-1" >}} Read the docs
   </a>
-  <a class="btn btn-lg btn-outline-danger fw-semibold mb-2 py-3 ms-3" href="{{< relref `examples/blog` >}}">
-    {{< icons/icon vendor=fas name=blog className="me-1" >}} Blog
-  </a>
-  <a class="btn btn-lg btn-warning fw-semibold mb-2 py-3 ms-3" href="#features">
-    {{< icons/icon vendor=bootstrap name=rocket className="me-1" >}} Features
-  </a>
-  <a class="btn btn-lg btn-outline-success fw-semibold mb-2 py-3 ms-3" href="{{< relref `docs/modules` >}}">
-    {{< icons/icon vendor=bootstrap name=boxes className="me-1" >}} Modules
-  </a>
+  <div class="btn-group btn-group-lg">
+    <button type="button" class="btn btn-success dropdown-toggle fw-semibold mb-2 py-3 ms-3" data-bs-toggle="dropdown" aria-expanded="false">
+      Getting Started
+    </button>
+    <ul class="dropdown-menu">
+      <li>
+        <a class="dropdown-item" href="{{< relref `docs/getting-started/introduction` >}}">
+          {{< icons/icon vendor=fas name=hands-clapping className="me-1" >}} Introduction
+        </a>
+      </li>
+      <li>
+        <a class="dropdown-item" href="{{< relref `docs/getting-started/prerequisites` >}}">
+          {{< icons/icon vendor=bootstrap name=tools className="me-1" >}} Prerequisites
+        </a>
+      </li>
+      <li>
+        <a class="dropdown-item" href="{{< relref `docs/getting-started/installation` >}}">
+          {{< icons/icon vendor=bootstrap name=cloud-download className="me-1" >}} Installation
+        </a>
+      </li>
+    </ul>
+  </div>
 </div>
 {{< /hero >}}
 
@@ -40,4 +53,4 @@ Fast, responsive, flexible, open source (MIT), modular and feature-rich Hugo Boo
 
 ## Features {#features .text-center .mb-5}
 
-{{< bs/icon-grid key="en.features" >}}
+{{< bs/icon-grid "en.features" >}}

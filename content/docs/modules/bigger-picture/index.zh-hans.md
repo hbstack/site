@@ -23,16 +23,16 @@ When clicking any non-linkable image, the bigger picture module shows the origin
 
 {{% hb-module bigger-picture %}}
 
-## Shortcodes
+## 短代码
 
-### Image Link Shortcode
+### 图片链接短代码
 
-Pop up the image when clicking an {{< img-link "image" "/images/sample.webp" >}} link.
+当点击一个{{< img-link "图片" "/images/sample.webp" >}}链接时，弹出该图片。
 
 ```markdown
 {{</* img-link [text] [url] */>}}
 ```
 
 {{< bs/alert warning >}}
-Currently, resources are not supported.
+目前暂不支持站点和页面的图片资源。
 {{< /bs/alert >}}

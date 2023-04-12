@@ -44,17 +44,17 @@ Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptio
 
 Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.
 
-## Blockquotes
+## 引用
 
 The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a `footer` or `cite` element, and optionally with in-line changes such as annotations and abbreviations.
 
-### Blockquote without attribution
+### 不带出处的引用
 
 > Tiam, ad mint andaepu dandae nostion secatur sequo quae.
 >
 > **Note** that you can use _Markdown syntax_ within a blockquote.
 
-### Blockquote with attribution
+### 带有出处的引用
 
 > Don't communicate by sharing memory, share memory by communicating.<br>
 > — <cite>Rob Pike[^1]</cite>
@@ -76,7 +76,7 @@ Tables aren't part of the core Markdown spec, but Hugo supports supports them ou
 | --------- | -------- | ------ |
 | _italics_ | **bold** | `code` |
 
-## Code Blocks
+## 代码块
 
 ### Code block with backticks
 
@@ -109,21 +109,21 @@ Tables aren't part of the core Markdown spec, but Hugo supports supports them ou
 </html>
 {{< /highlight >}}
 
-## List Types
+## 列表类型
 
-### Ordered List
+### 有序列表
 
 1. First item
 2. Second item
 3. Third item
 
-### Unordered List
+### 无序列表
 
 - List item
 - Another item
 - And another item
 
-### Nested List
+### 嵌套列表
 
 - Fruit
   - Apple
@@ -133,13 +133,25 @@ Tables aren't part of the core Markdown spec, but Hugo supports supports them ou
   - Milk
   - Cheese
 
-### TODO List
+### 待办事项
 
 - [x] Done
 - [ ] WIP
 - [ ] TODO
 
-## Other Elements — abbr, sub, sup, kbd, mark
+## 图片
+
+```markdown
+![text](url)
+```
+
+{{% bs/clearfix %}}
+![Float start](featured.jpeg?width=200px#float-start) 初始主题集成了 [images](https://hugomods.com/en/docs/images) 模块，其允许通过 URL 查询字符串和段来处理图片，比如调整图片大小、裁剪图片和使图片对齐等。
+
+阅读更多关于 [images 使用方式](https://hugomods.com/en/docs/images#aligning-images)，以 Markdown 的方式处理图片。
+{{% /bs/clearfix %}}
+
+## 其他元素 — abbr, sub, sup, kbd, mark
 
 <abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
 

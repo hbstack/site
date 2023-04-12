@@ -68,6 +68,7 @@ github.com/hbstack/docs/modules/doc-nav v0.1.1 h1:s3Tzzj1cMJapqczKMBMXhzsFoMO/Ja
 github.com/hbstack/docs/modules/doc-nav v0.1.1/go.mod h1:+MrRy7QqMcKsCQe5Dvjpzb2c8iItA+R2DpsuurxbaAk=
 github.com/hbstack/docs/modules/doc-nav v0.2.0 h1:hESr53m5g2XMmPBsNsXNjFK+rJhNoAB8EEZqftUP5jg=
 github.com/hbstack/docs/modules/doc-nav v0.2.0/go.mod h1:uyph1WCLopnPnsiJ9hp+IgdS83a+21frkDy5N+qoAzs=
+github.com/hbstack/docs/modules/doc-nav v0.2.1 h1:2ZB8mfGRngaJFan2elu5tphpYQFUKML0pDUaooUp3Gs=
 github.com/hbstack/docs/modules/doc-nav v0.2.1/go.mod h1:PUpAvWiual8XQpUqMa2pNlq20lkAo7KJv87uoy3pnic=
 github.com/hbstack/docs/modules/featured-image v0.1.2 h1:3Ni4hw7q4v8T/658f5RCV/xCNlZuRV+QgyE5nzAEpdQ=
 github.com/hbstack/docs/modules/featured-image v0.1.2/go.mod h1:mNB62QK0DmJh0o12mqbsXZbjLm7/Ex/cyJXegZW8rPk=
@@ -165,6 +166,7 @@ github.com/hugomods/images v0.4.0 h1:kgSFxcx6cm7ZNjYYqcLibKBS3Rp/bzAXiqeBACFYAKE
 github.com/hugomods/images v0.4.0/go.mod h1:U6Gwj16LKvk66rOMyGFrnF6f0aV8lT89lqOsckOAjYY=
 github.com/hugomods/images v0.5.0 h1:1pBZpiDq/1omv/CKjqG3WnYzHl9euRgEDNGnfdAlQi4=
 github.com/hugomods/images v0.5.0/go.mod h1:U6Gwj16LKvk66rOMyGFrnF6f0aV8lT89lqOsckOAjYY=
+github.com/hugomods/images v0.5.1 h1:nu5Rn993nsyHUS4k0Y+347nbKv2QhMPVkSNMggztk9A=
 github.com/hugomods/images v0.5.1/go.mod h1:U6Gwj16LKvk66rOMyGFrnF6f0aV8lT89lqOsckOAjYY=
 github.com/hugomods/katex v0.1.2 h1:F+G/zWPwdw06IhtdW6IQ0mqUsMVuEw+gWq+Y//CIjZE=
 github.com/hugomods/katex v0.1.2/go.mod h1:PyYvL1TtHIE5jbDHGnCT1XEnKFqdkqveU7AJtcBruu8=
