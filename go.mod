@@ -59,7 +59,7 @@ require (
 	github.com/hugomods/icons v0.6.0 // indirect
 	github.com/hugomods/icons/vendors/font-awesome v0.6.0 // indirect
 	github.com/hugomods/icons/vendors/simple-icons v0.9.0 // indirect
-	github.com/hugomods/images v0.4.0 // indirect
+	github.com/hugomods/images v0.5.0 // indirect
 	github.com/hugomods/katex v0.1.3 // indirect
 	github.com/hugomods/seo/modules/alternatives v0.1.0 // indirect
 	github.com/hugomods/seo/modules/favicons v0.1.0 // indirect
