@@ -1,5 +1,6 @@
 ---
-title: "核心"
+title: "核心模块"
+linkTitle: "核心"
 nav_weight: 10
 date: 2023-04-12T22:28:04+08:00
 draft: false
@@ -24,6 +25,8 @@ authors:
 HB 是建立在 [HugoPress](https://hugomods.com/en/docs/hugopress/) 之上的，这是一个与用户界面无关的模块化框架，其定义了几个钩子用于自动加载模块。
 
 ## 模块
+
+### 模块结构
 
 HB 模块**必须**放在 `assets/hb/modules` 文件夹中，其结构如下。
 

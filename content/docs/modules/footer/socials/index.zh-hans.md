@@ -1,13 +1,12 @@
 ---
-title: "Header Socials Module"
-linkTitle: Socials
+title: "Socials"
 date: 2023-02-17T00:06:59+08:00
 draft: false
 series:
   - Docs
 categories:
   - Module
-  - Header
+  - Footer
 tags:
   - Socials
   - Social Links
@@ -16,11 +15,11 @@ authors:
   - HB
 ---
 
-The header's socials generates social links.
+The footer's socials generates social links.
 
 <!--more-->
 
-{{% hb-module "header/modules/socials" %}}
+{{% hb-module "footer/modules/socials" %}}
 
 ## Site Parameters
 
@@ -28,6 +27,6 @@ The header's socials generates social links.
 | --------- | :----: | :-----: | ----------------------------------------------- |
 | `socials` | object |    -    | Mapping from [social media]({{< ref "docs/modules/socials#socials-media" >}}) to their [identifiers]({{< ref "docs/modules/socials#identifiers" >}}). |
 
-{{< bs/config-toggle hugo >}}
-{{% code-snippet config.toml %}}
+{{< bs/config-toggle filename=hugo >}}
+{{% docs/modules/footer/socials/params %}}
 {{< /bs/config-toggle >}}

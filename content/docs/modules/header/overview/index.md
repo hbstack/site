@@ -22,13 +22,22 @@ The header module is a universal top app bar that ships with some useful sub mod
 
 ## Site Parameters
 
-| Parameter    |  Type   | Default  | Description           |
-| ------------ | :-----: | :------: | --------------------- |
-| `brand`      | string  | 站点标题 | 品牌文本。            |
-| `theme`      | string  |    -     | 可用主题：`classic`。 |
-| `full_width` | boolean |  `true`  | 是否全宽。            |
-| `sticky`     | boolean |  `true`  | 是否固定头部。        |
+| Parameter    |  Type   |   Default    | Description                   |
+| ------------ | :-----: | :----------: | ----------------------------- |
+| `brand`      | string  | Site's title | The brand text.               |
+| `theme`      | string  |      -       | Available themes: `classic`.  |
+| `full_width` | boolean |    `true`    | Whether to take full width.   |
+| `sticky`     | boolean |    `true`    | Whether to sticky the header. |
 
 {{< bs/config-toggle filename=hugo >}}
 {{% code-snippet params.toml %}}
 {{< /bs/config-toggle >}}
+
+## Hooks
+
+| Name                       | Description                           |
+| -------------------------- | ------------------------------------- |
+| `hb-header-nav-begin`      | At the beginning of header nav.       |
+| `hb-header-togglers-begin` | At the beginning of toggler buttons.  |
+| `hb-header-togglers-end`   | Before the ending of toggler buttons. |
+| `hb-header-panel`          | Header panel.                         |

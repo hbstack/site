@@ -1,32 +1,31 @@
 ---
-title: "Header Socials Module"
-linkTitle: Socials
+title: "页头社交链接模块"
+linkTitle: 社交链接
 date: 2023-02-17T00:06:59+08:00
 draft: false
 series:
-  - Docs
+  - 文档
 categories:
-  - Module
-  - Header
+  - 模块
+  - 页头
 tags:
-  - Socials
-  - Social Links
+  - 社交链接
 images:
 authors:
   - HB
 ---
 
-The header's socials generates social links.
+该模块于页头生成和显示社交链接。
 
 <!--more-->
 
 {{% hb-module "header/modules/socials" %}}
 
-## Site Parameters
+## 站点参数
 
 | Parameter |  Type  | Default | Description                                     |
 | --------- | :----: | :-----: | ----------------------------------------------- |
-| `socials` | object |    -    | Mapping from [social media]({{< ref "docs/modules/socials#socials-media" >}}) to their [identifiers]({{< ref "docs/modules/socials#identifiers" >}}). |
+| `socials` | object |    -    | 从[社交媒体]({{< ref "docs/modules/socials#社交媒体" >}})映射到[用户标识]({{< ref "docs/modules/socials#用户标识" >}})。 |
 
 {{< bs/config-toggle hugo >}}
 {{% code-snippet config.toml %}}

@@ -8,7 +8,7 @@ series:
 categories:
   - 模块
 tags:
-  - Header
+  - 页头
 images:
 authors:
   - HB
@@ -22,13 +22,22 @@ authors:
 
 ## 站点参数
 
-| Parameter    |  Type   |   Default    | Description                   |
-| ------------ | :-----: | :----------: | ----------------------------- |
-| `brand`      | string  | Site's title | The brand text.               |
-| `theme`      | string  |      -       | Available themes: `classic`.  |
-| `full_width` | boolean |    `true`    | Whether to take full width.   |
-| `sticky`     | boolean |    `true`    | Whether to sticky the header. |
+| Parameter    |  Type   | Default  | Description           |
+| ------------ | :-----: | :------: | --------------------- |
+| `brand`      | string  | 站点标题 | 品牌文本。            |
+| `theme`      | string  |    -     | 可用主题：`classic`。 |
+| `full_width` | boolean |  `true`  | 是否全宽。            |
+| `sticky`     | boolean |  `true`  | 是否固定头部。        |
 
 {{< bs/config-toggle filename=hugo >}}
 {{% code-snippet params.toml %}}
 {{< /bs/config-toggle >}}
+
+## 钩子
+
+| Name                       | Description        |
+| -------------------------- | ------------------ |
+| `hb-header-nav-begin`      | 与页头导航开始处。 |
+| `hb-header-togglers-begin` | 于切换按钮开始处。 |
+| `hb-header-togglers-end`   | 于切换按钮结束前。 |
+| `hb-header-panel`          | 页头面板。         |

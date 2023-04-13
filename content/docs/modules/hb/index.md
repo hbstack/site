@@ -1,5 +1,6 @@
 ---
-title: "Core"
+title: "Core Module"
+linkTitle: "Core"
 nav_weight: 10
 date: 2023-04-12T22:28:04+08:00
 draft: false
@@ -24,6 +25,8 @@ The `github.com/hbstack/hb` is the core module of HB framework, which automatica
 HB is built on top of [HugoPress](https://hugomods.com/en/docs/hugopress/), a UI-less modular framework that defines several hooks for loading modules automatically.
 
 ## Module
+
+### Module Structure
 
 HB module **MUST** be placed at the `assets/hb/modules` folder, which has the following structure.
 

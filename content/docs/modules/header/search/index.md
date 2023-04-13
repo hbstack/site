@@ -1,6 +1,8 @@
 ---
-title: "Search"
+title: "Header Search Module"
+linkTitle: "Search"
 date: 2023-02-17T00:06:59+08:00
+nav_weight: 10
 draft: false
 series:
   - Docs
@@ -14,10 +16,10 @@ authors:
   - HB
 ---
 
-The header's search module displays a search button to open the search modal.
+The header's search module displays a search form and button to open the search modal.
 
 <!--more-->
 
 {{% hb-module "header/modules/search" %}}
 
-See the [search]({{< ref "docs/modules/search" >}}) module for tweaking the configuration.
+See the [search]({{< ref "docs/modules/search" >}}) module for details.

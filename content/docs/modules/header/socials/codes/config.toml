@@ -1,3 +1,4 @@
 [params.hb.header.socials]
 github = "hbstack"
 twitter = "razonyang"
+gmail = "mailto:user@example.com"

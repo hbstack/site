@@ -1,35 +1,33 @@
 ---
-title: "Socials Module"
-linkTitle: Socials
+title: "Socials"
 date: 2023-02-17T00:20:03+08:00
 draft: false
 series:
-  - Docs
+  - 文档
 categories:
-  - Module
+  - 模块
 tags:
-  - Socials
-  - Social Links
+  - 社交链接
 images:
 authors:
   - HB
 ---
 
-The socials module is a helper to generate social links.
+该社交模块用于生成社交链接。
 
 <!--more-->
 
 {{% hb-module socials %}}
 
-This module cannot be used independently, and you do not need to explicitly import this module, since it will be imported by related modules automatically, such as [header's socials]({{< ref "docs/modules/header/socials" >}}) and [footer's socials]({{< ref "docs/modules/footer/socials" >}}).
+该模块不能直接单独地使用，也无需显式地导入，因为其会被其他相关的模块自动导入，如[页头社交链接]({{< ref "docs/modules/header/socials" >}})和[页尾社交链接]({{< ref "docs/modules/footer/socials" >}})模块。
 
-## Identifiers
+## 用户标识
 
-The identifier can be either an absolute URL or an username.
+用户标识可以是一个绝对 URL 地址，或者用户名、ID。
 
-> The email URL is also valid, i.e. `mailto:user@example.com`.
+> 邮箱地址也可以有效的，如：`mailto:user@example.com`。
 
-## Socials Media
+## 社交媒体
 
 | Media            |
 | ---------------- |

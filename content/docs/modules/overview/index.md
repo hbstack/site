@@ -9,50 +9,75 @@ categories:
 series:
   - Docs
 tags:
+  - clean
+  - tidy
+  - graph
 authors:
   - HB
 ---
 
-This article shows how to install, uninstall and upgrade modules.
+This article shows how to install, uninstall, upgrade, clean and tidy modules.
 
 <!--more-->
 
+## Initialize Modules and Themes
+
+To use Hugo modules, you need to initialize your modules and themes first.
+
+{{% code-snippet init %}}
+
+{{< bs/alert >}}
+{{% markdownify %}}
+The `example.com/user/blog` is the module path of modules and themes.
+{{% /markdownify %}}
+{{< /bs/alert >}}
+
 ## Install Modules
 
-It's quite simply to add a module into your site, just import the module path in configuration. Let's take the [back to top]({{< ref "docs/modules/back-to-top" >}}) module as an example.
+It's quite simply to add a module into your site, just import the module path in configuration. Let's take the `example.com/user/module` as an example.
 
 {{< bs/config-toggle filename=hugo >}}
-[[module.import]]
-path = "github.com/hbstack/back-to-top"
+{{% code-snippet install.toml %}}
 {{< /bs/config-toggle >}}
 
-You'll need to restart the Hugo server to load the assets fully after installing modules.
+You'll need to restart the Hugo server to load the module's assets fully after installing modules.
 
 ## Uninstall Modules
 
-Remove or comment the modules to uninstall.
+To uninstall modules, you need to remove or comment the modules from the configuration file, and then execute `hugo mod tidy`.
 
-```toml
-# [[module.import]]
-# path = "github.com/hbstack/back-to-top"
-```
+{{% code-snippet uninstall %}}
 
 ## Upgrade Modules
 
-upgrade all modules recursive:
+Upgrade all modules recursive:
 
-```sh
-hugo mod get -u ./...
-```
+{{% code-snippet upgrade-recursive %}}
 
-update the latest version possible for a given module:
+Update the latest version[^1] possible for a given module:
 
-```sh
-hugo mod get -u github.com/hbstack/back-to-top
-```
+{{% code-snippet upgrade-latest-version %}}
 
-upgrade a specific version:
+Upgrade a specific version[^1]:
 
-```sh
-hugo mod get -u github.com/hbstack/back-to-top@v0.2.0
-```
+{{% code-snippet upgrade-specified-version %}}
+
+[^1]: The version can be any releases, tags, branches, or even commits.
+
+## Tidy Modules
+
+The following command remove unused modules from `go.mod` and `go.sum`.
+
+{{% code-snippet tidy %}}
+
+## Clean Modules Cache
+
+Delete the Hugo Module cache for the current site:
+
+{{% code-snippet clean %}}
+
+## Print Modules Graph
+
+You may be interested in which modules the site imports and their dependencies.
+
+{{% code-snippet graph %}}

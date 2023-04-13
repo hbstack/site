@@ -1,0 +1,3 @@
+```sh
+hugo mod get -u example.com/user/module@v1.0.0
+```
