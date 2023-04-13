@@ -1,3 +1,1 @@
-# HB Framework Official Site.
-
-https://hb.hugomods.com/
+# The source of https://hb.hugomods.com/.
