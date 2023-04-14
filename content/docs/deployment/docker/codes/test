@@ -1,0 +1,10 @@
+```sh
+docker build \
+  -t user/my-site:test \
+  --build-arg HUGO_BASEURL=http://localhost:8080 \
+  .
+```
+
+```sh
+docker run -p 8080:80 user/my-site:test
+```

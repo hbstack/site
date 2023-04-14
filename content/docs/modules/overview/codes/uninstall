@@ -1,0 +1,8 @@
+```toml
+[[module.import]]
+# path = "example.com/user/module"
+```
+
+```sh
+hugo mod tidy
+```
