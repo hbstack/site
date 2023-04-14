@@ -1,0 +1,8 @@
+[params.hb.content_panel]
+bottom = '20px'
+
+[params.hb.content_panel.repo]
+service = "github"
+repo = "user/name"
+branch = "main"
+subpath = "exampleSite"

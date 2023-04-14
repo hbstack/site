@@ -1,0 +1,14 @@
+```sh
+tree content/blog 
+content/blog
+├── _index.md
+├── hello.md
+├── foo
+|   ├── feature.png
+│   ├── bar.md
+│   └── index.md
+├── posts
+│   ├── _index_.md
+│   ├── post-1.md
+│   └── post-2.md
+```

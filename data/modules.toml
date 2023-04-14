@@ -1,0 +1,498 @@
+[search]
+name = "Search"
+path = "github.com/hugomods/search"
+
+[icons]
+name = "Icons"
+path = "github.com/hugomods/icons"
+[[icons.children]]
+name = "Bootstrap Icons"
+path = "github.com/hugomods/icons/vendors/bootstrap"
+[[icons.children]]
+name = "Font Awesome Icons"
+path = "github.com/hugomods/icons/vendors/font-awesome"
+[[icons.children]]
+name = "Material Design Icons"
+path = "github.com/hugomods/icons/vendors/mdi"
+[[icons.children]]
+name = "Feather Icons"
+path = "github.com/hugomods/icons/vendors/feather"
+[[icons.children]]
+name = "Simple Icons"
+path = "github.com/hugomods/icons/vendors/simple-icons"
+[[icons.children]]
+name = "Tabler Icons"
+path = "github.com/hugomods/icons/vendors/tabler"
+
+[hb]
+name = "HB (Hugo Bootstrap Framework)"
+path = "github.com/hbstack/hb"
+[[hb.children]]
+name = "HB Base"
+path = "github.com/hbstack/base"
+[[hb.children]]
+name = "HB Header"
+path = "github.com/hbstack/header"
+ref = "docs/modules/header"
+[[hb.children.children]]
+name = "HB Header Language Picker"
+path = "github.com/hbstack/header/modules/language-picker"
+ref = "docs/modules/header/language-picker"
+[[hb.children.children]]
+name = "HB Header Search"
+path = "github.com/hbstack/header/modules/search"
+ref = "docs/modules/header/search"
+[[hb.children.children]]
+name = "HB Header Socials"
+path = "github.com/hbstack/header/modules/socials"
+ref = "docs/modules/header/socials"
+[[hb.children.children]]
+name = "HB Header Theme Toggle"
+path = "github.com/hbstack/header/modules/theme-toggle"
+ref = "docs/modules/header/theme-toggle"
+[[hb.children]]
+name = "HB Footer"
+path = "github.com/hbstack/footer"
+ref = "docs/modules/footer"
+[[hb.children.children]]
+name = "HB Footer Socials"
+path = "github.com/hbstack/footer/modules/socials"
+ref = "docs/modules/footer/socials"
+[[hb.children]]
+name = "HB Back to Top"
+path = "github.com/hbstack/back-to-top"
+ref = "docs/modules/back-to-top"
+[[hb.children]]
+name = "HB Socials"
+path = "github.com/hbstack/socials"
+ref = "docs/modules/socials"
+[[hb.children]]
+name = "HB Search"
+path = "github.com/hbstack/search"
+ref = "docs/modules/search"
+[[hb.children]]
+name = "HB Progress Bar"
+path = "github.com/hbstack/progress-bar"
+ref = "docs/modules/progress-bar"
+
+[[hb.children]]
+name = "HB Blog"
+path = "github.com/hbstack/blog"
+[[hb.children.children]]
+name = "HB Blog Giscus"
+path = "github.com/hbstack/blog/modules/giscus"
+[[hb.children.children]]
+name = "HB Blog Disqus"
+path = "github.com/hbstack/blog/modules/disqus"
+[[hb.children.children]]
+name = "HB Blog Utterances"
+path = "github.com/hbstack/blog/modules/utterances"
+[[hb.children.children]]
+name = "HB Blog Breadcrumb"
+path = "github.com/hbstack/blog/modules/breadcrumb"
+[[hb.children.children]]
+name = "HB Blog Post Nav"
+path = "github.com/hbstack/blog/modules/post-nav"
+[[hb.children.children]]
+name = "HB Blog Related Posts"
+path = "github.com/hbstack/blog/modules/related-posts"
+[[hb.children.children]]
+name = "HB Blog Heading Sign"
+path = "github.com/hbstack/blog/modules/heading-sign"
+[[hb.children.children]]
+name = "HB Blog Featured Image"
+path = "github.com/hbstack/blog/modules/featured-image"
+
+[[hb.children]]
+name = "HB Docs"
+path = "github.com/hbstack/docs"
+[[hb.children.children]]
+name = "HB Docs Giscus"
+path = "github.com/hbstack/docs/modules/giscus"
+[[hb.children.children]]
+name = "HB Docs Disqus"
+path = "github.com/hbstack/docs/modules/disqus"
+[[hb.children.children]]
+name = "HB Docs Utterances"
+path = "github.com/hbstack/docs/modules/utterances"
+[[hb.children.children]]
+name = "HB Docs Breadcrumb"
+path = "github.com/hbstack/docs/modules/breadcrumb"
+[[hb.children.children]]
+name = "HB Docs Doc Nav"
+path = "github.com/hbstack/docs/modules/doc-nav"
+[[hb.children.children]]
+name = "HB Docs Heading Sign"
+path = "github.com/hbstack/docs/modules/heading-sign"
+[[hb.children.children]]
+name = "HB Docs Featured Image"
+path = "github.com/hbstack/docs/modules/featured-image"
+
+[[hb.children]]
+name = "HB Scrollbar"
+path = "github.com/hbstack/scrollbar"
+
+[[hb.children]]
+name = "HB Code Block Panel"
+path = "github.com/hbstack/code-block-panel"
+
+[[hb.children]]
+name = "HB Syntax Highlinting: abap"
+path = "github.com/hbstack/syntax-highlighting/styles/abap"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: algol"
+path = "github.com/hbstack/syntax-highlighting/styles/algol"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: algol-nu"
+path = "github.com/hbstack/syntax-highlighting/styles/algol-nu"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: arduino"
+path = "github.com/hbstack/syntax-highlighting/styles/arduino"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: autumn"
+path = "github.com/hbstack/syntax-highlighting/styles/autumn"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: average"
+path = "github.com/hbstack/syntax-highlighting/styles/average"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: base16-snazzy"
+path = "github.com/hbstack/syntax-highlighting/styles/base16-snazzy"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: borland"
+path = "github.com/hbstack/syntax-highlighting/styles/borland"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: bw"
+path = "github.com/hbstack/syntax-highlighting/styles/bw"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: catppuccin-frappe"
+path = "github.com/hbstack/syntax-highlighting/styles/catppuccin-frappe"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: catppuccin-latte"
+path = "github.com/hbstack/syntax-highlighting/styles/catppuccin-latte"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: catppuccin-macchiato"
+path = "github.com/hbstack/syntax-highlighting/styles/catppuccin-macchiato"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: catppuccin-mocha"
+path = "github.com/hbstack/syntax-highlighting/styles/catppuccin-mocha"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: colorful"
+path = "github.com/hbstack/syntax-highlighting/styles/colorful"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: doom-one"
+path = "github.com/hbstack/syntax-highlighting/styles/doom-one"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: doom-one2"
+path = "github.com/hbstack/syntax-highlighting/styles/doom-one2"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: dracula"
+path = "github.com/hbstack/syntax-highlighting/styles/dracula"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: emacs"
+path = "github.com/hbstack/syntax-highlighting/styles/emacs"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: friendly"
+path = "github.com/hbstack/syntax-highlighting/styles/friendly"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: fruity"
+path = "github.com/hbstack/syntax-highlighting/styles/fruity"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: github-dark"
+path = "github.com/hbstack/syntax-highlighting/styles/github-dark"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: github"
+path = "github.com/hbstack/syntax-highlighting/styles/github"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: gruvbox-light"
+path = "github.com/hbstack/syntax-highlighting/styles/gruvbox-light"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: Gruvbox"
+path = "github.com/hbstack/syntax-highlighting/styles/gruvbox"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: hr-high-contrast"
+path = "github.com/hbstack/syntax-highlighting/styles/hr-high-contrast"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: hrdark"
+path = "github.com/hbstack/syntax-highlighting/styles/hrdark"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: igor"
+path = "github.com/hbstack/syntax-highlighting/styles/igor"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: lovelace"
+path = "github.com/hbstack/syntax-highlighting/styles/lovelace"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: manni"
+path = "github.com/hbstack/syntax-highlighting/styles/manni"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: modus-operandi"
+path = "github.com/hbstack/syntax-highlighting/styles/modus-operandi"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: modus-vivendi"
+path = "github.com/hbstack/syntax-highlighting/styles/modus-vivendi"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: monokai"
+path = "github.com/hbstack/syntax-highlighting/styles/monokai"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: monokailight"
+path = "github.com/hbstack/syntax-highlighting/styles/monokailight"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: murphy"
+path = "github.com/hbstack/syntax-highlighting/styles/murphy"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: native"
+path = "github.com/hbstack/syntax-highlighting/styles/native"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: nord"
+path = "github.com/hbstack/syntax-highlighting/styles/nord"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: onedark"
+path = "github.com/hbstack/syntax-highlighting/styles/onedark"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: onesenterprise"
+path = "github.com/hbstack/syntax-highlighting/styles/onesenterprise"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: paraiso-dark"
+path = "github.com/hbstack/syntax-highlighting/styles/paraiso-dark"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: paraiso-light"
+path = "github.com/hbstack/syntax-highlighting/styles/paraiso-light"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: pastie"
+path = "github.com/hbstack/syntax-highlighting/styles/pastie"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: perldoc"
+path = "github.com/hbstack/syntax-highlighting/styles/perldoc"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: pygments"
+path = "github.com/hbstack/syntax-highlighting/styles/pygments"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: rainbow-dash"
+path = "github.com/hbstack/syntax-highlighting/styles/rainbow-dash"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: rose-pine-dawn"
+path = "github.com/hbstack/syntax-highlighting/styles/rose-pine-dawn"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: rose-pine-moon"
+path = "github.com/hbstack/syntax-highlighting/styles/rose-pine-moon"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: rose-pine"
+path = "github.com/hbstack/syntax-highlighting/styles/rose-pine"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: rrt"
+path = "github.com/hbstack/syntax-highlighting/styles/rrt"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: solarized-dark"
+path = "github.com/hbstack/syntax-highlighting/styles/solarized-dark"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: solarized-dark256"
+path = "github.com/hbstack/syntax-highlighting/styles/solarized-dark256"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: solarized-light"
+path = "github.com/hbstack/syntax-highlighting/styles/solarized-light"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: swapoff"
+path = "github.com/hbstack/syntax-highlighting/styles/swapoff"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: tango"
+path = "github.com/hbstack/syntax-highlighting/styles/tango"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: trac"
+path = "github.com/hbstack/syntax-highlighting/styles/trac"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: vim"
+path = "github.com/hbstack/syntax-highlighting/styles/vim"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: vs"
+path = "github.com/hbstack/syntax-highlighting/styles/vs"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: vulcan"
+path = "github.com/hbstack/syntax-highlighting/styles/vulcan"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: witchhazel"
+path = "github.com/hbstack/syntax-highlighting/styles/witchhazel"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: xcode-dark"
+path = "github.com/hbstack/syntax-highlighting/styles/xcode-dark"
+ref = "docs/modules/syntax-highlighting"
+[[hb.children]]
+name = "HB Syntax Highlinting: xcode"
+path = "github.com/hbstack/syntax-highlighting/styles/xcode"
+ref = "docs/modules/syntax-highlighting"
+
+[[hb.children]]
+name = "HB Bootstrap"
+path = "github.com/hbstack/bootstrap"
+
+# [[hb.children]]
+# name = "HB Carousel"
+# path = "github.com/hbstack/carousel"
+
+[[hb.children]]
+name = "HB PWA"
+path = "github.com/hbstack/pwa"
+
+[[hb.children]]
+name = "HB Snackbar"
+path = "github.com/hbstack/snackbar"
+
+[[hb.children]]
+name = "HB No Script"
+path = "github.com/hbstack/noscript"
+
+[[hb.children]]
+name = "HB Background Image"
+path = "github.com/hbstack/background-image"
+ref = "docs/modules/background-image"
+
+[[hb.children]]
+name = "HB Cloudflare Rocket Loader"
+path = "github.com/hbstack/cloudflare-rocket-loader"
+
+[[hb.children]]
+name = "HB Heading Sign"
+path = "github.com/hbstack/heading-sign"
+
+[[hb.children]]
+name = "HB Bigger Picture"
+path = "github.com/hbstack/bigger-picture"
+ref = "docs/modules/bigger-picture"
+
+[code_block_panel]
+name = "Code Block Panel"
+path = "github.com/hugomods/code-block-panel"
+
+[hugopress]
+name = "HugoPress"
+path = "github.com/hugomods/hugopress"
+
+[snackbar]
+name = "Snackbar"
+path = "github.com/hugomods/snackbar"
+
+[idb]
+name = "IndexedDB"
+path = "github.com/hugomods/idb"
+
+[fuse_js]
+name = "Fuse.js"
+path = "github.com/hugomods/fuse-js"
+
+[giscus]
+name = "Giscus Comments Engine"
+path = "github.com/hugomods/giscus"
+
+[utterances]
+name = "Utterances Comments Engine"
+path = "github.com/hugomods/utterances"
+
+[gravtar]
+name = "Gravatar"
+path = "github.com/hugomods/gravatar"
+
+[seo]
+name = "SEO Base"
+path = "github.com/hugomods/seo"
+hide = true
+[[seo.children]]
+name = "SEO Base"
+path = "github.com/hugomods/seo/modules/base"
+[[seo.children]]
+name = "SEO Alternatives"
+path = "github.com/hugomods/seo/modules/alternatives"
+[[seo.children]]
+name = "SEO Favicons"
+path = "github.com/hugomods/seo/modules/favicons"
+[[seo.children]]
+name = "SEO Translations"
+path = "github.com/hugomods/seo/modules/translations"
+[[seo.children]]
+name = "SEO Schema"
+path = "github.com/hugomods/seo/modules/schema"
+[[seo.children]]
+name = "SEO Twitter Cards"
+path = "github.com/hugomods/seo/modules/twitter-cards"
+[[seo.children]]
+name = "SEO Open Graph"
+path = "github.com/hugomods/seo/modules/open-graph"
+
+[pwa]
+name = "PWA"
+path = "github.com/hugomods/pwa"
+
+[mermaid]
+name = "Mermaid"
+path = "github.com/hugomods/mermaid"
+
+[js_i18n]
+name = "JS i18n"
+path = "github.com/hugomods/i18n-js"
+
+[html]
+name = "HTML"
+path = "github.com/hugomods/html"
+
+[bootstrap]
+name = "Bootstrap"
+path = "github.com/hugomods/bootstrap"
+
+[base]
+name = "Base"
+path = "github.com/hugomods/base"

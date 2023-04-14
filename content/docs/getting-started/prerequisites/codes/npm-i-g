@@ -1,0 +1,3 @@
+```sh
+sudo npm i -g postcss-cli @fullhuman/postcss-purgecss autoprefixer rtlcss
+```

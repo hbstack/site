@@ -1,0 +1,3 @@
+```sh
+npm i -D postcss-cli @fullhuman/postcss-purgecss autoprefixer rtlcss
+```
