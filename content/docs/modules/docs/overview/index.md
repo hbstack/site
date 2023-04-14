@@ -1,5 +1,5 @@
 ---
-title: "Docs Module Overview"
+title: "Docs Overview"
 linkTitle: "Overview"
 date: 2023-03-31T15:45:47+08:00
 draft: false
@@ -13,7 +13,7 @@ tags:
 images:
 ---
 
-The docs module provides the basic layouts and templates for blog site.
+The docs module provides the basic layouts and templates for docs site, it's useful for writing project documentations, digital garden, users guides and tutorials.
 
 <!--more-->
 
@@ -21,12 +21,10 @@ The docs module provides the basic layouts and templates for blog site.
 
 ## Site Parameters
 
-| Parameter | Type | Default | Description |
-| --------- | :--: | :-----: | ----------- |
-| `paginate` | number | `9` | How many posts per list page. |
+| Parameter     |  Type  |   Default    | Description  |
+| ------------- | :----: | :----------: | ------------ |
+| `date_format` | string | `:date_long` | Date format. |
 
 {{< bs/config-toggle params >}}
-hb:
-  docs:
-
+{{% code-snippet params.toml %}}
 {{< /bs/config-toggle >}}

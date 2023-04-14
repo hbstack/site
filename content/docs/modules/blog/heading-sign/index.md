@@ -12,7 +12,7 @@ tags:
 images:
 ---
 
-The heading sign module show the section sign (anchor link) when hovering on headings.
+The heading sign module shows the section sign (anchor link) when hovering on headings.
 
 <!--more-->
 

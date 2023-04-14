@@ -1,4 +1,5 @@
 ---
+title: Docs Utterances Comments Engine
 title: "Utterances"
 date: 2023-03-31T16:28:09+08:00
 draft: false
@@ -20,13 +21,12 @@ This module adds support for the [Utterances](https://utteranc.es) comments engi
 
 ## Site Parameters
 
-| Parameter | Type | Default | Description |
-| --------- | :--: | :-----: | ----------- |
-| `repo` | string | - | The GitHub repo name. |
+| Parameter |  Type  | Default | Description           |
+| --------- | :----: | :-----: | --------------------- |
+| `repo`    | string |    -    | The GitHub repo name. |
+
+More available parameters listed on [Utterances Parameters](https://hugomods.com/en/docs/comment-engines/utterances/#site-parameters).
 
 {{< bs/config-toggle params >}}
-hb:
-  docs:
-    utterances:
-      repo: user/site
+{{% code-snippet params.yaml %}}
 {{< /bs/config-toggle >}}
