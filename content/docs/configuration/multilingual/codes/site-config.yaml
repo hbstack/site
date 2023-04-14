@@ -1,0 +1,2 @@
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: true

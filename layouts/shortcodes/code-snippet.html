@@ -1,0 +1,7 @@
+{{- $name := .Get 0 | printf "codes/%s" }}
+{{- $res := .Page.Resources.GetMatch $name }}
+{{- with $res }}
+  {{- .Content | safeHTML }}
+{{- else }}
+  {{- warnf "code snippet not found: %s" $name }}
+{{- end }}
