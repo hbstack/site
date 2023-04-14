@@ -1,5 +1,6 @@
 ---
-title: "Post Navigation"
+title: "Blog Post Navigation"
+linkTitle: "Post Navigation"
 date: 2023-03-31T16:47:30+08:00
 draft: true
 series:
@@ -10,7 +11,7 @@ tags:
 images:
 ---
 
-The post nav module generates the menus for navigating to previous and next posts of same sections.
+The post nav module generates the menus below the post content, to navigate to previous and next posts of same sections.
 
 <!--more-->
 

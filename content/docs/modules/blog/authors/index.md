@@ -1,7 +1,9 @@
 ---
-title: "Authors"
+title: "Blog Authors"
+linkTitle: Authors
 date: 2023-03-31T15:59:18+08:00
 draft: false
+nav_weight: 10
 series:
   - Docs
 categories:
@@ -18,13 +20,12 @@ The blog module supports multiple authors by default.
 
 <!--more-->
 
-## Authors Configuration
+## Site Configuration
 
 To enable the multiple authors, please make sure that the `authors` is present under the `taxonomies`.
 
 {{< bs/config-toggle hugo >}}
-taxonomies:
-  authors: authors
+{{% code-snippet config.yaml %}}
 {{< /bs/config-toggle >}}
 
 ## Note Authors
@@ -32,39 +33,29 @@ taxonomies:
 And then note the authors on content's front matter.
 
 {{< bs/config-toggle >}}
-authors:
-  - HB
-  - Hugo
+{{% code-snippet authors.yaml %}}
 {{< /bs/config-toggle >}}
 
 Now the page was co-authored by `HB` and `Hugo`, and will be shown on the page.
 
-## Describe Authors in Details
+## Authors Parameters
 
-You may want to describe the authors in details, let's take `HB` as an example.
+Describe the authors in details.
 
-1. Create the author page.
+| Parameter     |  Type  | Description                                                                                |
+| ------------- | :----: | ------------------------------------------------------------------------------------------ |
+| `title`       | string | Author display name.                                                                       |
+| `description` | string | Author description.                                                                        |
+| `email_hash`  | string | The md5 hash of email, used by Gravatar, you can use the `images` parameter below instead. |
+| `images`      | array  | The first image will be used as the avatar of authors.                                     |
+| `socials`     | object | The [social links]({{< ref "docs/modules/socials" >}}).                                    |
 
-```sh
-hugo new authors/hb/_index.md
-```
+## Authors Example
 
-2. And then tweak the author page's parameter.
+Let's take `HB` as an example.
 
+{{< bs/collapse "content/authors/hb/_index.md" primary true >}}
 {{< bs/config-toggle >}}
-title: HB Framework Authors
-description: HB (Hugo Bootstrap) Framework codes and documentations contributors
-# email_hash: XXXXX
-images:
-  - https://avatars.githubusercontent.com/u/127904984?s=200&v=4
-socials:
-  github: hbstack
+{{% code-snippet author %}}
 {{< /bs/config-toggle >}}
-
-| Parameter | Type | Description |
-| --------- | :--: | ----------- |
-| `title` | string | Author display name. |
-| `description` | string | Author description. |
-| `email_hash` | string | The Gravatar email hash (md5), used by avatar, you can use the `images` parameter below instead. |
-| `images` | array | The first image will be used as the avatar of authors. |
-| `socials` | object | The [social links]({{< ref "docs/modules/socials" >}}). |
+{{< /bs/collapse >}}

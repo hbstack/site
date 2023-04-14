@@ -1,5 +1,6 @@
 ---
-title: "菜单"
+title: "页头菜单"
+linkTitle: "菜单"
 date: 2023-02-17T00:43:12+08:00
 draft: false
 nav_weight: 2
@@ -41,14 +42,14 @@ authors:
 | `icon.color`     | string  | 图标颜色。                         |
 | `icon.className` | string  | 图标 CSS 类名。                    |
 
-See also [Menus Configuration]({{< ref "docs/configuration/menus" >}}).
+详情请参阅[菜单配置]({{< ref "docs/configuration/menus" >}})。
 
 ## Example
 
-![Header Menus Example](example.png)
+![页头菜单示例](example.png)
 
 {{< bs/config-toggle filename=menus >}}
 {{% code-snippet example.yaml %}}
 {{< /bs/config-toggle >}}
 
-The example above use the Bootstrap icons, you can use other [icons vendors](https://hugomods.com/en/icons), such as Font Awesome, Feather, Tabler, Simple icons and so on.
+上述例子实用 Bootstrap 图标，你也可以实用其他[图标](https://hugomods.com/en/icons)，比如 Font Awesome、Feather、Tabler、Simple 等。

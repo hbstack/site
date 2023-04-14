@@ -1,5 +1,6 @@
 ---
-title: 页头
+title: 页头模块
+linkTitle: 页头
 nav_weight: 20
 menu:
   footer:

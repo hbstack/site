@@ -1,5 +1,6 @@
 ---
-title: "Menus"
+title: "Header Menus"
+linkTitle: "Menus"
 date: 2023-02-17T00:43:12+08:00
 draft: false
 nav_weight: 2
@@ -45,7 +46,7 @@ See also [Menus Configuration]({{< ref "docs/configuration/menus" >}}).
 
 ## Example
 
-![Header Menus Example](example.png)
+![Header's Menus Example](example.png)
 
 {{< bs/config-toggle filename=menus >}}
 {{% code-snippet example.yaml %}}

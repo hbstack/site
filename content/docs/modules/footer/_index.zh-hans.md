@@ -1,6 +1,6 @@
 ---
-title: Footer Module
-linkTitle: Footer
+title: 页尾模块
+linkTitle: 页尾
 nav_weight: 30
 menu:
   footer:

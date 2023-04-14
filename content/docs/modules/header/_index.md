@@ -1,5 +1,6 @@
 ---
-title: Header
+title: Header Module
+linkTitle: Header
 nav_weight: 20
 menu:
   footer:

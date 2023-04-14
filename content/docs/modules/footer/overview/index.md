@@ -1,5 +1,6 @@
 ---
-title: "Overview"
+title: "Footer Overview"
+linkTitle: Overview
 date: 2023-02-17T00:39:18+08:00
 draft: false
 nav_weight: 1
@@ -14,7 +15,7 @@ authors:
   - HB
 ---
 
-The footer modules is a universal footer.
+This module is a universal footer, which ships with menus and some useful sub modules, i.e. social links.
 
 <!--more-->
 
@@ -35,10 +36,10 @@ The footer modules is a universal footer.
 
 ## Footer's Scoped Parameters
 
-| Parameter    |  Type   | Default | Description                     |
-| ------------ | :-----: | :-----: | ------------------------------- |
+| Parameter    |  Type   | Default | Description                                                 |
+| ------------ | :-----: | :-----: | ----------------------------------------------------------- |
 | `powered-by` | boolean | `true`  | Whether to show the powered by. |
 
 {{< bs/config-toggle filename=hugo >}}
-{{% docs/modules/footer/config %}}
+{{% code-snippet config.toml %}}
 {{< /bs/config-toggle >}}

@@ -1,4 +1,5 @@
 ---
+title: "Blog Disqus Comments Engine"
 title: "Disqus"
 date: 2023-03-31T16:42:09+08:00
 draft: false
@@ -20,9 +21,9 @@ This module adds support for the [Disqus](https://disqus.com) comments engine.
 
 ## Site Configuration
 
-| Parameter | Type | Default | Description |
-| --------- | :--: | :-----: | ----------- |
-| `disqusShortname` | string | - | The Disqus site identifier. |
+| Parameter         |  Type  | Default | Description                 |
+| ----------------- | :----: | :-----: | --------------------------- |
+| `disqusShortname` | string |    -    | The Disqus site identifier. |
 
 {{< bs/config-toggle hugo >}}
 disqusShortname: XXXXX

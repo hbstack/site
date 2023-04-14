@@ -1,5 +1,6 @@
 ---
-title: "Socials"
+title: "Footer Socials"
+linkTitle: Socials
 date: 2023-02-17T00:06:59+08:00
 draft: false
 series:
@@ -28,5 +29,5 @@ The footer's socials generates social links.
 | `socials` | object |    -    | Mapping from [social media]({{< ref "docs/modules/socials#socials-media" >}}) to their [identifiers]({{< ref "docs/modules/socials#identifiers" >}}). |
 
 {{< bs/config-toggle filename=hugo >}}
-{{% docs/modules/footer/socials/params %}}
+{{% code-snippet config.toml %}}
 {{< /bs/config-toggle >}}

@@ -1,7 +1,9 @@
 ---
-title: "Menus"
+title: "Footer Menus"
+linkTitle: "Menus"
 date: 2023-02-19T08:14:04+08:00
 draft: false
+nav_weight: 10
 series:
   - Docs
 categories:
@@ -27,12 +29,13 @@ The `footer` is taken as the footer's menus set identifier.
 
 ## Footer Menu Entry Params
 
-| Parameter     |  Type   | Description                                                     |
-| :------------ | :-----: | :-------------------------------------------------------------- |
-| `icon`        | object  | The icon parameters.                                            |
-| `icon.vendor` | string  | The icon's vendor，required.                                    |
-| `icon.name`   | string  | The icon's name, required.                                      |
-| `icon.color`  | string  | The icon's color.                                               |
+| Parameter        |  Type  | Description                  |
+| :--------------- | :----: | :--------------------------- |
+| `icon`           | object | The icon parameters.         |
+| `icon.vendor`    | string | The icon's vendor，required. |
+| `icon.name`      | string | The icon's name, required.   |
+| `icon.color`     | string | The icon's color.            |
+| `icon.className` | string | The icon's CSS class name.   |
 
 See also [Menus Configuration]({{< ref "docs/configuration/menus" >}}).
 
@@ -41,15 +44,7 @@ See also [Menus Configuration]({{< ref "docs/configuration/menus" >}}).
 ![Footer Menus Example](example.png)
 
 {{< bs/config-toggle filename=menus >}}
-{{% docs/modules/footer/menus/example %}}
+{{% code-snippet example.yaml %}}
 {{< /bs/config-toggle >}}
 
-The example above use the Bootstrap icons, if the icons do not show up, please check if you've installed/imported the following module.
-
-{{< bs/config-toggle filename=hugo >}}
-module:
-  imports:
-    - path: github.com/hugomods/icons/vendors/bootstrap
-{{< /bs/config-toggle >}}
-
-The Bootstrap icons and other icons vendors can be found on [Hugo Icons Module](https://hugomods.com/en/icons).
+The example above use the Bootstrap icons, you can use other [icons vendors](https://hugomods.com/en/icons), such as Font Awesome, Feather, Tabler, Simple icons and so on.
