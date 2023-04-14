@@ -60,6 +60,7 @@ github.com/hbstack/code-block-panel v0.1.1 h1:9fHjXmlU7x8nbWI3Qr9t5YnRDtaF9auqPW
 github.com/hbstack/code-block-panel v0.1.1/go.mod h1:EJ9PgJrLnJ8DQ0SxU6DrdOesLF1h+YF1MCtMd0DodQg=
 github.com/hbstack/content-panel v0.1.0 h1:2d0FMbU8vgLWHQ7Pqg+TqiZbonmcPQJrKVI4Fon2qiY=
 github.com/hbstack/content-panel v0.1.0/go.mod h1:8/7NImX1TFlXyk15S/mlYjG0cnS4PtkGYSlNF3hh8O4=
+github.com/hbstack/content-panel v0.1.1/go.mod h1:UfPWznXVmbunuXgi04XMbPZaT5Wi+4mtpTb5vQNlfrc=
 github.com/hbstack/docs v0.1.3 h1:246yt4Mg51xvECMgaz3hlNuApi5NTBk2JEd+tOK+goE=
 github.com/hbstack/docs v0.1.3/go.mod h1:ySIvxCQqAcDt7dcHJo/c6S3GsxfBsjIBA2mmhy5eNdo=
 github.com/hbstack/docs v0.1.4 h1:R1f/Yo6sTLk315CipJeCwwBhcBfZK7mTwwyzXWjtrc8=
