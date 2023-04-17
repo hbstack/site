@@ -1,0 +1,9 @@
+```sh
+npm i postcss-cli
+```
+
+Or
+
+```sh
+sudo npm i -g postcss-cli
+```

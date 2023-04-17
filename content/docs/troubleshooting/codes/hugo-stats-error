@@ -1,0 +1,6 @@
+```cobol
+Error: Error building site: POSTCSS: failed to transform "hb/scss/index.css" (text/css): /home/hbstack/Projects/hbstack/hb/purgecss.config.js:5
+        throw new Error('Hugo stats file not found, please enable the "build.writeStats".')
+        ^
+Error: Hugo stats file not found, please enable the "build.writeStats".
+```

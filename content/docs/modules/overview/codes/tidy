@@ -1,0 +1,3 @@
+```sh
+hugo mod tidy
+```

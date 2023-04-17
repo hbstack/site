@@ -1,0 +1,2 @@
+[params.hugopress.modules.hb-vendor-hello.hooks.body-begin]
+cacheable = true

@@ -1,0 +1,9 @@
+{{- with resources.Get (.Get 0) }}
+  {{- $img := .Resize "160x" }}
+  <img
+    class="d-block mx-auto mb-4 bg-primary img-fluid"
+    src="{{ $img.RelPermalink }}"
+    height="{{ $img.Height }}"
+    alt="Logo"
+    width="{{ $img.Width }}" />
+{{- end -}}

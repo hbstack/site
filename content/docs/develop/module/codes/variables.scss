@@ -1,0 +1,2 @@
+$hb-vendor-hello-bg: {{ default "blue" .params.hb.vendor_hello.bg }};
+$hb-vendor-hello-color: {{ default "white" .params.hb.vendor_hello.color }};
