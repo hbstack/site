@@ -1,0 +1,104 @@
+description: >
+  Fast, responsive, flexible, modular, FOSS and feature-rich Hugo Bootstrap Framework.
+
+hb:
+  # debug: true
+  background_image:
+    brightness: 20
+  header:
+    fixed: true
+    full_width: true
+    # theme: 'classic'
+    logo_bg: '#6610f2'
+    # menus_alignment: 'end'
+    brand: 'HB'
+    socials:
+      github: hbstack
+      kofi: razonyang
+      paypal: razonyang
+      twitter: razonyang
+      mastodon: razonyang
+  blog:
+    home:
+      main_sections:
+        - blog
+        - docs
+        - news
+    paginate: 9
+    giscus:
+      repo: hbstack/site
+      repo_id: R_kgDOJLvAsw
+      category: General
+      category_id: DIC_kwDOJLvAs84CVBSG
+      mapping: og:title
+    utterances:
+      repo: hbstack/site
+  docs:
+    giscus:
+      repo: hbstack/site
+      repo_id: R_kgDOJLvAsw
+      category: General
+      category_id: DIC_kwDOJLvAs84CVBSG
+      mapping: og:title
+    utterances:
+      repo: hbstack/site
+  footer:
+    powered_by: true
+    # site_title: HB Framework
+    socials:
+      github: hbstack
+      kofi: razonyang
+      paypal: razonyang
+      twitter: razonyang
+      mastodon: razonyang
+  content_panel:
+    repo:
+      service: github
+      repo: hbstack/site
+      branch: main
+      # subpath: exampleSite
+
+pwa:
+  icon_path: images/logo.png
+  icon_sizes: [192, 512]
+  offline_image: images/pwa/offline.svg
+  precaches:
+    - url: /en/
+    - url: /zh-hans/
+  manifest:
+    background_color: '#6610f2'
+    theme_color: '#6610f2'
+    short_name: 'HB'
+
+seo:
+  favicons:
+    icon: images/logo.png
+    svg_icon: images/logo.svg
+    mask_icon: images/logo.svg
+    mask_icon_color: '#6610f2'
+    sizes:
+      - size: 180x180
+        rel: apple-touch-icon
+
+code_block_panel:
+  max_lines: 8
+
+search:
+  min_match_char_length: 1
+
+hugopress:
+  modules:
+    hb-custom:
+      hooks:
+        body-begin:
+          cacheable: true
+        hb-footer-end:
+          cacheable: true
+        hb-docs-doc-toc-begin:
+          cacheable: true
+        hb-docs-doc-toc-end:
+          cacheable: true
+        hb-blog-post-toc-begin:
+          cacheable: true
+        hb-blog-post-toc-end:
+          cacheable: true

@@ -1,0 +1,14 @@
+```sh
+hugo new notes/foo.md   
+Content "content/notes/foo.md" created
+```
+
+```sh
+cat content/notes/foo.md
+---
+type: docs
+title: 'Foo'
+date: 2023-04-12T14:35:35+08:00
+draft: true
+---
+```

@@ -1,0 +1,11 @@
+```sh
+mkdir hello && cd hello
+```
+
+```sh
+git init
+```
+
+```sh
+hugo mod init example.com/vendor/hello
+```

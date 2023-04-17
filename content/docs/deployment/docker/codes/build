@@ -1,0 +1,3 @@
+```sh
+docker build -t user/my-site .
+```

@@ -1,0 +1,6 @@
+```html
+<head>
+  <meta name="hello" content="head-begin">
+  <meta name="hello" content="head-end">
+</head>
+```
