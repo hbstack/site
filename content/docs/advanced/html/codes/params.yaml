@@ -1,0 +1,6 @@
+hugopress:
+  modules:
+    hb-custom:
+      hooks:
+        body-begin:
+          cacheable: true

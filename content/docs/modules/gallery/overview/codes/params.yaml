@@ -1,0 +1,4 @@
+hb:
+  gallery:
+    paginate: 24
+    thumbnail_size: "x640"

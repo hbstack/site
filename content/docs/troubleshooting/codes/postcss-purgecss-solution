@@ -1,0 +1,9 @@
+```sh
+npm i @fullhuman/postcss-purgecss
+```
+
+Or
+
+```sh
+sudo npm i -g @fullhuman/postcss-purgecss
+```

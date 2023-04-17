@@ -1,0 +1,6 @@
+```html
+<html ... data-hello="document" ...>
+  <body ... data-hello="body" ...>
+  </body>
+</html>
+```

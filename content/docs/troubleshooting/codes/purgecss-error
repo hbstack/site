@@ -1,0 +1,4 @@
+```cobol
+Error: Error building site: POSTCSS: failed to transform "hb/scss/index.css" (text/css): Error: Failed to parse runtime PurgeCSS config: Error: ENOENT: no such file or directory, open './public/.build/purgecss.json'.
+Please enable the "--renderToDisk" if you are using Hugo server.
+```

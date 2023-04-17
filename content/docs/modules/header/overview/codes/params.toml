@@ -1,0 +1,10 @@
+[params.hb]
+logo = "images/logo.png"
+
+[params.hb.header]
+logo_bg = "indigo"
+menus_alignment = "start"
+sticky = true
+full_width = true
+brand = ""
+theme = ""

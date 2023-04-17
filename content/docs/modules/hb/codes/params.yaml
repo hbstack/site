@@ -1,0 +1,6 @@
+params:
+  hb:
+    css_bundle_name: hb
+    debug: false
+    js_bundle_name: hb
+    logo: images/logo.png

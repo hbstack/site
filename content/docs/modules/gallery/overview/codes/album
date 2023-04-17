@@ -1,0 +1,15 @@
+```markdown
+---
+title: "Hello"
+date: 2022-01-01T16:16:05+08:00
+resources:
+  - src: 20230101000000.jpg
+    params:
+      author: Foo
+      source: example.com
+  - src: 20230102000000.png
+    params:
+      author: Bar
+      source: example.com
+---
+```

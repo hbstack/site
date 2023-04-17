@@ -1,0 +1,70 @@
+baseURL: https://example.com/
+title: HB Framework
+copyright: "Copyright © 2022-{year} [HB Framework](https://hbstack.dev/). All Rights Reserved."
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: true
+# disqusShortname: hbstack
+enableRobotsTXT: true
+enableEmoji: true
+
+module:
+  imports:
+    # - path: github.com/hbstack/header/modules/docsearch
+    - path: github.com/hugomods/google-analytics
+    - path: github.com/hugomods/google-adsense
+
+    # icons modules.
+    - path: github.com/hugomods/icons/vendors/font-awesome
+  
+    # blog comments engine.
+    - path: github.com/hbstack/blog/modules/giscus
+    # - path: github.com/hbstack/blog/modules/disqus
+    # - path: github.com/hbstack/blog/modules/utterances
+    - path: github.com/hbstack/blog/modules/content-panel
+    - path: github.com/hbstack/blog/modules/toc-scrollspy
+  
+    # docs comments engine.
+    - path: github.com/hbstack/docs/modules/giscus
+    # - path: github.com/hbstack/docs/modules/utterances
+    # - path: github.com/hbstack/docs/modules/disqus
+    - path: github.com/hbstack/docs/modules/content-panel
+    - path: github.com/hbstack/docs/modules/toc-scrollspy
+
+    # others.
+    # - path: github.com/hbstack/background-image
+    # - path: github.com/hbstack/cloudflare-rocket-loader
+
+    # recommended modules.
+    - path: github.com/hbstack/meta/recommended
+
+outputs:
+  home:
+    - HTML
+    - Offline
+    - RSS
+    - SearchIndex
+    - WebAppManifest
+
+taxonomies:
+  authors: authors
+  tags: tags
+  categories: categories
+  series: series
+
+build:
+  writeStats: true
+
+related:
+  threshold: 20
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+    lineNos: true
+    lineNumbersInTable: false
+  tableOfContents:
+    endLevel: 6
+    startLevel: 2
