@@ -26,7 +26,7 @@ color = "7633F9"
 [modular]
 weight = 4
 title = "模块化"
-description = "内置一百多个模块。"
+description = "内置一百多个模块，你还可以编写自己的模块。"
 [modular.icon]
 name = "boxes"
 

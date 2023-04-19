@@ -26,7 +26,7 @@ color = "7633F9"
 [modular]
 weight = 4
 title = "Modular"
-description = "Over 100 built-in modules, automated load CSS, JS and so on."
+description = "Over 100 built-in modules, you can also write your own module."
 [modular.icon]
 name = "boxes"
 
@@ -97,4 +97,3 @@ description = "Remove the unused styles from your sites on production."
 [purgecss.icon]
 vendor = "simple"
 name = "purgecss"
-
