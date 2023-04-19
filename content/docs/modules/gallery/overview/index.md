@@ -46,6 +46,17 @@ The gallery module provides a simple layout for images.
 
 And then put your images into the `content/gallery/hello` folder, you may want to [describe in details](#image-properties).
 
+### Album Social Share Image
+
+The image that naming in `feature*` pattern will be used as the social share image, such as `20220101-featured.jpg`.
+
+It can also be specified by the `images` parameter, which applies only to `static` images and external images.
+
+{{% bs/config-toggle %}}
+images:
+  - https://example.com/images/feature.png
+{{% /bs/config-toggle %}}
+
 ## Image Properties
 
 The image names will be used by sorting, you should apply same pattern on images filenames, such as date.

@@ -46,6 +46,17 @@ authors:
 
 然后将图片保存到 `content/gallery/hello` 目录，还可以[进一步描述图片](#图片属性)。
 
+### 相册社交分享图片
+
+以 `feature*` 形式命名的图片将会作为社交分享的图片，如 `20220101-featured.jpg`。
+
+也可以使用 `images` 参数指定，仅适用于 `static` 图片和外部图片。
+
+{{% bs/config-toggle %}}
+images:
+  - https://example.com/images/feature.png
+{{% /bs/config-toggle %}}
+
 ## 图片属性
 
 The image names will be used by sorting, you should apply same pattern on images filenames, such as date.
