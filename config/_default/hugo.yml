@@ -7,6 +7,10 @@ defaultContentLanguageInSubdir: true
 enableRobotsTXT: true
 enableEmoji: true
 
+permalinks:
+  blog: /:year/:month/:title
+  news: /:year/:month/:title
+
 module:
   imports:
     # - path: github.com/hbstack/header/modules/docsearch
