@@ -58,7 +58,7 @@ aliases:
 
 ### 创建按年归档栏目
 
-Takes `archives/2023/` as an example.
+以 `archives/2023/` 为例。
 
 {{% bs/collapse "content/archives/2023/_index.md" primary true %}}
 {{% code-snippet archives-year %}}
@@ -66,7 +66,7 @@ Takes `archives/2023/` as an example.
 
 ### 创建按月归档栏目
 
-Takes `archives/2023/01/` as an example.
+以 `archives/2023/01/` 为例。
 
 {{% bs/collapse "content/archives/2023/01/_index.md" primary true %}}
 {{% code-snippet archives-month %}}

@@ -58,7 +58,7 @@ The blog module ships with a built-in layout for archiving posts, which grouping
 
 ### Create Archives Section for Year
 
-以 `archives/2023/` 为例。
+Takes `archives/2023/` as an example.
 
 {{% bs/collapse "content/archives/2023/_index.md" primary true %}}
 {{% code-snippet archives-year %}}
@@ -66,7 +66,7 @@ The blog module ships with a built-in layout for archiving posts, which grouping
 
 ### Create Archives Section for Month
 
-以 `archives/2023/01/` 为例。
+Takes `archives/2023/01/` as an example.
 
 {{% bs/collapse "content/archives/2023/01/_index.md" primary true %}}
 {{% code-snippet archives-month %}}
