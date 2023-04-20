@@ -108,7 +108,7 @@ hugopress:
           cacheable: true
         hb-blog-post-toc-end:
           cacheable: true
-    search:
-      disabled: true
-    hb-header-search:
-      disabled: true
+    # search:
+    #   disabled: true
+    # hb-header-search:
+    #   disabled: true
