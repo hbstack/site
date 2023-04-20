@@ -1,0 +1,5 @@
+docsearch:
+  app_id: APP_ID
+  api_key: API_KEY
+  debug: false
+  index_name: INDEX_NAME
