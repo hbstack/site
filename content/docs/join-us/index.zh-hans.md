@@ -37,7 +37,7 @@ menu:
 
 ## 贡献
 
-1. 请考虑给[项目](https://github.com/hbstack)和资源库打一颗星 :star:。
+1. 请考虑给[项目](https://github.com/hbstack)的资源库打一颗星 :star:，如[核心模块](https://github.com/hbstack/hb)和[入门主题](https://github.com/hbstack/theme)。
 2. 如果可能的话，请在页脚保留 _powered by_ :copyright: 信息，或于其他地方提及。
 3. [提问和回答问题](https://github.com/orgs/hbstack/discussions/)以互相帮助。
 4. [分享你的想法](https://github.com/orgs/hbstack/discussions/new?category=ideas)。
@@ -77,4 +77,3 @@ menu:
 - [HB Gallery](https://github.com/hbstack/gallery)
 - [HB No Script](https://github.com/hbstack/noscript)
 - [HB Socials](https://github.com/hbstack/socials)
-

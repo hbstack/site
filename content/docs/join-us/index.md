@@ -37,7 +37,7 @@ We're glad you plan to join us, and we appreciate any contributions. You can sup
 
 ## Contributes
 
-1. Please consider giving the [project](https://github.com/hbstack) and repositories a star :star:.
+1. Please consider giving the [project](https://github.com/hbstack)'s repositories a star :star:, such as the [core module](https://github.com/hbstack/hb) and the [starter theme](https://github.com/hbstack/theme).
 2. Please retain the _powered by_ :copyright: information on the footer if possible, or mention it in other places.
 3. [Ask and answer questions](https://github.com/orgs/hbstack/discussions/) to help each other.
 4. [Share your ideas](https://github.com/orgs/hbstack/discussions/new?category=ideas).
