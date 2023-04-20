@@ -59,26 +59,6 @@ main:
     params:
       divider: true
 
-  - name: PayPal
-    weight: 11
-    parent: support
-    url: https://paypal.me/razonyang/
-    params:
-      description: Sponsor via PayPal.
-      icon:
-        vendor: simple-icons
-        name: paypal
-
-  - name: Ko-fi
-    weight: 12
-    parent: support
-    url: https://ko-fi.com/razonyang/
-    params:
-      description: Sponsor via Ko-fi.
-      icon:
-        vendor: simple-icons
-        name: kofi
-
 footer:
   - name: Projects
     identifier: projects
@@ -96,7 +76,7 @@ footer:
       icon:
         vendor: simple-icons
         name: hugo
-        color: '#FF4088'
+        color: "#FF4088"
   - name: Hugo Docker Images
     parent: projects
     weight: 12
@@ -105,7 +85,7 @@ footer:
       icon:
         vendor: simple-icons
         name: docker
-        color: '#2496ED'
+        color: "#2496ED"
   - name: Icons
     parent: projects
     weight: 13
@@ -114,7 +94,7 @@ footer:
       icon:
         vendor: font-awesome-solid
         name: icons
-        color: '#F76119'
+        color: "#F76119"
   - name: SEO
     parent: projects
     weight: 14
@@ -123,7 +103,7 @@ footer:
       icon:
         vendor: font-awesome-solid
         name: magnifying-glass
-        color: '#87CEEB'
+        color: "#87CEEB"
   - name: Search
     parent: projects
     weight: 15
@@ -132,7 +112,7 @@ footer:
       icon:
         vendor: bootstrap
         name: search
-        color: '#712cf9'
+        color: "#712cf9"
   - name: Bootstrap Shortcodes
     parent: projects
     weight: 16
@@ -141,7 +121,7 @@ footer:
       icon:
         vendor: bootstrap
         name: code-square
-        color: '#712cf9'
+        color: "#712cf9"
 
   - name: Support
     identifier: support
@@ -151,7 +131,7 @@ footer:
       icon:
         vendor: font-awesome-solid
         name: headset
-        color: '#0A5DB9'
+        color: "#0A5DB9"
   - name: GitHub
     parent: support
     url: https://github.com/hbstack/
@@ -188,20 +168,3 @@ footer:
         vendor: font-awesome-regular
         name: lightbulb
         color: orange
-  - name: PayPal
-    weight: 45
-    parent: support
-    url: https://paypal.me/razonyang/
-    params:
-      icon:
-        vendor: simple-icons
-        name: paypal
-  - name: Ko-fi
-    parent: support
-    weight: 46
-    params:
-      description: Sponsor via Ko-fi.
-      icon:
-        vendor: simple
-        name: kofi
-    url: https://ko-fi.com/razonyang/

@@ -1,10 +1,10 @@
-[digitalocean]
+[[bronze]]
 url = "https://www.digitalocean.com/?refcode=986ac2ef795b&utm_campaign=Referral_Invite&utm_medium=opensource&utm_source=Hugo-Bootstrap-Framework(HB)"
 alt = "Supported by DigitalOcean"
 img = "/images/sponsors/digitalocean.svg"
 weight = 2
 
-[ko-fi]
+[[gold]]
 url = "https://ko-fi.com/Z8Z8HS9T7"
 img = "/images/sponsors/ko-fi.webp"
 alt = "Buy Me a Coffee"

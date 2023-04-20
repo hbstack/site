@@ -59,26 +59,6 @@ main:
     params:
       divider: true
 
-  - name: PayPal
-    weight: 11
-    parent: support
-    url: https://paypal.me/razonyang/
-    params:
-      description: 通过 PayPal 赞助我们。
-      icon:
-        vendor: simple-icons
-        name: paypal
-
-  - name: Ko-fi
-    weight: 12
-    parent: support
-    url: https://ko-fi.com/razonyang/
-    params:
-      description: 通过 Ko-fi 赞助我们。
-      icon:
-        vendor: simple-icons
-        name: kofi
-
 footer:
   - name: 项目
     identifier: projects
@@ -188,20 +168,3 @@ footer:
         vendor: font-awesome-regular
         name: lightbulb
         color: orange
-  - name: PayPal
-    weight: 45
-    parent: support
-    url: https://paypal.me/razonyang/
-    params:
-      icon:
-        vendor: simple-icons
-        name: paypal
-  - name: Ko-fi
-    parent: support
-    weight: 46
-    params:
-      description: Sponsor via Ko-fi.
-      icon:
-        vendor: simple
-        name: kofi
-    url: https://ko-fi.com/razonyang/

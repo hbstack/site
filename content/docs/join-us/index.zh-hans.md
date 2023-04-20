@@ -5,13 +5,30 @@ draft: false
 nav_icon:
   vendor: fas
   name: handshake
-  className: text-danger
+  className: text-success
 series:
 categories:
 tags:
 images:
 authors:
   - HB
+menu:
+  main:
+    parent: support
+    params:
+      description: Get involved.
+      icon:
+        vendor: fas
+        name: handshake
+        className: text-success
+  footer:
+    parent: support
+    params:
+      description: Get involved.
+      icon:
+        vendor: fas
+        name: handshake
+        className: text-success me-1
 ---
 
 很高兴你计划加入我们，我们感谢任何贡献。你可以通过以下方式支持这个项目。

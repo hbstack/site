@@ -20,7 +20,7 @@ require (
 	github.com/hbstack/carousel v0.2.1 // indirect
 	github.com/hbstack/code-block-panel v0.1.1 // indirect
 	github.com/hbstack/content-panel v0.1.0 // indirect
-	github.com/hbstack/docs v0.2.0 // indirect
+	github.com/hbstack/docs v0.3.0 // indirect
 	github.com/hbstack/docs/modules/breadcrumb v0.1.2 // indirect
 	github.com/hbstack/docs/modules/content-panel v0.1.0 // indirect
 	github.com/hbstack/docs/modules/doc-nav v0.2.1 // indirect
@@ -76,5 +76,6 @@ require (
 	github.com/hugomods/snackbar v0.1.1 // indirect
 	github.com/hugomods/workbox v0.1.0 // indirect
 	github.com/jakearchibald/idb v7.1.1+incompatible // indirect
+	github.com/razonyang/hb-mod-thanks v0.1.0 // indirect
 	github.com/twbs/icons v1.10.4 // indirect
 )

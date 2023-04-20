@@ -46,8 +46,11 @@ layout: landing
       </li>
     </ul>
   </div>
-  <a class="btn btn-lg btn-outline-danger fw-semibold mb-2 py-3 mx-2" href="{{< relref `docs/join-us` >}}">
+  <a class="btn btn-lg btn-outline-primary fw-semibold mb-2 py-3 mx-2" href="{{< relref `docs/join-us` >}}">
     {{< icons/icon vendor=fas name=handshake className="me-1" >}} 加入我们
+  </a>
+  <a class="btn btn-lg btn-outline-danger fw-semibold mb-2 py-3 mx-2" href="{{< relref `thanks` >}}">
+    {{< icons/icon vendor=bs name=hearts className="me-1" >}} 致谢
   </a>
 </div>
 {{< /hero >}}

@@ -4,7 +4,7 @@ date: 2023-04-17T15:25:17+08:00
 nav_icon:
   vendor: fas
   name: handshake
-  className: text-danger
+  className: text-success
 draft: false
 series:
 categories:
@@ -12,6 +12,23 @@ tags:
 images:
 authors:
   - HB
+menu:
+  main:
+    parent: support
+    params:
+      description: Get involved.
+      icon:
+        vendor: fas
+        name: handshake
+        className: text-success
+  footer:
+    parent: support
+    params:
+      description: Get involved.
+      icon:
+        vendor: fas
+        name: handshake
+        className: text-success me-1
 ---
 
 We're glad you plan to join us, and we appreciate any contributions. You can support this project in the following ways.

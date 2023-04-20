@@ -46,8 +46,11 @@ Fast, responsive, flexible, open source (MIT), modular and feature-rich Hugo Boo
       </li>
     </ul>
   </div>
-  <a class="btn btn-lg btn-outline-danger fw-semibold mb-2 py-3 mx-2" href="{{< relref `docs/join-us` >}}">
+  <a class="btn btn-lg btn-outline-primary fw-semibold mb-2 py-3 mx-2" href="{{< relref `docs/join-us` >}}">
     {{< icons/icon vendor=fas name=handshake className="me-1" >}} Join us
+  </a>
+  <a class="btn btn-lg btn-outline-danger fw-semibold mb-2 py-3 mx-2" href="{{< relref `thanks` >}}">
+    {{< icons/icon vendor=bs name=hearts className="me-1" >}} Thanks
   </a>
 </div>
 {{< /hero >}}
