@@ -39,3 +39,4 @@ images:
 | `nav_icon.name`      | string  |    -    | 图标名称。                                   |
 | `nav_icon.color`     | string  |    -    | 图标颜色。                                   |
 | `nav_icon.className` | string  |    -    | 图标 CSS 类名。                              |
+| `redirect`           | string  |    -    | 外部文档的 URL。                             |
