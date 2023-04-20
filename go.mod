@@ -31,7 +31,7 @@ require (
 	github.com/hbstack/footer v0.2.0 // indirect
 	github.com/hbstack/footer/modules/socials v0.1.3 // indirect
 	github.com/hbstack/hb v0.3.0 // indirect
-	github.com/hbstack/header v0.1.12 // indirect
+	github.com/hbstack/header v0.1.13 // indirect
 	github.com/hbstack/header/modules/language-picker v0.1.2 // indirect
 	github.com/hbstack/header/modules/search v0.1.5 // indirect
 	github.com/hbstack/header/modules/socials v0.1.1 // indirect
