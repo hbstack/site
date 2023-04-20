@@ -87,10 +87,10 @@ code_block_panel:
 search:
   min_match_char_length: 1
 
-# docsearch:
-#   app_id: ZUM0MDPYWM
-#   api_key: 335e389d4a9a43c1774deb2e85ff3494
-#   index_name: hbstack
+docsearch:
+  app_id: ZUM0MDPYWM
+  api_key: 335e389d4a9a43c1774deb2e85ff3494
+  index_name: hbstack
 
 hugopress:
   modules:
@@ -108,7 +108,7 @@ hugopress:
           cacheable: true
         hb-blog-post-toc-end:
           cacheable: true
-    # search:
-    #   disabled: true
-    # hb-header-search:
-    #   disabled: true
+    search:
+      disabled: true
+    hb-header-search:
+      disabled: true
