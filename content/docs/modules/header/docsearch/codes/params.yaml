@@ -1,5 +1,7 @@
 docsearch:
   app_id: APP_ID
   api_key: API_KEY
+  css_url: "https://cdn.jsdelivr.net/npm/@docsearch/css@3"
   debug: false
+  js_url: "https://cdn.jsdelivr.net/npm/@docsearch/js@3"
   index_name: INDEX_NAME

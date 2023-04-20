@@ -28,12 +28,14 @@ You need to [apply](https://docsearch.algolia.com/apply/) and waiting for approv
 
 Once your request was approved, you'll be emailed with the necessary information to set up the DocSearch module.
 
-| Name         |  Type   | Required | Default | Description                   |
-| ------------ | :-----: | :------: | :-----: | ----------------------------- |
-| `api_key`    | string  |    Y     |    -    | The API key.                  |
-| `app_id`     | string  |    Y     |    -    | The App name.                 |
-| `debug`      | boolean |    -     |    -    | Whether to enable debug mode. |
-| `index_name` | string  |    Y     |    -    | The index name.               |
+| Name         |  Type   | Required |                     Default                     | Description                   |
+| ------------ | :-----: | :------: | :---------------------------------------------: | ----------------------------- |
+| `api_key`    | string  |    Y     |                        -                        | The API key.                  |
+| `app_id`     | string  |    Y     |                        -                        | The App name.                 |
+| `css_url`    | string  |    -     | `https://cdn.jsdelivr.net/npm/@docsearch/css@3` | DocSearch CSS URL.            |
+| `debug`      | boolean |    -     |                        -                        | Whether to enable debug mode. |
+| `js_url`     | string  |    -     | `https://cdn.jsdelivr.net/npm/@docsearch/js@3`  | DocSearch JS URL.             |
+| `index_name` | string  |    Y     |                        -                        | The index name.               |
 
 {{% bs/config-toggle params %}}
 {{% code-snippet params.yaml %}}
