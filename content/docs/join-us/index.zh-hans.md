@@ -28,7 +28,7 @@ menu:
       icon:
         vendor: fas
         name: handshake
-        className: text-success me-1
+        className: text-success
 ---
 
 很高兴你计划加入我们，我们感谢任何贡献。你可以通过以下方式支持这个项目。

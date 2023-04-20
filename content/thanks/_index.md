@@ -15,5 +15,5 @@ menu:
       icon:
         vendor: bs
         name: hearts
-        className: text-danger me-1
+        className: text-danger
 ---
