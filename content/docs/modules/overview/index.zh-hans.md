@@ -62,7 +62,7 @@ authors:
 
 {{% code-snippet upgrade-specified-version %}}
 
-[^1]：版本可以是任何版本、标签、分支，甚至是提交。
+[^1]: 版本可以是任何版本、标签、分支，甚至是提交。
 
 ## 整理模块
 
