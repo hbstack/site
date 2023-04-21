@@ -32,6 +32,12 @@ menu:
 
 HB 是建立在 [HugoPress](https://hugomods.com/en/docs/hugopress/) 之上的，这是一个与用户界面无关的模块化框架，其定义了几个钩子用于自动加载模块。
 
+## 功能特性
+
+- 实现了 [HugoPress](https://hugomods.com/en/docs/hugopress/)。
+- 基础模板。
+- 修复重定向页面上的暗模式闪烁问题。
+
 ## 模块
 
 ### 模块结构
@@ -63,6 +69,8 @@ HB 将会：
 {{% /markdownify %}}
 {{< /bs/alert >}}
 
+另请参阅[创建模块]({{< relref "docs/develop/module" >}})。
+
 ## 站点参数
 
 | Name              |  Type   | Required |      Default      | Description                       |
@@ -75,3 +83,16 @@ HB 将会：
 {{< bs/config-toggle hugo >}}
 {{% code-snippet params.yaml %}}
 {{< /bs/config-toggle >}}
+
+## HugoPress 属性
+
+| Name      | Description          |
+| --------- | -------------------- |
+| `hb-main` | `.hb-main` HTML 块。 |
+
+## HugoPress 钩子
+
+| Name            | Description                |
+| --------------- | -------------------------- |
+| `hb-body-begin` | 于 `body-begin` 钩子之后。 |
+| `hb-body-end`   | 于 `body-end` 钩子之前。   |

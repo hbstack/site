@@ -30,11 +30,8 @@ menu:
 
 ## 功能特性
 
-- 实现了 [HugoPress](https://hugomods.com/en/docs/hugopress/)。
-- 基础模板。
 - 落地页布局。
 - 404 页面不存在。
-- 修复重定向页面上的暗模式闪烁问题。
 - 集成了[页头]({{< relref "docs/modules/header" >}})和[页尾]({{< relref "docs/modules/footer" >}})模块。
 
 ## 钩子

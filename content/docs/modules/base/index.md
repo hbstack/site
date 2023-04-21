@@ -31,11 +31,8 @@ The base module provides several basic layouts and templates for others modules,
 
 ## Features
 
-- Implements [HugoPress](https://hugomods.com/en/docs/hugopress/).
-- Baseof template.
 - Landing page layout.
 - 404 page not found.
-- Fix flickering issue of dark mode on redirect pages.
 - Integrate with [header]({{< relref "docs/modules/header" >}}) and [footer]({{< relref "docs/modules/footer" >}}) modules.
 
 ## Hooks

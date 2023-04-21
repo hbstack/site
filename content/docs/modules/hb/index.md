@@ -28,6 +28,12 @@ The `github.com/hbstack/hb` is the core module of HB framework, which automatica
 
 {{% hb-module hb %}}
 
+## Features
+
+- Implements [HugoPress](https://hugomods.com/en/docs/hugopress/).
+- Baseof template.
+- Fix flickering issue of dark mode on redirect pages.
+
 ## How it Works?
 
 HB is built on top of [HugoPress](https://hugomods.com/en/docs/hugopress/), a UI-less modular framework that defines several hooks for loading modules automatically.
@@ -63,6 +69,8 @@ The `custom` is reserved for users.
 {{% /markdownify %}}
 {{< /bs/alert >}}
 
+See also [creating a module]({{< relref "docs/develop/module" >}}).
+
 ## Site Parameters
 
 | Name              |  Type   | Required |      Default      | Description                                |
@@ -75,3 +83,16 @@ The `custom` is reserved for users.
 {{< bs/config-toggle hugo >}}
 {{% code-snippet params.yaml %}}
 {{< /bs/config-toggle >}}
+
+## HugoPress Attributes
+
+| Name      | Description     |
+| --------- | --------------- |
+| `hb-main` | For `.hb-main`. |
+
+## HugoPress Hooks
+
+| Name            | Description                    |
+| --------------- | ------------------------------ |
+| `hb-body-begin` | Follows the `body-begin` hook. |
+| `hb-body-end`   | Before the `body-end` hook.    |
