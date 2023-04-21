@@ -1,0 +1,170 @@
+main:
+  - name: 支持
+    identifier: support
+    weight: 100
+    url: https://github.com/hbstack/
+    params:
+      header: HB 支持社區。
+      icon:
+        vendor: font-awesome-solid
+        name: headset
+
+  - name: GitHub
+    parent: support
+    url: https://github.com/hbstack/
+    weight: 1
+    params:
+      icon:
+        vendor: fab
+        name: github
+      description: 代碼倉庫。
+
+  - name: 討論
+    parent: support
+    url: https://github.com/orgs/hbstack/discussions/
+    weight: 2
+    params:
+      icon:
+        vendor: font-awesome-regular
+        name: comments
+        color: green
+      description: 提問題和分享你的想法。
+
+  - name: Bug 反饋
+    parent: support
+    url: https://github.com/orgs/hbstack/discussions/new?category=issues-and-bugs
+    weight: 3
+    params:
+      icon:
+        vendor: font-awesome-solid
+        name: bug
+        color: red
+      description: 向我們反饋一個錯誤或問題。
+
+  - name: 功能提議
+    parent: support
+    url: https://github.com/orgs/hbstack/discussions/new?category=ideas
+    weight: 4
+    params:
+      icon:
+        vendor: font-awesome-regular
+        name: lightbulb
+        color: orange
+      description: 建議新的或需要改進的功能。
+
+  - name: Sponsor
+    identifier: sponsor
+    parent: support
+    weight: 10
+    params:
+      divider: true
+
+footer:
+  - name: 項目
+    identifier: projects
+    weight: 10
+    params:
+      icon:
+        vendor: bootstrap
+        name: boxes
+        color: skyblue
+  - name: HugoPress
+    parent: projects
+    weight: 11
+    url: https://hugomods.com/en/docs/hugopress/
+    params:
+      icon:
+        vendor: simple-icons
+        name: hugo
+        color: '#FF4088'
+  - name: Hugo Docker 鏡像
+    parent: projects
+    weight: 12
+    url: https://hugomods.com/en/docs/docker/
+    params:
+      icon:
+        vendor: simple-icons
+        name: docker
+        color: '#2496ED'
+  - name: 圖標
+    parent: projects
+    weight: 13
+    url: https://hugomods.com/zh-hans/icons/
+    params:
+      icon:
+        vendor: font-awesome-solid
+        name: icons
+        color: '#F76119'
+  - name: SEO
+    parent: projects
+    weight: 14
+    url: https://github.com/hugomods/seo/
+    params:
+      icon:
+        vendor: font-awesome-solid
+        name: magnifying-glass
+        color: '#87CEEB'
+  - name: 搜索
+    parent: projects
+    weight: 15
+    url: https://hugomods.com/en/docs/search/
+    params:
+      icon:
+        vendor: bootstrap
+        name: search
+        color: '#712cf9'
+  - name: Bootstrap 短代碼
+    parent: projects
+    weight: 16
+    url: https://hugomods.com/en/bootstrap/
+    params:
+      icon:
+        vendor: bootstrap
+        name: code-square
+        color: '#712cf9'
+
+  - name: 支持
+    identifier: support
+    weight: 40
+    url: https://github.com/hbstack/
+    params:
+      icon:
+        vendor: font-awesome-solid
+        name: headset
+        color: '#0A5DB9'
+  - name: GitHub
+    parent: support
+    url: https://github.com/hbstack/
+    weight: 41
+    params:
+      icon:
+        vendor: font-awesome-brands
+        name: github
+  - name: 討論
+    parent: support
+    url: https://github.com/orgs/hbstack/discussions/
+    weight: 42
+    params:
+      icon:
+        vendor: far
+        name: comments
+        color: green
+  - name: Bug 反饋
+    parent: support
+    url: https://github.com/orgs/hbstack/discussions/new?category=issues-and-bugs
+    weight: 43
+    params:
+      icon:
+        vendor: font-awesome-solid
+        name: bug
+        color: red
+
+  - name: 功能提議
+    parent: support
+    url: https://github.com/orgs/hbstack/discussions/new?category=ideas
+    weight: 44
+    params:
+      icon:
+        vendor: font-awesome-regular
+        name: lightbulb
+        color: orange

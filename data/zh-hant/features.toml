@@ -1,0 +1,100 @@
+[fast]
+weight = 1
+title = "快速"
+url = "https://pagespeed.web.dev/analysis?url=https://theme.hbstack.dev/en/"
+description = "於 Google PageSpeed Insights 的移動和桌面的四項指標中均獲得滿分 💯。"
+[fast.icon]
+name = "speedometer"
+color = "green"
+
+[foss]
+weight = 2
+title = "FOSS"
+description = "自由和開放源碼軟件，代碼許可：[MIT](https://github.com/hbstack/hb/blob/main/LICENSE)。"
+[foss.icon]
+name = "share"
+color = "green"
+
+[bootstrap]
+weight = 3
+title = "響應式"
+description = "移動端優先，基於 [Bootstrap](https://getbootstrap.com) 5.3+。"
+[bootstrap.icon]
+name = "bootstrap"
+color = "7633F9"
+
+[modular]
+weight = 4
+title = "模塊化"
+description = "內置一百多個模塊，你還可以編寫自己的模塊。"
+[modular.icon]
+name = "boxes"
+
+[pwa]
+weight = 5
+title = "PWA"
+url = "https://hugomods.com/en/docs/pwa/"
+description = "使網站可安裝、可脫機使用、如同原生應用一般。"
+[pwa.icon]
+name = "rocket"
+color = "#DC3545"
+
+[search]
+weight = 6
+title = "搜索"
+url = "https://hugomods.com/en/docs/search/"
+description = "強大而快速的客戶端模糊搜索模塊。"
+[search.icon]
+name = "search"
+color = "#00008B"
+
+[sass]
+weight = 7
+title = "SASS/SCSS"
+description = "通過 SASS/SCSS 定製 Bootstrap 和 HB 框架。"
+[sass.icon]
+vendor = "simple-icons"
+name = "sass"
+color = "#C66394"
+
+[color]
+weight = 8
+title = "顏色模式"
+description = "支持淺色、深色或自動（跟隨系統）。"
+[color.icon]
+name = "circle-half"
+
+[hugo-pipe]
+weight = 9
+title = "Hugo Pipes"
+description = "用強大的 Hugo Pipes 建設網站。"
+[hugo-pipe.icon]
+vendor = "font-awesome-solid"
+name = "grip-lines-vertical"
+color = "orange"
+
+[rtl]
+weight = 10
+title = "RTL"
+description = "通過 RTLCSS 以支持從右到左的書寫語言。"
+[rtl.icon]
+name = "arrow-right-square"
+
+[icons]
+weight = 11
+title = "圖標"
+url = "https://hugomods.com/zh-hans/icons/"
+description = "Bootstrap, FontAwesome, Feather 等圖標。"
+[icons.icon]
+vendor = "fas"
+name = "icons"
+color = "#dc3545"
+
+[purgecss]
+weight = 12
+title = "PurgeCSS"
+description = "移除站點中未曾使用的樣式。"
+[purgecss.icon]
+vendor = "simple"
+name = "purgecss"
+

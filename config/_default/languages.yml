@@ -6,6 +6,11 @@ zh-hans:
   languageName: 简体中文
   weight: 2
   title: HB 框架
+      
+zh-hant:
+  languageName: 繁體中文
+  weight: 3
+  title: HB 框架
 
 ar:
   languageName: "العربية"
