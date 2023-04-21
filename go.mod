@@ -5,7 +5,7 @@ go 1.18
 require (
 	github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20002 // indirect
 	github.com/hbstack/back-to-top v0.1.2 // indirect
-	github.com/hbstack/base v0.1.3 // indirect
+	github.com/hbstack/base v0.1.4 // indirect
 	github.com/hbstack/bigger-picture v0.8.0 // indirect
 	github.com/hbstack/blog v0.9.0 // indirect
 	github.com/hbstack/blog/modules/breadcrumb v0.1.2 // indirect
@@ -20,7 +20,7 @@ require (
 	github.com/hbstack/carousel v0.2.1 // indirect
 	github.com/hbstack/code-block-panel v0.1.1 // indirect
 	github.com/hbstack/content-panel v0.1.1 // indirect
-	github.com/hbstack/docs v0.3.0 // indirect
+	github.com/hbstack/docs v0.4.0 // indirect
 	github.com/hbstack/docs/modules/breadcrumb v0.1.2 // indirect
 	github.com/hbstack/docs/modules/content-panel v0.1.0 // indirect
 	github.com/hbstack/docs/modules/doc-nav v0.2.1 // indirect
@@ -30,11 +30,11 @@ require (
 	github.com/hbstack/docs/modules/toc-scrollspy v0.1.0 // indirect
 	github.com/hbstack/footer v0.2.1 // indirect
 	github.com/hbstack/footer/modules/socials v0.1.4 // indirect
-	github.com/hbstack/hb v0.3.0 // indirect
+	github.com/hbstack/hb v0.4.0 // indirect
 	github.com/hbstack/header v0.1.13 // indirect
 	github.com/hbstack/header/modules/docsearch v0.1.2 // indirect
 	github.com/hbstack/header/modules/language-picker v0.1.2 // indirect
-	github.com/hbstack/header/modules/search v0.1.6 // indirect
+	github.com/hbstack/header/modules/search v0.1.7 // indirect
 	github.com/hbstack/header/modules/socials v0.1.2 // indirect
 	github.com/hbstack/header/modules/theme-toggle v0.1.2 // indirect
 	github.com/hbstack/mermaid v0.1.0 // indirect
