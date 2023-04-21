@@ -4,6 +4,8 @@
     "url": "https://github.com/hbstack/site/issues"
   },
   "devDependencies": {
+    "glob": "^10.2.1",
+    "opencc": "^1.1.3",
     "prettier": "^2.7.1",
     "prettier-plugin-go-template": "^0.0.13"
   },
@@ -16,7 +18,8 @@
   },
   "scripts": {
     "dev": "hugo server -p 13131 --gc --disableFastRender --buildDrafts --enableGitInfo",
-    "prod": "rm -f hugo_stats.json && rm -rf public/ && hugo server -e production --minify --gc --renderToDisk --disableFastRender --enableGitInfo -b http://localhost:13132 -p 13132"
+    "prod": "rm -f hugo_stats.json && rm -rf public/ && hugo server -e production --minify --gc --renderToDisk --disableFastRender --enableGitInfo -b http://localhost:13132 -p 13132",
+    "translate": "node ./scripts/translate.js"
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^5.0.0",
