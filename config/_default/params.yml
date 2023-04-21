@@ -112,3 +112,7 @@ hugopress:
     #   disabled: true
     # hb-header-search:
     #   disabled: true
+    docsearch:
+      disabled: true
+    hb-header-docsearch:
+      disabled: true
