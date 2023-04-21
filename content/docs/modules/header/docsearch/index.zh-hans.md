@@ -28,14 +28,12 @@ authors:
 
 一旦申请通过，你将会收到一封邮件，其中包含了设置 DocSearch 模块的必要信息。
 
-| Name         |  Type   | Required |                     Default                     | Description            |
-| ------------ | :-----: | :------: | :---------------------------------------------: | ---------------------- |
-| `api_key`    | string  |    Y     |                        -                        | API 秘钥。             |
-| `app_id`     | string  |    Y     |                        -                        | 应用名称。             |
-| `css_url`    | string  |    -     | `https://cdn.jsdelivr.net/npm/@docsearch/css@3` | DocSearch 的 CSS URL。 |
-| `debug`      | boolean |    -     |                        -                        | 是否开启调试模式。     |
-| `js_url`     | string  |    -     | `https://cdn.jsdelivr.net/npm/@docsearch/js@3`  | DocSearch 的 JS URL。  |
-| `index_name` | string  |    Y     |                        -                        | 索引名称。             |
+| Name         |  Type   | Required | Default | Description        |
+| ------------ | :-----: | :------: | :-----: | ------------------ |
+| `api_key`    | string  |    Y     |    -    | API 秘钥。         |
+| `app_id`     | string  |    Y     |    -    | 应用名称。         |
+| `debug`      | boolean |    -     |    -    | 是否开启调试模式。 |
+| `index_name` | string  |    Y     |    -    | 索引名称。         |
 
 {{% bs/config-toggle params %}}
 {{% code-snippet params.yaml %}}
