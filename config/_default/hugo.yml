@@ -22,18 +22,22 @@ module:
 
     # icons modules.
     - path: github.com/hugomods/icons/vendors/font-awesome
-  
+
     # blog comments engine.
     - path: github.com/hbstack/blog/modules/giscus
     # - path: github.com/hbstack/blog/modules/disqus
     # - path: github.com/hbstack/blog/modules/utterances
+    # - path: github.com/hbstack/blog/modules/twikoo
+
     - path: github.com/hbstack/blog/modules/content-panel
     - path: github.com/hbstack/blog/modules/toc-scrollspy
-  
+
     # docs comments engine.
     - path: github.com/hbstack/docs/modules/giscus
     # - path: github.com/hbstack/docs/modules/utterances
     # - path: github.com/hbstack/docs/modules/disqus
+    # - path: github.com/hbstack/docs/modules/twikoo
+
     - path: github.com/hbstack/docs/modules/content-panel
     - path: github.com/hbstack/docs/modules/toc-scrollspy
 

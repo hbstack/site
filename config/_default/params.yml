@@ -34,6 +34,8 @@ hb:
       mapping: og:title
     utterances:
       repo: hbstack/site
+    twikoo:
+      env_id: https://twikoo.hugomods.com/
   docs:
     giscus:
       repo: hbstack/site
@@ -43,6 +45,8 @@ hb:
       mapping: og:title
     utterances:
       repo: hbstack/site
+    twikoo:
+      env_id: https://twikoo.hugomods.com/
   footer:
     powered_by: true
     # site_title: HB Framework
