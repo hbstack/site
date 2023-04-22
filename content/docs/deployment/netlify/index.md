@@ -1,6 +1,6 @@
 ---
 title: "Deploy on Netlify"
-title: "Netlify"
+linkTitle: "Netlify"
 date: 2023-04-15T10:09:40+08:00
 draft: false
 series:
