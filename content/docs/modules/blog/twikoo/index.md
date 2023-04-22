@@ -24,10 +24,11 @@ This module add support for the [Twikoo](https://github.com/imaegoo/twikoo), a s
 
 ## Site Parameters
 
-| Name     |  Type  | Required | Default | Description                                                      |
-| -------- | :----: | :------: | :-----: | ---------------------------------------------------------------- |
-| `env_id` | string |    Y     |    -    | The Tencent Cloud environment ID or self-hosted endpoint.        |
-| `region` | string |    -     |    -    | The Tencent Cloud region, such as `ap-shanghai`, `ap-guangzhou`. |
+| Name     |  Type  | Required |                           Default                            | Description                                                      |
+| -------- | :----: | :------: | :----------------------------------------------------------: | ---------------------------------------------------------------- |
+| `env_id` | string |    Y     |                              -                               | The Tencent Cloud environment ID or self-hosted endpoint.        |
+| `js_url` | string |    Y     | `https://cdn.staticfile.org/twikoo/1.6.16/twikoo.all.min.js` | The script URL.                                                  |
+| `region` | string |    -     |                              -                               | The Tencent Cloud region, such as `ap-shanghai`, `ap-guangzhou`. |
 
 {{% bs/config-toggle params %}}
 {{% code-snippet params.yaml %}}

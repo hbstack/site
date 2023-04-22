@@ -24,10 +24,11 @@ authors:
 
 ## 站点参数
 
-| Name     |  Type  | Required | Default | Description                                         |
-| -------- | :----: | :------: | :-----: | --------------------------------------------------- |
-| `env_id` | string |    Y     |    -    | 腾讯云环境 ID 或自搭建服务器 URL。                 |
-| `region` | string |    -     |    -    | 腾讯云环境地域，如：`ap-shanghai`、`ap-guangzhou`。 |
+| Name     |  Type  | Required |                           Default                            | Description                                         |
+| -------- | :----: | :------: | :----------------------------------------------------------: | --------------------------------------------------- |
+| `env_id` | string |    Y     |                              -                               | 腾讯云环境 ID 或自搭建服务器 URL。                  |
+| `js_url` | string |    Y     | `https://cdn.staticfile.org/twikoo/1.6.16/twikoo.all.min.js` | JS 脚本 URL。                                       |
+| `region` | string |    -     |                              -                               | 腾讯云环境地域，如：`ap-shanghai`、`ap-guangzhou`。 |
 
 {{% bs/config-toggle params %}}
 {{% code-snippet params.yaml %}}
