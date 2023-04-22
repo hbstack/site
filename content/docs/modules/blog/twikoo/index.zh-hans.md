@@ -26,7 +26,7 @@ authors:
 
 | Name     |  Type  | Required | Default | Description                                         |
 | -------- | :----: | :------: | :-----: | --------------------------------------------------- |
-| `env_id` | string |    Y     |    -    | 腾讯云环境 ID 或 自搭建服务器 URL。                 |
+| `env_id` | string |    Y     |    -    | 腾讯云环境 ID 或自搭建服务器 URL。                 |
 | `region` | string |    -     |    -    | 腾讯云环境地域，如：`ap-shanghai`、`ap-guangzhou`。 |
 
 {{% bs/config-toggle params %}}

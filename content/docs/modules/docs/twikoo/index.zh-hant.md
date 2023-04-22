@@ -26,7 +26,7 @@ authors:
 
 | Name     |  Type  | Required | Default | Description                                         |
 | -------- | :----: | :------: | :-----: | --------------------------------------------------- |
-| `env_id` | string |    Y     |    -    | 騰訊雲環境 ID 或 自搭建服務器 URL。                 |
+| `env_id` | string |    Y     |    -    | 騰訊雲環境 ID 或自搭建服務器 URL。                 |
 | `region` | string |    -     |    -    | 騰訊雲環境地域，如：`ap-shanghai`、`ap-guangzhou`。 |
 
 {{% bs/config-toggle params %}}
