@@ -72,7 +72,7 @@ git push origin main
 
 ## Hugo 模塊代理（可選）
 
-如果你在中國大陸沒有 VPN，Hugo 模塊的下載可能會失敗。另請參閱[Go 和 Hugo 代理服務器](https://hugomods.com/zh-hans/blog/2023/04/go-和-hugo-代理服務器/)。
+如果你在中國大陸沒有 VPN，Hugo 模塊的下載可能會失敗。另請參閱[Go 和 Hugo 代理服務器](https://hugomods.com/zh-hant/blog/2023/04/go-和-hugo-代理服務器/)。
 
 ## 安裝構建工具
 

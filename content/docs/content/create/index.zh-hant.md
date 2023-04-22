@@ -16,7 +16,7 @@ images:
 authors:
   - HB
 aliases:
-  - /zh-hans/docs/content/add
+  - /zh-hant/docs/content/add
   - /zh-hans/docs/content/archetypes
 ---
 

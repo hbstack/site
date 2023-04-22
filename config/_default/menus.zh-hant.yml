@@ -89,7 +89,7 @@ footer:
   - name: 圖標
     parent: projects
     weight: 13
-    url: https://hugomods.com/zh-hans/icons/
+    url: https://hugomods.com/zh-hant/icons/
     params:
       icon:
         vendor: font-awesome-solid

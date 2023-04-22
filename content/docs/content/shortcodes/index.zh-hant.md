@@ -40,7 +40,7 @@ tags:
   - 圖片鏈接
   - 圖標
 alias:
-  - /zh-hans/docs/shortcodes/
+  - /zh-hant/docs/shortcodes/
   - /zh-hans/docs/diagrams/
   - /zh-hans/docs/math/
 ---

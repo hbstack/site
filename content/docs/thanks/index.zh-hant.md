@@ -6,5 +6,5 @@ nav_icon:
   vendor: bs
   name: hearts
   className: text-danger
-redirect: /zh-hans/thanks/
+redirect: /zh-hant/thanks/
 ---

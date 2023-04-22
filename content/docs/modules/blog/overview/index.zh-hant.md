@@ -12,7 +12,7 @@ tags:
   - 博客
 images:
 aliases:
-  - /zh-hans/docs/modules/blog/archives/
+  - /zh-hant/docs/modules/blog/archives/
 ---
 
 博客模塊爲博客站點提供了基本的佈局和模板。

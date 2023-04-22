@@ -61,7 +61,7 @@ menu:
 | ------------------ | ---------------------- |
 | `menus.en.*`       | 英文站點菜單。  |
 | `params.en.*`      | 英文站點參數。 |
-| `menus.zh-hans.*`  | 中文站點菜單。|
+| `menus.zh-hant.*`  | 中文站點菜單。|
 | `params.zh-hans.*` | 中文站點參數。|
 
 詳情請參閱 [Hugo Multilingual Mode](https://gohugo.io/content-management/multilingual/)。

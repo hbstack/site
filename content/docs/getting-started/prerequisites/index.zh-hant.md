@@ -61,7 +61,7 @@ HB 是一個模塊化的框架，需要[安裝 Go 語言](https://golang.google.
 HB 使用 Hugo Pipes 來編譯 SCSS，因此需要擴展版（**extended**）的 [Hugo](https://gohugo.io/installation/)。
 
 {{% bs/collapse "通過 Go 安裝 Hugo" %}}
-若你位於中國大陸而沒有 VPN 時，你需要先設置 [Go 代理服務器](https://hugomods.com/zh-hans/blog/2023/04/go-和-hugo-代理服務器/)。
+若你位於中國大陸而沒有 VPN 時，你需要先設置 [Go 代理服務器](https://hugomods.com/zh-hant/blog/2023/04/go-和-hugo-代理服務器/)。
 {{< code-snippet install-hugo-via-go >}}
 {{% /bs/collapse %}}
 
