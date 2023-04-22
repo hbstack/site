@@ -30,7 +30,7 @@ Install the HB theme in one minute.
 
 {{< asciinema id=576711 speed=2 >}}
 
-Since there are a lot of images, Hugo server takes a long time to process on first run. You may want to remove the unused images and commit the `resources/images` folder to improve the build performance.
+Hugo server takes a long time to process on first run to download modules and process a lot of images. You may want to remove the unused images and commit the `resources/images` folder to improve the build performance.
 
 ### Clone Repository
 
