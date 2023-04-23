@@ -23,16 +23,18 @@ The blog module provides the basic layouts and templates for blog site.
 
 ## Site Parameters
 
-| Parameter             |  Type   |   Default    | Description                                 |
-| --------------------- | :-----: | :----------: | ------------------------------------------- |
-| `paginate`            | number  |     `9`      | How many posts per list page.               |
-| `post_date_format`    | string  | `:date_long` | The date format.                            |
-| `post_thumbnail`      | boolean |    `true`    | Whether to display thumbnail.               |
-| `archives`            | object  |              | Archives settings.                          |
-| `archives.paginate`   | number  |     `30`     | How many posts per page.                    |
-| `home`                | object  |              | Homepage settings.                          |
-| `home.featured_posts` | number  |     `10`     | The number of featured posts.               |
-| `home.main_sections`  |  array  |      -       | The main sections of posts, default to ALL. |
+| Parameter                    |  Type   |        Default         | Description                                              |
+| ---------------------------- | :-----: | :--------------------: | -------------------------------------------------------- |
+| `paginate`                   | number  |          `9`           | How many posts per list page.                            |
+| `post_date_format`           | string  |      `:date_long`      | The date format.                                         |
+| `post_thumbnail`             | boolean |         `true`         | Whether to display thumbnail.                            |
+| `post_thumbnail_default`     | string  | `images/thumbnail.png` | The default thumbnail image relative to `assets` folder. |
+| `post_thumbnail_placeholder` | string  |      Site's title      | The thumbnail placeholder.                               |
+| `archives`                   | object  |                        | Archives settings.                                       |
+| `archives.paginate`          | number  |          `30`          | How many posts per page.                                 |
+| `home`                       | object  |                        | Homepage settings.                                       |
+| `home.featured_posts`        | number  |          `10`          | The number of featured posts.                            |
+| `home.main_sections`         |  array  |           -            | The main sections of posts, default to ALL.              |
 
 {{< bs/config-toggle params >}}
 {{% code-snippet params.yaml %}}

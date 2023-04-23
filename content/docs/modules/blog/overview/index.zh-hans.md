@@ -23,16 +23,18 @@ aliases:
 
 ## 站点参数
 
-| Parameter             |  Type   |   Default    | Description              |
-| --------------------- | :-----: | :----------: | ------------------------ |
-| `paginate`            | number  |     `9`      | 每页博文数量。           |
-| `post_date_format`    | string  | `:date_long` | 博文日期格式。           |
-| `post_thumbnail`      | boolean |    `true`    | 是否显示缩略图。         |
-| `archives`            | object  |              | 归档设置。               |
-| `archives.paginate`   | number  |     `30`     | 归档每页博文数量。       |
-| `home`                | object  |              | 博客首页设置。           |
-| `home.featured_posts` | number  |     `10`     | 特刊博文数量。           |
-| `home.main_sections`  |  array  |      -       | 博文栏目，默认所有栏目。 |
+| Parameter                    |  Type   |        Default         | Description                          |
+| ---------------------------- | :-----: | :--------------------: | ------------------------------------ |
+| `paginate`                   | number  |          `9`           | 每页博文数量。                       |
+| `post_date_format`           | string  |      `:date_long`      | 博文日期格式。                       |
+| `post_thumbnail`             | boolean |         `true`         | 是否显示缩略图。                     |
+| `post_thumbnail_default`     | string  | `images/thumbnail.png` | 相对于 `assets` 文件夹的默认缩略图。 |
+| `post_thumbnail_placeholder` | string  |        站点标题        | 缩略图占位符。                       |
+| `archives`                   | object  |                        | 归档设置。                           |
+| `archives.paginate`          | number  |          `30`          | 归档每页博文数量。                   |
+| `home`                       | object  |                        | 博客首页设置。                       |
+| `home.featured_posts`        | number  |          `10`          | 特刊博文数量。                       |
+| `home.main_sections`         |  array  |           -            | 博文栏目，默认所有栏目。             |
 
 {{< bs/config-toggle params >}}
 {{% code-snippet params.yaml %}}

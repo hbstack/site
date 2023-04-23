@@ -15,7 +15,7 @@ aliases:
   - /zh-hant/docs/modules/blog/archives/
 ---
 
-博客模塊爲博客站點提供了基本的佈局和模板。
+博客模塊為博客站點提供了基本的佈局和模板。
 
 <!--more-->
 
@@ -23,16 +23,18 @@ aliases:
 
 ## 站點參數
 
-| Parameter             |  Type   |   Default    | Description              |
-| --------------------- | :-----: | :----------: | ------------------------ |
-| `paginate`            | number  |     `9`      | 每頁博文數量。           |
-| `post_date_format`    | string  | `:date_long` | 博文日期格式。           |
-| `post_thumbnail`      | boolean |    `true`    | 是否顯示縮略圖。         |
-| `archives`            | object  |              | 歸檔設置。               |
-| `archives.paginate`   | number  |     `30`     | 歸檔每頁博文數量。       |
-| `home`                | object  |              | 博客首頁設置。           |
-| `home.featured_posts` | number  |     `10`     | 特刊博文數量。           |
-| `home.main_sections`  |  array  |      -       | 博文欄目，默認所有欄目。 |
+| Parameter                    |  Type   |        Default         | Description                          |
+| ---------------------------- | :-----: | :--------------------: | ------------------------------------ |
+| `paginate`                   | number  |          `9`           | 每頁博文數量。                       |
+| `post_date_format`           | string  |      `:date_long`      | 博文日期格式。                       |
+| `post_thumbnail`             | boolean |         `true`         | 是否顯示縮略圖。                     |
+| `post_thumbnail_default`     | string  | `images/thumbnail.png` | 相對於 `assets` 文件夾的默認縮略圖。 |
+| `post_thumbnail_placeholder` | string  |        站點標題        | 縮略圖佔位符。                       |
+| `archives`                   | object  |                        | 歸檔設置。                           |
+| `archives.paginate`          | number  |          `30`          | 歸檔每頁博文數量。                   |
+| `home`                       | object  |                        | 博客首頁設置。                       |
+| `home.featured_posts`        | number  |          `10`          | 特刊博文數量。                       |
+| `home.main_sections`         |  array  |           -            | 博文欄目，默認所有欄目。             |
 
 {{< bs/config-toggle params >}}
 {{% code-snippet params.yaml %}}
@@ -58,7 +60,7 @@ aliases:
 
 ### 創建按年歸檔欄目
 
-以 `archives/2023/` 爲例。
+以 `archives/2023/` 為例。
 
 {{% bs/collapse "content/archives/2023/_index.md" primary true %}}
 {{% code-snippet archives-year %}}
@@ -66,7 +68,7 @@ aliases:
 
 ### 創建按月歸檔欄目
 
-以 `archives/2023/01/` 爲例。
+以 `archives/2023/01/` 為例。
 
 {{% bs/collapse "content/archives/2023/01/_index.md" primary true %}}
 {{% code-snippet archives-month %}}
