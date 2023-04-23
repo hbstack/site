@@ -15,7 +15,7 @@ aliases:
   - /zh-hant/docs/modules/blog/archives/
 ---
 
-博客模塊為博客站點提供了基本的佈局和模板。
+博客模塊爲博客站點提供了基本的佈局和模板。
 
 <!--more-->
 
@@ -60,7 +60,7 @@ aliases:
 
 ### 創建按年歸檔欄目
 
-以 `archives/2023/` 為例。
+以 `archives/2023/` 爲例。
 
 {{% bs/collapse "content/archives/2023/_index.md" primary true %}}
 {{% code-snippet archives-year %}}
@@ -68,7 +68,7 @@ aliases:
 
 ### 創建按月歸檔欄目
 
-以 `archives/2023/01/` 為例。
+以 `archives/2023/01/` 爲例。
 
 {{% bs/collapse "content/archives/2023/01/_index.md" primary true %}}
 {{% code-snippet archives-month %}}
