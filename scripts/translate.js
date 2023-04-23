@@ -17,7 +17,7 @@ const zhHantCode = 'zh-hant'; // Traditional Chinese language code.
             if (err) {
                 console.log(err);
             }
-            let data = buf.toString().replace('zh-hans', 'zh-hant');
+            let data = buf.toString().replace(/(?<![.`])zh-hans/gm, zhHantCode);
 
             converter.convertPromise(data).then(converted => {
                 // save translation.
