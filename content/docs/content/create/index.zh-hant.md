@@ -17,7 +17,7 @@ authors:
   - HB
 aliases:
   - /zh-hant/docs/content/add
-  - /zh-hans/docs/content/archetypes
+  - /zh-hant/docs/content/archetypes
 ---
 
 內容是站點最基本，也是最核心的部分，本文將介紹內容的一些基本概念，以及如何創建內容。

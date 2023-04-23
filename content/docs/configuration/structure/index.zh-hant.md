@@ -67,7 +67,7 @@ menu:
 | `menus.*`     | 菜單配置      |
 | `languages.*` | 語言配置      |
 
-Hugo 支持對某一特定語言進行配置，如上所展示的 `menus.en.toml`、`menus.zh-hant.toml`、`params.en.toml` 和 `params.zh-hans.toml`。
+Hugo 支持對某一特定語言進行配置，如上所展示的 `menus.en.toml`、`menus.zh-hans.toml`、`params.en.toml` 和 `params.zh-hans.toml`。
 
 {{< bs/alert danger >}}
 {{% markdownify %}}

@@ -41,8 +41,8 @@ tags:
   - 圖標
 alias:
   - /zh-hant/docs/shortcodes/
-  - /zh-hans/docs/diagrams/
-  - /zh-hans/docs/math/
+  - /zh-hant/docs/diagrams/
+  - /zh-hant/docs/math/
 ---
 
 本文將簡單地介紹如何利用短代碼來豐富你的內容，並列出一些可用的短代碼。
