@@ -32,7 +32,7 @@ authors:
 
 ## 配置安全列表
 
-HB 支持配置 PurgeCSS，此種方式對於通過 JavaScript 使用到的 classes, ids 和 tags 來說十分實用，因爲 Hugo 無法得知 JS 使用了哪些樣式。
+HB 支持配置 PurgeCSS，此種方式對於通過 JavaScript 使用到的 classes、ids 和 tags 來說十分實用，因爲 Hugo 無法得知 JS 使用了哪些樣式。
 
 {{% bs/collapse "assets/hb/modules/[name]/purgecss.config.toml" primary true %}}
 {{% code-snippet purgecss.config.toml %}}
