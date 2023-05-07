@@ -1,8 +1,15 @@
 ---
+type: docs
+aliases:
+  - /zh-hant/docs/develop/style-guide/
 title: "風格指南"
 date: 2022-12-14T20:00:32+08:00
 draft: false
 nav_weight: 1
+nav_icon:
+  vendor: bs
+  name: code-square
+  className: text-danger
 series:
   - 文檔
 categories:

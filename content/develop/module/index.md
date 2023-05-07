@@ -1,7 +1,15 @@
 ---
+type: docs
+aliases:
+  - /en/docs/develop/module/
 title: "Module Guide"
 date: 2023-02-16T14:08:34+08:00
 draft: false
+nav_weight: 1000
+nav_icon:
+  vendor: bs
+  name: boxes
+  className: text-primary
 series:
   - Docs
 categories:
@@ -207,7 +215,7 @@ Finally, let's modify the greeting message in JS way.
 
 ## Test on Production Mode
 
-The styles used by JavaScript will be removed by PurgeCSS, please checkout the [PurgeCSS]({{< relref "docs/develop/purgecss" >}}) section for details.
+The styles used by JavaScript will be removed by PurgeCSS, please checkout the [PurgeCSS]({{< relref "develop/purgecss" >}}) section for details.
 
 The PurgeCSS gets processed on production mode only, we could preview the module on production mode via:
 

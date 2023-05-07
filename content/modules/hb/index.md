@@ -76,7 +76,7 @@ The `custom` is reserved for users.
 {{% /markdownify %}}
 {{< /bs/alert >}}
 
-See also [creating a module]({{< relref "docs/develop/module" >}}).
+See also [creating a module]({{< relref "develop/module" >}}).
 
 ## Site Parameters
 

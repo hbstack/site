@@ -1,12 +1,14 @@
 ---
-title: 文档
+title: 用户手册
 menu:
   main:
+    parent: docs
     weight: 2
     params:
       icon:
         vendor: bs
         name: book
+        className: text-primary
   footer:
     identifier: docs
     weight: 30
