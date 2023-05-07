@@ -30,7 +30,7 @@ images:
 | `repo_id`     | string |    -    | GitHub 倉庫 ID。         |
 | `category_id` | string |    -    | GitHub 倉庫討論分類 ID。 |
 
-這些參數值可以從 [Giscus](https://giscus.app) 上獲取，更多參數請參閱 [Giscus 參數](https://hugomods.com/en/docs/comment-engines/giscus/#site-parameters)。
+詳情請參閱[如何配置 Giscus](https://hugomods.com/en/blog/2023/05/how-to-configure-giscus/) 和 [Giscus 參數](https://hugomods.com/en/docs/comment-engines/giscus/#site-parameters)。
 
 {{< bs/config-toggle params >}}
 {{% code-snippet params.yaml %}}

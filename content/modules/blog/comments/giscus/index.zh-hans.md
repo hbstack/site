@@ -30,7 +30,7 @@ images:
 | `repo_id`     | string |    -    | GitHub 仓库 ID。         |
 | `category_id` | string |    -    | GitHub 仓库讨论分类 ID。 |
 
-这些参数值可以从 [Giscus](https://giscus.app) 上获取，更多参数请参阅 [Giscus 参数](https://hugomods.com/en/docs/comment-engines/giscus/#site-parameters)。
+详情请参阅[如何配置 Giscus](https://hugomods.com/en/blog/2023/05/how-to-configure-giscus/) 和 [Giscus 参数](https://hugomods.com/en/docs/comment-engines/giscus/#site-parameters)。
 
 {{< bs/config-toggle params >}}
 {{% code-snippet params.yaml %}}

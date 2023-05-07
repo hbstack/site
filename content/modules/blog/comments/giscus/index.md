@@ -30,7 +30,7 @@ This module adds support for the [Giscus](https://giscus.app) comments engine, w
 | `repo_id`     | string |    -    | The GitHub repo ID.                 |
 | `category_id` | string |    -    | The GitHub discussions category ID. |
 
-Those parameter's values can be fetched on [Giscus](https://giscus.app), read more about [Giscus Parameters](https://hugomods.com/en/docs/comment-engines/giscus/#site-parameters).
+Read more on [How to Configure Giscus](https://hugomods.com/en/blog/2023/05/how-to-configure-giscus/) and [Giscus Parameters](https://hugomods.com/en/docs/comment-engines/giscus/#site-parameters).
 
 {{< bs/config-toggle params >}}
 {{% code-snippet params.yaml %}}
