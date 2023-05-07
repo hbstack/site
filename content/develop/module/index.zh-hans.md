@@ -1,7 +1,15 @@
 ---
+type: docs
+aliases:
+  - /zh-hans/docs/develop/module/
 title: "模块指南"
 date: 2023-02-16T14:08:34+08:00
 draft: false
+nav_weight: 1000
+nav_icon:
+  vendor: bs
+  name: boxes
+  className: text-primary
 series:
   - 文档
 categories:
@@ -207,7 +215,7 @@ path = "example.com/vendor/hello"
 
 ## 于生产模式下测试
 
-脚本使用到的样式会被 PurgeCSS 移除，详情请参阅 [PurgeCSS]({{< relref "docs/develop/purgecss" >}})。
+脚本使用到的样式会被 PurgeCSS 移除，详情请参阅 [PurgeCSS]({{< relref "develop/purgecss" >}})。
 
 PurgeCSS 只有在生产模式下生效，我们可以通过以下命令于生产模式预览模块。
 

@@ -1,4 +1,8 @@
 main:
+  - name: Docs
+    identifier: docs
+    weight: 1
+
   - name: Support
     identifier: support
     weight: 100

@@ -1,13 +1,14 @@
 ---
-title: Documentations
+title: User Guide
 menu:
   main:
-    name: Docs
+    parent: docs
     weight: 2
     params:
       icon:
         vendor: bs
         name: book
+        className: text-primary
   footer:
     identifier: docs
     weight: 30

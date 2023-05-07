@@ -1,7 +1,15 @@
 ---
+type: docs
+aliases:
+  - /zh-hant/docs/develop/module/
 title: "模塊指南"
 date: 2023-02-16T14:08:34+08:00
 draft: false
+nav_weight: 1000
+nav_icon:
+  vendor: bs
+  name: boxes
+  className: text-primary
 series:
   - 文檔
 categories:
@@ -207,7 +215,7 @@ path = "example.com/vendor/hello"
 
 ## 於生產模式下測試
 
-腳本使用到的樣式會被 PurgeCSS 移除，詳情請參閱 [PurgeCSS]({{< relref "docs/develop/purgecss" >}})。
+腳本使用到的樣式會被 PurgeCSS 移除，詳情請參閱 [PurgeCSS]({{< relref "develop/purgecss" >}})。
 
 PurgeCSS 只有在生產模式下生效，我們可以通過以下命令於生產模式預覽模塊。
 

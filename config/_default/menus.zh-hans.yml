@@ -1,4 +1,8 @@
 main:
+  - name: 文档
+    identifier: docs
+    weight: 1
+
   - name: 支持
     identifier: support
     weight: 100

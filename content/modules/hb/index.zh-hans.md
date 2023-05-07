@@ -76,7 +76,7 @@ HB 将会：
 {{% /markdownify %}}
 {{< /bs/alert >}}
 
-另请参阅[创建模块]({{< relref "docs/develop/module" >}})。
+另请参阅[创建模块]({{< relref "develop/module" >}})。
 
 ## 站点参数
 

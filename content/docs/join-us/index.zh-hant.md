@@ -45,7 +45,7 @@ menu:
 6. [國際化模塊界面](#國際化)。
 7. 通過修正錯別字和翻譯成其他語言來改進文檔。
 8. 在我們的網站上寫任何關於 Hugo 的文章，我們很樂意爲你創建一個作者頁面，例如 [HB Authors]({{< relref "/authors/hb" >}})，並將該文章鏈接到原始頁面。
-9. [實現功能和修復 Bugs]({{< relref "/docs/develop" >}})。
+9. [實現功能和修復 Bugs]({{< relref "develop" >}})。
 10. 通過 [Ko-fi](https://ko-fi.com/razonyang) 和 [PayPal](https://www.paypal.com/paypalme/razonyang) 進行財務捐助。
 
 ## 國際化

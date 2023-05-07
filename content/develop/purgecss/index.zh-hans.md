@@ -1,8 +1,16 @@
 ---
+type: docs
+aliases:
+  - /zh-hans/docs/develop/purgecss/
 title: "PurgeCSS"
 linkTitle: "PurgeCSS"
 date: 2023-04-15T01:02:56+08:00
 draft: false
+nav_weight: 1000
+nav_icon:
+  vendor: simple
+  name: purgecss
+  className: text-success
 series:
   - 文档
 categories:
