@@ -1,6 +1,6 @@
 ---
 type: docs
-title: "開發手冊"
+title: "開發指南"
 aliases:
   - /zh-hant/docs/develop/
 menu:
