@@ -25,10 +25,10 @@ authors:
 ## 選擇正確的鉤子
 
 - [HugoPress 內置鉤子](https://hugomods.com/en/docs/hugopress/#hooks)。
-- [頁頭鉤子]({{< relref "docs/modules/header/overview#hooks" >}})。
-- [頁尾鉤子]({{< relref "docs/modules/footer/overview#hooks" >}})。
-- [博客鉤子]({{< relref "docs/modules/blog/hooks" >}})。
-- [文檔鉤子]({{< relref "docs/modules/docs#hooks" >}})。
+- [頁頭鉤子]({{< relref "modules/header/overview#hooks" >}})。
+- [頁尾鉤子]({{< relref "modules/footer/overview#hooks" >}})。
+- [博客鉤子]({{< relref "modules/blog/hooks" >}})。
+- [文檔鉤子]({{< relref "modules/docs#hooks" >}})。
 - 更多鉤子可以通過我們文檔找到。
 
 本例中，`body-begin` 正是我們需要的鉤子。

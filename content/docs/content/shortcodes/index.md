@@ -102,6 +102,6 @@ The list of extended shortcodes.
 You may need to install the corresponding modules to use the following shortcodes.
 
 - [Icon](https://hugomods.com/en/docs/icons/#use-icons-via-shortcode): display a icon.
-- [Image Link]({{< relref "docs/modules/bigger-picture#image-link-shortcode" >}}): pop up an image when click the image link.
+- [Image Link]({{< relref "modules/enhancement/bigger-picture#image-link-shortcode" >}}): pop up an image when click the image link.
 - [KaTex](https://hugomods.com/en/docs/content/katex#usage): math typesetting.
-- [Mermaid]({{< relref "docs/modules/mermaid#usages" >}}): uses Markdown-inspired text definitions and a renderer to create and modify complex diagrams.
+- [Mermaid]({{< relref "modules/content/mermaid#usages" >}}): uses Markdown-inspired text definitions and a renderer to create and modify complex diagrams.

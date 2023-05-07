@@ -25,10 +25,10 @@ Let's get started with a simple example, which displays a greeting message on th
 ## Choose the Right Hook
 
 - [HugoPress built-in hooks](https://hugomods.com/en/docs/hugopress/#hooks).
-- [Header's hooks]({{< relref "docs/modules/header/overview#hooks" >}}).
-- [Footer's hooks]({{< relref "docs/modules/footer/overview#hooks" >}}).
-- [Blog's hooks]({{< relref "docs/modules/blog/hooks" >}}).
-- [Docs's hooks]({{< relref "docs/modules/docs#hooks" >}}).
+- [Header's hooks]({{< relref "modules/header/overview#hooks" >}}).
+- [Footer's hooks]({{< relref "modules/footer/overview#hooks" >}}).
+- [Blog's hooks]({{< relref "modules/blog/hooks" >}}).
+- [Docs's hooks]({{< relref "modules/docs#hooks" >}}).
 - You can find more on our documentations.
 
 In this example, the `body-begin` hook is the hook we're looking for.
