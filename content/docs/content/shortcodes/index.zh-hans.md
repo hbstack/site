@@ -102,6 +102,6 @@ Bootstrap 短代码列表。
 你可能需要安装相应的模块来使用以下短代码。
 
 - [图标](https://hugomods.com/en/docs/icons/#use-icons-via-shortcode)：显示图标。
-- [图片链接]({{< relref "docs/modules/bigger-picture#shortcode" >}})：当点击图片链接时弹出一个图片。
+- [图片链接]({{< relref "modules/enhancement/bigger-picture#shortcode" >}})：当点击图片链接时弹出一个图片。
 - [KaTex](https://hugomods.com/en/docs/content/katex#usage)：数学排版。
-- [Mermaid]({{< relref "docs/modules/mermaid#usages" >}})：使用受 Markdown 启发的文本定义和一个渲染器来创建和修改复杂的图表。
+- [Mermaid]({{< relref "modules/content/mermaid#usages" >}})：使用受 Markdown 启发的文本定义和一个渲染器来创建和修改复杂的图表。

@@ -21,5 +21,5 @@ The SEO guide for HB sites.
 
 <!--more-->
 
-1. Install the [SEO meta module]({{< relref "docs/modules/meta#seo-meta-module" >}}).
+1. Install the [SEO meta module]({{< relref "modules/meta#seo-meta-module" >}}).
 2. Specified `noindex` parameter on front matter if your don't want search engine to index your page.
