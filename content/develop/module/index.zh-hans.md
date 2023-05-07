@@ -30,7 +30,7 @@ authors:
 
 ## 示例功能
 
-> [源码](ttps://github.com/hbstack/hello)。
+> [源码](https://github.com/hbstack/hello)。
 
 让我们从 `hello` 示例开始，其：
 
