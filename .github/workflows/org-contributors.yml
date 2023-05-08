@@ -1,0 +1,31 @@
+name: Organization Contributors
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */6 * * *'
+
+jobs:
+  contributors:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    name: Update contributors
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Get contributors
+        uses: razonyang/github-org-contributors-action@main
+        id: contributors
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          org: 'hbstack'
+          output: 'data/contributors.toml'
+
+      - name: Commit contributors
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "chore: update contributors"
+          file_pattern: 'data/contributors.toml'
