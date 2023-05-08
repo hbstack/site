@@ -170,6 +170,7 @@ github.com/jakearchibald/idb v7.1.1+incompatible/go.mod h1:AuDoW54s2DKfbclM+Scrn
 github.com/razonyang/hb-mod-thanks v0.1.0 h1:qOfJnm34pOpH4MaTzCCXvBC380GeWgQ80vLL7/7YLwM=
 github.com/razonyang/hb-mod-thanks v0.1.0/go.mod h1:uBqQC2eWFX7oqI3+hZfgPaGbKgqWHGA3zOdwwQmOG+k=
 github.com/razonyang/hb-mod-thanks v0.2.0/go.mod h1:DDIftBCERJx2T1v9VzgRyqLLPFrgw0Z22sPgaYLyOBY=
+github.com/razonyang/hb-mod-thanks v0.3.0/go.mod h1:DDIftBCERJx2T1v9VzgRyqLLPFrgw0Z22sPgaYLyOBY=
 github.com/twbs/bootstrap v5.3.0-alpha3+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/icons v1.10.4 h1:dTJ908V3hAjfooZfF2FaXo76dEX+FV9/PMY60RNq0YY=
 github.com/twbs/icons v1.10.4/go.mod h1:GnRlymgVWp5iVJCMa0Me5b6tFyGpVc2bSxPMRGIJmyA=
