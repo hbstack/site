@@ -1,5 +1,7 @@
 ---
 type: docs
+aliases:
+  - /en/docs/modules/
 title: "Modules"
 date: 2022-12-14T20:00:46+08:00
 draft: false

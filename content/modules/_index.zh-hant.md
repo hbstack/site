@@ -1,5 +1,7 @@
 ---
 type: docs
+aliases:
+  - /zh-hant/docs/modules/
 title: "模塊"
 date: 2022-12-14T20:00:46+08:00
 draft: false

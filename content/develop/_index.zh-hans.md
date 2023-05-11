@@ -1,5 +1,7 @@
 ---
 type: docs
+aliases:
+  - /zh-hans/docs/develop/
 title: "开发指南"
 aliases:
   - /zh-hans/docs/develop/
