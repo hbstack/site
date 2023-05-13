@@ -1,0 +1,6 @@
+params:
+  hb:
+    pagination:
+      alignment: center
+      size: ""
+      siblings: 2
