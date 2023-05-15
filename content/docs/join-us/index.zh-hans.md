@@ -67,8 +67,9 @@ menu:
 
 以下为待国际化的模块列表。
 
-- [Hugo Search Module](https://github.com/hugomods/search) `i18n` and `data/search/i18n` folders。
+- [Hugo Search Module](https://github.com/hugomods/search)：`i18n` 和 `data/search/i18n` 目录
 - [PWA](https://github.com/hugomods/pwa)
+- [Hugo Code Block Panel](https://github.com/hugomods/code-block-panel)：`data/code-block-panel/i18n` 目录
 - [HB Base](https://github.com/hbstack/base)
 - [HB Blog](https://github.com/hbstack/blog)
 - [HB Breadcrumb](https://github.com/hbstack/breadcrumb)
@@ -76,4 +77,5 @@ menu:
 - [HB Docs](https://github.com/hbstack/docs)
 - [HB Gallery](https://github.com/hbstack/gallery)
 - [HB No Script](https://github.com/hbstack/noscript)
+- [HB Pagination](https://github.com/hbstack/pagination)
 - [HB Socials](https://github.com/hbstack/socials)

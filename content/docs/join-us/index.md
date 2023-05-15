@@ -69,6 +69,7 @@ A list of modules that to be internationalized.
 
 - [Hugo Search Module](https://github.com/hugomods/search): `i18n` and `data/search/i18n` folders.
 - [PWA](https://github.com/hugomods/pwa)
+- [Hugo Code Block Panel](https://github.com/hugomods/code-block-panel): `data/code-block-panel/i18n` folders.
 - [HB Base](https://github.com/hbstack/base)
 - [HB Blog](https://github.com/hbstack/blog)
 - [HB Breadcrumb](https://github.com/hbstack/breadcrumb)
@@ -76,4 +77,5 @@ A list of modules that to be internationalized.
 - [HB Docs](https://github.com/hbstack/docs)
 - [HB Gallery](https://github.com/hbstack/gallery)
 - [HB No Script](https://github.com/hbstack/noscript)
+- [HB Pagination](https://github.com/hbstack/pagination)
 - [HB Socials](https://github.com/hbstack/socials)
