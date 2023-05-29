@@ -1,0 +1,10 @@
+params:
+  hb:
+    blog:
+      staticman:
+        branch: main
+        endpoint: https://staticman.hugomods.com/
+        moderation: true
+        property: comments
+        repo: user/repo
+        service: github
