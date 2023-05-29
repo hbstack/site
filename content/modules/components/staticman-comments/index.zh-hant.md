@@ -25,8 +25,6 @@ Staticman 評論模塊爲其他模塊提供了一個靈活的模板，以生成�
 
 {{% hb-module staticman-comments %}}
 
-![Comment Reply Modal](reply-modal.png#center)
-
 ## 特性
 
 - 嵌套評論。

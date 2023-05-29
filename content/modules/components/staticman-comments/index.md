@@ -25,8 +25,6 @@ The staticman comments module ships with flexible template for other modules, to
 
 {{% hb-module staticman-comments %}}
 
-![Comment Reply Modal](reply-modal.png#center)
-
 ## Features
 
 - Nested comments.
