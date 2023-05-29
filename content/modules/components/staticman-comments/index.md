@@ -39,7 +39,9 @@ The staticman comments module ships with flexible template for other modules, to
 
 {{< bs/alert >}}
 {{< markdownify >}}
-We set up a [free Staticman instance](https://staticman.hugomods.com/) (supports GitHub repo only), which can be used in test and production purposes. We suggest setting up your own instance, if there is sensitive data, such as the encrypted reCaptcha secret.
+We set up a [free Staticman instance](https://staticman.hugomods.com/) (supports GitHub repo only), which can be used in test and production purposes.
+You need to install the [Staticman Service GitHub App](https://github.com/apps/staticman-service) for your repos before using this endpoint.
+We suggest setting up your own instance, if there is sensitive data, such as the encrypted reCaptcha secret.
 {{< /markdownify >}}
 {{< /bs/alert >}}
 
@@ -69,3 +71,24 @@ Please change the `my_staticman` as your own to avoid conflicting with other mod
 | `branch`     | string  |    Y     | The branch name, such as `main` and `master`.                               |
 | `property`   | string  |    Y     | The name of Staticman property, for example, `comments`.                    |
 | `moderation` | boolean |    Y     | Whether to enable moderation, should be same as Staticman settings.         |
+| `reCaptcha`  | object  |          | reCaptcha v2.                                                               |
+| `reCaptcha.sitekey` | string |    | reCaptcha v2 site key.                                                      |
+| `reCaptcha.secret`  | string |    | reCaptcha v2 encrypted[^1] secret.                                          |
+
+[^1]: To encrypt sensitive data like reCaptcha secret, you need to navigate to the `https://ennpoint/v3/encrypt/SECRET`, i.e. `https://staticman.hugomods.com/v3/encrypt/MY_SECRET`.
+
+## Staticman Configuration
+
+You also need to create the `staticman.yml` on your repo root, for example.
+
+{{% bs/collapse staticman.yml primary true %}}
+```yaml
+{{% code-snippet staticman.yaml %}}
+```
+{{% /bs/collapse %}}
+
+{{< bs/alert warning >}}
+{{% markdownify %}}
+The `allowedFields`, `path` and `file` are fixed.
+{{% /markdownify %}}
+{{< /bs/alert >}}
