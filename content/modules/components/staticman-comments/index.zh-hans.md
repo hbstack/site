@@ -70,6 +70,7 @@ Staticman 评论模块为其他模块提供了一个灵活的模板，以生成�
 | `branch`     | string  |    Y     | 分支名称，如：`main` 和 `master`。                                 |
 | `property`   | string  |    Y     | Staticman 的属性，如：`comments`。                                 |
 | `moderation` | boolean |    Y     | 是否开启 `moderation`，需与 Staticman 配置相一致。                 |
+| `required_fields` | array |       | 额外的必填项，有效选项：`email` 和 `url`。                          |
 | `reCaptcha`  | object  |          | reCaptcha v2.                                                               |
 | `reCaptcha.sitekey` | string |    | reCaptcha v2 site key.                                                      |
 | `reCaptcha.secret`  | string |    | reCaptcha v2 encrypted[^1] secret.                                          |

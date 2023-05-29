@@ -71,6 +71,7 @@ Please change the `my_staticman` as your own to avoid conflicting with other mod
 | `branch`     | string  |    Y     | The branch name, such as `main` and `master`.                               |
 | `property`   | string  |    Y     | The name of Staticman property, for example, `comments`.                    |
 | `moderation` | boolean |    Y     | Whether to enable moderation, should be same as Staticman settings.         |
+| `required_fields` | array |       | Extra required fields, available options: `email` and `url`.                |
 | `reCaptcha`  | object  |          | reCaptcha v2.                                                               |
 | `reCaptcha.sitekey` | string |    | reCaptcha v2 site key.                                                      |
 | `reCaptcha.secret`  | string |    | reCaptcha v2 encrypted[^1] secret.                                          |

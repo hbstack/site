@@ -19,7 +19,7 @@ authors:
   - HB
 ---
 
-Staticman 評論模塊爲其他模塊提供了一個靈活的模板，以生成評論表單和顯示嵌套的評論。
+Staticman 評論模塊為其他模塊提供了一個靈活的模板，以生成評論表單和顯示嵌套的評論。
 
 <!--more-->
 
@@ -56,7 +56,7 @@ Staticman 評論模塊爲其他模塊提供了一個靈活的模板，以生成�
 
 {{< bs/alert warning >}}
 {{% markdownify %}}
-請將 `my_staticman` 替換爲你自己的，以避免與其他模塊相沖突。
+請將 `my_staticman` 替換為你自己的，以避免與其他模塊相沖突。
 {{% /markdownify %}}
 {{< /bs/alert >}}
 
@@ -69,7 +69,8 @@ Staticman 評論模塊爲其他模塊提供了一個靈活的模板，以生成�
 | `repo`       | string  |    Y     | Git 倉庫名稱, i.e. `user/repo`.                                    |
 | `branch`     | string  |    Y     | 分支名稱，如：`main` 和 `master`。                                 |
 | `property`   | string  |    Y     | Staticman 的屬性，如：`comments`。                                 |
-| `moderation` | boolean |    Y     | 是否開啓 `moderation`，需與 Staticman 配置相一致。                 |
+| `moderation` | boolean |    Y     | 是否開啟 `moderation`，需與 Staticman 配置相一致。                 |
+| `required_fields` | array |       | 額外的必填項，有效選項：`email` 和 `url`。                          |
 | `reCaptcha`  | object  |          | reCaptcha v2.                                                               |
 | `reCaptcha.sitekey` | string |    | reCaptcha v2 site key.                                                      |
 | `reCaptcha.secret`  | string |    | reCaptcha v2 encrypted[^1] secret.                                          |
@@ -88,6 +89,6 @@ Staticman 評論模塊爲其他模塊提供了一個靈活的模板，以生成�
 
 {{< bs/alert warning >}}
 {{% markdownify %}}
-其中 `allowedFields`、`path` 和 `file` 爲固定值。
+其中 `allowedFields`、`path` 和 `file` 為固定值。
 {{% /markdownify %}}
 {{< /bs/alert >}}

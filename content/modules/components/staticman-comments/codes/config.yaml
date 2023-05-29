@@ -6,3 +6,6 @@ params:
     branch: main
     property: comments
     moderation: true
+    required_fields:
+      - email
+      - url
