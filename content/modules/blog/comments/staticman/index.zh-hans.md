@@ -3,7 +3,7 @@ type: docs
 title: "博客 Staticman 评论模块"
 linkTitle: "Staticman"
 date: 2023-05-29T11:49:27+08:00
-draft: true
+draft: false
 nav_weight: 1000
 # nav_icon:
 #   vendor: bs
