@@ -1,0 +1,3 @@
+```go-html-template
+{{ partial "hb/modules/staticman-comments/index" site.Params.my_staticman }}
+```

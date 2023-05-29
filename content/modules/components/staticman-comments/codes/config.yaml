@@ -1,0 +1,8 @@
+params:
+  my_staticman:
+    endpoint: https://staticman.hugomods.com/
+    service: github
+    repo: user/repo
+    branch: main
+    property: comments
+    moderation: true
