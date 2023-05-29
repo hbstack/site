@@ -27,7 +27,7 @@ authors:
 
 ## 站點參數
 
-`hb.blog.staticman` 將作為 Staticman 的參數集名稱。
+`hb.blog.staticman` 將作爲 Staticman 的參數集名稱。
 
 {{% bs/config-toggle hugo %}}
 {{% code-snippet config.yaml %}}
