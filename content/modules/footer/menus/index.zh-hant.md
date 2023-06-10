@@ -50,4 +50,4 @@ authors:
 {{% code-snippet example.yaml %}}
 {{< /bs/config-toggle >}}
 
-上述例子實用 Bootstrap 圖標，你也可以實用其他[圖標](https://hugomods.com/en/icons)，比如 Font Awesome、Feather、Tabler、Simple 等。
+上述例子實用 Bootstrap 圖標，你也可以使用其他[圖標](https://hugomods.com/en/icons)，比如 Font Awesome、Feather、Tabler、Simple 等。
