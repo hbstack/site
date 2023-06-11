@@ -37,11 +37,11 @@ authors:
 
 ## 公告數據文件
 
-該模塊被設計為兼容單語言和多語言站點，你需要於 `data/announcements` 目錄下為每個語言站點創建公告數據文件。
+該模塊被設計爲兼容單語言和多語言站點，你需要於 `data/announcements` 目錄下爲每個語言站點創建公告數據文件。
 
 {{% code-snippet structure %}}
 
-如 `tree` 的結果所示，我們為 `en`、`zh-hans` 和 `zh-hant` 站點定義了公告數據文件。
+如 `tree` 的結果所示，我們爲 `en`、`zh-hans` 和 `zh-hant` 站點定義了公告數據文件。
 
 ### 公告屬性
 
