@@ -1,0 +1,7 @@
+[hello]
+title = "👏 你好，欢迎来到 HB 框架！"
+weight = 1
+
+[announcement-bar]
+title = "📢 公告栏模块发布了，[来看看吧]({{< relref `modules/enhancement/announcement-bar` >}})！"
+weight = 2

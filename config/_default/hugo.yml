@@ -16,6 +16,8 @@ module:
     - path: github.com/razonyang/hb-mod-thanks
 
     - path: github.com/hbstack/preferred-language
+
+    - path: github.com/hbstack/announcement-bar
     
     - path: github.com/hbstack/iframe
 

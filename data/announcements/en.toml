@@ -1,0 +1,7 @@
+[hello]
+title = "👏 Hi there! Welcome to HB framework!"
+weight = 1
+
+[announcement-bar]
+title = "📢 Announcement bar was released, [check it out]({{< relref `modules/enhancement/announcement-bar` >}})!"
+weight = 2
