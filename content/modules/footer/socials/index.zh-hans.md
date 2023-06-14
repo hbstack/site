@@ -33,3 +33,5 @@ authors:
 {{< bs/config-toggle filename=hugo >}}
 {{% code-snippet config.toml %}}
 {{< /bs/config-toggle >}}
+
+> 将 `_color` 设置为 `false` 以禁用彩色图标。

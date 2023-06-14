@@ -34,3 +34,5 @@ The footer's socials generates social links.
 {{< bs/config-toggle filename=hugo >}}
 {{% code-snippet config.toml %}}
 {{< /bs/config-toggle >}}
+
+> To disable the colorful icon by setting `_color` as `false`.

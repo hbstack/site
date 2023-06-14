@@ -1,4 +1,5 @@
 [params.hb.footer.socials]
+_color = false
 github = "hbstack"
 twitter = "razonyang"
 gmail = "mailto:user@example.com"
