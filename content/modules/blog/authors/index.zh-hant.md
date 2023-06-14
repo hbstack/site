@@ -63,4 +63,4 @@ authors:
 {{< /bs/config-toggle >}}
 {{< /bs/collapse >}}
 
-> 將 `socials._color` 設置為 `false` 以禁用彩色圖標。
+> 將 `socials._color` 設置爲 `false` 以禁用彩色圖標。
