@@ -62,3 +62,5 @@ Let's take `HB` as an example.
 {{% code-snippet author %}}
 {{< /bs/config-toggle >}}
 {{< /bs/collapse >}}
+
+> To disable the colorful icon by setting `socials._color` as `false`.
