@@ -34,4 +34,4 @@ authors:
 {{% code-snippet config.toml %}}
 {{< /bs/config-toggle >}}
 
-> 將 `_color` 設置為 `false` 以禁用彩色圖標。
+> 將 `_color` 設置爲 `false` 以禁用彩色圖標。
