@@ -4,6 +4,8 @@ description: >
 hb:
   # debug: true
   logo: images/logo.svg
+  announcement_bar:
+    interval: 2500
   background_image:
     brightness: 20
   header:
