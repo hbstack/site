@@ -1,0 +1,32 @@
+permalinks:
+  blog: /blog/:year/:month/:title
+
+module:
+  imports:
+    - path: github.com/hbstack/meta/recommended
+
+outputs:
+  home:
+    - HTML
+    - Offline
+    - RSS
+    - SearchIndex
+    - WebAppManifest
+
+taxonomies:
+  authors: authors
+  tags: tags
+  categories: categories
+  series: series
+
+build:
+  writeStats: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+    lineNos: true
+    lineNumbersInTable: false
