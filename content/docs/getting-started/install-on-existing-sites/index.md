@@ -34,7 +34,7 @@ HB requires some [build tools]({{< relref "docs/getting-started/prerequisites#bu
 
 ## Tweak Configuration
 
-This guide use the [recommended meta module]({{< relref "modules/meta#recommended-meta-module" >}}) as the starting point for using HB, you can find more available modules on [modules]({{< relref "modules" >}}).
+This guide uses the [recommended meta module]({{< relref "modules/meta#recommended-meta-module" >}}) as the starting point for using HB, you can find more available modules on [modules]({{< relref "modules" >}}).
 
 1. Remove the `theme` setting if present.
 1. Make sure the following required configuration have been set.
@@ -57,7 +57,7 @@ Now you should be able to start the Hugo server to preview, and tweaking the mod
 
 ## Troubleshooting
 
-There are many causes that may make build fails.
+There are many causes that may makes build fails.
 
 - Missing previous theme's shortcodes.
 - Conflicting with previous configurations and parameters.
