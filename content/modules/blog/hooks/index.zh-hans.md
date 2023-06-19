@@ -34,3 +34,4 @@ authors:
 | `hb-blog-post-comments-begin` | 于评论前。               |
 | `hb-blog-post-comments`       | 评论，用于实现评论引擎。 |
 | `hb-blog-post-comments-end`   | 于评论后。               |
+| `hb-blog-sidebar`             | 侧边栏。                 |
