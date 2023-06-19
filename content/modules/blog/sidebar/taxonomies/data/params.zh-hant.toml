@@ -1,0 +1,13 @@
+[count]
+name = "count"
+required = false
+default = true
+type = 'boolean'
+description = '是否顯示分類條目相關聯的文章數量。'
+
+[limit]
+name = "limit"
+required = false
+default = 10
+type = 'number'
+description = '分類條目的最大數量。'

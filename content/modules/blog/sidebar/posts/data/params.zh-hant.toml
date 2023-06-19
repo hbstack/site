@@ -1,0 +1,13 @@
+[featured_posts]
+name = "featured_posts"
+required = false
+default = 5
+type = 'number'
+description = '精選文章的數量。'
+
+[recent_posts]
+name = "recent_posts"
+required = false
+default = 5
+type = 'number'
+description = '最新文章的數量。'
