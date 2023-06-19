@@ -1,0 +1,7 @@
+params:
+  hb:
+    blog:
+      sidebar:
+        taxonomies:
+          count: true
+          limit: 10

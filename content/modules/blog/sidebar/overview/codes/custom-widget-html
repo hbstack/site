@@ -1,0 +1,5 @@
+```go-html-template
+<div class="hb-module text-center bg-primary text-white p-3">
+  CUSTOM SIDEBAR WIDGET
+</div>
+```

@@ -1,0 +1,13 @@
+[featured_posts]
+name = "featured_posts"
+required = false
+default = 5
+type = 'number'
+description = 'The number of featured posts.'
+
+[recent_posts]
+name = "recent_posts"
+required = false
+default = 5
+type = 'number'
+description = 'The number of recent posts.'

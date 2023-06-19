@@ -1,0 +1,7 @@
+params:
+  hb:
+    blog:
+      sidebar:
+        posts:
+          recent_count: 5
+          featured_count: 5

@@ -1,0 +1,13 @@
+[count]
+name = "count"
+required = false
+default = true
+type = 'boolean'
+description = '是否显示分类条目相关联的文章数量。'
+
+[limit]
+name = "limit"
+required = false
+default = 10
+type = 'number'
+description = '分类条目的最大数量。'
