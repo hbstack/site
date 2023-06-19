@@ -101,6 +101,7 @@ Bootstrap 短代碼列表。
 
 你可能需要安裝相應的模塊來使用以下短代碼。
 
+- [加密](https://hugomods.com/en/docs/content/encrypt/)：加密內容。
 - [圖標](https://hugomods.com/en/docs/icons/#use-icons-via-shortcode)：顯示圖標。
 - [圖片鏈接]({{< relref "modules/enhancement/bigger-picture#shortcode" >}})：當點擊圖片鏈接時彈出一個圖片。
 - [KaTex](https://hugomods.com/en/docs/content/katex#usage)：數學排版。

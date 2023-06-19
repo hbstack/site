@@ -101,6 +101,7 @@ The list of extended shortcodes.
 
 You may need to install the corresponding modules to use the following shortcodes.
 
+- [Encrypt](https://hugomods.com/en/docs/content/encrypt/): encrypt contents.
 - [Icon](https://hugomods.com/en/docs/icons/#use-icons-via-shortcode): display a icon.
 - [Image Link]({{< relref "modules/enhancement/bigger-picture#image-link-shortcode" >}}): pop up an image when click the image link.
 - [KaTex](https://hugomods.com/en/docs/content/katex#usage): math typesetting.
