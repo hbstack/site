@@ -3,7 +3,6 @@ type: docs
 title: "博客側邊欄分類模塊"
 linkTitle: "分類"
 date: 2023-06-19T19:03:29+08:00
-draft: true
 nav_weight: 1000
 # nav_icon:
 #   vendor: bs
@@ -27,7 +26,7 @@ authors:
 
 ## 站點參數
 
-{{% parameters params.en.toml %}}
+{{% parameters params.zh-hant.toml %}}
 
 {{< bs/config-toggle hugo >}}
 {{% code-snippet config.yaml %}}

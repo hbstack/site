@@ -3,7 +3,6 @@ type: docs
 title: "Blog Taxonomies Sidebar Module"
 linkTitle: "Taxonomies"
 date: 2023-06-19T19:03:29+08:00
-draft: true
 nav_weight: 1000
 # nav_icon:
 #   vendor: bs

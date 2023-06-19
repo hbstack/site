@@ -3,7 +3,6 @@ type: docs
 title: "博客侧边栏文章模块"
 linkTitle: "文章"
 date: 2023-06-19T19:03:29+08:00
-draft: true
 nav_weight: 1000
 # nav_icon:
 #   vendor: bs
