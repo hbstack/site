@@ -26,7 +26,7 @@ authors:
 
 ## 站點參數
 
-{{% parameters params.zh-hant.toml %}}
+{{% parameters params.zh-hans.toml %}}
 
 {{< bs/config-toggle hugo >}}
 {{% code-snippet config.yaml %}}
