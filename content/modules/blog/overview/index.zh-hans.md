@@ -28,6 +28,7 @@ aliases:
 
 | Parameter                    |  Type   |        Default         | Description                          |
 | ---------------------------- | :-----: | :--------------------: | ------------------------------------ |
+| `full_width`                 | boolean |        `false`         | 是否全宽。                             |
 | `paginate`                   | number  |          `9`           | 每页博文数量。                       |
 | `post_date_format`           | string  |      `:date_long`      | 博文日期格式。                       |
 | `post_thumbnail`             | boolean |         `true`         | 是否显示缩略图。                     |

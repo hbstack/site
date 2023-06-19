@@ -1,5 +1,6 @@
 hb:
   blog:
+    full_width: false
     paginate: 12
     post_date_format: ":date_long"
     post_thumbnail: true

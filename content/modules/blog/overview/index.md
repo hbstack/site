@@ -28,6 +28,7 @@ The blog module provides the basic layouts and templates for blog site.
 
 | Parameter                    |  Type   |        Default         | Description                                              |
 | ---------------------------- | :-----: | :--------------------: | -------------------------------------------------------- |
+| `full_width`                 | boolean |        `false`         | Whether take full width.                                 |
 | `paginate`                   | number  |          `9`           | How many posts per list page.                            |
 | `post_date_format`           | string  |      `:date_long`      | The date format.                                         |
 | `post_thumbnail`             | boolean |         `true`         | Whether to display thumbnail.                            |
