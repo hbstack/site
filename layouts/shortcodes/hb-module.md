@@ -1,3 +1,4 @@
+{{- $overview := site.GetPage "modules/overview" }}
 {{- $path := .Get 0 }}
 {{- $paths := split $path "/" }}
 {{- $name := index $paths 0 }}
@@ -8,3 +9,4 @@
 | Module Path | Version |
 | ---- | ------- |
 | `github.com/hbstack/{{ $path }}` | ![Version](https://img.shields.io/badge/dynamic/json?color=blue&label=version&query=name&url=https://api.razonyang.com/v1/github/tag/hbstack/{{ $name }}?prefix={{ $prefix }}/) |
+| See also [how to use modules]({{ $overview.RelPermalink }}). |
