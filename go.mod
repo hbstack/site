@@ -20,7 +20,7 @@ require (
 	github.com/hbstack/bootstrap v0.1.2 // indirect
 	github.com/hbstack/carousel v0.2.2 // indirect
 	github.com/hbstack/code-block-panel v0.1.1 // indirect
-	github.com/hbstack/contact v0.1.0 // indirect
+	github.com/hbstack/contact v0.1.1 // indirect
 	github.com/hbstack/content-panel v0.2.1 // indirect
 	github.com/hbstack/docs v0.5.0 // indirect
 	github.com/hbstack/docs/modules/breadcrumb v0.1.2 // indirect
@@ -32,6 +32,7 @@ require (
 	github.com/hbstack/docs/modules/toc-scrollspy v0.1.0 // indirect
 	github.com/hbstack/footer v0.2.1 // indirect
 	github.com/hbstack/footer/modules/socials v0.2.0 // indirect
+	github.com/hbstack/form v0.1.1 // indirect
 	github.com/hbstack/hb v0.5.1 // indirect
 	github.com/hbstack/header v0.1.17 // indirect
 	github.com/hbstack/header/modules/docsearch v0.1.2 // indirect
