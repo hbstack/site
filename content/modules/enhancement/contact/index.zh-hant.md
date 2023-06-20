@@ -33,7 +33,7 @@ authors:
 
 ## 已知兼容的表單後端
 
-按字母排序，請隨意於[這裡](https://github.com/hbstack/site/edit/main/data/contact-form-backends.toml)添加兼容的後端。
+按字母排序，請隨意於[這裏](https://github.com/hbstack/site/edit/main/data/contact-form-backends.toml)添加兼容的後端。
 
 {{< contact-form-backends >}}
 
@@ -49,7 +49,7 @@ authors:
 {{% code-snippet contact-page %}}
 {{% /bs/collapse %}}
 
-你還可以使用任意不同於 `/contact` 的自定義路徑，你只需要於前言中設置 `layout` 為 `contact`。以 `/contact-us/` 為例。
+你還可以使用任意不同於 `/contact` 的自定義路徑，你只需要於前言中設置 `layout` 爲 `contact`。以 `/contact-us/` 爲例。
 
 {{% bs/collapse "content/contact-us/_index.md" primary true %}}
 {{% code-snippet contact-page-with-layout %}}
