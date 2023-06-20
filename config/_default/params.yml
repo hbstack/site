@@ -8,6 +8,9 @@ hb:
     interval: 2500
   background_image:
     brightness: 20
+  contact:
+    endpoint: https://formspree.io/f/mnqyewwz
+    recaptcha_sitekey: 6Lf12rImAAAAAB0v75Amp-4Y1QDTFM9Oq9d6me8w
   header:
     fixed: true
     full_width: true
