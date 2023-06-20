@@ -34,7 +34,7 @@ The contact module ships with a layout and shortcode for generating contact form
 
 ## Known Compatible Form Backends
 
-Listed in alphabetically, please feel free add compatible backends [here](https://github.com/hbstack/site/edit/main/data/contact-form-backends.toml).
+Listed in alphabetically, please feel free to add compatible backends [here](https://github.com/hbstack/site/edit/main/data/contact-form-backends.toml).
 
 {{< contact-form-backends >}}
 
