@@ -1,0 +1,16 @@
+[endpoint]
+name = 'endpoint'
+type = 'string'
+required = true
+description = '表单服务后端提供的 URL。'
+
+[file]
+name = 'file'
+type = 'boolean'
+default = false
+description = '是否允许上传文件。'
+
+[recaptcha_sitekey]
+name = 'recaptcha_sitekey'
+type = 'string'
+description = 'reCaptcha v2 的站点密钥。'

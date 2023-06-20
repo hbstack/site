@@ -1,0 +1,16 @@
+[endpoint]
+name = 'endpoint'
+type = 'string'
+required = true
+description = 'The endpoint provided by form backends.'
+
+[file]
+name = 'file'
+type = 'boolean'
+default = false
+description = 'Whether to allow uploading file.'
+
+[recaptcha_sitekey]
+name = 'recaptcha_sitekey'
+type = 'string'
+description = 'The reCaptcha v2 site key.'
