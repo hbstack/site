@@ -31,6 +31,12 @@ authors:
 {{% code-snippet config.yaml %}}
 {{< /bs/config-toggle >}}
 
+## 已知兼容的表单后端
+
+按字母排序，请随意于[这里](https://github.com/hbstack/site/edit/main/data/contact-form-backends.toml)添加兼容的后端。
+
+{{< contact-form-backends >}}
+
 ## 使用方法
 
 可通过多种方式生成联系表单。

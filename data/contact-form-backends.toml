@@ -1,0 +1,7 @@
+[formspree]
+name = "Formspree"
+url = "https://formspree.io/"
+
+[getform]
+name = "Getform.io"
+url = "https://getform.io/"

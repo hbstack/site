@@ -1,0 +1,14 @@
+{{- with index site.Data "contact-form-backends" }}
+<ul>
+  {{- range sort . "name" }}
+  <li>
+    <a
+      href="{{ .url }}"
+      target="_blank"
+      rel="external">
+      {{ .name }}
+    </a>
+  </li>
+  {{- end }}
+</ul>
+{{- end }}
