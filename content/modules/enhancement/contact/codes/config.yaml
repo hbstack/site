@@ -4,3 +4,7 @@ params:
       endpoint: ''
       file: false
       recaptcha_siekey: ''
+      extra_fields:
+        - name: foo
+          type: hidden
+          value: bar

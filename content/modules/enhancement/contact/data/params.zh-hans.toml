@@ -4,6 +4,26 @@ type = 'string'
 required = true
 description = '表单服务后端提供的 URL。'
 
+[extra_fields]
+name = 'extra_fields'
+type = 'array'
+description = '额外字段的数组。'
+
+[extra_fields_name]
+name = 'extra_fields.name'
+type = 'string'
+description = '额外字段名称。'
+
+[extra_fields_type]
+name = 'extra_fields.type'
+type = 'string'
+description = '额外字段的类型。'
+
+[extra_fields_vaule]
+name = 'extra_fields.vaule'
+type = 'string'
+description = '额外字段的值。'
+
 [file]
 name = 'file'
 type = 'boolean'
