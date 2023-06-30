@@ -126,6 +126,7 @@ github.com/hugomods/google-adsense v0.1.0 h1:eykHVCF+JjJRpEQ/b+EkH9aQLQxIdGI8m06
 github.com/hugomods/google-adsense v0.1.0/go.mod h1:zXQIuUr9pIqlNdCzOLY04Rx7oeUm5R+OhUmscNPiI0w=
 github.com/hugomods/google-analytics v0.1.0 h1:lzYr1/WCSvd+tD2TKaVwhUvrZs9FvlDd0yCH7OvQAwE=
 github.com/hugomods/google-analytics v0.1.0/go.mod h1:Q89C3HmPHn2m2VT1INfnLwkpDyyYRLRIPitLA/aFIy8=
+github.com/hugomods/google-analytics v0.2.0/go.mod h1:Q89C3HmPHn2m2VT1INfnLwkpDyyYRLRIPitLA/aFIy8=
 github.com/hugomods/gravatar v0.2.0 h1:642HNhGN7Mw7qefNcUFJKzLoT2zJKt4IQkrS53mIUfA=
 github.com/hugomods/gravatar v0.2.0/go.mod h1:oATWuh5u2XUK/ZKzOD0VEP5I/TZfVZwplTyhT61Q4Fc=
 github.com/hugomods/hugopress v0.2.0 h1:Y9emu6wDnPsr7Rk0VyxWi5KEWreaFxUxPFAeG6euFpk=
