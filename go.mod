@@ -66,7 +66,7 @@ require (
 	github.com/hugomods/google-adsense v0.1.0 // indirect
 	github.com/hugomods/google-analytics v0.2.0 // indirect
 	github.com/hugomods/gravatar v0.2.0 // indirect
-	github.com/hugomods/hugopress v0.2.0 // indirect
+	github.com/hugomods/hugopress v0.2.1 // indirect
 	github.com/hugomods/icons v0.6.0 // indirect
 	github.com/hugomods/icons/vendors/font-awesome v0.6.0 // indirect
 	github.com/hugomods/icons/vendors/simple-icons v1.0.6 // indirect
