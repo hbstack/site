@@ -59,4 +59,8 @@ layout: landing
 
 ## 功能特性 {#features .text-center .mb-5}
 
-{{< bs/icon-grid "zh-hant.features" >}}
+{{< bs/icon-grid  data="zh-hant.features" linkText="" >}}
+
+## 最新文章 {.text-center .mb-5}
+
+{{< bs/article-cards >}}

@@ -59,4 +59,8 @@ layout: landing
 
 ## 功能特性 {#features .text-center .mb-5}
 
-{{< bs/icon-grid "zh-hans.features" >}}
+{{< bs/icon-grid  data="zh-hans.features" linkText="" >}}
+
+## 最新文章 {.text-center .mb-5}
+
+{{< bs/article-cards >}}

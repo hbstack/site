@@ -59,4 +59,8 @@ Fast, responsive, flexible, open source (MIT), modular and feature-rich Hugo Boo
 
 ## Features {#features .text-center .mb-5}
 
-{{< bs/icon-grid "en.features" >}}
+{{< bs/icon-grid data="en.features" linkText="" >}}
+
+## Latest Articles {.text-center .mb-5}
+
+{{< bs/article-cards >}}
