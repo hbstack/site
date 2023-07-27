@@ -30,7 +30,6 @@ authors:
 | `logo_bg`         | string  |    -     | Logo 背景色 background，用於透明背景的 Logo。 |
 | `menus_alignment` | string  | `start`  | 菜單對齊：`start`、`center` 和 `end`。        |
 | `sticky`          | boolean |  `true`  | 是否固定頭部。                                |
-| `theme`           | string  |    -     | 可用主題：`classic`。                         |
 | ~~`theme`~~       | string  |    -     | 自 `v0.4.0` 刪除，另請參閱[主題]({{< relref "modules/header/themes" >}})。 |
 
 > `logo` 參數屬於[核心模塊]({{< relref "modules/hb#站點參數" >}})。
