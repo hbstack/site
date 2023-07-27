@@ -4,6 +4,7 @@ aliases:
   - /zh-hans/docs/modules/header/overview/
 title: 页头概览
 linkTitle: "概览"
+description: 页头模块是一个通用的顶部应用栏，其带有一些实用的子模块，比如搜索表单、社交链接、浅色/深色切换以及语言切换等。
 date: 2023-02-16T23:58:05+08:00
 draft: false
 nav_weight: 1
@@ -18,10 +19,6 @@ authors:
   - HB
 ---
 
-页头模块是一个通用的顶部应用栏，其带有一些实用的子模块，比如搜索表单、社交链接、浅色/深色切换以及语言切换等。
-
-<!--more-->
-
 {{% hb-module header %}}
 
 ## 站点参数
@@ -33,7 +30,7 @@ authors:
 | `logo_bg`         | string  |    -     | Logo 背景色 background，用于透明背景的 Logo。 |
 | `menus_alignment` | string  | `start`  | 菜单对齐：`start`、`center` 和 `end`。        |
 | `sticky`          | boolean |  `true`  | 是否固定头部。                                |
-| `theme`           | string  |    -     | 可用主题：`classic`。                         |
+| ~~`theme`~~       | string  |    -     | 自 `v0.4.0` 删除，另请参阅[主题]({{< relref "modules/header/themes" >}})。 |
 
 > `logo` 参数属于[核心模块]({{< relref "modules/hb#站点参数" >}})。
 
