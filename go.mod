@@ -18,7 +18,7 @@ require (
 	github.com/hbstack/blog/modules/related-posts v0.1.9 // indirect
 	github.com/hbstack/blog/modules/toc-scrollspy v0.1.7 // indirect
 	github.com/hbstack/bootstrap v0.2.0 // indirect
-	github.com/hbstack/carousel v0.2.2 // indirect
+	github.com/hbstack/carousel v0.2.3 // indirect
 	github.com/hbstack/code-block-panel v0.1.1 // indirect
 	github.com/hbstack/contact v0.2.0 // indirect
 	github.com/hbstack/content-panel v0.2.1 // indirect
