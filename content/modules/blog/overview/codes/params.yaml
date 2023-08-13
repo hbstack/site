@@ -7,6 +7,7 @@ hb:
     post_thumbnail_default: "images/thumbnail.png"
     post_thumbnail_placeholder: ""
     home:
+      taxonomies: true
       featured_posts: 5
       main_sections:
         - docs

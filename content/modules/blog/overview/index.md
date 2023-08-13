@@ -39,6 +39,7 @@ The blog module provides the basic layouts and templates for blog site.
 | `home`                       | object  |                        | Homepage settings.                                       |
 | `home.featured_posts`        | number  |          `10`          | The number of featured posts.                            |
 | `home.main_sections`         |  array  |           -            | The main sections of posts, default to ALL.              |
+| `home.taxonomies`            | boolean |         `true`         | Whether to show the taxonomies stat on home page.        |
 
 {{< bs/config-toggle params >}}
 {{% code-snippet params.yaml %}}

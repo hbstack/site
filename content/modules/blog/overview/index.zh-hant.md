@@ -39,6 +39,7 @@ aliases:
 | `home`                       | object  |                        | 博客首頁設置。                       |
 | `home.featured_posts`        | number  |          `10`          | 特刊博文數量。                       |
 | `home.main_sections`         |  array  |           -            | 博文欄目，默認所有欄目。             |
+| `home.taxonomies`            | boolean |         `true`         | 是否於首頁顯示分類統計。             |
 
 {{< bs/config-toggle params >}}
 {{% code-snippet params.yaml %}}
