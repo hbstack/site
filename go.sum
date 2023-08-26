@@ -73,6 +73,7 @@ github.com/hbstack/header v0.8.1 h1:VGYiT93z3YWg8X2FLXUv/TglHzUJiLzVxduH+rzFchw=
 github.com/hbstack/header v0.8.1/go.mod h1:ZnACw6m73xB7Z5TUTyjErh6yURnMDDSWj8BVVrR9/+M=
 github.com/hbstack/header/modules/banner v0.4.2 h1:dbnJ2AD7XZtiVisKPnEegGa0CsfVpneqE9IdEl/US30=
 github.com/hbstack/header/modules/banner v0.4.2/go.mod h1:ugjQu8Y3xQYsk/cjNg0yFMZuxAa5FjSCSNI2TgPJQ6k=
+github.com/hbstack/header/modules/banner v0.4.3/go.mod h1:ugjQu8Y3xQYsk/cjNg0yFMZuxAa5FjSCSNI2TgPJQ6k=
 github.com/hbstack/header/modules/docsearch v0.1.13 h1:bY+UOt7jUoLzWTrIRYGduf+8TljBTkW236Yhfa1EMEI=
 github.com/hbstack/header/modules/docsearch v0.1.13/go.mod h1:yOtRDFKmxCd9V5gEGiI3xE/peNmghMXfy7lIBfZo9Gk=
 github.com/hbstack/header/modules/language-picker v0.1.12 h1:rbhZwVkTQI6OL8aUsmnOk8LSIXON1gZifN8tfbrI1zA=
