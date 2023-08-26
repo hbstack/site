@@ -25,6 +25,7 @@ github.com/hbstack/blog/modules/heading-sign v0.1.11/go.mod h1:sGlRPgNKwL6kafIlT
 github.com/hbstack/blog/modules/heading-sign v0.1.12/go.mod h1:NiRha6ek9POlc6ZxbcP5hxPDva9XCcDAE0SLZ89P7tc=
 github.com/hbstack/blog/modules/post-nav v0.2.8 h1:8mFS6QSKN+Ax5zqx0Ns6WMA/6tqhFbM9UkCEXjN1yvo=
 github.com/hbstack/blog/modules/post-nav v0.2.8/go.mod h1:gHCQOi7E81fgfChgEBeEh23Ig4kvLUgDuh0O3l4ZL6g=
+github.com/hbstack/blog/modules/post-nav v0.2.9/go.mod h1:pKRlCy3s5jvWpLzs4Yf47eH+blIUMZmS3RzxetaJ8GE=
 github.com/hbstack/blog/modules/related-posts v0.1.10 h1:5jttFykL3W/i02sJgFcLdc/P7W+T8xvUtD96SMzMO18=
 github.com/hbstack/blog/modules/related-posts v0.1.10/go.mod h1:nscPM1j+RNjKMQT15yxqe/ejuN5IDsROIks+yXTwqn8=
 github.com/hbstack/blog/modules/toc-scrollspy v0.1.9 h1:f5LbpIHZMZ/hgWGguELm6LdldLofvCWfszQjb0Ke/f4=
@@ -161,5 +162,6 @@ github.com/jakearchibald/idb v7.1.1+incompatible h1:/o1ng3qUjgMUeeKFim3J3tiQAitc
 github.com/jakearchibald/idb v7.1.1+incompatible/go.mod h1:AuDoW54s2DKfbclM+ScrnPp8ahUQ9rHph9bb8sZTEXc=
 github.com/razonyang/hb-mod-thanks v0.3.0 h1:dV9ZsvXyhA+m1NHHY+Osycv3UqME2O5k997DndNOqF8=
 github.com/razonyang/hb-mod-thanks v0.3.0/go.mod h1:DDIftBCERJx2T1v9VzgRyqLLPFrgw0Z22sPgaYLyOBY=
+github.com/twbs/bootstrap v5.3.0+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/icons v1.10.5 h1:F9uvW7cGfDBAautw5aeCmnB3hw4vv3aEQGbHnzcQKaE=
 github.com/twbs/icons v1.10.5/go.mod h1:GnRlymgVWp5iVJCMa0Me5b6tFyGpVc2bSxPMRGIJmyA=
