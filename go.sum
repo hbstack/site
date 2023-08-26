@@ -11,8 +11,6 @@ github.com/hbstack/bigger-picture v0.9.2 h1:JTvg77xSkUBvz0TAX/eVDllFYAxpiCECxwX1
 github.com/hbstack/bigger-picture v0.9.2/go.mod h1:CficQfdxEJx1U/5JOUOSgAqkH40XxdnSRcvLzsyHMl8=
 github.com/hbstack/blog v0.15.6 h1:cwja/Wr8RK0XNBTQsrX6JF9TEummqftPmoVvy9IZ4gk=
 github.com/hbstack/blog v0.15.6/go.mod h1:PUptR70n73JrJPvp7DwG4BsOKSD8vQUVjRFmTreVY4o=
-github.com/hbstack/blog/modules/breadcrumb v0.1.10 h1:oNdOHGFsChsz3R4hXmHEzz2H43wZ/d2isMQZKSBdtP4=
-github.com/hbstack/blog/modules/breadcrumb v0.1.10/go.mod h1:tgG3n8+4Ap71K+tW9dyE4EN5/ZjmXh4jnjRMxUwg1yQ=
 github.com/hbstack/blog/modules/breadcrumb v0.1.11 h1:TxwqOQSawHI1L6fAH0QffIZ7y30Rt69/b1WziawauD0=
 github.com/hbstack/blog/modules/breadcrumb v0.1.11/go.mod h1:m88W4yLWqn29Oc8iIArCE5LXAC2ZefZvw2nQ+YKlT9w=
 github.com/hbstack/blog/modules/content-panel v0.1.10 h1:bPRqZ8ZqVCvMf/02gGxoNwTn/XyDm+jV25SWhCJSH5k=
@@ -161,6 +159,5 @@ github.com/jakearchibald/idb v7.1.1+incompatible h1:/o1ng3qUjgMUeeKFim3J3tiQAitc
 github.com/jakearchibald/idb v7.1.1+incompatible/go.mod h1:AuDoW54s2DKfbclM+ScrnPp8ahUQ9rHph9bb8sZTEXc=
 github.com/razonyang/hb-mod-thanks v0.3.0 h1:dV9ZsvXyhA+m1NHHY+Osycv3UqME2O5k997DndNOqF8=
 github.com/razonyang/hb-mod-thanks v0.3.0/go.mod h1:DDIftBCERJx2T1v9VzgRyqLLPFrgw0Z22sPgaYLyOBY=
-github.com/twbs/bootstrap v5.3.0+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/icons v1.10.5 h1:F9uvW7cGfDBAautw5aeCmnB3hw4vv3aEQGbHnzcQKaE=
 github.com/twbs/icons v1.10.5/go.mod h1:GnRlymgVWp5iVJCMa0Me5b6tFyGpVc2bSxPMRGIJmyA=
