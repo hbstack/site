@@ -15,7 +15,7 @@ require (
 	github.com/hbstack/blog/modules/giscus v0.1.12 // indirect
 	github.com/hbstack/blog/modules/heading-sign v0.1.12 // indirect
 	github.com/hbstack/blog/modules/post-nav v0.2.9 // indirect
-	github.com/hbstack/blog/modules/related-posts v0.1.10 // indirect
+	github.com/hbstack/blog/modules/related-posts v0.1.11 // indirect
 	github.com/hbstack/blog/modules/toc-scrollspy v0.1.9 // indirect
 	github.com/hbstack/bootstrap v0.2.0 // indirect
 	github.com/hbstack/carousel v0.2.3 // indirect
