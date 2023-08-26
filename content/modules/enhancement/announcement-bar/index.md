@@ -24,11 +24,11 @@ The announcement bar module makes important thing stand out, such as news and pr
 
 ## Site Parameters
 
-| Parameter  |  Type  | Default | Description                                             |
-| ---------- | :----: | :-----: | ------------------------------------------------------- |
-| `bg`       | string | primary | The background color.                                   |
-| `color`    | string | `#fff`  | The text color.                                         |
-| `interval` | number | `5000`  | The interval (in millisecond) between of announcements. |
+| Parameter      |  Type  | Default | Description                                             |
+| -------------- | :----: | :-----: | ------------------------------------------------------- |
+| `bg`           | string | primary | The background color.                                   |
+| ~~`color`~~    | string | `#fff`  | The text color.                                         |
+| ~~`interval`~~ | number | `5000`  | The interval (in millisecond) between of announcements. |
 
 {{< bs/config-toggle hugo >}}
 {{% code-snippet config.yaml %}}

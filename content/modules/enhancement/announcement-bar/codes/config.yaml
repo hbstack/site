@@ -1,6 +1,4 @@
 params:
   hb:
     announcement_bar:
-      bg: "#dc3545"
-      color: "#fff"
       interval: 5000

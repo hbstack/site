@@ -25,11 +25,11 @@ authors:
 
 ## 站点参数
 
-| Parameter  |  Type  | Default | Description              |
-| ---------- | :----: | :-----: | ------------------------ |
-| `bg`       | string | primary | 背景颜色。               |
-| `color`    | string | `#fff`  | 文本颜色。               |
-| `interval` | number | `5000`  | 公告的间隔，单位：毫秒。 |
+| Parameter      |  Type  | Default | Description              |
+| -------------- | :----: | :-----: | ------------------------ |
+| `bg`           | string | primary | 背景颜色。               |
+| ~~`color`~~    | string | `#fff`  | 文本颜色。               |
+| ~~`interval`~~ | number | `5000`  | 公告的间隔，单位：毫秒。 |
 
 {{< bs/config-toggle hugo >}}
 {{% code-snippet config.yaml %}}
