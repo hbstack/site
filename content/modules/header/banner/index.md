@@ -47,7 +47,7 @@ Tweak the `hb.header.banner` site parameters to enable the banner all of the pag
 
 ## Page Parameters
 
-Set up the banner for a specify page via setting the `header.banner` parameters on front matter, it will override the site parameters.
+Set up the banner for a specified page via setting the `header.banner` parameters on front matter, it will override the site parameters.
 
 {{< bs/config-toggle >}}
 {{% code-snippet "front-matter.yaml" %}}
