@@ -13,6 +13,8 @@ permalinks:
 
 module:
   imports:
+    - path: github.com/hbstack/header/modules/banner
+
     - path: github.com/hbstack/contact
 
     - path: github.com/razonyang/hb-mod-thanks

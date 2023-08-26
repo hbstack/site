@@ -1,3 +1,7 @@
+[banner]
+title = "🖼️ Header banner module was released, [check it out]({{< relref `modules/header/banner` >}})!"
+weight = -1
+
 [hello]
 title = "👏 Hi there! Welcome to HB framework!"
 weight = 1

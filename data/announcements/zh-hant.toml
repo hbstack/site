@@ -1,3 +1,7 @@
+[banner]
+title = "🖼️ 頁頭橫幅模塊已發佈，[傳送門]({{< relref `modules/header/banner` >}})！"
+weight = -1
+
 [hello]
 title = "👏 你好，歡迎來到 HB 框架！"
 weight = 1
