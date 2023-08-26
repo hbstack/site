@@ -85,6 +85,7 @@ github.com/hbstack/header/modules/search v0.1.19/go.mod h1:u/NaeNfAKX0nHZB32OcwL
 github.com/hbstack/header/modules/search v0.1.21/go.mod h1:gnYVovvdcWFOsOkh1BkSGDGwCZSwj8cK3Ojau8bDdIY=
 github.com/hbstack/header/modules/socials v0.1.14 h1:0mgxGYG8XQCeRXYLCSsl3CNIlUNSytNUMjFIyXLZL+4=
 github.com/hbstack/header/modules/socials v0.1.14/go.mod h1:R8NOw+0rVLa5K7bncxFhzjUdxc5RYn5YZjjOrV89L18=
+github.com/hbstack/header/modules/socials v0.1.15/go.mod h1:UX12ApPuJZ8iVGRpXC3Bi9Y7Hz9xEOXhdDynpeTT4m8=
 github.com/hbstack/header/modules/theme-toggle v0.1.10 h1:1H2GjTkC0gRpAVhONjnDoJVibXMNDxIk0t3gLwZ/DcQ=
 github.com/hbstack/header/modules/theme-toggle v0.1.10/go.mod h1:pDDN8Xpi9vQGuVTksCJvUI9eeqpSITlOmzsrP5SlEPU=
 github.com/hbstack/iframe v0.1.1 h1:npNgmbvZ5TtLE9kvv7xrILOZqLcUYJIq2I8CacW6Yeo=
