@@ -33,13 +33,13 @@ authors:
 | `video.src`   | string |    Y     |        -         | 視頻 URL。                                   |
 | `alignment`   | string |    -     |     `start`      | 內容對齊方式：`start`、`center` 或 `end`。     |
 | `color`       | string |    -     |      `#fff`      | 內容顏色。                                   |
-| `cols`        | string |    -     |    `12 lg:8`     | 內容佔用的列數，默認為：`col-12 col-lg-8`。     |
+| `cols`        | string |    -     |    `12 lg:8`     | 內容佔用的列數，默認爲：`col-12 col-lg-8`。     |
 | `title`       | string |    -     |    Page title    | 橫幅的標題，支持 Markdown。                    |
 | `description` | string |    -     | Page description | 橫幅的描述，支持 Markdown。                    |
 
 ## 站點參數
 
-調整 `hb.header.banner` 站點參數以全局地啟用橫幅。
+調整 `hb.header.banner` 站點參數以全局地啓用橫幅。
 
 {{< bs/config-toggle "hugo" >}}
 {{% code-snippet "params.yaml" %}}
@@ -53,7 +53,7 @@ authors:
 {{% code-snippet "front-matter.yaml" %}}
 {{< /bs/config-toggle >}}
 
-若需要為頁面禁用全局的橫幅設置，可將 `header.banner` 設置為 `false`。
+若需要爲頁面禁用全局的橫幅設置，可將 `header.banner` 設置爲 `false`。
 
 {{< bs/config-toggle >}}
 {{% code-snippet "disable.yaml" %}}
