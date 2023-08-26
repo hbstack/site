@@ -4,32 +4,32 @@ go 1.18
 
 require (
 	github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20003 // indirect
-	github.com/hbstack/announcement-bar v0.1.0 // indirect
+	github.com/hbstack/announcement-bar v0.2.1 // indirect
 	github.com/hbstack/back-to-top v0.1.2 // indirect
 	github.com/hbstack/base v0.2.1 // indirect
 	github.com/hbstack/bigger-picture v0.9.2 // indirect
 	github.com/hbstack/blog v0.15.6 // indirect
 	github.com/hbstack/blog/modules/breadcrumb v0.1.11 // indirect
-	github.com/hbstack/blog/modules/content-panel v0.1.9 // indirect
+	github.com/hbstack/blog/modules/content-panel v0.1.10 // indirect
 	github.com/hbstack/blog/modules/featured-image v0.2.9 // indirect
-	github.com/hbstack/blog/modules/giscus v0.1.11 // indirect
+	github.com/hbstack/blog/modules/giscus v0.1.12 // indirect
 	github.com/hbstack/blog/modules/heading-sign v0.1.11 // indirect
 	github.com/hbstack/blog/modules/post-nav v0.2.8 // indirect
 	github.com/hbstack/blog/modules/related-posts v0.1.10 // indirect
-	github.com/hbstack/blog/modules/toc-scrollspy v0.1.8 // indirect
+	github.com/hbstack/blog/modules/toc-scrollspy v0.1.9 // indirect
 	github.com/hbstack/bootstrap v0.2.0 // indirect
 	github.com/hbstack/carousel v0.2.3 // indirect
 	github.com/hbstack/code-block-panel v0.1.1 // indirect
 	github.com/hbstack/contact v0.2.0 // indirect
 	github.com/hbstack/content-panel v0.2.1 // indirect
-	github.com/hbstack/docs v0.6.2 // indirect
+	github.com/hbstack/docs v0.6.3 // indirect
 	github.com/hbstack/docs/modules/breadcrumb v0.1.4 // indirect
-	github.com/hbstack/docs/modules/content-panel v0.1.3 // indirect
+	github.com/hbstack/docs/modules/content-panel v0.1.4 // indirect
 	github.com/hbstack/docs/modules/doc-nav v0.2.3 // indirect
 	github.com/hbstack/docs/modules/featured-image v0.2.3 // indirect
-	github.com/hbstack/docs/modules/giscus v0.1.5 // indirect
+	github.com/hbstack/docs/modules/giscus v0.1.6 // indirect
 	github.com/hbstack/docs/modules/heading-sign v0.1.4 // indirect
-	github.com/hbstack/docs/modules/toc-scrollspy v0.1.2 // indirect
+	github.com/hbstack/docs/modules/toc-scrollspy v0.1.3 // indirect
 	github.com/hbstack/footer v0.2.2 // indirect
 	github.com/hbstack/footer/modules/socials v0.2.1 // indirect
 	github.com/hbstack/form v0.1.1 // indirect
