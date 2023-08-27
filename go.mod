@@ -44,7 +44,7 @@ require (
 	github.com/hbstack/iframe v0.1.1 // indirect
 	github.com/hbstack/mermaid v0.1.0 // indirect
 	github.com/hbstack/meta/blog v0.2.6 // indirect
-	github.com/hbstack/meta/content v0.4.4 // indirect
+	github.com/hbstack/meta/content v0.4.5 // indirect
 	github.com/hbstack/meta/docs v0.2.7 // indirect
 	github.com/hbstack/meta/footer v0.2.4 // indirect
 	github.com/hbstack/meta/header v0.2.4 // indirect
@@ -61,7 +61,7 @@ require (
 	github.com/hbstack/syntax-highlighting/styles/gruvbox v0.1.0 // indirect
 	github.com/hbstack/toc-scrollspy v0.1.0 // indirect
 	github.com/hugomods/base v0.1.0 // indirect
-	github.com/hugomods/bootstrap v0.9.0 // indirect
+	github.com/hugomods/bootstrap v0.9.1 // indirect
 	github.com/hugomods/fuse-js v0.1.0 // indirect
 	github.com/hugomods/giscus v0.1.0 // indirect
 	github.com/hugomods/google-adsense v0.1.0 // indirect
