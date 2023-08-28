@@ -13,7 +13,7 @@ nav_icon:
 menu:
   main:
     identifier: modules
-    weight: 100
+    weight: 80
     params:
       icon:
         vendor: bs
