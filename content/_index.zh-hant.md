@@ -45,7 +45,7 @@ header:
 
 ## 功能特性 {#features .text-center .mb-5}
 
-{{< bs/icon-grid  data="zh-hans.features" linkText="" >}}
+{{< bs/icon-grid  data="zh-hant.features" linkText="" >}}
 
 ## 最新文章 {.text-center .mb-5}
 
