@@ -30,6 +30,7 @@ hb:
         - blog
         - docs
         - news
+        - modules
     paginate: 9
     giscus:
       repo: hbstack/site

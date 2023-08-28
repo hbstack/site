@@ -1,8 +1,7 @@
 ---
-title: 博客
+title: Blog
 date: 2023-02-26T18:24:31+08:00
 draft: false
-summary: 博客主頁例子。
 layout: blog
 menu:
   main:

@@ -1,6 +1,8 @@
 +++
 title = "Markdown 语法指南"
 date = "2020-11-09"
+featured = true
+pinned = true
 categories = [
 ]
 tags = [

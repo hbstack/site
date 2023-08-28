@@ -6,7 +6,7 @@ title: "Bigger Picture 模塊"
 linkTitle: "Bigger Picture"
 date: 2023-02-19T13:39:32+08:00
 draft: false
-pinned: true
+pinned: false
 series:
   - 文檔
 categories:
