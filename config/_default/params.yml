@@ -67,7 +67,10 @@ hb:
       repo: hbstack/site
       branch: main
       # subpath: exampleSite
-
+  thanks:
+    socials:
+      paypal: razonyang
+      kofi: razonyang
 pwa:
   icon_path: images/logo.png
   icon_sizes: [192, 512]

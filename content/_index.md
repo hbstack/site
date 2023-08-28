@@ -1,8 +1,34 @@
 ---
 title: "HB - Hugo Bootstrap Framework"
+description: Build fast, responsive sites with Hugo Bootstrap Framework
 date: 2022-09-24T18:24:31+08:00
 draft: false
 layout: landing
+header:
+  banner:
+    alignment: center
+    img: /images/banners/home.jpg
+    title: |
+      HB Framework
+      { .text-uppercase .mb-5 data-aos="fade-up" }
+    description: |
+      Build **fast**, **modern**, **responsive** and **modular** static sites with Hugo and Bootstrap
+      { .mb-5 data-aos="fade-up" data-aos-delay="200" }
+
+      {{< html/div
+        data-aos="fade-up"
+        data-aos-delay="300"
+        class="d-grid gap-3 d-sm-flex justify-content-sm-center flex-wrap" >}}
+        {{< bs/btn-link style=primary size=lg class="py-3" url="/docs" >}}
+          {{< icons/icon vendor=bootstrap name=book className="me-1" >}} Read the docs
+        {{< /bs/btn-link >}}
+        {{< bs/btn-link style=light size=lg class="py-3" url="/modules" >}}
+          {{< icons/icon vendor=bootstrap name=boxes className="me-1" >}} Modules
+        {{< /bs/btn-link >}}
+        {{< bs/btn-link style=danger size=lg class="py-3" url="/thanks" >}}
+          {{< icons/icon vendor=bootstrap name=heart className="me-1" >}} Thanks
+        {{< /bs/btn-link >}}
+      {{< /html/div >}}
 # menu:
 #   main:
 #     name: Home
@@ -13,47 +39,7 @@ layout: landing
 #         name: house
 ---
 
-{{< hero >}}
-{{< hero-img "images/logo.png" >}}
-{{< hero-heading "Build fast, responsive sites with Hugo Bootstrap Framework" >}}
-{{< hero-lead >}}
-Fast, responsive, flexible, open source (MIT), modular and feature-rich Hugo Bootstrap Framework (HB).
-{{< /hero-lead >}}
-
-<div class="mt-4 d-flex align-items-center justify-content-center flex-wrap">
-  <a class="btn btn-lg btn-primary fw-semibold mb-2 py-3 mx-2" href="{{< relref `docs` >}}">
-    {{< icons/icon vendor=bootstrap name=book className="me-1" >}} Read the docs
-  </a>
-  <div class="btn-group btn-group-lg">
-    <button type="button" class="btn btn-success dropdown-toggle fw-semibold mb-2 py-3 mx-2" data-bs-toggle="dropdown" aria-expanded="false">
-      {{< icons/icon vendor=bootstrap name=arrow-right className="me-1" >}} Getting started
-    </button>
-    <ul class="dropdown-menu">
-      <li>
-        <a class="dropdown-item" href="{{< relref `docs/getting-started/introduction` >}}">
-          {{< icons/icon vendor=fas name=hands-clapping className="me-1" >}} Introduction
-        </a>
-      </li>
-      <li>
-        <a class="dropdown-item" href="{{< relref `docs/getting-started/prerequisites` >}}">
-          {{< icons/icon vendor=bootstrap name=tools className="me-1" >}} Prerequisites
-        </a>
-      </li>
-      <li>
-        <a class="dropdown-item" href="{{< relref `docs/getting-started/installation` >}}">
-          {{< icons/icon vendor=bootstrap name=cloud-download className="me-1" >}} Installation
-        </a>
-      </li>
-    </ul>
-  </div>
-  <a class="btn btn-lg btn-outline-primary fw-semibold mb-2 py-3 mx-2" href="{{< relref `docs/join-us` >}}">
-    {{< icons/icon vendor=fas name=handshake className="me-1" >}} Join us
-  </a>
-  <a class="btn btn-lg btn-outline-danger fw-semibold mb-2 py-3 mx-2" href="{{< relref `thanks` >}}">
-    {{< icons/icon vendor=bs name=hearts className="me-1" >}} Thanks
-  </a>
-</div>
-{{< /hero >}}
+## Sponsors {#sponsors .text-center .mb-5}
 
 {{< sponsors >}}
 

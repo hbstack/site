@@ -1,19 +1,23 @@
-[[bronze]]
-name = "Become a backer"
-url = "https://ko-fi.com/razonyang"
+# [[bronze]]
+# name = "Become a backer"
+# url = "https://ko-fi.com/razonyang"
+
+# [[gold]]
+# name = "Become a backer"
+# url = "https://ko-fi.com/razonyang"
 
 [[gold]]
-name = "Become a backer"
-url = "https://ko-fi.com/razonyang"
-
-[[gold]]
-name = "luigi8bits"
+name = "Luigi"
 url = "https://github.com/luigi8bits"
+weight = 2
+avatar_url = "https://storage.ko-fi.com/cdn/useruploads/f5b92e0b-179f-486f-b548-92682f81f0ee.png"
 
 [[gold]]
 name = "Wilson E. Alvarez"
 url = "https://github.com/Rubonnek"
+weight = 1
+avatar_url = "https://avatars.githubusercontent.com/u/8337880?v=4"
 
-[[silver]]
-name = "Become a backer"
-url = "https://ko-fi.com/razonyang"
+# [[silver]]
+# name = "Become a backer"
+# url = "https://ko-fi.com/razonyang"
