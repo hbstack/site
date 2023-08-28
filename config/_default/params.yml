@@ -25,6 +25,7 @@ hb:
       twitter: razonyang
       mastodon: razonyang
   blog:
+    post_thumbnail_default: /images/thumbnail.jpg
     home:
       main_sections:
         - blog
