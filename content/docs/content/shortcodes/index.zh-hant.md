@@ -1,6 +1,7 @@
 ---
 title: "短代碼"
 linkTitle: "短代碼"
+description: "各種各樣的段代碼列表。"
 date: 2023-04-11
 nav_weight: 4
 # nav_icon:

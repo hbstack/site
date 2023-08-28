@@ -1,5 +1,8 @@
 ---
 title: "Introduction"
+description: |
+  HB (Hugo Bootstrap) is a modular framework that built on top of Hugo and Bootstrap v5.3.0+.
+  HB is not a theme, it's used to build one.
 date: 2022-12-14T19:53:42+08:00
 draft: false
 nav_weight: 1
@@ -18,8 +21,6 @@ menu:
         vendor: fas
         name: hands-clapping
 ---
-
-HB (Hugo Bootstrap) is a modular framework that built on top of [Hugo](https://gohugo.io) and [Bootstrap v5.3.0+](https://getbootstrap.com). HB is not a theme, it's used to build one.
 
 ## Motivations
 

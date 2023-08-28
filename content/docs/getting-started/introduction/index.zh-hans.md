@@ -1,5 +1,8 @@
 ---
 title: "简介"
+description: |
+  HB（Hugo Bootstrap）是一个模块化的框架，其构建于 Hugo 和 Bootstrap 之上。
+  HB 不是一个主题，而是用来建立一个主题的。
 date: 2022-12-14T19:53:42+08:00
 draft: false
 nav_weight: 1
@@ -18,8 +21,6 @@ menu:
         vendor: fas
         name: hands-clapping
 ---
-
-HB（Hugo Bootstrap）是一个模块化的框架，其构建于 [Hugo](https://gohugo.io) 和 [Bootstrap v5.3.0+](https://getbootstrap.com) 之上。HB 不是一个主题，而是用来建立一个主题的。
 
 ## 动机
 

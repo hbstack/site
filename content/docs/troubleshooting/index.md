@@ -1,5 +1,6 @@
 +++
 title = "Troubleshooting"
+description = "The list of known issues and corresponding solutions."
 date = 2022-12-19T15:03:19+08:00
 draft = false
 nav_weight = 1000

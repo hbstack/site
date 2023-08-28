@@ -28,6 +28,8 @@ authors:
 
 想要创建和分享你的创意 HB 模块吗？这里有你想要知道的一切。
 
+<!--more-->
+
 ## 示例功能
 
 > [源码](https://github.com/hbstack/hello)。

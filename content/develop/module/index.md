@@ -28,6 +28,8 @@ authors:
 
 Do you want to create and share your creative HB modules? Here is everything you want to know.
 
+<!--more-->
+
 ## Example Functionalities
 
 > [Source code](https://github.com/hbstack/hello).

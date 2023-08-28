@@ -1,6 +1,7 @@
 ---
 title: "短代码"
 linkTitle: "短代码"
+description: "各种各样的段代码列表。"
 date: 2023-04-11
 nav_weight: 4
 # nav_icon:

@@ -1,5 +1,7 @@
 ---
 title: "Prerequisites"
+description: |
+  HB is a feature-rich framework, but it also has a certain complexity. This article will detail the requirements for HB so that you can develop and use HB modules and themes properly.
 date: 2022-12-19T14:53:42+08:00
 draft: false
 tags:
@@ -29,8 +31,6 @@ menu:
         vendor: bs
         name: card-checklist
 ---
-
-HB is a feature-rich framework, but it also has a certain complexity. This article will detail the requirements for HB so that you can develop and use HB modules and themes properly.
 
 ## Required Configurations
 

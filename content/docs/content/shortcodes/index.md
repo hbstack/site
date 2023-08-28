@@ -1,6 +1,7 @@
 ---
 title: "Shortcodes"
 linkTitle: "Shortcodes"
+description: "A list of various shortcodes."
 date: 2023-04-11
 nav_weight: 4
 # nav_icon:
