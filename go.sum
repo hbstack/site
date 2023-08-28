@@ -7,6 +7,7 @@ github.com/hbstack/announcement-bar v0.2.2/go.mod h1:C6cPozrXTz/hh/EtgzN4MdL9QjF
 github.com/hbstack/announcement-bar v0.2.3/go.mod h1:C6cPozrXTz/hh/EtgzN4MdL9QjF4BSGSCFn/x8Wv36w=
 github.com/hbstack/announcement-bar v0.2.4/go.mod h1:C6cPozrXTz/hh/EtgzN4MdL9QjF4BSGSCFn/x8Wv36w=
 github.com/hbstack/announcement-bar v0.2.5/go.mod h1:C6cPozrXTz/hh/EtgzN4MdL9QjF4BSGSCFn/x8Wv36w=
+github.com/hbstack/announcement-bar v0.3.0/go.mod h1:C6cPozrXTz/hh/EtgzN4MdL9QjF4BSGSCFn/x8Wv36w=
 github.com/hbstack/back-to-top v0.1.2 h1:eQ05oJjjl6ByFMKjuSCYJDLl5i5DCRyUt7Z5EdsxzIU=
 github.com/hbstack/back-to-top v0.1.2/go.mod h1:/Hc4gkEbdaNLSd5j7jjYsvjl39UBX0bTO5/g4ltNfR0=
 github.com/hbstack/base v0.2.1 h1:u3lkO9MhjA6HomkJ6hzt0R7sA0u330bo6lbxVrF1FiI=
