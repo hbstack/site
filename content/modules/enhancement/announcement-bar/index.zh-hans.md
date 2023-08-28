@@ -25,11 +25,12 @@ authors:
 
 ## 站点参数
 
-| Parameter      |  Type  | Default | Description              |
-| -------------- | :----: | :-----: | ------------------------ |
-| `bg`           | string | primary | 背景颜色。               |
-| ~~`color`~~    | string | `#fff`  | 文本颜色。               |
-| ~~`interval`~~ | number | `5000`  | 公告的间隔，单位：毫秒。 |
+| Parameter   |  Type  | Default | Description              |
+| ----------- | :----: | :-----: | ------------------------ |
+| ~~`bg`~~    | string | primary | 背景颜色。               |
+| ~~`color`~~ | string | `#fff`  | 文本颜色。               |
+| `interval`  | number | `5000`  | 公告的间隔，单位：毫秒。 |
+| `expand_stall_threshold` | number | `500` | 鼠标悬停于公告栏时展开所有公告所需要经过的毫秒数。 |
 
 {{< bs/config-toggle hugo >}}
 {{% code-snippet config.yaml %}}
