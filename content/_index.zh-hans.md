@@ -1,8 +1,34 @@
 ---
 title: "HB - Hugo Bootstrap 框架"
+description: 
 date: 2022-09-24T18:24:31+08:00
 draft: false
 layout: landing
+header:
+  banner:
+    alignment: center
+    img: /images/banners/home.jpg
+    title: |
+      HB 框架
+      { .text-uppercase .mb-5 data-aos="fade-up" }
+    description: |
+      使用 Hugo 和 Bootstrap 构建**快速**、**现代**、**响应式**和**模块化**的静态网站。
+      { .mb-5 data-aos="fade-up" data-aos-delay="200" }
+
+      {{< html/div
+        data-aos="fade-up"
+        data-aos-delay="300"
+        class="d-grid gap-3 d-sm-flex justify-content-sm-center flex-wrap" >}}
+        {{< bs/btn-link style=primary size=lg class="py-3" url="/docs" >}}
+          {{< icons/icon vendor=bootstrap name=book className="me-1" >}} 阅读文档
+        {{< /bs/btn-link >}}
+        {{< bs/btn-link style=light size=lg class="py-3" url="/modules" >}}
+          {{< icons/icon vendor=bootstrap name=boxes className="me-1" >}} 模块
+        {{< /bs/btn-link >}}
+        {{< bs/btn-link style=danger size=lg class="py-3" url="/thanks" >}}
+          {{< icons/icon vendor=bootstrap name=heart className="me-1" >}} 致谢
+        {{< /bs/btn-link >}}
+      {{< /html/div >}}
 # menu:
 #   main:
 #     name: 首页
@@ -13,47 +39,7 @@ layout: landing
 #         name: house
 ---
 
-{{< hero >}}
-{{< hero-img "images/logo.png" >}}
-{{< hero-heading "使用 Hugo Bootstrap 框架构建快速响应式的网站" >}}
-{{< hero-lead >}}
-快速、响应式、灵活的、开源（MIT）、模块化和功能丰富的 Hugo Bootstrap 框架（HB)。
-{{< /hero-lead >}}
-
-<div class="mt-4 d-flex align-items-center justify-content-center flex-wrap">
-  <a class="btn btn-lg btn-primary fw-semibold mb-2 py-3 mx-2" href="{{< relref `docs` >}}">
-    {{< icons/icon vendor=bootstrap name=book className="me-1" >}} 阅读文档
-  </a>
-  <div class="btn-group btn-group-lg">
-    <button type="button" class="btn btn-success dropdown-toggle fw-semibold mb-2 py-3 mx-2" data-bs-toggle="dropdown" aria-expanded="false">
-      {{< icons/icon vendor=bootstrap name=arrow-right className="me-1" >}} 快速开始
-    </button>
-    <ul class="dropdown-menu">
-      <li>
-        <a class="dropdown-item" href="{{< relref `docs/getting-started/introduction` >}}">
-          {{< icons/icon vendor=fas name=hands-clapping className="me-1" >}} 介绍
-        </a>
-      </li>
-      <li>
-        <a class="dropdown-item" href="{{< relref `docs/getting-started/prerequisites` >}}">
-          {{< icons/icon vendor=bootstrap name=tools className="me-1" >}} 必要条件
-        </a>
-      </li>
-      <li>
-        <a class="dropdown-item" href="{{< relref `docs/getting-started/installation` >}}">
-          {{< icons/icon vendor=bootstrap name=cloud-download className="me-1" >}} 安装教程
-        </a>
-      </li>
-    </ul>
-  </div>
-  <a class="btn btn-lg btn-outline-primary fw-semibold mb-2 py-3 mx-2" href="{{< relref `docs/join-us` >}}">
-    {{< icons/icon vendor=fas name=handshake className="me-1" >}} 加入我们
-  </a>
-  <a class="btn btn-lg btn-outline-danger fw-semibold mb-2 py-3 mx-2" href="{{< relref `thanks` >}}">
-    {{< icons/icon vendor=bs name=hearts className="me-1" >}} 致谢
-  </a>
-</div>
-{{< /hero >}}
+## 赞助商 {#sponsors .text-center .mb-5}
 
 {{< sponsors >}}
 
