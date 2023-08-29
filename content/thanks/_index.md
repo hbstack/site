@@ -14,7 +14,7 @@ menu:
   main:
     parent: support
     params:
-      description: Thanks you contributions.
+      description: Thank for your donations and contributions.
       icon:
         vendor: bs
         name: hearts

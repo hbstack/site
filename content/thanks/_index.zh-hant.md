@@ -14,7 +14,7 @@ menu:
   main:
     parent: support
     params:
-      description: 感謝你的貢獻。
+      description: 感謝你的贊助和貢獻。
       icon:
         vendor: bs
         name: hearts
