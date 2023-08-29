@@ -55,6 +55,7 @@ github.com/hbstack/docs/modules/toc-scrollspy v0.1.3 h1:U4k9Iyt88o4npYyTp48X+ipn
 github.com/hbstack/docs/modules/toc-scrollspy v0.1.3/go.mod h1:bcHhZKtbwpYhkFKaeSCqwEFv95uQde3m+kq9OkUNQqU=
 github.com/hbstack/footer v0.2.2 h1:lut4Z3u1PYY18OMoJcRL1/REl/bb3ItycAkxI3jHUEY=
 github.com/hbstack/footer v0.2.2/go.mod h1:ap949YxPpXEhcYPoZt2RTCS3tfeEMwsdRIqSvCrM2No=
+github.com/hbstack/footer v0.2.3/go.mod h1:83AHk2CsJmFjLu6Tz1z/indPsWFU3WGVb3EI/IX2g1k=
 github.com/hbstack/footer/modules/socials v0.2.1 h1:4BiJ2o7hX9K/HNa+tuiUWHkBG1NBhmT8r99SIrVKu1w=
 github.com/hbstack/footer/modules/socials v0.2.1/go.mod h1:7UoIgqN0ADAwxt3p/VAMeBdcFZeiuQtOLMGMB2g6Q14=
 github.com/hbstack/form v0.1.1 h1:AO9k/vp0qjs4BsN7zlafN7t0kn6VfvccITOl97vo6P8=
