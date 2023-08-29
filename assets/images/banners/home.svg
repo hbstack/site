@@ -1,0 +1,137 @@
+<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg" fill="#1c44a0">
+  <style>
+    .hb-banner-path {
+      color: #7952b3;
+      stroke-dasharray: 2 98;
+      stroke-dashoffset: 100;
+      animation: dash 5s linear infinite;
+    }
+
+    .hb-banner-path[data-animation-duration="3"] {
+      animation-duration: 3s;
+    }
+
+    .hb-banner-path[data-animation-duration="10"] {
+      animation-duration: 10s;
+    }
+
+    .hb-banner-path[data-animation-duration="15"] {
+      animation-duration: 15s;
+    }
+
+    .hb-banner-path[data-animation-duration="20"] {
+      animation-duration: 20s;
+    }
+
+    @keyframes dash {
+      from {
+        stroke-dashoffset: 100;
+      }
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+  </style>
+  <rect width="400" height="400" fill="#121212"></rect>
+  <polyline points="0,0 40,25 80,25 120,50 160,50 180,72" fill="none" stroke="currentColor"
+    stroke-width="2" />
+  <polyline class="hb-banner-path" points="0,0 40,25 80,25 120,50 160,50 180,72" fill="none"
+    stroke="currentColor"
+    data-animation-duration="3"
+    stroke-width="2" />
+
+  <polyline points="400,0 360,25 320,25 280,50 240,50 220,72" fill="none" stroke="currentColor"
+    stroke-width="2" />
+  <polyline class="hb-banner-path" points="400,0 360,25 320,25 280,50 240,50 220,72" fill="none"
+    stroke="currentColor"
+    data-animation-duration="10"
+    stroke-width="2" />
+
+  <polyline points="0,200 40,175 80,175 120,150 160,150 180,128" fill="none" stroke="currentColor"
+    stroke-width="2" />
+  <polyline class="hb-banner-path" points="0,200 40,175 80,175 120,150 160,150 180,128" fill="none"
+    stroke="currentColor"
+    data-animation-duration="20"
+    stroke-width="2" />
+
+  <polyline points="400,200 360,175 320,175 280,150 240,150 220,128" fill="none"
+    stroke="currentColor" stroke-width="2" />
+  <polyline class="hb-banner-path" points="400,200 360,175 320,175 280,150 240,150 220,128"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2" />
+
+  <polyline points="120,0 140,20 190,40 190,72" fill="none" stroke="currentColor" stroke-width="2" />
+  <polyline class="hb-banner-path" points="120,0 140,20 190,40 190,72" fill="none"
+    stroke="currentColor"
+    stroke-width="2" />
+  <polyline points="280,0 260,20 210,40 210,72" fill="none" stroke="currentColor" stroke-width="2" />
+  <polyline class="hb-banner-path" points="280,0 260,20 210,40 210,72" fill="none"
+    stroke="currentColor"
+    data-animation-duration="3"
+    stroke-width="2" />
+
+  <polyline points="120,200 140,180 190,160 190,128" fill="none" stroke="currentColor"
+    stroke-width="2" />
+  <polyline class="hb-banner-path" points="120,200 140,180 190,160 190,128" fill="none"
+    stroke="currentColor"
+    data-animation-duration="15"
+    stroke-width="2" />
+  <polyline points="280,200 260,180 210,160 210,128" fill="none" stroke="currentColor"
+    stroke-width="2" />
+  <polyline class="hb-banner-path" points="280,200 260,180 210,160 210,128" fill="none"
+    stroke="currentColor"
+    data-animation-duration="20"
+    stroke-width="2" />
+
+  <polyline points="0,45 40,75 80,75 140,90 170,90" fill="none" stroke="currentColor"
+    stroke-width="2" />
+  <polyline class="hb-banner-path" points="0,45 40,75 80,75 140,90 170,90" fill="none"
+    stroke="currentColor"
+    data-animation-duration="10"
+    stroke-width="2" />
+  <polyline points="0,155 40,125 80,125 140,110 170,110" fill="none" stroke="currentColor"
+    stroke-width="2" />
+  <polyline class="hb-banner-path" points="0,155 40,125 80,125 140,110 170,110" fill="none"
+    stroke="currentColor"
+    data-animation-duration="15"
+    stroke-width="2" />
+
+  <polyline points="400,45 360,75 320,75 260,90 230,90" fill="none" stroke="currentColor"
+    stroke-width="2" />
+  <polyline class="hb-banner-path" points="400,45 360,75 320,75 260,90 230,90" fill="none"
+    stroke="currentColor"
+    data-animation-duration="3"
+    stroke-width="2" />
+  <polyline points="400,155 360,125 320,125 260,110 230,110" fill="none" stroke="currentColor"
+    stroke-width="2" />
+  <polyline class="hb-banner-path"
+    data-animation-duration="10"
+    points="400,155 360,125 320,125 260,110 230,110" fill="none"
+    stroke="currentColor"
+    stroke-width="2" />
+
+  <rect width="60" height="60" rx="2" x="170" y="70" fill="#000"></rect>
+  <rect width="50" height="50" rx="2" x="175" y="75" fill="#121212"></rect>
+  <text x="180" y="119" font-size="50" fill="#000">H</text>
+  <circle r="2" cx="173" cy="73" fill="#121212"></circle>
+  <circle r="2" cx="173" cy="127" fill="#121212"></circle>
+  <circle r="2" cx="227" cy="73" fill="#121212"></circle>
+  <circle r="2" cx="227" cy="127" fill="#121212"></circle>
+  <circle r="1" cx="220" cy="77">
+    <animate
+      attributeName="fill"
+      values="black;green;black"
+      dur=".75s"
+      keyTimes="0; .5; 1"
+      repeatCount="indefinite" />
+  </circle>
+  <circle r="1" cx="223" cy="77">
+    <animate
+      attributeName="fill"
+      values="black;red;black"
+      dur="3s"
+      keyTimes="0; .5; 1"
+      repeatCount="indefinite" />
+  </circle>
+</svg>
