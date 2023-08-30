@@ -43,7 +43,7 @@ require (
 	github.com/hbstack/header/modules/theme-toggle v0.1.12 // indirect
 	github.com/hbstack/iframe v0.1.1 // indirect
 	github.com/hbstack/mermaid v0.1.0 // indirect
-	github.com/hbstack/meta/recommended v0.2.5 // indirect
+	github.com/hbstack/meta/recommended v0.2.6 // indirect
 	github.com/hbstack/noscript v0.2.0 // indirect
 	github.com/hbstack/preferred-language v0.1.0 // indirect
 	github.com/hbstack/progress-bar v0.1.0 // indirect
