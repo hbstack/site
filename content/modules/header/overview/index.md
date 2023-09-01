@@ -34,6 +34,8 @@ authors:
 
 > The `logo` parameter belongs to [core module]({{< relref "modules/hb#site-parameters" >}}).
 
+The theme is designed to collapse the menus when the width less than 1400px, and expand when the width is great than that point.
+
 {{< bs/config-toggle filename=hugo >}}
 {{% code-snippet params.toml %}}
 {{< /bs/config-toggle >}}
