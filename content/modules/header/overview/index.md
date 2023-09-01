@@ -21,6 +21,8 @@ authors:
 
 {{% hb-module header %}}
 
+The header is designed to collapse when the screen width is less than 1400px, otherwise expand.
+
 ## Site Parameters
 
 | Parameter         |  Type   |   Default    | Description                                                                   |
