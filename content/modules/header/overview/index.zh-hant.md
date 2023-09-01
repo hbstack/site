@@ -21,6 +21,8 @@ authors:
 
 {{% hb-module header %}}
 
+頁頭設計為屏幕寬度小於 `1400px` 時折疊，否則展開。
+
 ## 站點參數
 
 | Parameter         |  Type   | Default  | Description                                   |
