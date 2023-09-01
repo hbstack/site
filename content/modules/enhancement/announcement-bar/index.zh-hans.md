@@ -48,8 +48,15 @@ authors:
 
 | Property |  Type  | Default | Required | Description                    |
 | -------- | :----: | :-----: | :------: | ------------------------------ |
-| `title`  | string |    -    |    Y     | 公告标题，支持 Markdown 语法。 |
-| `weight` | number |    -    |    N     | 值越小优先级越高。             |
+| `title`  | string |    -    |    Y     | 公告标题，支持 Markdown 语法。    |
+| `url`    | string |    -    |    N     | 公告 URL。                      |
+| `weight` | number |    -    |    N     | 值越小优先级越高。                |
+
+{{< bs/alert warning >}}
+{{% markdownify %}}
+当设置了 `url`，请确保 `title` 不包含无效内容，比如链接。
+{{% /markdownify %}}
+{{< /bs/alert >}}
 
 ### 公告例子
 

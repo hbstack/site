@@ -1,7 +1,13 @@
-[hello]
-title = "👏 Hi there! Welcome to HB framework!"
+[plain]
+title = "A **plain** text announcement."
 weight = 1
 
-[announcement-bar]
-title = "📢 Announcement bar was released, [check it out]({{< relref `modules/enhancement/announcement-bar` >}})!"
+[internal]
+title = "Internal announcement."
+url = "modules/enhancement/announcement-bar"
 weight = 2
+
+[external]
+title = "The announcement linked to external site."
+url = "https://hugomods.com/"
+weight = 3

@@ -48,7 +48,14 @@ As the output of `tree` shown, we defined announcements for `en`, `zh-hans` and 
 | Property |  Type  | Default | Required | Description                                         |
 | -------- | :----: | :-----: | :------: | --------------------------------------------------- |
 | `title`  | string |    -    |    Y     | The title of announcement, support Markdown syntax. |
+| `url`    | string |    -    |    N     | The url of the announcement.                        |
 | `weight` | number |    -    |    N     | Lower get higher priority.                          |
+
+{{< bs/alert warning >}}
+{{% markdownify %}}
+When `url` is set, please make sure there isn't invalid content inside the `title`, such as link.
+{{% /markdownify %}}
+{{< /bs/alert >}}
 
 ### Announcement Example
 
