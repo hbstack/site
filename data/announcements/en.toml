@@ -1,11 +1,9 @@
 [banner]
-title = "🖼️ [Header banner module]({{< relref `modules/header/banner` >}}) is available now!"
-weight = -1
-
-[hello]
-title = "👏 Hi there! Welcome to HB framework!"
+title = "🖼️ Header banner module is available now!"
+url = "modules/header/banner"
 weight = 1
 
 [announcement-bar]
-title = "📢 [Announcement bar]({{< relref `modules/enhancement/announcement-bar` >}}) was released!"
+title = "📢 Announcement bar was released!"
+url = "modules/enhancement/announcement-bar"
 weight = 2
