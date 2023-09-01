@@ -21,6 +21,8 @@ authors:
 
 {{% hb-module header %}}
 
+The header is designed to collapse when the screen width is less than 1400px, otherwise expand.
+
 ## Site Parameters
 
 | Parameter         |  Type   |   Default    | Description                                                                   |
@@ -33,8 +35,6 @@ authors:
 | ~~`theme`~~       | string  |      -       | Removed since `v0.4.0`, see [themes]({{< relref "modules/header/themes" >}}). |
 
 > The `logo` parameter belongs to [core module]({{< relref "modules/hb#site-parameters" >}}).
-
-The theme is designed to collapse the menus when the width less than 1400px, and expand when the width is great than that point.
 
 {{< bs/config-toggle filename=hugo >}}
 {{% code-snippet params.toml %}}
