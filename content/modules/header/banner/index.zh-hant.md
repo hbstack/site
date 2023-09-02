@@ -36,8 +36,8 @@ authors:
 | `alignment`   | string |    -     |     `start`      | 內容對齊方式：`start`、`center` 或 `end`。     |
 | `color`       | string |    -     |      `#fff`      | 內容顏色。                                   |
 | `cols`        | string |    -     |    `12 lg:8`     | 內容佔用的列數，默認爲：`col-12 col-lg-8`。     |
-| `title`       | boolean/string |    -     |    Page title    | 橫幅的標題，支持 Markdown，`false` 則隱藏。|
-| `description` | boolean/string |    -     | Page description | 橫幅的描述，支持 Markdown，`false` 則隱藏。|
+| `title`       | boolean/string |    -     |    Page title    | 橫幅的標題，支持 Markdown，`false` 則隱藏。     |
+| `description` | boolean/string |    -     | Page description | 橫幅的描述，支持 Markdown，`false` 則隱藏。     |
 
 ## 站點參數
 
