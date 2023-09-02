@@ -2,6 +2,8 @@ description: >
   Fast, responsive, flexible, modular, FOSS and feature-rich Hugo Bootstrap Framework.
 
 hb:
+  styles:
+    primary: "#7952b3"
   # debug: true
   logo: images/logo.svg
   announcement_bar:
