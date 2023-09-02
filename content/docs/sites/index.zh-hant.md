@@ -22,7 +22,7 @@ authors:
 
 {{< bs/alert warning >}}
 {{< markdownify >}}
-數據文件命名約定：使用域名並將其中的點（`.`）替換為破折號（`-`），比如 `https://example.org/` 應該保存為 `example-org.toml`。
+數據文件命名約定：使用域名並將其中的點（`.`）替換爲破折號（`-`），比如 `https://example.org/` 應該保存爲 `example-org.toml`。
 {{< /markdownify >}}
 {{< /bs/alert >}}
 
