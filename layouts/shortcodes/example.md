@@ -9,4 +9,4 @@
 
 ## Source Code
 
-See https://github.com/hbstack/site/blob/main/{{ .Page.File.Path }}.
+See https://github.com/hbstack/site/blob/main/content/{{ .Page.File.Path }}.
