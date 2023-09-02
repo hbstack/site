@@ -67,8 +67,9 @@ authors:
 {{% code-snippet "video.yaml" %}}
 {{< /bs/config-toggle >}}
 
-## Video Examples
+## Examples
 
-- [Normal Video Banner]({{< relref "/examples/header-banner-video" >}})
-- [HLS Video Banner]({{< relref "/examples/header-banner-hls-video" >}})
-- [MPEG-DASH Video Banner]({{< relref "/examples/header-banner-mpeg-dash-video" >}})
+- [横幅动画]({{< relref "/examples/header-banner-aos" >}})
+- [常规视频横幅]({{< relref "/examples/header-banner-video" >}})
+- [HLS 视频横幅]({{< relref "/examples/header-banner-hls-video" >}})
+- [MPEG-DASH 视频横幅]({{< relref "/examples/header-banner-mpeg-dash-video" >}})

@@ -67,8 +67,9 @@ To get supported by Video.js, you should specify the `video_js` parameter, which
 {{% code-snippet "video.yaml" %}}
 {{< /bs/config-toggle >}}
 
-## Video Examples
+## Examples
 
+- [Banner With AOS Animations]({{< relref "/examples/header-banner-aos" >}})
 - [Normal Video Banner]({{< relref "/examples/header-banner-video" >}})
 - [HLS Video Banner]({{< relref "/examples/header-banner-hls-video" >}})
 - [MPEG-DASH Video Banner]({{< relref "/examples/header-banner-mpeg-dash-video" >}})
