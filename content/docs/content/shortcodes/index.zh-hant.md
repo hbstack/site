@@ -107,3 +107,4 @@ Bootstrap 短代碼列表。
 - [圖片鏈接]({{< relref "modules/enhancement/bigger-picture#shortcode" >}})：當點擊圖片鏈接時彈出一個圖片。
 - [KaTex](https://hugomods.com/en/docs/content/katex#usage)：數學排版。
 - [Mermaid]({{< relref "modules/content/mermaid#usages" >}})：使用受 Markdown 啓發的文本定義和一個渲染器來創建和修改複雜的圖表。
+- [Video.js](https://hugomods.com/en/docs/media/video-js/)：自定義屬於你自己的視頻播放器。

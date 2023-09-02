@@ -107,3 +107,4 @@ You may need to install the corresponding modules to use the following shortcode
 - [Image Link]({{< relref "modules/enhancement/bigger-picture#image-link-shortcode" >}}): pop up an image when click the image link.
 - [KaTex](https://hugomods.com/en/docs/content/katex#usage): math typesetting.
 - [Mermaid]({{< relref "modules/content/mermaid#usages" >}}): uses Markdown-inspired text definitions and a renderer to create and modify complex diagrams.
+- [Video.js](https://hugomods.com/en/docs/media/video-js/): make your videos player yours.
