@@ -31,11 +31,13 @@ authors:
 | `img`         | string |    Y     |        -         | 图片 URL，至少指定 `img` 或 `video` 其中之一。  |
 | `video`       | object |    Y     |        -         | 视频。                                      |
 | `video.src`   | string |    Y     |        -         | 视频 URL。                                   |
+| `video.poster` | string |    Y     |        -         | 视频封面。                                   |
+| `video.type`  | string |    Y     |        -         | 视频媒体类型，如：`application/x-mpegURL`（HLS）、`application/dash+xml`（MPEG DASH）。 |
 | `alignment`   | string |    -     |     `start`      | 内容对齐方式：`start`、`center` 或 `end`。     |
 | `color`       | string |    -     |      `#fff`      | 内容颜色。                                   |
 | `cols`        | string |    -     |    `12 lg:8`     | 内容占用的列数，默认为：`col-12 col-lg-8`。     |
-| `title`       | string |    -     |    Page title    | 横幅的标题，支持 Markdown。                    |
-| `description` | string |    -     | Page description | 横幅的描述，支持 Markdown。                    |
+| `title`       | boolean/string |    -     |    Page title    | 横幅的标题，支持 Markdown，`false` 则隐藏。     |
+| `description` | boolean/string |    -     | Page description | 横幅的描述，支持 Markdown，`false` 则隐藏。     |
 
 ## 站点参数
 

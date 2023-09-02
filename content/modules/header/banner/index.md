@@ -26,16 +26,18 @@ authors:
 
 ## Properties
 
-| Name          |  Type  | Required |     Default      | Description                                                       |
-| ------------- | :----: | :------: | :--------------: | ----------------------------------------------------------------- |
-| `img`         | string |    Y     |        -         | The image URL, you should at least specify the `img` or `video`.  |
-| `video`       | object |    Y     |        -         | The video.                                                        |
-| `video.src`   | string |    Y     |        -         | The video URL.                                                    |
-| `alignment`   | string |    -     |     `start`      | The alignment of content, `start`, `center` or `end`.             |
-| `color`       | string |    -     |      `#fff`      | The content color.                                                |
-| `cols`        | string |    -     |     `12 lg:8`    | How many columns does content take, `col-12 col-lg-8` by default. |
-| `title`       | string |    -     |    Page title    | The banner title, Markdown is supported.                          |
-| `description` | string |    -     | Page description | The banner description, supports Markdown syntax.                 |
+| Name           |  Type  | Required |     Default      | Description                                                       |
+| -------------- | :----: | :------: | :--------------: | ----------------------------------------------------------------- |
+| `img`          | string |    Y     |        -         | The image URL, you should at least specify the `img` or `video`.  |
+| `video`        | object |    Y     |        -         | The video.                                                        |
+| `video.src`    | string |    Y     |        -         | The video URL.                                                    |
+| `video.poster` | string |    Y     |        -         | The video poster.                                                 |
+| `video.type`   | string |    Y     |        -         | The video media type, i.e. `application/x-mpegURL` (HLS), `application/dash+xml` (MPEG DASH). |
+| `alignment`    | string |    -     |     `start`      | The alignment of content, `start`, `center` or `end`.             |
+| `color`        | string |    -     |      `#fff`      | The content color.                                                |
+| `cols`         | string |    -     |     `12 lg:8`    | How many columns does content take, `col-12 col-lg-8` by default. |
+| `title`        | boolean/string |    -     |    Page title    | The banner title, Markdown is supported, hidden when `false`.     |
+| `description`  | boolean/string |    -     | Page description | The banner description, supports Markdown syntax, hidden when `false`. |
 
 ## Site Parameters
 
