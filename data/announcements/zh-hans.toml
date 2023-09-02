@@ -1,11 +1,9 @@
 [banner]
-title = "🖼️ 页头横幅模块已发布，[传送门]({{< relref `modules/header/banner` >}})！"
-weight = -1
-
-[hello]
-title = "👏 你好，欢迎来到 HB 框架！"
-weight = 1
+title = "🖼️ 页头横幅模块已发布！"
+url = "modules/header/banner"
+weight = 0
 
 [announcement-bar]
-title = "📢 公告栏模块发布了，[来看看吧]({{< relref `modules/enhancement/announcement-bar` >}})！"
+title = "📢 公告栏模块发布了！"
+url = "modules/enhancement/announcement-bar"
 weight = 2
