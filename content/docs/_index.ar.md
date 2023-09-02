@@ -5,6 +5,7 @@ menu:
     name: Docs
     weight: 2
     params:
+      description: The guide for theme users.
       icon:
         vendor: bs
         name: book

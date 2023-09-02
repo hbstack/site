@@ -5,6 +5,7 @@ menu:
     parent: docs
     weight: 2
     params:
+      description: 主題用戶的使用指南。
       icon:
         vendor: bs
         name: book

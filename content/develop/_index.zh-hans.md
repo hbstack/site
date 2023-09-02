@@ -9,6 +9,7 @@ menu:
   main:
     parent: docs
     params:
+      description: 主题的开发指南。
       icon:
         vendor: bs
         name: code-square

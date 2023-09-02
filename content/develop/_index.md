@@ -9,6 +9,7 @@ menu:
   main:
     parent: docs
     params:
+      description: The guide for theme developers.
       icon:
         vendor: bs
         name: code-square
