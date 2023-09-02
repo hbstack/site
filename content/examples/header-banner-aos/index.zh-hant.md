@@ -26,7 +26,7 @@ header:
 
 ## 配置
 
-你需要開啟 `markup.goldmark.parser.attribute.block` 以於標題和描述上添加屬性。
+你需要開啓 `markup.goldmark.parser.attribute.block` 以於標題和描述上添加屬性。
 
 > 類似地，你可以於任意內容添加屬性。
 
