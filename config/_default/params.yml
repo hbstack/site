@@ -14,7 +14,7 @@ hb:
     endpoint: https://formspree.io/f/mnqyewwz
     recaptcha_sitekey: 6Lf12rImAAAAAB0v75Amp-4Y1QDTFM9Oq9d6me8w
   header:
-    breakpoint: xl
+    breakpoint: lg
     sticky: true
     full_width: true
     # theme: 'classic'
@@ -25,8 +25,8 @@ hb:
       github: hbstack
       kofi: razonyang
       paypal: razonyang
-      twitter: razonyang
-      mastodon: razonyang
+      # twitter: razonyang
+      # mastodon: razonyang
   blog:
     post_thumbnail_default: /images/thumbnail.jpg
     home:
