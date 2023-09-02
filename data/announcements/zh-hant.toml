@@ -1,7 +1,12 @@
+[sites]
+title = "分享你使用 HB 構建的站點！"
+url = "/docs/sites"
+weight = 0
+
 [banner]
 title = "🖼️ 頁頭橫幅模塊已發佈！"
 url = "modules/header/banner"
-weight = 0
+weight = 1
 
 [announcement-bar]
 title = "📢 公告欄模塊發佈了！"

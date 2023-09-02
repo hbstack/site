@@ -1,3 +1,8 @@
+[sites]
+title = "Share your sites built with HB!"
+url = "/docs/sites"
+weight = 0
+
 [banner]
 title = "🖼️ Header banner module is available now!"
 url = "modules/header/banner"
