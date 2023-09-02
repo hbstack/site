@@ -60,3 +60,15 @@ authors:
 {{< bs/config-toggle >}}
 {{% code-snippet "disable.yaml" %}}
 {{< /bs/config-toggle >}}
+
+要获得 Video.js 的支持，应指定 `video_js` 参数，该参数可用于播放浏览器本机不支持的视频，如 HLS 和 MPEG-DASH。
+
+{{< bs/config-toggle >}}
+{{% code-snippet "video.yaml" %}}
+{{< /bs/config-toggle >}}
+
+## Video Examples
+
+- [Normal Video Banner]({{< relref "/examples/header-banner-video" >}})
+- [HLS Video Banner]({{< relref "/examples/header-banner-hls-video" >}})
+- [MPEG-DASH Video Banner]({{< relref "/examples/header-banner-mpeg-dash-video" >}})

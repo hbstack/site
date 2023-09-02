@@ -1,0 +1,7 @@
+video_js: true
+header:
+  banner:
+    video:
+      src: https://example.org/video.m3u8
+      poster: https://example.org/video.webp
+      type: application/x-mpegURL

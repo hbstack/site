@@ -60,3 +60,15 @@ To disable the global banner via setting the `header.banner` as `false`.
 {{< bs/config-toggle >}}
 {{% code-snippet "disable.yaml" %}}
 {{< /bs/config-toggle >}}
+
+To get supported by Video.js, you should specify the `video_js` parameter, which can be used to play the videos not supported by browser natively, such as the HLS and MPEG-DASH.
+
+{{< bs/config-toggle >}}
+{{% code-snippet "video.yaml" %}}
+{{< /bs/config-toggle >}}
+
+## Video Examples
+
+- [Normal Video Banner]({{< relref "/examples/header-banner-video" >}})
+- [HLS Video Banner]({{< relref "/examples/header-banner-hls-video" >}})
+- [MPEG-DASH Video Banner]({{< relref "/examples/header-banner-mpeg-dash-video" >}})
