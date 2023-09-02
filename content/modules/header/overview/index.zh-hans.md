@@ -21,13 +21,12 @@ authors:
 
 {{% hb-module header %}}
 
-页头设计为在屏幕宽度小于 `1400px` 时折叠，否则展开。
-
 ## 站点参数
 
 | Parameter         |  Type   | Default  | Description                                   |
 | ----------------- | :-----: | :------: | --------------------------------------------- |
 | `brand`           | string  | 站点标题 | 品牌文本。                                    |
+| `breakpoint` | string | `lg` | 当屏幕宽度小于 breakpoint 时折叠，否则展开。可选项：`lg`、`xl`、`xxl`。 |
 | `full_width`      | boolean |  `true`  | 是否全宽。                                    |
 | `logo_bg`         | string  |    -     | Logo 背景色 background，用于透明背景的 Logo。 |
 | `menus_alignment` | string  | `start`  | 菜单对齐：`start`、`center` 和 `end`。        |

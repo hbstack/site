@@ -21,13 +21,12 @@ authors:
 
 {{% hb-module header %}}
 
-頁頭設計爲在屏幕寬度小於 `1400px` 時摺疊，否則展開。
-
 ## 站點參數
 
 | Parameter         |  Type   | Default  | Description                                   |
 | ----------------- | :-----: | :------: | --------------------------------------------- |
 | `brand`           | string  | 站點標題 | 品牌文本。                                    |
+| `breakpoint` | string | `lg` | 當屏幕寬度小於 breakpoint 時摺疊，否則展開。可選項：`lg`、`xl`、`xxl`。 |
 | `full_width`      | boolean |  `true`  | 是否全寬。                                    |
 | `logo_bg`         | string  |    -     | Logo 背景色 background，用於透明背景的 Logo。 |
 | `menus_alignment` | string  | `start`  | 菜單對齊：`start`、`center` 和 `end`。        |

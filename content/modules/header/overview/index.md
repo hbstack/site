@@ -21,13 +21,12 @@ authors:
 
 {{% hb-module header %}}
 
-The header is designed to collapse when the screen width is less than 1400px, otherwise expand.
-
 ## Site Parameters
 
 | Parameter         |  Type   |   Default    | Description                                                                   |
 | ----------------- | :-----: | :----------: | ----------------------------------------------------------------------------- |
 | `brand`           | string  | Site's title | The brand text.                                                               |
+| `breakpoint` | string | `lg` | Collapse the header when screen width is less than the breakpoint, otherwise expand. Available options: `lg`, `xl`, `xxl`. |
 | `full_width`      | boolean |    `true`    | Whether to take full width.                                                   |
 | `logo_bg`         | string  |      -       | Logo background color, used by transparent logo.                              |
 | `menus_alignment` | string  |   `start`    | Menus alignment: `start`, `center` and `end`.                                 |
