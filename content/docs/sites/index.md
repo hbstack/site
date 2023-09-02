@@ -1,6 +1,7 @@
 ---
 title: "Sites Using HB"
 linkTitle: "Sites"
+description: Who's using HB framework?
 date: 2023-09-02T23:39:04+08:00
 draft: false
 nav_icon:
