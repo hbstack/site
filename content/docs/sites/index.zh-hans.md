@@ -17,6 +17,8 @@ authors:
   - HB
 ---
 
+与我们分享你使用 HB 构建的网站，一旦审核通过，你的网站将于我们的主页和本页面进行展示。
+
 ## 如何添加我的网站？
 
 于 [/data/sites/](https://github.com/hbstack/site/blob/main/data/sites/) 目录下新建一个数据文件以描述和添加你的站点，然后创建 PR 并等待审查和合并。

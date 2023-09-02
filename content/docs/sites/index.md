@@ -17,6 +17,8 @@ authors:
   - HB
 ---
 
+Sharing with us about your sites built with HB, once the request is approved, your sites will be shown on our homepage and this page.
+
 ## How to Add My Sites?
 
 Create a data file with following format to describe your site under the [/data/sites/](https://github.com/hbstack/site/blob/main/data/sites/) folder, then create a PR and waiting for reviewing and merging.
