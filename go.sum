@@ -65,6 +65,8 @@ github.com/hbstack/header v0.8.2 h1:WD+r+MqinmQepwfQYhRFfnANUk4nQuqDn1FO9h5g88o=
 github.com/hbstack/header v0.8.2/go.mod h1:ihpMPmzro0155ZHtd3t95C1R5NN61JUZ/0Hng3GpiGo=
 github.com/hbstack/header/modules/banner v0.4.4 h1:oiHOG/8cpoKbQ6u5ohpIcXUaqIpBmZg02o+YxWtSfUM=
 github.com/hbstack/header/modules/banner v0.4.4/go.mod h1:ugjQu8Y3xQYsk/cjNg0yFMZuxAa5FjSCSNI2TgPJQ6k=
+github.com/hbstack/header/modules/banner v0.5.0 h1:nnmD2KyiRPyZVyvVtEWYJlQb290LxI6puwhSwJSG43E=
+github.com/hbstack/header/modules/banner v0.5.0/go.mod h1:KozVETiIjMofku+z0/V5apXRY0wMALBfOrgJX4s1JoQ=
 github.com/hbstack/header/modules/docsearch v0.1.13 h1:bY+UOt7jUoLzWTrIRYGduf+8TljBTkW236Yhfa1EMEI=
 github.com/hbstack/header/modules/docsearch v0.1.13/go.mod h1:yOtRDFKmxCd9V5gEGiI3xE/peNmghMXfy7lIBfZo9Gk=
 github.com/hbstack/header/modules/language-picker v0.1.12 h1:rbhZwVkTQI6OL8aUsmnOk8LSIXON1gZifN8tfbrI1zA=
@@ -151,5 +153,6 @@ github.com/jakearchibald/idb v7.1.1+incompatible h1:/o1ng3qUjgMUeeKFim3J3tiQAitc
 github.com/jakearchibald/idb v7.1.1+incompatible/go.mod h1:AuDoW54s2DKfbclM+ScrnPp8ahUQ9rHph9bb8sZTEXc=
 github.com/razonyang/hb-mod-thanks v0.4.1 h1:NhETlKG+Q/dyY7IDU69IfkXVTo73xptGQ/qp3dsWGZ4=
 github.com/razonyang/hb-mod-thanks v0.4.1/go.mod h1:I3YYwYn9KKLI1+eU9YV49Sl8TAQPPvrWIdlren+BHRc=
+github.com/twbs/bootstrap v5.3.0+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/icons v1.10.5 h1:F9uvW7cGfDBAautw5aeCmnB3hw4vv3aEQGbHnzcQKaE=
 github.com/twbs/icons v1.10.5/go.mod h1:GnRlymgVWp5iVJCMa0Me5b6tFyGpVc2bSxPMRGIJmyA=
