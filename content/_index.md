@@ -50,3 +50,10 @@ header:
 ## Latest Articles {.text-center .mb-5}
 
 {{< bs/article-cards >}}
+
+## Who's using it? {#sites .text-center .mb-4 }
+
+[How to add my sites?]({{< relref "/docs/sites" >}})
+{ .lead .mb-3 .text-body .text-center }
+
+{{< sites >}}

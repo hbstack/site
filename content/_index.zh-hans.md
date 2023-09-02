@@ -50,3 +50,10 @@ header:
 ## 最新文章 {.text-center .mb-5}
 
 {{< bs/article-cards >}}
+
+## 谁正在使用？ {#sites .text-center .mb-4 }
+
+[如何添加我的网站？]({{< relref "/docs/sites" >}})
+{ .lead .mb-3 .text-body .text-center }
+
+{{< sites >}}

@@ -1,0 +1,32 @@
+{{- $limit := default 0 (.Get "limit") }}
+{{- $order := default "asc" (.Get "order") }}
+{{- $sites := sort site.Data.sites "date" $order }}
+{{- $pinned := sort (where $sites "pinned" true) "date" $order }}
+{{- $unpinned := sort (where $sites "pinned" "ne" true) "date" $order }}
+{{- $sites = $pinned | append $unpinned }}
+{{- with $limit }}
+  {{- $sites = first . $sites }}
+{{- end }}
+<p class="lead text-center">
+  <span class="text-primary">{{ len $sites }}</span> sites in total.
+</p>
+<div class="hb-sites flex-wrap d-flex justify-content-center mb-5">
+{{- range $sites }}
+  <a
+    class="hb-site text-decoration-none mb-4 mx-3 d-flex align-items-center text-uppercase{{ cond (not .logo) ` border rounded p-2 text-bg-secondary` `` }}"
+    href="{{ .url }}"
+    target="_blank"
+    rel="external"
+    title="{{ .title }}">
+    {{- if .logo }}
+      <img
+        class="hb-site-img"
+        src="{{ .logo }}"
+        height="{{ .logo_height }}"
+        width="{{ .logo_width }}"/>
+    {{- else }}
+      {{ .title }}
+    {{- end }}
+  </a>
+{{- end }}
+</div>
