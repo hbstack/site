@@ -69,6 +69,7 @@ github.com/hbstack/header/modules/docsearch v0.1.15 h1:nOpcXKxLRTqnckG2isgxjHXg/
 github.com/hbstack/header/modules/docsearch v0.1.15/go.mod h1:viCPeIigUU1CYjRFqWCkFKF+f2RMphS6hmcC3YnkWuU=
 github.com/hbstack/header/modules/language-picker v0.1.12 h1:rbhZwVkTQI6OL8aUsmnOk8LSIXON1gZifN8tfbrI1zA=
 github.com/hbstack/header/modules/language-picker v0.1.12/go.mod h1:imd+ayLpbymZUFD67Vt05VFZ9nk3t/lgF4RAeSvVIFc=
+github.com/hbstack/header/modules/language-picker v0.1.14/go.mod h1:rHukdXlCDa5duCRq74+gMSdYlx7iyTMYwq3gdYrDGRA=
 github.com/hbstack/header/modules/search v0.1.22 h1:akEg9G36Vr7u0SgU3WQidxJ6HIi7+OIb3lG3nlgu1y8=
 github.com/hbstack/header/modules/search v0.1.22/go.mod h1:qR3mWfTQJ57XXK15grq5wFFZj/mrQI16pd4DTjmXzuo=
 github.com/hbstack/header/modules/socials v0.1.16 h1:A9pICnOxTH6aa4lbI5uc5gMjSpEkhY/aU8ZwV9F/yec=
@@ -151,5 +152,6 @@ github.com/jakearchibald/idb v7.1.1+incompatible h1:/o1ng3qUjgMUeeKFim3J3tiQAitc
 github.com/jakearchibald/idb v7.1.1+incompatible/go.mod h1:AuDoW54s2DKfbclM+ScrnPp8ahUQ9rHph9bb8sZTEXc=
 github.com/razonyang/hb-mod-thanks v0.4.1 h1:NhETlKG+Q/dyY7IDU69IfkXVTo73xptGQ/qp3dsWGZ4=
 github.com/razonyang/hb-mod-thanks v0.4.1/go.mod h1:I3YYwYn9KKLI1+eU9YV49Sl8TAQPPvrWIdlren+BHRc=
+github.com/twbs/bootstrap v5.3.0+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/icons v1.10.5 h1:F9uvW7cGfDBAautw5aeCmnB3hw4vv3aEQGbHnzcQKaE=
 github.com/twbs/icons v1.10.5/go.mod h1:GnRlymgVWp5iVJCMa0Me5b6tFyGpVc2bSxPMRGIJmyA=
