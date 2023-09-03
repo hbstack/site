@@ -63,6 +63,7 @@ authors:
 | `stackoverflow`  |
 | `telegram`       |
 | `tencetqq`       |
+| `threads`        |
 | `tiktok`         |
 | `tumblr`         |
 | `twitter`        |
