@@ -65,6 +65,7 @@ The identifier can be either an absolute URL or an username.
 | `stackoverflow`  |
 | `telegram`       |
 | `tencetqq`       |
+| `threads`        |
 | `tiktok`         |
 | `tumblr`         |
 | `twitter`        |
