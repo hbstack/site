@@ -41,7 +41,7 @@ authors:
 
 | Parameter    |  Type   | Default | Description                |
 | ------------ | :-----: | :-----: | -------------------------- |
-| `powered-by` | boolean | `true`  | 是否显示 Powered by 信息。 |
+| `powered_by` | boolean | `true`  | 是否显示 Powered by 信息。 |
 | `site_title` | string  |    -    | 用于替代默认的站点标题。   |
 
 {{< bs/config-toggle filename=hugo >}}
