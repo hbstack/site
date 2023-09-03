@@ -41,7 +41,7 @@ This module is a universal footer, which ships with menus and some useful sub mo
 
 | Parameter    |  Type   | Default | Description                          |
 | ------------ | :-----: | :-----: | ------------------------------------ |
-| `powered-by` | boolean | `true`  | Whether to show the powered by.      |
+| `powered_by` | boolean | `true`  | Whether to show the powered by.      |
 | `site_title` | string  |    -    | Replace site title with this if set. |
 
 {{< bs/config-toggle filename=hugo >}}
