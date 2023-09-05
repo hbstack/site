@@ -2,8 +2,8 @@
   <style>
     .hb-banner-path {
       color: #7952b3;
-      stroke-dasharray: 2 98;
-      stroke-dashoffset: 100;
+      stroke-dasharray: 2 198;
+      stroke-dashoffset: 200;
       animation: dash 5s linear infinite;
     }
 
@@ -25,7 +25,7 @@
 
     @keyframes dash {
       from {
-        stroke-dashoffset: 100;
+        stroke-dashoffset: 200;
       }
       to {
         stroke-dashoffset: 0;
