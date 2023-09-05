@@ -14,6 +14,7 @@ tags:
 images:
 authors:
   - HB
+aliases:
   - /zh-hant/docs/modules/background-image/
 ---
 
