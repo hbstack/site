@@ -14,6 +14,7 @@ tags:
 images:
 authors:
   - HB
+aliases:
   - /zh-hans/docs/modules/background-image/
 ---
 
