@@ -47,6 +47,7 @@ github.com/hbstack/blog/modules/related-posts v0.1.11 h1:S6spc2pVL5l54ZTv1qTQe7r
 github.com/hbstack/blog/modules/related-posts v0.1.11/go.mod h1:qiDGf3KC/aCV+R1PZ5YhNZsB8UhrLHn/26outzgstWA=
 github.com/hbstack/blog/modules/related-posts v0.1.12 h1:dGbOxmtZ0JGLYqdhUACHIZtx6LQ0dV9dhL6k5YLcWgQ=
 github.com/hbstack/blog/modules/related-posts v0.1.12/go.mod h1:VrN7C5rOzjQ3rHbO68kavy/u3gB1FgaWsbFkPH0mG/A=
+github.com/hbstack/blog/modules/related-posts v0.1.13/go.mod h1:qoqDRe0lxq4olu+DwYODjcunbkJvSn+isQDy4Svf964=
 github.com/hbstack/blog/modules/toc-scrollspy v0.1.9 h1:f5LbpIHZMZ/hgWGguELm6LdldLofvCWfszQjb0Ke/f4=
 github.com/hbstack/blog/modules/toc-scrollspy v0.1.9/go.mod h1:iGrKAJhs8sKxWnII/x0WoEbrdMlgyDuWRMMjQNHoV5g=
 github.com/hbstack/blog/modules/toc-scrollspy v0.1.10 h1:GPys34Oxs+aIT/TL4Hr2ekxGLpD6BM9VtndFuJ3qiNU=
