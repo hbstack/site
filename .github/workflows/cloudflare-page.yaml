@@ -3,7 +3,7 @@ name: Cloudflare Pages
 on:
   push:
   schedule:
-    - cron: '* 0 * * *'
+    - cron: '0 * * * *'
 
 jobs:
   publish:
