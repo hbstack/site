@@ -7,10 +7,6 @@
       animation: dash 5s linear infinite;
     }
 
-    .hb-banner-path[data-animation-duration="3"] {
-      animation-duration: 3s;
-    }
-
     .hb-banner-path[data-animation-duration="10"] {
       animation-duration: 10s;
     }
@@ -21,6 +17,10 @@
 
     .hb-banner-path[data-animation-duration="20"] {
       animation-duration: 20s;
+    }
+
+    .hb-banner-path[data-animation-duration="25"] {
+      animation-duration: 25s;
     }
 
     @keyframes dash {
@@ -37,7 +37,7 @@
     stroke-width="2" />
   <polyline class="hb-banner-path" points="0,0 40,25 80,25 120,50 160,50 180,72" fill="none"
     stroke="currentColor"
-    data-animation-duration="3"
+    data-animation-duration="25"
     stroke-width="2" />
 
   <polyline points="400,0 360,25 320,25 280,50 240,50 220,72" fill="none" stroke="currentColor"
@@ -68,7 +68,7 @@
   <polyline points="280,0 260,20 210,40 210,72" fill="none" stroke="currentColor" stroke-width="2" />
   <polyline class="hb-banner-path" points="280,0 260,20 210,40 210,72" fill="none"
     stroke="currentColor"
-    data-animation-duration="3"
+    data-animation-duration="25"
     stroke-width="2" />
 
   <polyline points="120,200 140,180 190,160 190,128" fill="none" stroke="currentColor"
@@ -101,7 +101,7 @@
     stroke-width="2" />
   <polyline class="hb-banner-path" points="400,45 360,75 320,75 260,90 230,90" fill="none"
     stroke="currentColor"
-    data-animation-duration="3"
+    data-animation-duration="25"
     stroke-width="2" />
   <polyline points="400,155 360,125 320,125 260,110 230,110" fill="none" stroke="currentColor"
     stroke-width="2" />
