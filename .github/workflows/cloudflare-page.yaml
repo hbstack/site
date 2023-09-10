@@ -48,6 +48,8 @@ jobs:
 
       - name: Build
         run: hugo --minify --gc --enableGitInfo && cp public/en/404.html public/404.html
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Publish to Cloudflare Pages
         uses: cloudflare/pages-action@v1
