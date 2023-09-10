@@ -13,6 +13,7 @@ permalinks:
 
 module:
   imports:
+    - path: github.com/hbstack/github-releases
     - path: github.com/hugomods/aos
 
     - path: github.com/hbstack/header/themes/pills
@@ -96,3 +97,13 @@ markup:
   tableOfContents:
     endLevel: 6
     startLevel: 2
+
+security:
+  funcs:
+    getenv:
+      - '^HUGO_'
+      - '^CI$'
+      - '^GITHUB_TOKEN$'
+
+ignoreErrors:
+  - error-remote-getjson
