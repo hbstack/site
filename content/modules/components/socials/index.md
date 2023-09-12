@@ -34,42 +34,45 @@ The identifier can be either an absolute URL or an username.
 
 ## Socials Media
 
-| Media            |
-| ---------------- |
-| `artstation`     |
-| `bilibili`       |
-| `bitbucket`      |
-| `discord`        |
-| `discourse`      |
-| `dockerhub`      |
-| `facebook`       |
-| `facebookgroup`  |
-| `github`         |
-| `gitlab`         |
-| `gmail`          |
-| `instagram`      |
-| `itchdotio`      |
-| `kaggle`         |
-| `kofi`           |
-| `lastfm`         |
-| `liberapay`      |
-| `linkedin`       |
-| `mastodon`       |
-| `medium`         |
-| `opencollective` |
-| `patreon`        |
-| `paypal`         |
-| `pinterest`      |
-| `quora`          |
-| `reddit`         |
-| `stackoverflow`  |
-| `telegram`       |
-| `tencetqq`       |
-| `threads`        |
-| `tiktok`         |
-| `tumblr`         |
-| `twitter`        |
-| `weibo`          |
-| `xing`           |
-| `youtube`        |
-| `zhihu`          |
+| Media            | Description                       |
+| ---------------- | --------------------------------- |
+| `artstation`     |                                   |
+| `bilibili`       |                                   |
+| `bitbucket`      |                                   |
+| `discord`        |                                   |
+| `discourse`      |                                   |
+| `dockerhub`      |                                   |
+| `email`          | Email address.                    |
+| `facebook`       |                                   |
+| `facebookgroup`  |                                   |
+| `github`         |                                   |
+| `gitlab`         |                                   |
+| `gmail`          |                                   |
+| `instagram`      |                                   |
+| `itchdotio`      |                                   |
+| `kaggle`         |                                   |
+| `kofi`           |                                   |
+| `lastfm`         |                                   |
+| `liberapay`      |                                   |
+| `linkedin`       |                                   |
+| `mastodon`       |                                   |
+| `medium`         |                                   |
+| `opencollective` |                                   |
+| `patreon`        |                                   |
+| `paypal`         |                                   |
+| `pinterest`      |                                   |
+| `quora`          |                                   |
+| `reddit`         |                                   |
+| `rss`            | The RSS feeds, `true` or `false`. |
+| `stackoverflow`  |                                   |
+| `tel`            | Telephone number.                 |
+| `telegram`       |                                   |
+| `tencetqq`       |                                   |
+| `threads`        |                                   |
+| `tiktok`         |                                   |
+| `tumblr`         |                                   |
+| `twitter`        |                                   |
+| `weibo`          |                                   |
+| `xing`           |                                   |
+| `youtube`        |                                   |
+| `zhihu`          |                                   |
