@@ -95,6 +95,8 @@ github.com/hbstack/scrollbar v0.1.0 h1:uQMNbkWbLxnjQMiD3zdt33RG48sY2a0XWyGQkK2Hs
 github.com/hbstack/scrollbar v0.1.0/go.mod h1:BEDha5gOjQfXBKZfwT+4vn8hCE88qElocjEI2SY1eAs=
 github.com/hbstack/search v0.1.7 h1:5u1aCCAqtuh0vHENqGOvKsJ0q7il7kO2zYnBWjETAFw=
 github.com/hbstack/search v0.1.7/go.mod h1:VLRF5mP2a1YBMH+o+0zEFEclb+NzKlpZmIfY+1aIGDM=
+github.com/hbstack/socials v0.5.0 h1:YGYILQQEHZcea+0jrbnp7qsF6ItlqJeiME+/pDHat1g=
+github.com/hbstack/socials v0.5.0/go.mod h1:xJr/3XfBydzfm8ipFLxqiK7sVSpY0PynX19VxwKziUg=
 github.com/hbstack/syntax-highlighting v0.1.0 h1:WxdhNgCktllNKQDqu1BmLmg9dsi77/dXIlcdQ8KZZI0=
 github.com/hbstack/syntax-highlighting v0.1.0/go.mod h1:6IoaM+tSIkKZblIrT1i5L3zVH68nt4UScU9JB30FQsc=
 github.com/hbstack/syntax-highlighting/styles/gruvbox v0.1.0 h1:lGH8nqOU/+3yzHIk5s1nTrzHDImEnvLkr/0viuPfx3Y=
@@ -153,5 +155,6 @@ github.com/jakearchibald/idb v7.1.1+incompatible h1:/o1ng3qUjgMUeeKFim3J3tiQAitc
 github.com/jakearchibald/idb v7.1.1+incompatible/go.mod h1:AuDoW54s2DKfbclM+ScrnPp8ahUQ9rHph9bb8sZTEXc=
 github.com/razonyang/hb-mod-thanks v0.4.1 h1:NhETlKG+Q/dyY7IDU69IfkXVTo73xptGQ/qp3dsWGZ4=
 github.com/razonyang/hb-mod-thanks v0.4.1/go.mod h1:I3YYwYn9KKLI1+eU9YV49Sl8TAQPPvrWIdlren+BHRc=
+github.com/twbs/bootstrap v5.3.0+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/icons v1.10.5 h1:F9uvW7cGfDBAautw5aeCmnB3hw4vv3aEQGbHnzcQKaE=
 github.com/twbs/icons v1.10.5/go.mod h1:GnRlymgVWp5iVJCMa0Me5b6tFyGpVc2bSxPMRGIJmyA=

@@ -27,6 +27,7 @@ hb:
       paypal: razonyang
       # twitter: razonyang
       # mastodon: razonyang
+      rss: true
   blog:
     post_thumbnail_default: /images/thumbnail.jpg
     home:
