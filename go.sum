@@ -75,6 +75,7 @@ github.com/hbstack/header/modules/search v0.1.24 h1:x+OB31TpsgqMA1ASvelY8M6VokJv
 github.com/hbstack/header/modules/search v0.1.24/go.mod h1:Y4TtJmovCaGm7lEnB/Gw0CARgqACo/vjKFRFqfvCTJM=
 github.com/hbstack/header/modules/socials v0.1.19 h1:IwXFGvLJRl/A4ltILyOXIkP/TToJ+/HqF+P64i/tLu4=
 github.com/hbstack/header/modules/socials v0.1.19/go.mod h1:b+O/wj3vQmi4kearYSRCQZTMUDdTL+bUfAy6qk4efbc=
+github.com/hbstack/header/modules/socials v0.1.20/go.mod h1:6XZezBRhEqDighVhF57mdJlUzlgpnmLy2UsI/blFBac=
 github.com/hbstack/header/modules/theme-toggle v0.1.14 h1:iC7ZRbNo72qn1Vudnu5DAn2pr0gONrTunrrMbG2lPok=
 github.com/hbstack/header/modules/theme-toggle v0.1.14/go.mod h1:7W99Yalps+pF9HviB0UB+M7bjX/Xd+LA17O0JqKceUs=
 github.com/hbstack/header/themes/pills v0.2.10 h1:l454NpFDgPi60pqZxn/HQuNxzZhOgOA9bqCiu3z+0GE=
