@@ -67,6 +67,7 @@ hb:
       paypal: razonyang
       twitter: razonyang
       mastodon: razonyang
+      rss: true
   content_panel:
     repo:
       service: github
