@@ -14,6 +14,10 @@ tags:
   - Start Page
 ---
 
+## Prerequisites
+
+Read more on [prerequisites]({{< relref "docs/getting-started/prerequisites" >}}).
+
 ## Clone the Repository
 
 ```sh
