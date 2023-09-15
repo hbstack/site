@@ -40,5 +40,6 @@
 - name: hbstack/staticman-comments
 - name: hbstack/syntax-highlighting
 - name: theme
+- name: theme-start
 - name: toc-scrollspy
 - name: utterances
