@@ -1,5 +1,6 @@
 github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20003 h1:pt/JGVD5YYRsVVijOHPZI6YKTUvbR4e0hgV9B0S6rbI=
 github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20003/go.mod h1:mvM05r93HiefwoaxQTaYiJxtJAhTebwQtU1Xh/J+Okk=
+github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20200/go.mod h1:kx8MBj9T7SFR8ZClWvKZPmmUxBaltkoXvnWlZZcSnYA=
 github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000/go.mod h1:mFberT6ZtcchrsDtfvJM7aAH2bDKLdOnruUHl0hlapI=
 github.com/hbstack/announcement-bar v0.4.0 h1:z8JEuod13Jhv4fhCsnomZq7icIBwvT4zHRltsePTu6g=
 github.com/hbstack/announcement-bar v0.4.0/go.mod h1:Tc3usPdUgRyVmgiqKGRyo6UHJcK1UAqRw0WfNTVoIGc=
@@ -160,6 +161,7 @@ github.com/jakearchibald/idb v7.1.1+incompatible/go.mod h1:AuDoW54s2DKfbclM+Scrn
 github.com/razonyang/hb-mod-thanks v0.4.1 h1:NhETlKG+Q/dyY7IDU69IfkXVTo73xptGQ/qp3dsWGZ4=
 github.com/razonyang/hb-mod-thanks v0.4.1/go.mod h1:I3YYwYn9KKLI1+eU9YV49Sl8TAQPPvrWIdlren+BHRc=
 github.com/twbs/bootstrap v5.3.0+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
+github.com/twbs/bootstrap v5.3.2+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/icons v1.10.5 h1:F9uvW7cGfDBAautw5aeCmnB3hw4vv3aEQGbHnzcQKaE=
 github.com/twbs/icons v1.10.5/go.mod h1:GnRlymgVWp5iVJCMa0Me5b6tFyGpVc2bSxPMRGIJmyA=
 github.com/twbs/icons v1.11.0/go.mod h1:GnRlymgVWp5iVJCMa0Me5b6tFyGpVc2bSxPMRGIJmyA=
