@@ -75,6 +75,8 @@ The version control system, can be fetched on the [downloads](https://git-scm.co
 
 ### Node.js
 
+> Requires Node.js `16` or later.
+
 HB requires the following [Node.js](https://nodejs.org/) packages.
 
 {{% bs/collapse "Install Node.js on Arch Linux" %}}

@@ -75,6 +75,8 @@ HB 使用 Hugo Pipes 來編譯 SCSS，因此需要擴展版（**extended**）的
 
 ### Node.js
 
+> 要求 Node.js `16` 或後續版本。
+
 HB 依賴以下 [Node.js](https://nodejs.org/) 包。
 
 {{% bs/collapse "Arch Linux 安裝 Node.js" %}}
