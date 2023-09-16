@@ -29,3 +29,14 @@ As literally, this module sets the background image for pages.
 You need to save the background image to `assets/images` with the name format: `background.*`, i.e. `background.jpg`.
 
 Known available image formats: `webp`, `png`, `jpg`.
+
+## Site Parameters
+
+{{< bs/config-toggle hugo >}}
+params:
+  hb:
+    background_image:
+      modern_format: webp
+{{< /bs/config-toggle >}}
+
+Only the `webp` is supported as the `modern_format`.

@@ -29,3 +29,14 @@ aliases:
 你需要將背景圖保存於 `assets/images` 目錄，並以 `background.*` 命名，如： `background.jpg`。
 
 已知所支持的圖片格式：`webp`、`png`、`jpg`。
+
+## 站點參數
+
+{{< bs/config-toggle hugo >}}
+params:
+  hb:
+    background_image:
+      modern_format: webp
+{{< /bs/config-toggle >}}
+
+`modern_format` 僅支持 `webp`。
