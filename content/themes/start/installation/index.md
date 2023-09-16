@@ -45,11 +45,13 @@ hugo mod init [MODULE_PATH]
 
 The `[MODULE_PATH]` is the identifier of your site, which usually the repository URL, i.e. `example.com/user/repo`.
 
-## Import the Theme
+## Import the Theme and Search Engines
 
 {{< bs/config-toggle "config/_default/module" >}}
 imports:
   - path: github.com/hbstack/theme-start
+  - path: github.com/hbstack/theme-start/engines/google
+  - path: github.com/hbstack/theme-start/engines/bing
 {{< /bs/config-toggle >}}
 
 ## Install Dependencies

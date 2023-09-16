@@ -20,22 +20,21 @@ tags:
 | Name | Type | Description |
 | ---- | :--: | ----------- |
 | `weight` | number | Lower weight gets higer priority. |
-| `disable` | boolean | Enable/Disable the engine. |
 
 See below for default properties of built-in search engines.
 
 ## Built-in Search Engines
 
-| Name | Identifier | Disable | Weight |
+| Name | Identifier | Module | Version |
 | ---- | :--------: | :-----: | :-----: |
-| [Baidu](https://www.baidu.com) | `baidu` | `false` | `3` |
-| [Bing](https://www.bing.com) | `bing` | `false` | `2` |
-| [DockDockGo](https://www.duckduckgo.com) | `duckduckgo` | `false` | `4` |
-| [Google](https://www.google.com) | `google` | `false` | `1` |
-| [Sogou](https://www.sogou.com) | `sogou` | `true` | - |
-| [Wikipedia](https://www.wikipedia.org) | `wikipedia` | `true` | - |
-| [Yahoo](https://www.yahoo.com) | `yahoo` | `true` | `5` |
-| [Yandex](https://www.yandex.com) | `yandex` | `true` | `6` |
+| [Baidu](https://www.baidu.com) | `baidu` | `github.com/hbstack/theme-start/engines/baidu` | ![Version](https://img.shields.io/github/v/tag/hbstack/theme-start?filter=engines%2Fbaidu*) |
+| [Bing](https://www.bing.com) | `bing` | `github.com/hbstack/theme-start/engines/bing` | ![Version](https://img.shields.io/github/v/tag/hbstack/theme-start?filter=engines%2Fbing*) |
+| [DockDockGo](https://www.duckduckgo.com) | `duckduckgo` | `github.com/hbstack/theme-start/engines/duckduckgo` | ![Version](https://img.shields.io/github/v/tag/hbstack/theme-start?filter=engines%2Fduckduckgo*) |
+| [Google](https://www.google.com) | `google` | `github.com/hbstack/theme-start/engines/google` | ![Version](https://img.shields.io/github/v/tag/hbstack/theme-start?filter=engines%2Fgoogle*) |
+| [Sogou](https://www.sogou.com) | `sogou` | `github.com/hbstack/theme-start/engines/sogou` | ![Version](https://img.shields.io/github/v/tag/hbstack/theme-start?filter=engines%2Fsogou*) |
+| [Wikipedia](https://www.wikipedia.org) | `wikipedia` | `github.com/hbstack/theme-start/engines/wikipedia` | ![Version](https://img.shields.io/github/v/tag/hbstack/theme-start?filter=engines%2Fwikipedia*) |
+| [Yahoo](https://www.yahoo.com) | `yahoo` | `github.com/hbstack/theme-start/engines/yahoo` | ![Version](https://img.shields.io/github/v/tag/hbstack/theme-start?filter=engines%2Fyahoo*) |
+| [Yandex](https://www.yandex.com) | `yandex` | `github.com/hbstack/theme-start/engines/yandex` | ![Version](https://img.shields.io/github/v/tag/hbstack/theme-start?filter=engines%2Fyandex*) |
 
 ## Search Engines Configuration
 
@@ -52,12 +51,4 @@ params:
           weight: 3
         duckduckgo:
           weight: 4
-        wikipedia:
-          disable: false
-        yahoo:
-          disable: false
-        yandex:
-          disable: false
-        sogou:
-          disable: false
 {{< /bs/config-toggle >}}
