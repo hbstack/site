@@ -57,7 +57,7 @@ require (
 	github.com/hbstack/toc-scrollspy v0.1.0 // indirect
 	github.com/hugomods/aos v0.1.0 // indirect
 	github.com/hugomods/base v0.1.0 // indirect
-	github.com/hugomods/bootstrap v0.11.3 // indirect
+	github.com/hugomods/bootstrap v0.12.0 // indirect
 	github.com/hugomods/fuse-js v0.1.0 // indirect
 	github.com/hugomods/giscus v0.1.0 // indirect
 	github.com/hugomods/google-adsense v0.1.0 // indirect
