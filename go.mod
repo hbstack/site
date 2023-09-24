@@ -51,7 +51,7 @@ require (
 	github.com/hbstack/pwa v0.1.2 // indirect
 	github.com/hbstack/scrollbar v0.1.0 // indirect
 	github.com/hbstack/search v0.1.7 // indirect
-	github.com/hbstack/socials v0.5.1 // indirect
+	github.com/hbstack/socials v0.6.0 // indirect
 	github.com/hbstack/syntax-highlighting v0.1.0 // indirect
 	github.com/hbstack/syntax-highlighting/styles/gruvbox v0.1.0 // indirect
 	github.com/hbstack/toc-scrollspy v0.1.0 // indirect
