@@ -75,6 +75,7 @@ github.com/hbstack/header/modules/docsearch v0.1.15 h1:nOpcXKxLRTqnckG2isgxjHXg/
 github.com/hbstack/header/modules/docsearch v0.1.15/go.mod h1:viCPeIigUU1CYjRFqWCkFKF+f2RMphS6hmcC3YnkWuU=
 github.com/hbstack/header/modules/language-picker v0.1.14 h1:TqbubJw1QZksJ/q/jqcHcRhY3PLDDmoYnY+3bCowjsE=
 github.com/hbstack/header/modules/language-picker v0.1.14/go.mod h1:rHukdXlCDa5duCRq74+gMSdYlx7iyTMYwq3gdYrDGRA=
+github.com/hbstack/header/modules/language-picker v0.1.15/go.mod h1:QaGGd0KcagIHLLA4GfzV6Kz2nFj6GguWdbUUDka0Ygo=
 github.com/hbstack/header/modules/search v0.1.24 h1:x+OB31TpsgqMA1ASvelY8M6VokJv8S1zPGJcLeal6t8=
 github.com/hbstack/header/modules/search v0.1.24/go.mod h1:Y4TtJmovCaGm7lEnB/Gw0CARgqACo/vjKFRFqfvCTJM=
 github.com/hbstack/header/modules/socials v0.1.19 h1:IwXFGvLJRl/A4ltILyOXIkP/TToJ+/HqF+P64i/tLu4=
