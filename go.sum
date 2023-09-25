@@ -89,6 +89,7 @@ github.com/hbstack/header/modules/theme-toggle v0.1.14/go.mod h1:7W99Yalps+pF9Hv
 github.com/hbstack/header/modules/theme-toggle v0.1.15/go.mod h1:AnZ6WvVqTfFJedWC86/mUPq57nxpy6AhrJ19Vy6SRvc=
 github.com/hbstack/header/themes/pills v0.2.10 h1:l454NpFDgPi60pqZxn/HQuNxzZhOgOA9bqCiu3z+0GE=
 github.com/hbstack/header/themes/pills v0.2.10/go.mod h1:9/2nx3djZQhGXL7Gpr0rmzRjSSp8cQnohUByj+lHWPc=
+github.com/hbstack/header/themes/pills v0.2.11/go.mod h1:13tBDahGh56woa/rArtbGAkzhPQvsbs8WUkGLVplnQk=
 github.com/hbstack/iframe v0.1.1 h1:npNgmbvZ5TtLE9kvv7xrILOZqLcUYJIq2I8CacW6Yeo=
 github.com/hbstack/iframe v0.1.1/go.mod h1:W0qloZsLN8BCHObGrKHUOCK3LLCFN4x4PoA1u5WfW1s=
 github.com/hbstack/mermaid v0.1.0 h1:T/3Az7xujbFmbC4r1tZGKTwt6GOcz/72yc2N9oFNU2I=
