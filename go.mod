@@ -41,7 +41,7 @@ require (
 	github.com/hbstack/header/modules/search v0.1.25 // indirect
 	github.com/hbstack/header/modules/socials v0.1.21 // indirect
 	github.com/hbstack/header/modules/theme-toggle v0.1.15 // indirect
-	github.com/hbstack/header/themes/pills v0.2.10 // indirect
+	github.com/hbstack/header/themes/pills v0.2.11 // indirect
 	github.com/hbstack/iframe v0.1.1 // indirect
 	github.com/hbstack/mermaid v0.1.0 // indirect
 	github.com/hbstack/meta/recommended v0.2.8 // indirect
