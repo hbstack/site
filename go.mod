@@ -80,6 +80,6 @@ require (
 	github.com/hugomods/snackbar v0.1.2 // indirect
 	github.com/hugomods/workbox v0.1.0 // indirect
 	github.com/jakearchibald/idb v7.1.1+incompatible // indirect
-	github.com/razonyang/hb-mod-thanks v0.4.1 // indirect
+	github.com/razonyang/hb-mod-thanks v0.4.2 // indirect
 	github.com/twbs/icons v1.11.1 // indirect
 )
