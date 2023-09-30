@@ -1,7 +1,7 @@
 ---
 title: "先決條件"
 description: |
-  HB 是一個功能豐富的框架，但同時也具有著一定的複雜性。本文將詳細列出 HB 的環境要求，以便你可以正常地開發和使用 HB 模塊和主題。
+  HB 是一個功能豐富的框架，但同時也具有着一定的複雜性。本文將詳細列出 HB 的環境要求，以便你可以正常地開發和使用 HB 模塊和主題。
 date: 2022-12-19T14:53:42+08:00
 draft: false
 tags:
@@ -86,7 +86,7 @@ HB 依賴以下 [Node.js](https://nodejs.org/) 包。
 | 名稱         | 描述                                               |
 | ------------ | -------------------------------------------------- |
 | PostCSS CLI  | 用於轉變樣式。                                     |
-| RTLCSS       | 將 LTR CSS 轉換為 RTL，如果你沒有 RTL 網站則可選。 |
+| RTLCSS       | 將 LTR CSS 轉換爲 RTL，如果你沒有 RTL 網站則可選。 |
 | Autoprefixer | 解析 CSS 並在 Can I Use 規則中添加對應的前綴。     |
 | PurgeCSS     | 移除未使用的 CSS。                                 |
 
@@ -106,7 +106,7 @@ NPM 已被包含於 Node.js 安裝中，你可以選擇局部或全局地安裝�
 
 ## 注意
 
-### `publishDir` **必須**為 `public`
+### `publishDir` **必須**爲 `public`
 
 它受到關於共享 PurgeCSS 配置的 HB 實現的限制。
 
@@ -126,4 +126,4 @@ HB 依賴於模塊間配置的深度合併，然而語言範圍的參數將會�
 
 ### 請禁用 Cloudflare Rocket Loader
 
-Cloudflare Rocket Loader 缺少了 `DOMContentLoaded` 事件，會導致很多模塊失效，即便我們為此提供了一個[補丁](https://github.com/hbstack/cloudflare-rocket-loader)，但得不償失，禁用該功能是目前最佳選擇。
+Cloudflare Rocket Loader 缺少了 `DOMContentLoaded` 事件，會導致很多模塊失效，即便我們爲此提供了一個[補丁](https://github.com/hbstack/cloudflare-rocket-loader)，但得不償失，禁用該功能是目前最佳選擇。
