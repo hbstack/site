@@ -20,6 +20,7 @@
     "dev": "hugo server -p 13131 --gc --disableFastRender --buildDrafts --enableGitInfo",
     "prod": "rm -f hugo_stats.json && rm -rf public/ && hugo server -e production --minify --gc --renderToDisk --disableFastRender --enableGitInfo -b http://localhost:13132 -p 13132",
     "docker": "docker run -v $PWD:/src -p 13131:13131 hugomods/hugo:exts hugo server --bind 0.0.0.0 -p 13131",
+    "update": "hugo mod get -u && hugo mod tidy",
     "translate": "node ./scripts/translate.js"
   },
   "dependencies": {
