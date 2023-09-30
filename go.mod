@@ -4,7 +4,7 @@ go 1.18
 
 require (
 	github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20200 // indirect
-	github.com/hbstack/announcement-bar v0.4.0 // indirect
+	github.com/hbstack/announcement-bar v0.4.1 // indirect
 	github.com/hbstack/back-to-top v0.1.2 // indirect
 	github.com/hbstack/base v0.2.1 // indirect
 	github.com/hbstack/bigger-picture v0.9.2 // indirect
@@ -33,15 +33,15 @@ require (
 	github.com/hbstack/footer v0.2.5 // indirect
 	github.com/hbstack/footer/modules/socials v0.2.4 // indirect
 	github.com/hbstack/form v0.1.1 // indirect
+	github.com/hbstack/github-releases v0.1.1 // indirect
 	github.com/hbstack/hb v0.7.1 // indirect
-	github.com/hbstack/header v0.10.0 // indirect
-	github.com/hbstack/header/modules/banner v0.5.4 // indirect
-	github.com/hbstack/header/modules/docsearch v0.1.16 // indirect
+	github.com/hbstack/header/modules/banner v0.5.5 // indirect
+	github.com/hbstack/header/modules/docsearch v0.1.17 // indirect
 	github.com/hbstack/header/modules/language-picker v0.1.15 // indirect
 	github.com/hbstack/header/modules/search v0.1.25 // indirect
 	github.com/hbstack/header/modules/socials v0.1.21 // indirect
 	github.com/hbstack/header/modules/theme-toggle v0.1.15 // indirect
-	github.com/hbstack/header/themes/pills v0.2.11 // indirect
+	github.com/hbstack/header/themes/pills v0.2.12 // indirect
 	github.com/hbstack/iframe v0.1.1 // indirect
 	github.com/hbstack/mermaid v0.1.0 // indirect
 	github.com/hbstack/meta/recommended v0.2.8 // indirect
