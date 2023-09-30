@@ -21,6 +21,14 @@ authors:
   - HB
 aliases:
   - /en/docs/modules/overview/
+menu:
+  main:
+    weight: 1
+    parent: modules
+    params:
+      icon:
+        name: book
+        vendor: bs
 ---
 
 This article shows how to install, uninstall, upgrade, clean and tidy modules.

@@ -21,6 +21,14 @@ authors:
   - HB
 aliases:
   - /zh-hant/docs/modules/overview/
+menu:
+  main:
+    weight: 1
+    parent: modules
+    params:
+      icon:
+        name: book
+        vendor: bs
 ---
 
 本文介紹瞭如何安裝、卸載、升級、清理和整頓模塊。

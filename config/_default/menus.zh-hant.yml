@@ -56,13 +56,6 @@ main:
         color: orange
       description: 建議新的或需要改進的功能。
 
-  - name: Sponsor
-    identifier: sponsor
-    parent: support
-    weight: 10
-    params:
-      divider: true
-
 footer:
   - name: 項目
     identifier: projects

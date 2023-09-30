@@ -56,13 +56,6 @@ main:
         color: orange
       description: Suggest new or updated features.
 
-  - name: Sponsor
-    identifier: sponsor
-    parent: support
-    weight: 10
-    params:
-      divider: true
-
 footer:
   - name: Projects
     identifier: projects

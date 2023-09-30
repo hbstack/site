@@ -21,6 +21,14 @@ authors:
   - HB
 aliases:
   - /zh-hans/docs/modules/overview/
+menu:
+  main:
+    weight: 1
+    parent: modules
+    params:
+      icon:
+        name: book
+        vendor: bs
 ---
 
 本文介绍了如何安装、卸载、升级、清理和整顿模块。
