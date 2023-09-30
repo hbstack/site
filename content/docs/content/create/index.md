@@ -30,8 +30,7 @@ The content structure above has:
 - Three branch content: `hello.md`, `posts/post-1.md` and `posts/post-2.md`.
 - One leaf bundle (a directory at any hierarchy that contains an `index.md`): `foo`. The Leaf bundle will be a regular page and the rest of the content will be its page resource, e.g. `foo/bar.md` is a page resource, not a regular page.
 
-For more information, please refer to [Content Organization](https://gohugo.io/content-management/organization/) and [Page Bundles
-](https://gohugo.io/content-management/page-bundles/).
+For more information, please refer to [Content Organization](https://gohugo.io/content-management/organization/) and [Page Bundles](https://gohugo.io/content-management/page-bundles/).
 
 ## Creating Content
 
