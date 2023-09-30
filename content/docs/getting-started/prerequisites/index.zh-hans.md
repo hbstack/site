@@ -106,6 +106,10 @@ NPM 已被包含于 Node.js 安装中，你可以选择局部或全局地安装�
 
 ## 注意
 
+### `publishDir` **必须**为 `public`
+
+它受到关于共享 PurgeCSS 配置的 HB 实现的限制。
+
 ### Hugo Server 生产模式的必要参数
 
 若需要在生产模式下使用 Hugo Server，需要指定 `--disableFastRender` 和 `--renderToDisk`，否则 PurgeCSS 和 PostCSS 会出现意想不到的问题。

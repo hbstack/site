@@ -106,6 +106,10 @@ Both are valid, HB will try to look up the packages locally first.
 
 ## Notes
 
+### `publishDir` **MUST** be `public`
+
+It's limited by the HB implementation about sharing PurgeCSS configurations.
+
 ### Required Parameters for Hugo Server Production Mode
 
 If you need to use Hugo Server in production mode, you need to specify `--disableFastRender` and `--renderToDisk`, otherwise PurgeCSS and PostCSS will have unexpected problems.
