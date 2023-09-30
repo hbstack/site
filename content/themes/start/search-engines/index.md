@@ -21,8 +21,6 @@ tags:
 | ---- | :--: | ----------- |
 | `weight` | number | Lower weight gets higer priority. |
 
-See below for default properties of built-in search engines.
-
 ## Built-in Search Engines
 
 | Name | Identifier | Module | Version |
@@ -39,6 +37,12 @@ See below for default properties of built-in search engines.
 ## Search Engines Configuration
 
 {{< bs/config-toggle hugo >}}
+module:
+  imports:
+    - path: github.com/hbstack/theme-start/engines/google
+    - path: github.com/hbstack/theme-start/engines/bing
+    - path: github.com/hbstack/theme-start/engines/baidu
+    - path: github.com/hbstack/theme-start/engines/duckduckgo
 params:
   hb:
     theme_start:
