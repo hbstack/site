@@ -61,6 +61,7 @@ github.com/hbstack/form v0.1.1 h1:AO9k/vp0qjs4BsN7zlafN7t0kn6VfvccITOl97vo6P8=
 github.com/hbstack/form v0.1.1/go.mod h1:gV+Ut13MRQ6lvLdsB3ZAxF6I4ALZDJhFu4pIxGKou/c=
 github.com/hbstack/github-releases v0.1.1 h1:MsSr1CJXTmD12UojhIlWhpwi8BSePd5lYirQoeQpKCk=
 github.com/hbstack/github-releases v0.1.1/go.mod h1:7Tqno/a2phAcbw1IagM1nmOUpvA1KwcKN24/vRq6UNk=
+github.com/hbstack/github-releases v0.2.0/go.mod h1:7Tqno/a2phAcbw1IagM1nmOUpvA1KwcKN24/vRq6UNk=
 github.com/hbstack/hb v0.7.1 h1:bnlE/KrhOKADI5aydZG822kT1o9QR8I8TdOWugqaMJE=
 github.com/hbstack/hb v0.7.1/go.mod h1:S/08mx1tK6yxjQIkSqvpqG8HrBzMBDJq1WC5QjXW9p0=
 github.com/hbstack/header/modules/banner v0.5.5 h1:A1cpWjwvFKCgYVFr50S6wzXe8CY7f7iUuadC/E3x0Xc=

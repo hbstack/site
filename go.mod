@@ -33,7 +33,7 @@ require (
 	github.com/hbstack/footer v0.2.5 // indirect
 	github.com/hbstack/footer/modules/socials v0.2.4 // indirect
 	github.com/hbstack/form v0.1.1 // indirect
-	github.com/hbstack/github-releases v0.1.1 // indirect
+	github.com/hbstack/github-releases v0.2.0 // indirect
 	github.com/hbstack/hb v0.7.1 // indirect
 	github.com/hbstack/header/modules/banner v0.5.5 // indirect
 	github.com/hbstack/header/modules/docsearch v0.1.17 // indirect
