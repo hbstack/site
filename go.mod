@@ -35,6 +35,7 @@ require (
 	github.com/hbstack/form v0.1.1 // indirect
 	github.com/hbstack/github-releases v0.2.0 // indirect
 	github.com/hbstack/hb v0.7.1 // indirect
+	github.com/hbstack/header v0.10.1 // indirect
 	github.com/hbstack/header/modules/banner v0.5.5 // indirect
 	github.com/hbstack/header/modules/docsearch v0.1.17 // indirect
 	github.com/hbstack/header/modules/language-picker v0.1.16 // indirect
@@ -57,7 +58,6 @@ require (
 	github.com/hbstack/toc-scrollspy v0.1.0 // indirect
 	github.com/hugomods/aos v0.1.0 // indirect
 	github.com/hugomods/base v0.1.0 // indirect
-	github.com/hugomods/bootstrap v0.13.0 // indirect
 	github.com/hugomods/fuse-js v0.1.0 // indirect
 	github.com/hugomods/giscus v0.1.0 // indirect
 	github.com/hugomods/google-adsense v0.1.0 // indirect
