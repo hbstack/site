@@ -40,19 +40,23 @@ menu:
 
 {{< bs/alert >}}
 {{% markdownify %}}
-`example.com/user/blog` 爲模塊和主題的模塊路徑。
+`example.com/user/blog` 為模塊和主題的模塊路徑，其通常為倉庫的 URL。
 {{% /markdownify %}}
 {{< /bs/alert >}}
 
 ## 安裝模塊
 
-在你的站點上安裝模塊是很簡單的，只需於配置中導入相應的模塊路徑。以 `example.com/user/module` 爲例。
+在你的站點上安裝模塊是很簡單的，只需於配置中導入相應的模塊路徑。以 `example.com/user/module` 為例。
 
 {{< bs/config-toggle filename=hugo >}}
 {{% code-snippet install.toml %}}
 {{< /bs/config-toggle >}}
 
-安裝完模塊後，你需要重新啓動 Hugo 服務器以完全地加載模塊資源。
+安裝完模塊後，你需要重新啟動 Hugo 服務器以完全地加載模塊資源。
+
+{{< bs/alert warning >}}
+模塊的優先級由上至下，我們推薦將新的模塊置於頂部，以避免被其他模塊覆蓋。
+{{< /bs/alert >}}
 
 ## 卸載模塊
 

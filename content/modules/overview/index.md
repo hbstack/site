@@ -40,7 +40,7 @@ To use Hugo modules, you need to initialize your modules and themes first.
 
 {{< bs/alert >}}
 {{% markdownify %}}
-The `example.com/user/blog` is the module path of modules and themes.
+The `example.com/user/blog` is the module path of modules and themes, which is usually the repository URL.
 {{% /markdownify %}}
 {{< /bs/alert >}}
 
@@ -53,6 +53,10 @@ It's quite simply to add a module into your site, just import the module path in
 {{< /bs/config-toggle >}}
 
 You'll need to restart the Hugo server to load the module's assets fully after installing modules.
+
+{{< bs/alert warning >}}
+The priority of modules is from top to the bottom, we recommended putting the newer modules on the top to get rid of getting overridden by others.
+{{< /bs/alert >}}
 
 ## Uninstall Modules
 

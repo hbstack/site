@@ -40,7 +40,7 @@ menu:
 
 {{< bs/alert >}}
 {{% markdownify %}}
-`example.com/user/blog` 为模块和主题的模块路径。
+`example.com/user/blog` 为模块和主题的模块路径，其通常为仓库的 URL。
 {{% /markdownify %}}
 {{< /bs/alert >}}
 
@@ -53,6 +53,10 @@ menu:
 {{< /bs/config-toggle >}}
 
 安装完模块后，你需要重新启动 Hugo 服务器以完全地加载模块资源。
+
+{{< bs/alert warning >}}
+模块的优先级由上至下，我们推荐将新的模块置于顶部，以避免被其他模块覆盖。
+{{< /bs/alert >}}
 
 ## 卸载模块
 
