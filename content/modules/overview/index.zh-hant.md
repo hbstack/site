@@ -2,6 +2,7 @@
 type: docs
 title: "模塊概覽"
 linkTitle: 概覽
+description: 本文介紹瞭如何安裝、卸載、升級、清理和整頓模塊。
 date: 2023-02-04T18:08:09+08:00
 draft: false
 nav_weight: 1
@@ -30,10 +31,6 @@ menu:
         name: book
         vendor: bs
 ---
-
-本文介紹瞭如何安裝、卸載、升級、清理和整頓模塊。
-
-<!--more-->
 
 ## 初始化模塊和主題
 

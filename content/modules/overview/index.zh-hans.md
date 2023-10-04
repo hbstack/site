@@ -2,6 +2,7 @@
 type: docs
 title: "模块概览"
 linkTitle: 概览
+description: 本文介绍了如何安装、卸载、升级、清理和整顿模块。
 date: 2023-02-04T18:08:09+08:00
 draft: false
 nav_weight: 1
@@ -30,10 +31,6 @@ menu:
         name: book
         vendor: bs
 ---
-
-本文介绍了如何安装、卸载、升级、清理和整顿模块。
-
-<!--more-->
 
 ## 初始化模块和主题
 

@@ -1,6 +1,7 @@
 ---
 type: docs
 title: "Modules Overview"
+description: This article shows how to install, uninstall, upgrade, clean and tidy modules.
 linkTitle: Overview
 date: 2023-02-04T18:08:09+08:00
 draft: false
@@ -30,10 +31,6 @@ menu:
         name: book
         vendor: bs
 ---
-
-This article shows how to install, uninstall, upgrade, clean and tidy modules.
-
-<!--more-->
 
 ## Initialize Modules and Themes
 
