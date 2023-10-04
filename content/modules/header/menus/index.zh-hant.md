@@ -25,21 +25,21 @@ authors:
 <!--more-->
 
 {{< bs/alert info >}}
-頁頭菜單最大的深度為兩級。
+頁頭菜單最大的深度爲兩級。
 {{< /bs/alert >}}
 
 ## 菜單集標識
 
-頁頭菜單集標識為 `main`。
+頁頭菜單集標識爲 `main`。
 
 ## 頁頭菜單項參數
 
 | Parameter        |  Type   | Description                        |
 | :--------------- | :-----: | :--------------------------------- |
 | `header`         | string  | 下拉菜單的標題，只作用於頂級菜單。 |
-| `divider`        | boolean | 為 `true` 時，作為分隔符顯示。     |
-| `description`    | string  | 子菜單的描述，默認為頁面描述。       |
-| `columns`        | number  | 子菜單的列數，最大為 `2`，當菜單數目小於 `6` 時，默認為 `1`，否則為 `2`。 |
+| `divider`        | boolean | 爲 `true` 時，作爲分隔符顯示。     |
+| `description`    | string  | 子菜單的描述，默認爲頁面描述。       |
+| `columns`        | number  | 子菜單的列數，最大爲 `2`，當菜單數目小於 `6` 時，默認爲 `1`，否則爲 `2`。 |
 | `icon`           | object  | 圖標參數。                         |
 | `icon.vendor`    | string  | 圖標供應商，必填。                 |
 | `icon.name`      | string  | 圖標名稱，必填。                   |
