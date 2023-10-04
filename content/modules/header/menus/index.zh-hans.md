@@ -38,7 +38,8 @@ authors:
 | :--------------- | :-----: | :--------------------------------- |
 | `header`         | string  | 下拉菜单的标题，只作用于顶级菜单。 |
 | `divider`        | boolean | 为 `true` 时，作为分隔符显示。     |
-| `description`    | string  | 子菜单的描述。                     |
+| `description`    | string  | 子菜单的描述，默认为页面描述。       |
+| `columns`        | number  | 子菜单的列数，最大为 `2`，当菜单数目小于 `6` 时，默认为 `1`，否则为 `2`。 |
 | `icon`           | object  | 图标参数。                         |
 | `icon.vendor`    | string  | 图标供应商，必填。                 |
 | `icon.name`      | string  | 图标名称，必填。                   |

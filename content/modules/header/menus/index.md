@@ -34,16 +34,17 @@ The `main` is taken as the header's menus set identifier.
 
 ## Header Menu Entry Params
 
-| Parameter        |  Type   | Description                                                     |
-| :--------------- | :-----: | :-------------------------------------------------------------- |
-| `header`         | string  | The header of dropdown menus, available on top level menu only. |
-| `divider`        | boolean | Show the divider if `true`.                                     |
-| `description`    | string  | The description for sub menus only.                             |
-| `icon`           | object  | The icon parameters.                                            |
-| `icon.vendor`    | string  | The icon's vendor, required.                                    |
-| `icon.name`      | string  | The icon's name, required.                                      |
-| `icon.color`     | string  | The icon's color.                                               |
-| `icon.className` | string  | The icon's CSS class name.                                      |
+| Parameter        |  Type   | Description                                                                                                        |
+| :--------------- | :-----: | :----------------------------------------------------------------------------------------------------------------- |
+| `header`         | string  | The header of dropdown menus, available on top level menu only.                                                    |
+| `divider`        | boolean | Show the divider if `true`.                                                                                        |
+| `description`    | string  | The description for sub menus only, default to page description.                                                   |
+| `columns`        | number  | The column count of sub menus, up to `2`, default to `1` when the number of menus is less than `6`, otherwise `2`. |
+| `icon`           | object  | The icon parameters.                                                                                               |
+| `icon.vendor`    | string  | The icon's vendor, required.                                                                                       |
+| `icon.name`      | string  | The icon's name, required.                                                                                         |
+| `icon.color`     | string  | The icon's color.                                                                                                  |
+| `icon.className` | string  | The icon's CSS class name.                                                                                         |
 
 See also [Menus Configuration]({{< ref "docs/configuration/menus" >}}).
 
