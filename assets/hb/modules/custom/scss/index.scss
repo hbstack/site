@@ -1,6 +1,11 @@
 .hb-site {
   height: 60px;
   max-width: 160px;
+  opacity: 0.75;
+
+  &:hover {
+    opacity: 1;
+  }
 }
 
 .hb-site-img {
