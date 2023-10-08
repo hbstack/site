@@ -9,7 +9,7 @@ description = '精選文章的數量。'
 name = "fill"
 default = true
 type = "boolean"
-description = '為 `true` 時，選項卡採用全寬。'
+description = '爲 `true` 時，選項卡採用全寬。'
 
 [recent_posts]
 name = "recent_posts"
