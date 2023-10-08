@@ -5,9 +5,21 @@ default = 5
 type = 'number'
 description = 'The number of featured posts.'
 
+[fill]
+name = "fill"
+default = true
+type = "boolean"
+description = 'When `true` the tabs take full width.'
+
 [recent_posts]
 name = "recent_posts"
 required = false
 default = 5
 type = 'number'
 description = 'The number of recent posts.'
+
+[style]
+name = "style"
+default = "pills"
+type = "string"
+description = 'The style of tabs, available options: `pills`, `tabs` or `underline`.'

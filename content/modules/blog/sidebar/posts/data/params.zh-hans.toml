@@ -5,9 +5,21 @@ default = 5
 type = 'number'
 description = '精选文章的数量。'
 
+[fill]
+name = "fill"
+default = true
+type = "boolean"
+description = '为 `true` 时，选项卡采用全宽。'
+
 [recent_posts]
 name = "recent_posts"
 required = false
 default = 5
 type = 'number'
 description = '最新文章的数量。'
+
+[style]
+name = "style"
+default = "pills"
+type = "string"
+description = '选项卡样式：`pills`、`tabs` 或 `underline`。'
