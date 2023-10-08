@@ -23,7 +23,7 @@ The blog module supports an optional sidebar layout.
 
 ## How to Use It?
 
-To enable the sidebar, you'll need to import at least one sidebar modules, such as the [posts]({{< relref "modules/blog/sidebar/posts" >}}) and [taxonomies]({{< relref "modules/blog/sidebar/taxonomies" >}}) modules.
+To enable the sidebar, you'll need to import at least one sidebar modules, such as the [profile]({{< relref "modules/blog/sidebar/profile" >}}), [posts]({{< relref "modules/blog/sidebar/posts" >}}) and [taxonomies]({{< relref "modules/blog/sidebar/taxonomies" >}}) modules.
 
 ## How to Add Sidebar Widget
 

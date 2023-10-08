@@ -23,7 +23,7 @@ authors:
 
 ## 如何使用？
 
-你需要導入至少一個側邊欄模塊，以啓用側邊欄佈局，比如[文章]({{< relref "modules/blog/sidebar/posts" >}})和[分類]({{< relref "modules/blog/sidebar/taxonomies" >}})模塊。
+你需要導入至少一個側邊欄模塊，以啓用側邊欄佈局，比如[簡介]({{< relref "modules/blog/sidebar/profile" >}})、[文章]({{< relref "modules/blog/sidebar/posts" >}})和[分類]({{< relref "modules/blog/sidebar/taxonomies" >}})模塊。
 
 ## 如何添加側邊欄組件
 

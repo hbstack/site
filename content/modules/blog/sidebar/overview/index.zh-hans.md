@@ -23,7 +23,7 @@ authors:
 
 ## 如何使用？
 
-你需要导入至少一个侧边栏模块，以启用侧边栏布局，比如[文章]({{< relref "modules/blog/sidebar/posts" >}})和[分类]({{< relref "modules/blog/sidebar/taxonomies" >}})模块。
+你需要导入至少一个侧边栏模块，以启用侧边栏布局，比如[简介]({{< relref "modules/blog/sidebar/profile" >}})、[文章]({{< relref "modules/blog/sidebar/posts" >}})和[分类]({{< relref "modules/blog/sidebar/taxonomies" >}})模块。
 
 ## 如何添加侧边栏组件
 

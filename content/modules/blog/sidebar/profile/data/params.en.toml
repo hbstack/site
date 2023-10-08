@@ -1,0 +1,40 @@
+[avatar]
+name = "avatar"
+required = false
+default = "/images/logo.png"
+type = "string"
+description = 'The avatar image path relative to the `assets` folder.'
+
+[avatar_size]
+name = "avatar_size"
+default = 100
+type = "number"
+description = 'The size of avatar image.'
+
+[title]
+name = "title"
+required = false
+default = "Site title."
+type = "string"
+description = 'The title, Markdown supported.'
+
+[description]
+name = "description"
+default = "Site description."
+type = "string"
+description = 'The description or bio, Markdown supported.'
+
+[company]
+name = "company"
+type = "string"
+description = 'The company name, Markdown supported.'
+
+[location]
+name = "location"
+type = "string"
+description = 'The location, Markdown supported.'
+
+[socials]
+name = "socials"
+type = "object"
+description = 'Mapping from social media to their identifiers.'

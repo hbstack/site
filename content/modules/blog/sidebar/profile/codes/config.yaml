@@ -1,0 +1,13 @@
+params:
+  hb:
+    blog:
+      sidebar:
+        profile:
+          avatar: "/images/logo.png"
+          avatar_size: 100
+          title: "Name"
+          description: "Description or bio."
+          company: "Company"
+          location: Earth
+          socials:
+            github: hbstack

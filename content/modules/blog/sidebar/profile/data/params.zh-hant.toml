@@ -1,0 +1,40 @@
+[avatar]
+name = "avatar"
+required = false
+default = "/images/logo.png"
+type = "string"
+description = '位於 `assets` 目錄下的圖像地址。'
+
+[avatar_size]
+name = "avatar_size"
+default = 100
+type = "number"
+description = '圖像的尺寸。'
+
+[title]
+name = "title"
+required = false
+default = "站點標題。"
+type = "string"
+description = '標題，支持 Markdown 語法。'
+
+[description]
+name = "description"
+default = "站點描述。"
+type = "string"
+description = '描述或者座右銘，支持 Markdown 語法。'
+
+[company]
+name = "company"
+type = "string"
+description = '公司名稱，支持 Markdown 語法。'
+
+[location]
+name = "location"
+type = "string"
+description = '位置，支持 Markdown 語法。'
+
+[socials]
+name = "socials"
+type = "object"
+description = '社交連接，由社交媒體映射到 ID。'
