@@ -36,7 +36,7 @@ hb:
         - docs
         - news
         - modules
-    paginate: 9
+    paginate: 30
     giscus:
       repo: hbstack/site
       repo_id: R_kgDOJLvAsw
@@ -47,6 +47,19 @@ hb:
       repo: hbstack/site
     twikoo:
       env_id: https://twikoo.hugomods.com/
+    sidebar:
+      posts:
+        style: pills
+      taxonomies:
+        style: underline
+      profile:
+        company: "[HB STACK](https://hbstack.dev/)"
+        location: Internet
+        socials:
+          github: hbstack
+          paypal: razonyang
+          kofi: razonyang
+          rss: true
   docs:
     giscus:
       repo: hbstack/site

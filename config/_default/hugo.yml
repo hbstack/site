@@ -13,6 +13,9 @@ permalinks:
 
 module:
   imports:
+    - path: github.com/hbstack/blog/modules/sidebar/posts
+    - path: github.com/hbstack/blog/modules/sidebar/profile
+    - path: github.com/hbstack/blog/modules/sidebar/taxonomies
     - path: github.com/hbstack/github-releases
     - path: github.com/hugomods/aos
 

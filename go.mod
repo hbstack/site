@@ -16,6 +16,9 @@ require (
 	github.com/hbstack/blog/modules/heading-sign v0.1.15 // indirect
 	github.com/hbstack/blog/modules/post-nav v0.2.12 // indirect
 	github.com/hbstack/blog/modules/related-posts v0.1.14 // indirect
+	github.com/hbstack/blog/modules/sidebar/posts v0.3.5 // indirect
+	github.com/hbstack/blog/modules/sidebar/profile v1.0.0 // indirect
+	github.com/hbstack/blog/modules/sidebar/taxonomies v0.3.5 // indirect
 	github.com/hbstack/blog/modules/toc-scrollspy v0.1.12 // indirect
 	github.com/hbstack/bootstrap v0.2.0 // indirect
 	github.com/hbstack/carousel v0.2.3 // indirect
@@ -47,11 +50,13 @@ require (
 	github.com/hbstack/mermaid v0.1.0 // indirect
 	github.com/hbstack/meta/recommended v0.2.9 // indirect
 	github.com/hbstack/noscript v0.2.0 // indirect
+	github.com/hbstack/pagination v0.2.0 // indirect
 	github.com/hbstack/preferred-language v0.1.0 // indirect
 	github.com/hbstack/progress-bar v0.1.0 // indirect
 	github.com/hbstack/pwa v0.1.2 // indirect
 	github.com/hbstack/scrollbar v0.1.0 // indirect
 	github.com/hbstack/search v0.1.7 // indirect
+	github.com/hbstack/slide v0.2.0 // indirect
 	github.com/hbstack/socials v0.6.0 // indirect
 	github.com/hbstack/syntax-highlighting v0.1.0 // indirect
 	github.com/hbstack/syntax-highlighting/styles/gruvbox v0.1.0 // indirect
@@ -65,6 +70,7 @@ require (
 	github.com/hugomods/gravatar v0.2.0 // indirect
 	github.com/hugomods/hugopress v0.2.1 // indirect
 	github.com/hugomods/icons v0.6.0 // indirect
+	github.com/hugomods/icons/vendors/bootstrap v0.5.1 // indirect
 	github.com/hugomods/icons/vendors/font-awesome v0.6.1 // indirect
 	github.com/hugomods/icons/vendors/simple-icons v1.0.16 // indirect
 	github.com/hugomods/images v0.8.0 // indirect
