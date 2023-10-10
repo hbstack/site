@@ -28,17 +28,23 @@ The meta modules do not provide any functionalities, they are just a set of modu
 
 {{% hb-module "meta/content" %}}
 
-| Imported Modules                                      |
-| ----------------------------------------------------- |
-| [Bootstrap]({{< relref "modules/content/bootstrap" >}})  |
-| [Images](https://hugomods.com/en/docs/images)         |
-| [KaTex](https://hugomods.com/en/docs/content/katex)   |
-| [Mermaid]({{< relref "modules/content/mermaid" >}})      |
-| [Shortcodes](https://hugomods.com/en/docs/shortcodes) |
+{{< emgithub
+  owner=hbstack
+  repo=meta
+  file="content/hugo.toml"
+  type=code
+>}}
 
 ## SEO Meta Module
 
 {{% hb-module "meta/seo" %}}
+
+{{< emgithub
+  owner=hbstack
+  repo=meta
+  file="seo/hugo.toml"
+  type=code
+>}}
 
 This module includes all [SEO modules](https://hugomods.com/en/docs/seo/#modules).
 
@@ -46,69 +52,64 @@ This module includes all [SEO modules](https://hugomods.com/en/docs/seo/#modules
 
 {{% hb-module "meta/header" %}}
 
-| Imported Modules                                                        |
-| ----------------------------------------------------------------------- |
-| [Language Picker]({{< relref "modules/header/language-picker" >}}) |
-| [Search]({{< relref "modules/header/search" >}})                   |
-| [Socials]({{< relref "modules/header/socials" >}})                 |
-| [Theme Toggle]({{< relref "modules/header/theme-toggle" >}})       |
+{{< emgithub
+  owner=hbstack
+  repo=meta
+  file="header/hugo.toml"
+  type=code
+>}}
 
 ## Footer Meta Module
 
 {{% hb-module "meta/footer" %}}
 
-| Imported Modules                                        |
-| ------------------------------------------------------- |
-| [Socials]({{< relref "modules/footer/socials" >}}) |
+{{< emgithub
+  owner=hbstack
+  repo=meta
+  file="footer/hugo.toml"
+  type=code
+>}}
 
 ## Blog Meta Module
 
 {{% hb-module "meta/blog" %}}
 
-| Imported Modules                                                    |
-| ------------------------------------------------------------------- |
-| [Breadcrumb]({{< relref "modules/blog/breadcrumb" >}})         |
-| [Featured Image]({{< relref "modules/blog/featured-image" >}}) |
-| [Heading Sign]({{< relref "modules/blog/heading-sign" >}})     |
-| [Post Navigation]({{< relref "modules/blog/post-nav" >}})      |
-| [Related Posts]({{< relref "modules/blog/related-posts" >}})   |
+{{< emgithub
+  owner=hbstack
+  repo=meta
+  file="blog/hugo.toml"
+  type=code
+>}}
 
 ## Docs Meta Module
 
 {{% hb-module "meta/docs" %}}
 
-| Imported Modules                                                    |
-| ------------------------------------------------------------------- |
-| [Breadcrumb]({{< relref "modules/docs/breadcrumb" >}})         |
-| [Featured Image]({{< relref "modules/docs/featured-image" >}}) |
-| [Heading Sign]({{< relref "modules/docs/heading-sign" >}})     |
-| [Doc Navigation]({{< relref "modules/docs/doc-nav" >}})        |
+{{< emgithub
+  owner=hbstack
+  repo=meta
+  file="docs/hugo.toml"
+  type=code
+>}}
 
 ## Standard Meta Module
 
 {{% hb-module "meta/standard" %}}
 
-| Imported Modules                                                                 |
-| -------------------------------------------------------------------------------- |
-| [Blog Meta](#blog-meta-module)                                                   |
-| [Content Meta](#content-meta-module)                                             |
-| [Header Meta](#header-meta-module)                                               |
-| [Footer Meta](#footer-meta-module)                                               |
-| [SEO Meta](#seo-meta-module)                                                     |
-| [Gruvbox Highlighting Syntax]({{< relref "modules/look-and-feel/syntax-highlighting" >}}) |
+{{< emgithub
+  owner=hbstack
+  repo=meta
+  file="standard/hugo.toml"
+  type=code
+>}}
 
 ## Recommended Meta Module
 
 {{% hb-module "meta/recommended" %}}
 
-| Imported Modules                                                   |
-| ------------------------------------------------------------------ |
-| [Standard Meta](#standard-meta-module)                             |
-| [Docs Meta](#docs-meta-module)                                     |
-| [Back to Top]({{< relref "modules/user-experience/back-to-top" >}})           |
-| [Bigger Picture]({{< relref "modules/enhancement/bigger-picture" >}})     |
-| [Code Block Panel]({{< relref "modules/look-and-feel/code-block-panel" >}}) |
-| [No Script]({{< relref "modules/user-experience/noscript" >}})                |
-| [Progress Bar]({{< relref "modules/look-and-feel/progress-bar" >}})         |
-| [PWA]({{< relref "modules/enhancement/pwa" >}})                           |
-| [Scrollbar]({{< relref "modules/look-and-feel/scrollbar" >}})               |
+{{< emgithub
+  owner=hbstack
+  repo=meta
+  file="recommended/hugo.toml"
+  type=code
+>}}

@@ -27,17 +27,23 @@ images:
 
 {{% hb-module "meta/content" %}}
 
-| Imported Modules                                      |
-| ----------------------------------------------------- |
-| [Bootstrap]({{< relref "modules/content/bootstrap" >}})  |
-| [Images](https://hugomods.com/en/docs/images)         |
-| [KaTex](https://hugomods.com/en/docs/content/katex)   |
-| [Mermaid]({{< relref "modules/content/mermaid" >}})      |
-| [Shortcodes](https://hugomods.com/en/docs/shortcodes) |
+{{< emgithub
+  owner=hbstack
+  repo=meta
+  file="content/hugo.toml"
+  type=code
+>}}
 
 ## SEO 元模塊
 
 {{% hb-module "meta/seo" %}}
+
+{{< emgithub
+  owner=hbstack
+  repo=meta
+  file="seo/hugo.toml"
+  type=code
+>}}
 
 該模塊包含所有 [SEO 模塊](https://hugomods.com/en/docs/seo/#modules)。
 
@@ -45,69 +51,64 @@ images:
 
 {{% hb-module "meta/header" %}}
 
-| Imported Modules                                                 |
-| ---------------------------------------------------------------- |
-| [語言切換]({{< relref "modules/header/language-picker" >}}) |
-| [搜索]({{< relref "modules/header/search" >}})              |
-| [社交鏈接]({{< relref "modules/header/socials" >}})         |
-| [主題切換]({{< relref "modules/header/theme-toggle" >}})    |
+{{< emgithub
+  owner=hbstack
+  repo=meta
+  file="header/hugo.toml"
+  type=code
+>}}
 
 ## 頁尾元模塊
 
 {{% hb-module "meta/footer" %}}
 
-| Imported Modules                                         |
-| -------------------------------------------------------- |
-| [社交鏈接]({{< relref "modules/footer/socials" >}}) |
+{{< emgithub
+  owner=hbstack
+  repo=meta
+  file="footer/hugo.toml"
+  type=code
+>}}
 
 ## 博客元模塊
 
 {{% hb-module "meta/blog" %}}
 
-| Imported Modules                                              |
-| ------------------------------------------------------------- |
-| [麪包屑導航]({{< relref "modules/blog/breadcrumb" >}})   |
-| [特色圖片]({{< relref "modules/blog/featured-image" >}}) |
-| [標題鏈接]({{< relref "modules/blog/heading-sign" >}})   |
-| [文章導航]({{< relref "modules/blog/post-nav" >}})       |
-| [相關文章]({{< relref "modules/blog/related-posts" >}})  |
+{{< emgithub
+  owner=hbstack
+  repo=meta
+  file="blog/hugo.toml"
+  type=code
+>}}
 
 ## 文檔元模塊
 
 {{% hb-module "meta/docs" %}}
 
-| Imported Modules                                              |
-| ------------------------------------------------------------- |
-| [麪包屑導航]({{< relref "modules/docs/breadcrumb" >}})   |
-| [特色圖片]({{< relref "modules/docs/featured-image" >}}) |
-| [標題鏈接]({{< relref "modules/docs/heading-sign" >}})   |
-| [文檔導航]({{< relref "modules/docs/doc-nav" >}})        |
+{{< emgithub
+  owner=hbstack
+  repo=meta
+  file="docs/hugo.toml"
+  type=code
+>}}
 
 ## 標準元模塊
 
 {{% hb-module "meta/standard" %}}
 
-| Imported Modules                                                      |
-| --------------------------------------------------------------------- |
-| [博客元模塊](#博客元模塊)                                             |
-| [內容元模塊](#內容元模塊)                                             |
-| [頁頭元模塊](#頁頭元模塊)                                             |
-| [頁尾元模塊](#頁尾元模塊)                                             |
-| [SEO 元模塊](#seo-元模塊)                                             |
-| [Gruvbox 語法高亮]({{< relref "modules/look-and-feel/syntax-highlighting" >}}) |
+{{< emgithub
+  owner=hbstack
+  repo=meta
+  file="standard/hugo.toml"
+  type=code
+>}}
 
 ## 推薦元模塊
 
 {{% hb-module "meta/recommended" %}}
 
-| Imported Modules                                               |
-| -------------------------------------------------------------- |
-| [標準元模塊](#標準元模塊)                                      |
-| [文檔元模塊](#文檔元模塊)                                      |
-| [返回頂部]({{< relref "modules/user-experience/back-to-top" >}})          |
-| [Bigger Picture]({{< relref "modules/enhancement/bigger-picture" >}}) |
-| [代碼塊面板]({{< relref "modules/look-and-feel/code-block-panel" >}})   |
-| [No Script]({{< relref "modules/user-experience/noscript" >}})            |
-| [進度條]({{< relref "modules/look-and-feel/progress-bar" >}})           |
-| [PWA]({{< relref "modules/enhancement/pwa" >}})                       |
-| [滾動條]({{< relref "modules/look-and-feel/scrollbar" >}})              |
+{{< emgithub
+  owner=hbstack
+  repo=meta
+  file="recommended/hugo.toml"
+  type=code
+>}}
