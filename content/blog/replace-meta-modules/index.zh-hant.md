@@ -16,13 +16,13 @@ authors:
 
 ## 背景
 
-起初，為了方便新手快速入門和熟悉 HB 框架的主題，我們提供了一些[元模塊]({{< relref "modules/meta" >}})，其只是模塊的集合，本身並不提供任何功能。
+起初，爲了方便新手快速入門和熟悉 HB 框架的主題，我們提供了一些[元模塊]({{< relref "modules/meta" >}})，其只是模塊的集合，本身並不提供任何功能。
 
-但目前元模塊有著一個明顯的缺點，就是很難從中移除不需要的模塊。因此在本教程中，我們將談及如何從元模塊中移除模塊。
+但目前元模塊有着一個明顯的缺點，就是很難從中移除不需要的模塊。因此在本教程中，我們將談及如何從元模塊中移除模塊。
 
 ## 解決方案
 
-為此，我們需要知道元模塊導入了哪些模塊，然後將其導入的模塊__依次__地重新導入，並將不需要的模塊去除，最後將元模塊移除即可。
+爲此，我們需要知道元模塊導入了哪些模塊，然後將其導入的模塊__依次__地重新導入，並將不需要的模塊去除，最後將元模塊移除即可。
 
 {{< bs/alert danger >}}
 導入模塊的順序非常重要，其優先級從上至下，如果你不喜歡這樣，只需保持與元模塊定義的順序相同即可。
@@ -35,7 +35,7 @@ authors:
 path = "github.com/hbstack/meta/recommended"
 ```
 
-首先，將元模塊依次替換為其導入的模塊。
+首先，將元模塊依次替換爲其導入的模塊。
 
 {{< emgithub
   owner=hbstack
@@ -44,8 +44,8 @@ path = "github.com/hbstack/meta/recommended"
   type=code
 >}}
 
-然後移除或替換不需要的模塊，例如，你可能想將開源項目文檔網站的 `github.com/hbstack/header/modules/search` 替換為 `github.com/hbstack/header/modules/docsearch`。
+然後移除或替換不需要的模塊，例如，你可能想將開源項目文檔網站的 `github.com/hbstack/header/modules/search` 替換爲 `github.com/hbstack/header/modules/docsearch`。
 
 {{< bs/alert >}}
-對於以 YAML 或 JSON 編寫的其他配置，你需要先將其轉換為相應的語言。
+對於以 YAML 或 JSON 編寫的其他配置，你需要先將其轉換爲相應的語言。
 {{< /bs/alert >}}
