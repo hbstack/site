@@ -80,6 +80,7 @@ github.com/hbstack/header/modules/socials v0.1.24/go.mod h1:UU4FJT0/cqi/z4ttmBJl
 github.com/hbstack/header/modules/socials v0.1.26/go.mod h1:ppyvjpy6wg/WxgDWSHXATx51/ykpTgLpXAq3BhMqT7A=
 github.com/hbstack/header/modules/theme-toggle v0.1.18 h1:I0dLfrAZVzm1GUxQXcfUJ0gCgL1YzAGoKiwI3YskOMA=
 github.com/hbstack/header/modules/theme-toggle v0.1.18/go.mod h1:QFRunk14ktM/oYuYxlKOnJvw0ZPFTiPnSSbWwSYLLc4=
+github.com/hbstack/header/modules/theme-toggle v0.1.20/go.mod h1:JBLtu7vWYBtTE7GTiI7vR5BpdSbW4V025h6lEDNaSik=
 github.com/hbstack/header/themes/pills v0.2.16 h1:gJIAn7xOOL+nNrGVXQ2jPEoAYMNcF/iUW3TDD9H5UmM=
 github.com/hbstack/header/themes/pills v0.2.16/go.mod h1:P4oOyqbyKSX1f6smvPSgYIy5UQBK2vm6sdNKuL2QJ1k=
 github.com/hbstack/iframe v0.1.1 h1:npNgmbvZ5TtLE9kvv7xrILOZqLcUYJIq2I8CacW6Yeo=
