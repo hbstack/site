@@ -94,6 +94,7 @@ github.com/hbstack/hb v0.7.1 h1:bnlE/KrhOKADI5aydZG822kT1o9QR8I8TdOWugqaMJE=
 github.com/hbstack/hb v0.7.1/go.mod h1:S/08mx1tK6yxjQIkSqvpqG8HrBzMBDJq1WC5QjXW9p0=
 github.com/hbstack/header v0.11.1 h1:3EYfH6O95GSlKULQYjRf5TwpRkHZwAnvBUDTPxs5i7A=
 github.com/hbstack/header v0.11.1/go.mod h1:MkFJjAqVs/pgOEBjdCzBTdjT6q43It0PGvZh56OkdB4=
+github.com/hbstack/header v0.11.3/go.mod h1:MkFJjAqVs/pgOEBjdCzBTdjT6q43It0PGvZh56OkdB4=
 github.com/hbstack/header/modules/banner v0.5.7 h1:QnsgvZXpBk5GQ4PcjPgfAM3BqlYK4bXbHrtZUybGGW4=
 github.com/hbstack/header/modules/banner v0.5.7/go.mod h1:kYaDaJIUuzdYsuxDr8bTtr1Jv4IRxzhUt2MMZsGcrpI=
 github.com/hbstack/header/modules/docsearch v0.1.19 h1:GucU78oPKtLflGFztLFqv5FZmfv49CjD/AhIEtAy8FQ=
