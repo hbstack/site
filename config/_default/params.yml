@@ -59,6 +59,7 @@ hb:
           github: hbstack
           paypal: razonyang
           kofi: razonyang
+          mastodon: https://techhub.social/@hbstack
           rss: true
   docs:
     giscus:
