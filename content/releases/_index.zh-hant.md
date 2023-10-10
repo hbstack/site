@@ -10,4 +10,5 @@ menu:
       icon:
         vendor: bs
         name: git
+        color: green
 ---
