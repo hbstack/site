@@ -8,7 +8,6 @@ require (
 	github.com/hbstack/back-to-top v0.1.2 // indirect
 	github.com/hbstack/base v0.2.1 // indirect
 	github.com/hbstack/bigger-picture v0.9.2 // indirect
-	github.com/hbstack/blog v0.16.1 // indirect
 	github.com/hbstack/blog/modules/breadcrumb v0.1.16 // indirect
 	github.com/hbstack/blog/modules/content-panel v0.1.15 // indirect
 	github.com/hbstack/blog/modules/featured-image v0.2.15 // indirect
@@ -17,7 +16,6 @@ require (
 	github.com/hbstack/blog/modules/post-nav v0.2.14 // indirect
 	github.com/hbstack/blog/modules/related-posts v0.1.16 // indirect
 	github.com/hbstack/blog/modules/sidebar/posts v0.4.1 // indirect
-	github.com/hbstack/blog/modules/sidebar/profile v1.0.1 // indirect
 	github.com/hbstack/blog/modules/sidebar/taxonomies v0.3.7 // indirect
 	github.com/hbstack/blog/modules/toc-scrollspy v0.1.14 // indirect
 	github.com/hbstack/bootstrap v0.2.0 // indirect
@@ -38,14 +36,13 @@ require (
 	github.com/hbstack/form v0.1.1 // indirect
 	github.com/hbstack/github-releases v0.2.0 // indirect
 	github.com/hbstack/hb v0.7.1 // indirect
-	github.com/hbstack/header v0.11.3 // indirect
-	github.com/hbstack/header/modules/banner v0.5.8 // indirect
-	github.com/hbstack/header/modules/docsearch v0.1.19 // indirect
+	github.com/hbstack/header/modules/banner v0.5.9 // indirect
+	github.com/hbstack/header/modules/docsearch v0.1.21 // indirect
 	github.com/hbstack/header/modules/language-picker v0.1.18 // indirect
 	github.com/hbstack/header/modules/search v0.1.28 // indirect
 	github.com/hbstack/header/modules/socials v0.1.24 // indirect
 	github.com/hbstack/header/modules/theme-toggle v0.1.18 // indirect
-	github.com/hbstack/header/themes/pills v0.2.14 // indirect
+	github.com/hbstack/header/themes/pills v0.2.16 // indirect
 	github.com/hbstack/iframe v0.1.1 // indirect
 	github.com/hbstack/mermaid v0.1.0 // indirect
 	github.com/hbstack/meta/recommended v0.2.9 // indirect
