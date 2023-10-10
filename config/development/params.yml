@@ -9,3 +9,8 @@ pwa:
       strategy: network-first
     style:
       strategy: network-first
+
+hugopress:
+  modules:
+    pwa:
+      disable: true
