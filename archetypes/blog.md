@@ -1,5 +1,6 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
+description: 
 date: {{ .Date }}
 draft: true
 series:
@@ -9,5 +10,3 @@ images:
 authors:
   - HB
 ---
-
-<!--more-->
