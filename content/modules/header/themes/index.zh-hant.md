@@ -31,3 +31,9 @@ authors:
 ![頁頭經典主題](classic.png#center)
 
 {{% hb-module "header/themes/classic" %}}
+
+## 頁頭標籤主題
+
+![頁頭標籤主題](tabs.png#center)
+
+{{% hb-module "header/themes/tabs" %}}

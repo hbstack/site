@@ -32,3 +32,9 @@ authors:
 ![Header classic theme](classic.png#center)
 
 {{% hb-module "header/themes/classic" %}}
+
+## Header Tabs Theme
+
+![Header tabs theme](tabs.png#center)
+
+{{% hb-module "header/themes/tabs" %}}

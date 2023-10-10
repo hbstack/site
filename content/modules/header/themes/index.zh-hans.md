@@ -31,3 +31,9 @@ authors:
 ![页头经典主题](classic.png#center)
 
 {{% hb-module "header/themes/classic" %}}
+
+## 页头标签主题
+
+![页头标签主题](tabs.png#center)
+
+{{% hb-module "header/themes/tabs" %}}
