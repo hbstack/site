@@ -1,0 +1,15 @@
+.hb-site {
+  height: 60px;
+  max-width: 160px;
+  opacity: 0.75;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.hb-site-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
