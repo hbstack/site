@@ -2,6 +2,10 @@ main:
   - name: Docs
     identifier: docs
     weight: 1
+    params:
+      icon:
+        vendor: bs
+        name: book
 
   - name: Support
     identifier: support

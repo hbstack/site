@@ -2,6 +2,10 @@ main:
   - name: 文档
     identifier: docs
     weight: 1
+    params:
+      icon:
+        vendor: bs
+        name: book
 
   - name: 支持
     identifier: support
