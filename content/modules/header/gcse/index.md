@@ -60,3 +60,7 @@ layout: gcse
 ### Google Hosted
 
 This mode opens a new tab navigate to the Google hosted page when clicking the search button.
+
+## Futher Reading
+
+- [Replace meta modules]({{< relref "blog/replace-meta-modules" >}}): replacing the built-in client-side search module.

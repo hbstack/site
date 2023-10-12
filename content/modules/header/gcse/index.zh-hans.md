@@ -59,3 +59,7 @@ layout: gcse
 ### Google 托管
 
 当点击搜索按钮时，该模式打开新标签，并导航至 Google 托管的页面。
+
+## 延伸阅读
+
+- [替换元模块]({{< relref "blog/replace-meta-modules" >}})：替换内置的客户端搜索模块。

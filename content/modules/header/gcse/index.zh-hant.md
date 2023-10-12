@@ -59,3 +59,7 @@ layout: gcse
 ### Google 託管
 
 當點擊搜索按鈕時，該模式打開新標籤，並導航至 Google 託管的頁面。
+
+## 延伸閱讀
+
+- [替換元模塊]({{< relref "blog/replace-meta-modules" >}})：替換內置的客戶端搜索模塊。
