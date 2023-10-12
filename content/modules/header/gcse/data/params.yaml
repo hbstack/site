@@ -1,0 +1,9 @@
+- name: id
+  description: "The [Google custom search engine](https://programmablesearchengine.google.com/about/) ID."
+  required: true
+
+- name: layout
+  description: "When set as `offcanvas`, open the search page in Offcanvas."
+
+- name: url
+  description: "Custom the Google hosted URL."

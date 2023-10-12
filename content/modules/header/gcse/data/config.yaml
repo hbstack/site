@@ -1,0 +1,6 @@
+params:
+  hb:
+    header:
+      gcse:
+        id: SEARCH_ENGINE_ID
+        layout: offcanvas
