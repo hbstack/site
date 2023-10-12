@@ -4,6 +4,6 @@
 | --------- | :--: | :-----: | :------: | ----------- |
 {{- range $params | transform.Unmarshal }}
   {{- $required := cond (default false .required) "✔️" "" }}
-| `{{ .name }}` | `{{ .type }}` | {{ $required }} | {{ if isset . "default" }}`{{ .default }}`{{ end }} | {{ with .description }}{{ . }}{{ end }} |
+| `{{ .name }}` | `{{ default "string" .type }}` | {{ $required }} | {{ if isset . "default" }}`{{ .default }}`{{ end }} | {{ with .description }}{{ . }}{{ end }} |
 {{- end }}
 {{- end }}
