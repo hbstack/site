@@ -17,6 +17,16 @@ main:
         vendor: font-awesome-solid
         name: headset
 
+  - name: Mastodon
+    parent: support
+    url: https://techhub.social/@hbstack
+    weight: 100
+    params:
+      description: 關注我們的 Mastodon 賬號以獲取最近更新。
+      icon:
+        vendor: simple
+        name: mastodon
+
   - name: GitHub
     parent: support
     url: https://github.com/hbstack/
