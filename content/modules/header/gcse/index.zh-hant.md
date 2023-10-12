@@ -38,7 +38,7 @@ authors:
 
 ### Offcanvas
 
-如封面所示，搜索頁面將顯示於頁面右側的 Offcanvas 面板上。你需要將 `layout` 參數指定為 `offcanvas` 以啟用該模式。
+如封面所示，搜索頁面將顯示於頁面右側的 Offcanvas 面板上。你需要將 `layout` 參數指定爲 `offcanvas` 以啓用該模式。
 
 ### 單頁模式
 
@@ -47,7 +47,7 @@ authors:
 - `gcse`：將 GCSE 嵌入站點，共用站點的佈局和樣式。
 - `gcse-standalone`：獨立於站點的 GCSE 頁面。
 
-你需要於頁面前言指定 `layout` 為 `gcse` 和 `gcse-standalone` 其一，以 `content/search/_index.md` 為例。
+你需要於頁面前言指定 `layout` 爲 `gcse` 和 `gcse-standalone` 其一，以 `content/search/_index.md` 爲例。
 
 ```markdown
 ---
