@@ -22,7 +22,7 @@ main:
     url: https://techhub.social/@hbstack
     weight: 100
     params:
-      description: 关注我们的 Mastodon 账号以获取最近更新。
+      description: 关注我们以获取最近更新。
       icon:
         vendor: simple
         name: mastodon
