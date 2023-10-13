@@ -16,38 +16,32 @@ jobs:
       - name: Checkout
         uses: actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608 # v4
 
-      - name: Setup Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: '19'
+      # - name: Cache dependencies
+      #   uses: actions/cache@v3
+      #   with:
+      #     path: ~/.npm
+      #     key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+      #     restore-keys: |
+      #       ${{ runner.os }}-node-
 
-      - name: Cache dependencies
-        uses: actions/cache@v3
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
-
-      - name: Install dependencies
-        run: npm i -g postcss-cli autoprefixer @fullhuman/postcss-purgecss rtlcss
-
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: 'latest'
-          extended: true
-
-      - name: Cache Hugo modules
-        uses: actions/cache@v3
-        with:
-          path: /tmp/hugo_cache
-          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
-          restore-keys: |
-            ${{ runner.os }}-hugomod-
+      # - name: Cache Hugo modules
+      #   uses: actions/cache@v3
+      #   with:
+      #     path: /tmp/hugo_cache
+      #     key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
+      #     restore-keys: |
+      #       ${{ runner.os }}-hugomod-
 
       - name: Build
-        run: hugo --minify --gc --enableGitInfo && cp public/en/404.html public/404.html
+        uses: addnab/docker-run-action@v3
+        with:
+          image: hugomods/hugo:exts
+          options: -v ${{ github.workspace }}:/src -e GITHUB_TOKEN
+          run: >-
+            git config --global --add safe.directory /src &&
+            npm ci &&
+            hugo --minify --gc --enableGitInfo &&
+            cp public/en/404.html public/404.html
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
