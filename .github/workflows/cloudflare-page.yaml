@@ -8,6 +8,7 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
+    container: hugomods/hugo:exts
     permissions:
       contents: read
       deployments: write
@@ -15,11 +16,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608 # v4
-
-      - name: Setup Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: '19'
 
       - name: Cache dependencies
         uses: actions/cache@v3
@@ -30,13 +26,7 @@ jobs:
             ${{ runner.os }}-node-
 
       - name: Install dependencies
-        run: npm i -g postcss-cli autoprefixer @fullhuman/postcss-purgecss rtlcss
-
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: 'latest'
-          extended: true
+        run: npm ci
 
       - name: Cache Hugo modules
         uses: actions/cache@v3
