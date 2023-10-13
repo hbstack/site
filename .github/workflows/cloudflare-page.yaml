@@ -8,14 +8,17 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    container: hugomods/hugo:exts
+    container:
+      image: hugomods/hugo:exts
+      volumes:
+        - ./:/src
     permissions:
       contents: read
       deployments: write
     name: Publish to Cloudflare Pages
     steps:
       - name: Checkout
-        uses: actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608 # v4
+        uses: actions/checkout@v3
 
       - name: Cache dependencies
         uses: actions/cache@v3
@@ -35,6 +38,7 @@ jobs:
           key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
           restore-keys: |
             ${{ runner.os }}-hugomod-
+      - run: echo $GITHUB_WORKSPACE
 
       - name: Build
         run: hugo --minify --gc --enableGitInfo && cp public/en/404.html public/404.html
