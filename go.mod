@@ -19,7 +19,7 @@ require (
 	github.com/hbstack/blog/modules/sidebar/taxonomies v0.3.10 // indirect
 	github.com/hbstack/blog/modules/toc-scrollspy v0.1.17 // indirect
 	github.com/hbstack/bootstrap v0.2.0 // indirect
-	github.com/hbstack/carousel v0.2.3 // indirect
+	github.com/hbstack/carousel v0.2.4 // indirect
 	github.com/hbstack/code-block-panel v0.1.1 // indirect
 	github.com/hbstack/contact v0.2.0 // indirect
 	github.com/hbstack/content-panel v0.2.3 // indirect
