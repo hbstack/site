@@ -59,7 +59,7 @@ require (
 	github.com/hbstack/syntax-highlighting/styles/gruvbox v0.1.0 // indirect
 	github.com/hbstack/toc-scrollspy v0.1.0 // indirect
 	github.com/hugomods/aos v0.1.0 // indirect
-	github.com/hugomods/base v0.2.0 // indirect
+	github.com/hugomods/base v0.3.0 // indirect
 	github.com/hugomods/fuse-js v0.1.0 // indirect
 	github.com/hugomods/giscus v0.1.1 // indirect
 	github.com/hugomods/google-adsense v0.1.0 // indirect
