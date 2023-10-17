@@ -23,7 +23,7 @@ hb:
     brand: 'HB'
     socials:
       github: hbstack
-      kofi: razonyang
+      githubsponsors: https://github.com/sponsors/razonyang
       paypal: razonyang
       # twitter: razonyang
       mastodon: https://techhub.social/@hbstack
@@ -58,7 +58,7 @@ hb:
         socials:
           github: hbstack
           paypal: razonyang
-          kofi: razonyang
+          githubsponsors: https://github.com/sponsors/razonyang
           mastodon: https://techhub.social/@hbstack
           rss: true
   docs:
@@ -77,7 +77,7 @@ hb:
     # site_title: HB Framework
     socials:
       github: hbstack
-      kofi: razonyang
+      githubsponsors: https://github.com/sponsors/razonyang
       paypal: razonyang
       twitter: razonyang
       mastodon: razonyang
@@ -91,7 +91,7 @@ hb:
   thanks:
     socials:
       paypal: razonyang
-      kofi: razonyang
+      githubsponsors: https://github.com/sponsors/razonyang
 pwa:
   icon_path: images/logo.png
   icon_sizes: [192, 512]
