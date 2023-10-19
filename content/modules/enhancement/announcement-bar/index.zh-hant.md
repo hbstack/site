@@ -30,7 +30,7 @@ authors:
 | ~~`bg`~~    | string | primary | 背景顏色。               |
 | ~~`color`~~ | string | `#fff`  | 文本顏色。               |
 | `interval`  | number | `5000`  | 公告的間隔，單位：毫秒。 |
-| `expand_stall_threshold` | number | `500` | 鼠標懸停於公告欄時展開所有公告所需要經過的毫秒數。 |
+| `expand_stall_threshold` | number | `1000` | 鼠標懸停於公告欄時展開所有公告所需要經過的毫秒數。 |
 
 {{< bs/config-toggle hugo >}}
 {{% code-snippet config.yaml %}}

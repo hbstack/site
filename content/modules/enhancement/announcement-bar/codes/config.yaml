@@ -2,4 +2,4 @@ params:
   hb:
     announcement_bar:
       interval: 5000
-      expand_stall_threshold: 500
+      expand_stall_threshold: 1000
