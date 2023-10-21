@@ -23,9 +23,9 @@ require (
 	github.com/hbstack/code-block-panel v0.1.1 // indirect
 	github.com/hbstack/contact v0.2.0 // indirect
 	github.com/hbstack/content-panel v0.2.3 // indirect
-	github.com/hbstack/docs v0.6.4 // indirect
+	github.com/hbstack/docs v0.7.0 // indirect
 	github.com/hbstack/docs/modules/breadcrumb v0.1.7 // indirect
-	github.com/hbstack/docs/modules/content-panel v0.1.6 // indirect
+	github.com/hbstack/docs/modules/content-panel v0.1.7 // indirect
 	github.com/hbstack/docs/modules/doc-nav v0.2.5 // indirect
 	github.com/hbstack/docs/modules/featured-image v0.2.6 // indirect
 	github.com/hbstack/docs/modules/giscus v0.1.8 // indirect
