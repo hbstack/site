@@ -92,6 +92,7 @@ github.com/hbstack/docs/modules/featured-image v0.2.6/go.mod h1:7RL3v8GF/63rB5bY
 github.com/hbstack/docs/modules/giscus v0.1.7 h1:SW6AMAVDdDh/RiZdaKbCKUvjfq1n6ugWlKjRo+SySV0=
 github.com/hbstack/docs/modules/giscus v0.1.7/go.mod h1:97ZeoBJr54chr6u70HUDtkiVBDGwYl9lZAC9lmbpjhY=
 github.com/hbstack/docs/modules/giscus v0.1.8/go.mod h1:AEoD0YJKDL6Sh8/eAHq1+mZDUu5re3z9UvnTlhd0LmY=
+github.com/hbstack/docs/modules/giscus v0.1.9/go.mod h1:vflq4EERiBTjYZ5RuHirFLRmSxly7/eIcA81rwtmQlI=
 github.com/hbstack/docs/modules/heading-sign v0.1.6 h1:5OgBkLlbEEDtQcBcIiek36ey3KXncHFwyYnhLlVbNCg=
 github.com/hbstack/docs/modules/heading-sign v0.1.6/go.mod h1:uDDtKAQi/XHH6pPCsbpPFMI7Ba3ZGjFYpSewxfwPJYk=
 github.com/hbstack/docs/modules/heading-sign v0.1.7/go.mod h1:QVJkUvDKZML3q2sibECzpAk3ylJ2cwv0s5naEDJfhm0=
