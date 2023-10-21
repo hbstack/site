@@ -80,6 +80,7 @@ github.com/hbstack/docs/modules/breadcrumb v0.1.6/go.mod h1:a+K5/jvdYPlSgragg2Og
 github.com/hbstack/docs/modules/breadcrumb v0.1.7/go.mod h1:UjZ1pDFCob8cHTKXOoYMo6SwxBxWKaNc0KlQEaCBAbk=
 github.com/hbstack/docs/modules/content-panel v0.1.5 h1:CZ3IlF68c9rMV1cRGli5s/SXzE9+7g2AW0msQFcKhkc=
 github.com/hbstack/docs/modules/content-panel v0.1.5/go.mod h1:1cqME+WPPJVc3zBAi1W7aomml5n1baymuBWLMEVm+Gw=
+github.com/hbstack/docs/modules/content-panel v0.1.6/go.mod h1:Z3YEee3F2OClJl7HPs99DLn/WPMIoyz3DAgh70xwuXM=
 github.com/hbstack/docs/modules/doc-nav v0.2.5 h1:9JQbivRmauRsw2cyS1NRSbpoXIeMWQFafsZbYGWaQ00=
 github.com/hbstack/docs/modules/doc-nav v0.2.5/go.mod h1:pBJKJb0X6zhWKcCJcyG13yrd3HumoDptQATFP4teW9o=
 github.com/hbstack/docs/modules/featured-image v0.2.5 h1:Yt0WYsLEMLvlGyXtLyuoMBH/tMkzN7upfNrLAHxei2Q=
