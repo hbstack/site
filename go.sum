@@ -93,6 +93,7 @@ github.com/hbstack/docs/modules/heading-sign v0.1.6 h1:5OgBkLlbEEDtQcBcIiek36ey3
 github.com/hbstack/docs/modules/heading-sign v0.1.6/go.mod h1:uDDtKAQi/XHH6pPCsbpPFMI7Ba3ZGjFYpSewxfwPJYk=
 github.com/hbstack/docs/modules/toc-scrollspy v0.1.4 h1:rorlYljbsRsdqKlwODre3t6n8VL8B5B8u0EtVXq1naY=
 github.com/hbstack/docs/modules/toc-scrollspy v0.1.4/go.mod h1:Ed/fo05NbSSs+HN7nYiJXGWf9KGbeVXCqmdU0LSTu+o=
+github.com/hbstack/docs/modules/toc-scrollspy v0.1.5/go.mod h1:aAF0wxtvX3L3bJV2JjTHfRywoErlk2f1YG9yVVZzfn0=
 github.com/hbstack/footer v0.2.5 h1:SBelvFYo8/IDPisprlZxEaR70PXcoHfjL+2mm1ir6/A=
 github.com/hbstack/footer v0.2.5/go.mod h1:L0ZYdYRROlGUGLRA9QchkYeByHIff/EU4WKRdAUW+E8=
 github.com/hbstack/footer/modules/socials v0.2.4 h1:O2wfIFWVzmGWiel+uT9ipGYhdIuqqaG34UZ3wwLDJ10=
