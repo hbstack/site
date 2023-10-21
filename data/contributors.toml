@@ -39,3 +39,10 @@ login = 'razonyang'
 avatar_url = 'https://avatars.githubusercontent.com/u/17720932?v=4'
 contributions = 1100
 repos = 48
+
+[whiztech]
+id = 159569
+login = 'whiztech'
+avatar_url = 'https://avatars.githubusercontent.com/u/159569?v=4'
+contributions = 9
+repos = 9
