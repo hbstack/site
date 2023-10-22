@@ -166,6 +166,7 @@ github.com/hbstack/search v0.1.7 h1:5u1aCCAqtuh0vHENqGOvKsJ0q7il7kO2zYnBWjETAFw=
 github.com/hbstack/search v0.1.7/go.mod h1:VLRF5mP2a1YBMH+o+0zEFEclb+NzKlpZmIfY+1aIGDM=
 github.com/hbstack/slide v0.2.0 h1:0D8Vt4bxtFCNpozRu0WDMz0kgOy60Gk1aJKAZSPUnik=
 github.com/hbstack/slide v0.2.0/go.mod h1:7fBmuBpoxrmP+dQPArVyX80LTQOWCm8z7Rf38nzDlzE=
+github.com/hbstack/slide v0.3.0/go.mod h1:iKDyeU/HJpjXiwsAScBH626Z0oTCsfiK6Tt1O1RxEjc=
 github.com/hbstack/socials v0.6.0 h1:vnDZLpQmA2tJAHQeOXuFtlzMIoE8rUKahiBRuhkeg3w=
 github.com/hbstack/socials v0.6.0/go.mod h1:vOckvjx7Tvhg+QJ4rKR7lTj3GytBMACj1Q43V459J5Q=
 github.com/hbstack/socials v0.7.0/go.mod h1:0IViwiReyAknJBIXFqhThn6m13jbib6lLFYfMIWZYzY=
