@@ -234,6 +234,7 @@ github.com/jakearchibald/idb v7.1.1+incompatible h1:/o1ng3qUjgMUeeKFim3J3tiQAitc
 github.com/jakearchibald/idb v7.1.1+incompatible/go.mod h1:AuDoW54s2DKfbclM+ScrnPp8ahUQ9rHph9bb8sZTEXc=
 github.com/razonyang/hb-mod-thanks v0.4.2 h1:IHjKFCir5nWakgXVc3+witHH9gkUoUB+B5v4Tyszi5E=
 github.com/razonyang/hb-mod-thanks v0.4.2/go.mod h1:QNNUPfVp6v3fyvFjkk1DDDl0qhajEuzXAPgnuwMLg1w=
+github.com/razonyang/hb-mod-thanks v0.5.0/go.mod h1:QNNUPfVp6v3fyvFjkk1DDDl0qhajEuzXAPgnuwMLg1w=
 github.com/twbs/bootstrap v5.3.2+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/icons v1.11.1 h1:lMKkMwupTDfBJWXx6RFLwfYuCmqG/uUAu2LaOf7bZjU=
 github.com/twbs/icons v1.11.1/go.mod h1:GnRlymgVWp5iVJCMa0Me5b6tFyGpVc2bSxPMRGIJmyA=
