@@ -125,6 +125,7 @@ github.com/hbstack/header/modules/language-picker v0.1.21/go.mod h1:vlKi+qkfV0AV
 github.com/hbstack/header/modules/search v0.1.28 h1:fckyLkYKrBVZsKMjfpXNbTIlcw4aKJLVwSO99XFhrQY=
 github.com/hbstack/header/modules/search v0.1.28/go.mod h1:DEShhkQEvh36507BdXXLnAB6pNjNoDYC17EwfT4Al08=
 github.com/hbstack/header/modules/search v0.1.30/go.mod h1:DRhdnl4uzi6pjWmv0UMMUOlotLtUgFlWbGWZ2xXm4Js=
+github.com/hbstack/header/modules/search v0.1.31/go.mod h1:chtAc5meafXNJhISM6uodmMCp0QJ5Mis6ZHhgPJewfk=
 github.com/hbstack/header/modules/socials v0.1.24 h1:Qgt/yVX2dGk/bt76EG9PvZFfUZs0B24dSx/58/n4zPw=
 github.com/hbstack/header/modules/socials v0.1.24/go.mod h1:UU4FJT0/cqi/z4ttmBJlIQm9BdpEvuBaErmEBDVlPjc=
 github.com/hbstack/header/modules/socials v0.1.26/go.mod h1:ppyvjpy6wg/WxgDWSHXATx51/ykpTgLpXAq3BhMqT7A=
@@ -198,6 +199,7 @@ github.com/hugomods/katex v0.3.0 h1:hq0Kels9clL38Y2K/QZgXFKF7hQuumyQYz16TT4/Hhk=
 github.com/hugomods/katex v0.3.0/go.mod h1:EBY1YQTN6F8FDQz+mWp3EzEh8vDN31YjL9luVni+Wm0=
 github.com/hugomods/search v0.4.5 h1:RC7OTkEAQjh49/SCh5Gw0+RFzeTDE+6J5XqMixVY6mw=
 github.com/hugomods/search v0.4.5/go.mod h1:xdMNL0R06eMDyl8LVoFNp19lnFSNMFT+oje8j8N/WbI=
+github.com/hugomods/search v0.5.0/go.mod h1:FURp5HBUm8JiuJajLk9sZ1Z1QUSJATboYEp1sFi46a4=
 github.com/hugomods/seo/modules/alternatives v0.1.0 h1:G5IjM7j7ExgXEMyxQj1Z/5JwwRW8DEmL0nDJYxA3NhE=
 github.com/hugomods/seo/modules/alternatives v0.1.0/go.mod h1:ff9uz+f5yii9k2jbwt/HKM3RpLR3EYZrNQBAOabNxMA=
 github.com/hugomods/seo/modules/favicons v0.2.0 h1:pzQMocbHHMNNiuE5vsCxE4qqaJBprYAUX4EOoiF+ynM=

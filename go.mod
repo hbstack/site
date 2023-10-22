@@ -39,7 +39,7 @@ require (
 	github.com/hbstack/header/modules/banner v0.5.10 // indirect
 	github.com/hbstack/header/modules/docsearch v0.1.22 // indirect
 	github.com/hbstack/header/modules/language-picker v0.1.21 // indirect
-	github.com/hbstack/header/modules/search v0.1.30 // indirect
+	github.com/hbstack/header/modules/search v0.1.31 // indirect
 	github.com/hbstack/header/modules/socials v0.1.26 // indirect
 	github.com/hbstack/header/modules/theme-toggle v0.1.20 // indirect
 	github.com/hbstack/header/themes/pills v0.2.16 // indirect
@@ -72,7 +72,7 @@ require (
 	github.com/hugomods/icons/vendors/simple-icons v1.0.18 // indirect
 	github.com/hugomods/images v0.8.0 // indirect
 	github.com/hugomods/katex v0.3.0 // indirect
-	github.com/hugomods/search v0.4.5 // indirect
+	github.com/hugomods/search v0.5.0 // indirect
 	github.com/hugomods/seo/modules/alternatives v0.1.0 // indirect
 	github.com/hugomods/seo/modules/favicons v0.2.0 // indirect
 	github.com/hugomods/seo/modules/open-graph v0.1.0 // indirect
