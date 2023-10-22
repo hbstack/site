@@ -135,6 +135,7 @@ github.com/hbstack/header/modules/theme-toggle v0.1.18/go.mod h1:QFRunk14ktM/oYu
 github.com/hbstack/header/modules/theme-toggle v0.1.20/go.mod h1:JBLtu7vWYBtTE7GTiI7vR5BpdSbW4V025h6lEDNaSik=
 github.com/hbstack/header/themes/pills v0.2.16 h1:gJIAn7xOOL+nNrGVXQ2jPEoAYMNcF/iUW3TDD9H5UmM=
 github.com/hbstack/header/themes/pills v0.2.16/go.mod h1:P4oOyqbyKSX1f6smvPSgYIy5UQBK2vm6sdNKuL2QJ1k=
+github.com/hbstack/header/themes/pills v0.2.17/go.mod h1:lEk42qmZEt0u81hveFYNSI5LmoCZkLkeCy+GojPub0c=
 github.com/hbstack/iframe v0.1.1 h1:npNgmbvZ5TtLE9kvv7xrILOZqLcUYJIq2I8CacW6Yeo=
 github.com/hbstack/iframe v0.1.1/go.mod h1:W0qloZsLN8BCHObGrKHUOCK3LLCFN4x4PoA1u5WfW1s=
 github.com/hbstack/mermaid v0.1.0 h1:T/3Az7xujbFmbC4r1tZGKTwt6GOcz/72yc2N9oFNU2I=
