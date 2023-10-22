@@ -121,6 +121,7 @@ github.com/hbstack/header/modules/docsearch v0.1.22/go.mod h1:kDxr405/gjQ0gIAqHo
 github.com/hbstack/header/modules/language-picker v0.1.18 h1:HfMmXZC65GnRJBr6Ts4NysUFvKAUMgIPXcym2oPIRMA=
 github.com/hbstack/header/modules/language-picker v0.1.18/go.mod h1:NktjHB9iRkmFH5rZ1XXPc7D40mcMOipDmKyCoxwGfxM=
 github.com/hbstack/header/modules/language-picker v0.1.20/go.mod h1:aNct66xWjiQoxjNiUIGDA0gwvjPyyRQ5Qdww+BCPMuw=
+github.com/hbstack/header/modules/language-picker v0.1.21/go.mod h1:vlKi+qkfV0AVXl910GTj432RPrvIIUgTbejBO/vahM4=
 github.com/hbstack/header/modules/search v0.1.28 h1:fckyLkYKrBVZsKMjfpXNbTIlcw4aKJLVwSO99XFhrQY=
 github.com/hbstack/header/modules/search v0.1.28/go.mod h1:DEShhkQEvh36507BdXXLnAB6pNjNoDYC17EwfT4Al08=
 github.com/hbstack/header/modules/search v0.1.30/go.mod h1:DRhdnl4uzi6pjWmv0UMMUOlotLtUgFlWbGWZ2xXm4Js=

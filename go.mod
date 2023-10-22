@@ -38,7 +38,7 @@ require (
 	github.com/hbstack/hb v0.7.1 // indirect
 	github.com/hbstack/header/modules/banner v0.5.10 // indirect
 	github.com/hbstack/header/modules/docsearch v0.1.22 // indirect
-	github.com/hbstack/header/modules/language-picker v0.1.20 // indirect
+	github.com/hbstack/header/modules/language-picker v0.1.21 // indirect
 	github.com/hbstack/header/modules/search v0.1.30 // indirect
 	github.com/hbstack/header/modules/socials v0.1.26 // indirect
 	github.com/hbstack/header/modules/theme-toggle v0.1.20 // indirect
