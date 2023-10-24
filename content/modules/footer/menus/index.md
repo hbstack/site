@@ -35,7 +35,7 @@ The `footer` is taken as the footer's menus set identifier.
 | Parameter        |  Type  | Description                  |
 | :--------------- | :----: | :--------------------------- |
 | `icon`           | object | The icon parameters.         |
-| `icon.vendor`    | string | The icon's vendor，required. |
+| `icon.vendor`    | string | The icon's vendor, required. |
 | `icon.name`      | string | The icon's name, required.   |
 | `icon.color`     | string | The icon's color.            |
 | `icon.className` | string | The icon's CSS class name.   |
