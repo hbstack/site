@@ -38,7 +38,7 @@ The base module provides several basic layouts and templates for other modules, 
 ## Features
 
 - Landing page layout.
-- Custom 404 (not found) page.
+- Custom *404 Not Found* page.
 - Integrate with [header]({{< relref "modules/header" >}}) and [footer]({{< relref "modules/footer" >}}) modules.
 
 ## Hooks
