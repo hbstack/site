@@ -40,6 +40,13 @@ avatar_url = 'https://avatars.githubusercontent.com/u/17720932?v=4'
 contributions = 1105
 repos = 48
 
+[salim-b]
+id = 20040931
+login = 'salim-b'
+avatar_url = 'https://avatars.githubusercontent.com/u/20040931?v=4'
+contributions = 1
+repos = 1
+
 [whiztech]
 id = 159569
 login = 'whiztech'
