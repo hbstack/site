@@ -25,13 +25,13 @@ authors:
   - HB
 ---
 
-Undoubtedly, the same coding style helps developers to cooperate with each other. We suggest taking a few minutes to learn about the coding style used, if you're going to help us improve the code.
+Undoubtedly, adhering to the same coding style helps developers work together. We suggest you take a few minutes to learn about the coding style used if you'd like to help us improve the code by submitting pull requests.
 
 <!--more-->
 
 ## TypeScript Style Guide
 
-We use eslint to check the TypeScript and JavaScript styles.
+We use eslint to check the TypeScript and JavaScript formatting.
 
 ```sh
 npm run eslint
@@ -39,7 +39,7 @@ npm run eslint
 
 ## SCSS Style Guide
 
-The stylelint is used to check the SCSS styles.
+Stylelint is used to check the SCSS styles.
 
 ```sh
 npm run stylelint
@@ -51,7 +51,7 @@ npm run stylelint
 
 #### Parameters Naming Convention
 
-Since Hugo parameters are case-insensitive, [snake_case](https://en.wikipedia.org/wiki/Snake_case) are preferred.
+Since Hugo parameters are case-insensitive, [`snake_case`](https://en.wikipedia.org/wiki/Snake_case) is preferred.
 
 | Parameter |     |
 | --------- | --- |
@@ -63,14 +63,14 @@ Since Hugo parameters are case-insensitive, [snake_case](https://en.wikipedia.or
 
 #### File Naming Convention
 
-The filenames are case-sensitive on some file systems, so we recommend always using `kebab-case`.
+Filenames are case-sensitive on some file systems, so we recommend always using [`kebab-case`](https://en.wikipedia.org/wiki/Letter_case#Kebab_case).
 
 | Filename       |
 | -------------- | --- |
 | `fooBar.html`  | ❌  |
 | `foo-bar.html` | ✅  |
 
-#### Variables Naming Conventions
+#### Variable Naming Conventions
 
-1. Use `PascalCase` for exported variables, as Go does.
-1. Use `camelCase` for local variables.
+1. Use [`PascalCase`](https://en.wikipedia.org/wiki/Camel_case) for exported variables, as Go does.
+1. Use [`camelCase`](https://en.wikipedia.org/wiki/Camel_case) for local variables.
