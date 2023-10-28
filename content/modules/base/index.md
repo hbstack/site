@@ -29,7 +29,7 @@ menu:
         name: window-sidebar
 ---
 
-The base module provides several basic layouts and templates for others modules, such as landing page, 404 page not found, [header]({{< relref "modules/header" >}}) module and [footer]({{< relref "modules/footer" >}}) module.
+The base module provides several basic layouts and templates for other modules, such as a landing page, a custom 404 page, a [header]({{< relref "modules/header" >}}) and a [footer]({{< relref "modules/footer" >}}) module.
 
 <!--more-->
 
@@ -38,12 +38,12 @@ The base module provides several basic layouts and templates for others modules,
 ## Features
 
 - Landing page layout.
-- 404 page not found.
+- Custom *404 Not Found* page.
 - Integrate with [header]({{< relref "modules/header" >}}) and [footer]({{< relref "modules/footer" >}}) modules.
 
 ## Hooks
 
 | Name            | Description             |
 | --------------- | ----------------------- |
-| `hb-main-begin` | Before the `.hb-main`.  |
-| `hb-main-end`   | Follows the `.hb-main`. |
+| `hb-main-begin` | Before the `"main"` [block](https://gohugo.io/templates/base/#define-the-base-template) in the [HTML `<body>`](https://github.com/hbstack/hb/blob/main/layouts/_default/baseof.html).  |
+| `hb-main-end`   | After the `"main"` block in the HTML `<body>`. |
