@@ -8,9 +8,9 @@ require (
 	github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20200 // indirect
 	github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 // indirect
 	github.com/hbstack/back-to-top v0.1.2 // indirect
-	github.com/hbstack/base v0.3.0 // indirect
+	github.com/hbstack/base v0.4.0 // indirect
 	github.com/hbstack/bigger-picture v0.9.2 // indirect
-	github.com/hbstack/blog v0.19.1 // indirect
+	github.com/hbstack/blog v0.19.2 // indirect
 	github.com/hbstack/blog/modules/breadcrumb v0.1.22 // indirect
 	github.com/hbstack/blog/modules/content-panel v0.1.21 // indirect
 	github.com/hbstack/blog/modules/featured-image v0.2.21 // indirect
@@ -42,7 +42,7 @@ require (
 	github.com/hbstack/form v0.1.1 // indirect
 	github.com/hbstack/giscus v0.1.1 // indirect
 	github.com/hbstack/github-releases v0.2.0 // indirect
-	github.com/hbstack/hb v0.7.1 // indirect
+	github.com/hbstack/hb v0.7.2 // indirect
 	github.com/hbstack/header v0.12.1 // indirect
 	github.com/hbstack/header/modules/banner v0.5.11 // indirect
 	github.com/hbstack/header/modules/docsearch v0.1.23 // indirect
@@ -73,7 +73,7 @@ require (
 	github.com/hugomods/aos v0.1.0 // indirect
 	github.com/hugomods/base v0.4.0 // indirect
 	github.com/hugomods/bootstrap v0.13.0 // indirect
-	github.com/hugomods/code-block-panel v0.3.0 // indirect
+	github.com/hugomods/code-block-panel v0.4.0 // indirect
 	github.com/hugomods/docsearch v0.1.0 // indirect
 	github.com/hugomods/font-awesome v6.4.2+incompatible // indirect
 	github.com/hugomods/fuse-js v0.1.0 // indirect
@@ -91,9 +91,9 @@ require (
 	github.com/hugomods/images v0.8.0 // indirect
 	github.com/hugomods/katex v0.3.0 // indirect
 	github.com/hugomods/mermaid v0.1.1 // indirect
-	github.com/hugomods/pwa v0.4.0 // indirect
+	github.com/hugomods/pwa v0.5.0 // indirect
 	github.com/hugomods/recaptcha-v2 v0.1.1 // indirect
-	github.com/hugomods/search v0.5.0 // indirect
+	github.com/hugomods/search v0.6.0 // indirect
 	github.com/hugomods/seo/modules/alternatives v0.1.0 // indirect
 	github.com/hugomods/seo/modules/base v0.1.0 // indirect
 	github.com/hugomods/seo/modules/favicons v0.2.0 // indirect
