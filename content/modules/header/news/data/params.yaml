@@ -1,0 +1,13 @@
+- name: sections
+  type: array
+  default: ["news"]
+  description: Main sections.
+
+- name: limit
+  type: number
+  default: 5
+  description: The maximum number of news.
+
+- name: date_format
+  default: ":date_full"
+  description: The format of news date.
