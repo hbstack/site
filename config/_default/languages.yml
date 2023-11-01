@@ -11,8 +11,3 @@ zh-hant:
   languageName: 繁體中文
   weight: 3
   title: HB 框架
-
-ar:
-  languageName: "العربية"
-  languageDirection: rtl
-  weight: 4
