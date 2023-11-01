@@ -1,10 +1,10 @@
 ---
-title: "Broken styles when building site via Hugo v0.120.0 or later"
-description: There are some patches for correcting the broken styles when building site via Hugo v0.120.0 or later. 
+title: Hugo v0.120.0 样式损坏补丁
+description: 以下补丁修复了 Hugo v0.120.0 构建站点时出现的样式损坏问题。
 date: 2023-10-31T16:33:52+08:00
 draft: false
 series:
-  - News
+  - 新闻
 categories:
 tags:
 images:
