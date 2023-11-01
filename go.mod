@@ -7,7 +7,6 @@ require (
 	github.com/KaTeX/KaTeX v0.16.9 // indirect
 	github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20200 // indirect
 	github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 // indirect
-	github.com/hbstack/announcement-bar v0.4.1 // indirect
 	github.com/hbstack/back-to-top v0.1.2 // indirect
 	github.com/hbstack/base v0.3.0 // indirect
 	github.com/hbstack/bigger-picture v0.9.2 // indirect
@@ -48,6 +47,7 @@ require (
 	github.com/hbstack/header/modules/banner v0.5.11 // indirect
 	github.com/hbstack/header/modules/docsearch v0.1.23 // indirect
 	github.com/hbstack/header/modules/language-picker v0.1.22 // indirect
+	github.com/hbstack/header/modules/news v0.1.0 // indirect
 	github.com/hbstack/header/modules/search v0.1.32 // indirect
 	github.com/hbstack/header/modules/socials v0.1.28 // indirect
 	github.com/hbstack/header/modules/theme-toggle v0.2.1 // indirect
