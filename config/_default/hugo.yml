@@ -2,7 +2,7 @@ baseURL: https://hbstack.dev/
 title: HB Framework
 copyright: "Copyright © 2022-{year} [HB Framework](https://hbstack.dev/). All Rights Reserved."
 defaultContentLanguage: en
-defaultContentLanguageInSubdir: true
+defaultContentLanguageInSubdir: false
 # disqusShortname: hbstack
 enableRobotsTXT: true
 enableEmoji: true
