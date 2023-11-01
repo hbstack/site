@@ -28,18 +28,19 @@ The blog module provides the basic layouts and templates for blog site.
 
 | Parameter                    |  Type   |        Default         | Description                                              |
 | ---------------------------- | :-----: | :--------------------: | -------------------------------------------------------- |
-| `full_width`                 | boolean |        `false`         | Whether take full width.                                 |
-| `paginate`                   | number  |          `9`           | How many posts per list page.                            |
-| `post_date_format`           | string  |      `:date_long`      | The date format.                                         |
-| `post_thumbnail`             | boolean |         `true`         | Whether to display thumbnail.                            |
-| `post_thumbnail_default`     | string  | `images/thumbnail.png` | The default thumbnail image relative to `assets` folder. |
-| `post_thumbnail_placeholder` | string  |      Site's title      | The thumbnail placeholder.                               |
-| `archives`                   | object  |                        | Archives settings.                                       |
-| `archives.paginate`          | number  |          `30`          | How many posts per page.                                 |
-| `home`                       | object  |                        | Homepage settings.                                       |
-| `home.featured_posts`        | number  |          `10`          | The number of featured posts.                            |
-| `home.main_sections`         |  array  |           -            | The main sections of posts, default to ALL.              |
-| `home.taxonomies`            | boolean |         `true`         | Whether to show the taxonomies stat on home page.        |
+| `blog.full_width`                 | boolean |        `false`         | Whether take full width.                                 |
+| `blog.paginate`                   | number  |          `9`           | How many posts per list page.                            |
+| `blog.post_date_format`           | string  |      `:date_long`      | The date format.                                         |
+| `blog.post_thumbnail`             | boolean |         `true`         | Whether to display thumbnail.                            |
+| `blog.post_thumbnail_default`     | string  | `images/thumbnail.png` | The default thumbnail image relative to `assets` folder. |
+| `blog.post_thumbnail_placeholder` | string  |      Site's title      | The thumbnail placeholder.                               |
+| `blog.archives`                   | object  |                        | Archives settings.                                       |
+| `blog.archives.paginate`          | number  |          `30`          | How many posts per page.                                 |
+| `blog.home`                       | object  |                        | Homepage settings.                                       |
+| `blog.home.featured_posts`        | number  |          `10`          | The number of featured posts.                            |
+| `blog.home.main_sections`         |  array  |           -            | The main sections of posts, default to ALL.              |
+| `blog.home.taxonomies`            | boolean |         `true`         | Whether to show the taxonomies stat on home page.        |
+| `terms.paginate` | number | `12` | The number of posts per term list page. |
 
 {{< bs/config-toggle params >}}
 {{% code-snippet params.yaml %}}

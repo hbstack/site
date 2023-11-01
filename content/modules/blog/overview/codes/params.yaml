@@ -1,4 +1,6 @@
 hb:
+  terms:
+    paginate: 12
   blog:
     full_width: false
     paginate: 12

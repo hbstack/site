@@ -28,18 +28,19 @@ aliases:
 
 | Parameter                    |  Type   |        Default         | Description                          |
 | ---------------------------- | :-----: | :--------------------: | ------------------------------------ |
-| `full_width`                 | boolean |        `false`         | 是否全寬。                             |
-| `paginate`                   | number  |          `9`           | 每頁博文數量。                       |
-| `post_date_format`           | string  |      `:date_long`      | 博文日期格式。                       |
-| `post_thumbnail`             | boolean |         `true`         | 是否顯示縮略圖。                     |
-| `post_thumbnail_default`     | string  | `images/thumbnail.png` | 相對於 `assets` 文件夾的默認縮略圖。 |
-| `post_thumbnail_placeholder` | string  |        站點標題        | 縮略圖佔位符。                       |
-| `archives`                   | object  |                        | 歸檔設置。                           |
-| `archives.paginate`          | number  |          `30`          | 歸檔每頁博文數量。                   |
-| `home`                       | object  |                        | 博客首頁設置。                       |
-| `home.featured_posts`        | number  |          `10`          | 特刊博文數量。                       |
-| `home.main_sections`         |  array  |           -            | 博文欄目，默認所有欄目。             |
-| `home.taxonomies`            | boolean |         `true`         | 是否於首頁顯示分類統計。             |
+| `blog.full_width`                 | boolean |        `false`         | 是否全寬。                             |
+| `blog.paginate`                   | number  |          `9`           | 每頁博文數量。                       |
+| `blog.post_date_format`           | string  |      `:date_long`      | 博文日期格式。                       |
+| `blog.post_thumbnail`             | boolean |         `true`         | 是否顯示縮略圖。                     |
+| `blog.post_thumbnail_default`     | string  | `images/thumbnail.png` | 相對於 `assets` 文件夾的默認縮略圖。 |
+| `blog.post_thumbnail_placeholder` | string  |        站點標題        | 縮略圖佔位符。                       |
+| `blog.archives`                   | object  |                        | 歸檔設置。                           |
+| `blog.archives.paginate`          | number  |          `30`          | 歸檔每頁博文數量。                   |
+| `blog.home`                       | object  |                        | 博客首頁設置。                       |
+| `blog.home.featured_posts`        | number  |          `10`          | 特刊博文數量。                       |
+| `blog.home.main_sections`         |  array  |           -            | 博文欄目，默認所有欄目。             |
+| `blog.home.taxonomies`            | boolean |         `true`         | 是否於首頁顯示分類統計。             |
+| `terms.paginate` | number | `12` | 分類列表博文數量。 |
 
 {{< bs/config-toggle params >}}
 {{% code-snippet params.yaml %}}
