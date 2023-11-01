@@ -23,13 +23,13 @@ require (
 	github.com/hbstack/blog/modules/sidebar/taxonomies v0.3.13 // indirect
 	github.com/hbstack/blog/modules/toc-scrollspy v0.1.20 // indirect
 	github.com/hbstack/bootstrap v0.2.0 // indirect
-	github.com/hbstack/breadcrumb v0.3.0 // indirect
+	github.com/hbstack/breadcrumb v0.4.0 // indirect
 	github.com/hbstack/carousel v0.2.4 // indirect
 	github.com/hbstack/code-block-panel v0.1.1 // indirect
 	github.com/hbstack/contact v0.2.0 // indirect
 	github.com/hbstack/content-panel v0.3.0 // indirect
 	github.com/hbstack/docs v0.8.0 // indirect
-	github.com/hbstack/docs/modules/breadcrumb v0.1.8 // indirect
+	github.com/hbstack/docs/modules/breadcrumb v0.1.9 // indirect
 	github.com/hbstack/docs/modules/content-panel v0.1.7 // indirect
 	github.com/hbstack/docs/modules/doc-nav v0.3.1 // indirect
 	github.com/hbstack/docs/modules/featured-image v0.2.7 // indirect
