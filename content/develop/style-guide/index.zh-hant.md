@@ -75,6 +75,6 @@ npm run stylelint
 1. 對於可導出的變量，使用 `PascalCase` 命名方式，如 Go 語言一樣。
 2. 對於局部變量，使用 `camelCase` 命名方式。
 
-## Bootstrap 风格指南
+## Bootstrap 風格指南
 
-我们建议尽量使用 Bootstrap CSS 工具类，以减少 CSS 包的大小。
+我們建議儘量使用 Bootstrap CSS 工具類，以減少 CSS 包的大小。
