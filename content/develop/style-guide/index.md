@@ -74,3 +74,7 @@ Filenames are case-sensitive on some file systems, so we recommend always using 
 
 1. Use [`PascalCase`](https://en.wikipedia.org/wiki/Camel_case) for exported variables, as Go does.
 1. Use [`camelCase`](https://en.wikipedia.org/wiki/Camel_case) for local variables.
+
+## Bootstrap Style Guide
+
+We recommend using Bootstrap CSS utilities as much as possible to reduce the size of CSS bundle.
