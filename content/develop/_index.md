@@ -8,6 +8,7 @@ aliases:
 menu:
   main:
     parent: docs
+    weight: 100
     params:
       description: The guide for theme developers.
       icon:

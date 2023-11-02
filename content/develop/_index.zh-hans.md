@@ -8,6 +8,7 @@ aliases:
 menu:
   main:
     parent: docs
+    weight: 100
     params:
       description: 主题的开发指南。
       icon:

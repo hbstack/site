@@ -51,9 +51,9 @@ header:
 
 {{< bs/article-cards >}}
 
-## 谁正在使用？ {#sites .text-center .mb-4 }
+## 谁正在使用 HB 框架？ {#sites .text-center .mb-4 }
 
-[如何添加我的网站？]({{< relref "/docs/sites" >}})
+[如何添加我的网站？]({{< relref "/sites" >}})
 { .lead .mb-3 .text-body .text-center }
 
 {{< sites >}}

@@ -1,13 +1,9 @@
 ---
-title: "使用 HB 的网站"
-linkTitle: "网站"
+title: "使用 HB 框架的网站"
 description: 谁在使用 HB 框架？
+layout: landing
 date: 2023-09-02T23:39:04+08:00
 draft: false
-nav_icon:
-  vendor: bs
-  name: globe
-  color: green
 series:
   - 文档
 categories:
@@ -15,9 +11,23 @@ tags:
 images:
 authors:
   - HB
+aliases:
+  - docs/sites
+menu:
+  main:
+    parent: docs
+    name: 站点展示
+    params:
+      icon:
+        vendor: bs
+        name: globe
+        color: green
 ---
 
+# {{< param title >}} { .mb-3 }
+
 与我们分享你使用 HB 构建的网站，一旦审核通过，你的网站将于我们的主页和本页面进行展示。
+{ .lead .mb-5 }
 
 ## 如何添加我的网站？
 
@@ -53,6 +63,6 @@ URLs **必须**使用 HTTPS 协议，否则我们不会接受你的站点。
 {{< /markdownify >}}
 {{< /bs/alert >}}
 
-## 正在使用 HB 框架的站点 {.text-center}
+## 正在使用 HB 框架的站点 { .text-center .mt-5 }
 
 {{< sites >}}

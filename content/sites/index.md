@@ -1,23 +1,33 @@
 ---
-title: "Sites Using HB"
-linkTitle: "Sites"
+title: "HB Framework Showcases"
 description: Who's using HB framework?
+layout: landing
 date: 2023-09-02T23:39:04+08:00
 draft: false
-nav_icon:
-  vendor: bs
-  name: globe
-  color: green
 series:
-  - Docs
+  - Showcases
 categories:
 tags:
 images:
 authors:
   - HB
+aliases:
+  - docs/sites
+menu:
+  main:
+    parent: docs
+    name: Showcases
+    params:
+      icon:
+        vendor: bs
+        name: globe
+        color: green
 ---
 
+# {{< param title >}} { .mb-3 }
+
 Sharing with us about your sites built with HB, once the request is approved, your sites will be shown on our homepage and this page.
+{ .lead .mb-5 }
 
 ## How to Add My Sites?
 
@@ -53,6 +63,6 @@ The URLs **MUST** begin with HTTPS protocol, otherwise we won't accept your site
 {{< /markdownify >}}
 {{< /bs/alert >}}
 
-## Sites Using HB Framework {.text-center}
+## Sites Using HB Framework {.text-center .mt-5}
 
 {{< sites >}}

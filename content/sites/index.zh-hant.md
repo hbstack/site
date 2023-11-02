@@ -1,13 +1,9 @@
 ---
-title: "使用 HB 的網站"
-linkTitle: "網站"
+title: "使用 HB 框架的網站"
 description: 誰在使用 HB 框架？
+layout: landing
 date: 2023-09-02T23:39:04+08:00
 draft: false
-nav_icon:
-  vendor: bs
-  name: globe
-  color: green
 series:
   - 文檔
 categories:
@@ -15,9 +11,23 @@ tags:
 images:
 authors:
   - HB
+aliases:
+  - docs/sites
+menu:
+  main:
+    parent: docs
+    name: 站點展示
+    params:
+      icon:
+        vendor: bs
+        name: globe
+        color: green
 ---
 
+# {{< param title >}} { .mb-3 }
+
 與我們分享你使用 HB 構建的網站，一旦審覈通過，你的網站將於我們的主頁和本頁面進行展示。
+{ .lead .mb-5 }
 
 ## 如何添加我的網站？
 
@@ -53,6 +63,6 @@ URLs **必須**使用 HTTPS 協議，否則我們不會接受你的站點。
 {{< /markdownify >}}
 {{< /bs/alert >}}
 
-## 正在使用 HB 框架的站點 {.text-center}
+## 正在使用 HB 框架的站點 { .text-center .mt-5 }
 
 {{< sites >}}

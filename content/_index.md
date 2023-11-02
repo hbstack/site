@@ -51,9 +51,9 @@ header:
 
 {{< bs/article-cards >}}
 
-## Who's using it? {#sites .text-center .mb-4 }
+## Who's Using HB Framework? {#sites .text-center .mb-4 }
 
-[How to add my sites?]({{< relref "/docs/sites" >}})
+[How to add my sites?]({{< relref "/sites" >}})
 { .lead .mb-3 .text-body .text-center }
 
 {{< sites >}}
