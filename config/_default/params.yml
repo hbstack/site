@@ -96,9 +96,6 @@ pwa:
   icon_path: images/logo.png
   icon_sizes: [192, 512]
   offline_image: images/pwa/offline.svg
-  precaches:
-    - url: /en/
-    - url: /zh-hans/
   manifest:
     background_color: '#7952b3'
     theme_color: '#7952b3'
