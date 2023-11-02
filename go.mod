@@ -28,7 +28,7 @@ require (
 	github.com/hbstack/code-block-panel v0.1.1 // indirect
 	github.com/hbstack/contact v0.2.0 // indirect
 	github.com/hbstack/content-panel v0.5.0 // indirect
-	github.com/hbstack/docs v0.9.0 // indirect
+	github.com/hbstack/docs v0.10.0 // indirect
 	github.com/hbstack/docs/modules/breadcrumb v0.1.9 // indirect
 	github.com/hbstack/docs/modules/content-panel v0.1.8 // indirect
 	github.com/hbstack/docs/modules/doc-nav v0.3.2 // indirect
@@ -57,7 +57,7 @@ require (
 	github.com/hbstack/mermaid v0.1.0 // indirect
 	github.com/hbstack/meta/recommended v0.2.10 // indirect
 	github.com/hbstack/noscript v0.4.0 // indirect
-	github.com/hbstack/pagination v0.4.0 // indirect
+	github.com/hbstack/pagination v0.5.0 // indirect
 	github.com/hbstack/preferred-language v0.1.0 // indirect
 	github.com/hbstack/progress-bar v0.1.0 // indirect
 	github.com/hbstack/pwa v0.1.2 // indirect
@@ -91,7 +91,7 @@ require (
 	github.com/hugomods/images v0.8.2 // indirect
 	github.com/hugomods/katex v0.3.0 // indirect
 	github.com/hugomods/mermaid v0.1.1 // indirect
-	github.com/hugomods/pwa v0.5.0 // indirect
+	github.com/hugomods/pwa v0.5.1 // indirect
 	github.com/hugomods/recaptcha-v2 v0.1.1 // indirect
 	github.com/hugomods/search v0.6.0 // indirect
 	github.com/hugomods/seo/modules/alternatives v0.1.0 // indirect
