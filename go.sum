@@ -48,6 +48,7 @@ github.com/hbstack/contact v0.2.0 h1:MnqGhJ3KpI2bJSCKPchS0+KzI/e0hsg16AzfG1YmeHs
 github.com/hbstack/contact v0.2.0/go.mod h1:qK68ZAgUF1FIzHnkYzdKDtHRudCuoqM/C/47HrLPPYw=
 github.com/hbstack/content-panel v0.4.1 h1:cA90YL3AnI6s6aiKWKxA35C76YjDSfRD4j9pX0KJsUM=
 github.com/hbstack/content-panel v0.4.1/go.mod h1:Wdl9hl4rLOcQsMfdxK0BXeIdR0HOvo+t9/FV+YO2dm4=
+github.com/hbstack/content-panel v0.5.0/go.mod h1:Wdl9hl4rLOcQsMfdxK0BXeIdR0HOvo+t9/FV+YO2dm4=
 github.com/hbstack/docs v0.9.0 h1:waNLYnPzGsIiBmwt0SUgWhzXqkVz/GbTA2N6MZreccA=
 github.com/hbstack/docs v0.9.0/go.mod h1:rXOtp9eVDMJnrIYZzYBSSUlFElj8hJZiaoCh4cv8cPg=
 github.com/hbstack/docs/modules/breadcrumb v0.1.9 h1:znf/33KfQFZXOXVKezdksy/euM0FDnoNKeKSyw3SwCk=
