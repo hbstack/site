@@ -26,6 +26,13 @@ avatar_url = 'https://avatars.githubusercontent.com/u/57508537?v=4'
 contributions = 11
 repos = 10
 
+[frajibe]
+id = 58879166
+login = 'frajibe'
+avatar_url = 'https://avatars.githubusercontent.com/u/58879166?v=4'
+contributions = 3
+repos = 3
+
 [jbleonesio]
 id = 11542230
 login = 'jbleonesio'
@@ -33,11 +40,18 @@ avatar_url = 'https://avatars.githubusercontent.com/u/11542230?v=4'
 contributions = 1
 repos = 1
 
+[jnonino]
+id = 12704135
+login = 'jnonino'
+avatar_url = 'https://avatars.githubusercontent.com/u/12704135?v=4'
+contributions = 3
+repos = 3
+
 [razonyang]
 id = 17720932
 login = 'razonyang'
 avatar_url = 'https://avatars.githubusercontent.com/u/17720932?v=4'
-contributions = 1136
+contributions = 1146
 repos = 48
 
 [salim-b]
