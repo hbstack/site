@@ -13,7 +13,7 @@
 <div class="hb-sites flex-wrap d-flex justify-content-center mb-5">
 {{- range $sites }}
   <a
-    class="hb-site text-decoration-none mb-4 mx-3 d-flex align-items-center text-uppercase{{ cond (not .logo) ` border rounded p-2 text-bg-secondary` `` }}"
+    class="hb-site text-decoration-none mb-4 mx-3 d-flex align-items-center justify-content-center text-center text-uppercase{{ cond (not .logo) ` border rounded p-2 text-bg-secondary` `` }}"
     href="{{ .url }}"
     target="_blank"
     rel="external"
