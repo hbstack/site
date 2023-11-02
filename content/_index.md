@@ -45,11 +45,11 @@ header:
 
 ## Features {#features .text-center .mb-5}
 
-{{< bs/icon-grid data="en.features" linkText="" >}}
+{{< bs/icon-grid data="en.features" linkText="" alignment="center" >}}
 
 ## Latest Articles {.text-center .mb-5}
 
-{{< bs/article-cards >}}
+{{< bs/article-cards linkText="" >}}
 
 ## Who's Using HB Framework? {#sites .text-center .mb-4 }
 

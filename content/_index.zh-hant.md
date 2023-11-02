@@ -45,11 +45,11 @@ header:
 
 ## 功能特性 {#features .text-center .mb-5}
 
-{{< bs/icon-grid  data="zh-hant.features" linkText="" >}}
+{{< bs/icon-grid  data="zh-hant.features" linkText="" alignment="center" >}}
 
 ## 最新文章 {.text-center .mb-5}
 
-{{< bs/article-cards >}}
+{{< bs/article-cards linkText="" >}}
 
 ## 誰正在使用 HB 框架？ {#sites .text-center .mb-4 }
 
