@@ -106,9 +106,11 @@ Both are valid, HB will try to look up the packages locally first.
 
 ## Notes
 
-### `publishDir` **MUST** be `public`
+### ~~`publishDir` **MUST** be `public`~~
 
-It's limited by the HB implementation about sharing PurgeCSS configurations.
+~~It's limited by the HB implementation about sharing PurgeCSS configurations.~~
+
+This limitation was fixed in [v0.7.2](https://github.com/hbstack/hb/releases/tag/v0.7.2).
 
 ### Required Parameters for Hugo Server Production Mode
 
