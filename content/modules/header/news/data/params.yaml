@@ -11,3 +11,11 @@
 - name: date_format
   default: ":date_full"
   description: The format of news date.
+
+- name: icon_name
+  default: bell-fill
+  description: The name of icon.
+
+- name: icon_vendor
+  default: bootstrap
+  description: The name of icon vendor.
