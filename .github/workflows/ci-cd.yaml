@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
+        uses: actions/checkout@v4
 
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v3
@@ -18,7 +18,7 @@ jobs:
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
 
-      - name: Login to Docker Hub
+      - name: Login to GitHub Container Registry
         uses: docker/login-action@v3
         with:
           registry: ghcr.io
@@ -31,23 +31,5 @@ jobs:
           context: .
           push: true
           tags: ghcr.io/hbstack/site:latest,ghcr.io/hbstack/site:${{ github.sha }}
-
-      - name: Set k8s context
-        uses: Azure/k8s-set-context@v2
-        with:
-          kubeconfig: ${{ secrets.KUBE_CONFIG }}
-
-      - uses: azure/k8s-bake@v2.4
-        with:
-          renderEngine: 'helm'
-          helmChart: './deploy/'
-          helm-version: 'latest'
-          releaseName: 'site'
-        id: bake
-
-      - uses: Azure/k8s-deploy@v1
-        with:
-          manifests: ${{ steps.bake.outputs.manifestsBundle }}
-          namespace: hbstack
-          images: |
-              ghcr.io/hbstack/site:${{ github.sha }}
+          build-args: |
+            GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }}
