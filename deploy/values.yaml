@@ -38,23 +38,41 @@ securityContext: {}
 
 service:
   type: ClusterIP
-  port: 80
+  ports:
+    - 8080
+    - 8081
+    - 8082
 
 ingress:
   enabled: true
   className: ""
   annotations:
-    kubernetes.io/ingress.class: traefik
     cert-manager.io/cluster-issuer: letsencrypt-prod
   hosts:
     - host: hbstack.dev
       paths:
         - path: /
           pathType: ImplementationSpecific
+      backend:
+        port: 8080
+    - host: zh-hans.hbstack.dev
+      paths:
+        - path: /
+          pathType: ImplementationSpecific
+      backend:
+        port: 8081
+    - host: zh-hant.hbstack.dev
+      paths:
+        - path: /
+          pathType: ImplementationSpecific
+      backend:
+        port: 8082
   tls:
     - secretName: hbstack-dev-tls
       hosts:
         - hbstack.dev
+        - zh-hans.hbstack.dev
+        - zh-hant.hbstack.dev
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious
