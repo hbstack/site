@@ -50,7 +50,7 @@ require (
 	github.com/hbstack/header/modules/news v0.2.0 // indirect
 	github.com/hbstack/header/modules/search v0.1.32 // indirect
 	github.com/hbstack/header/modules/socials v0.1.28 // indirect
-	github.com/hbstack/header/modules/theme-toggle v0.2.1 // indirect
+	github.com/hbstack/header/modules/theme-toggle v0.3.1 // indirect
 	github.com/hbstack/header/themes/pills v0.2.18 // indirect
 	github.com/hbstack/heading-sign v0.1.3 // indirect
 	github.com/hbstack/iframe v0.1.1 // indirect
