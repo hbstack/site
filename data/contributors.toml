@@ -19,6 +19,13 @@ avatar_url = 'https://avatars.githubusercontent.com/u/978928?v=4'
 contributions = 5
 repos = 3
 
+[ditatompel]
+id = 1184957
+login = 'ditatompel'
+avatar_url = 'https://avatars.githubusercontent.com/u/1184957?v=4'
+contributions = 1
+repos = 1
+
 [evandde]
 id = 57508537
 login = 'evandde'
@@ -51,7 +58,7 @@ repos = 3
 id = 17720932
 login = 'razonyang'
 avatar_url = 'https://avatars.githubusercontent.com/u/17720932?v=4'
-contributions = 1156
+contributions = 1161
 repos = 48
 
 [salim-b]
