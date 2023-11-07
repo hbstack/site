@@ -17,4 +17,4 @@ images:
 
 <!--more-->
 
-{{% hb-module "docs/modules/post-nav" %}}
+{{% hb-module "docs/modules/doc-nav" %}}
