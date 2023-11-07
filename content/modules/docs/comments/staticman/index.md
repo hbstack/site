@@ -1,6 +1,6 @@
 ---
 type: docs
-title: "Blog Staticman Comments Module"
+title: "Docs Staticman Comments Module"
 linkTitle: "Staticman"
 date: 2023-05-29T11:49:27+08:00
 draft: false

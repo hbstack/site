@@ -1,6 +1,6 @@
 ---
 type: docs
-title: "博客 Staticman 评论模块"
+title: "文档 Staticman 评论模块"
 linkTitle: "Staticman"
 date: 2023-05-29T11:49:27+08:00
 draft: false
