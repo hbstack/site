@@ -113,7 +113,7 @@
 
   <rect width="60" height="60" rx="2" x="170" y="70" fill="#000"></rect>
   <rect width="50" height="50" rx="2" x="175" y="75" fill="#121212"></rect>
-  <text x="180" y="119" font-size="50" fill="#000">H</text>
+  <text x="182" y="117" font-size="50" fill="#000">H</text>
   <circle r="2" cx="173" cy="73" fill="#121212"></circle>
   <circle r="2" cx="173" cy="127" fill="#121212"></circle>
   <circle r="2" cx="227" cy="73" fill="#121212"></circle>
