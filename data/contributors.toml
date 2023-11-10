@@ -40,6 +40,13 @@ avatar_url = 'https://avatars.githubusercontent.com/u/58879166?v=4'
 contributions = 5
 repos = 4
 
+[gavlinski]
+id = 1410375
+login = 'gavlinski'
+avatar_url = 'https://avatars.githubusercontent.com/u/1410375?v=4'
+contributions = 4
+repos = 3
+
 [jbleonesio]
 id = 11542230
 login = 'jbleonesio'
