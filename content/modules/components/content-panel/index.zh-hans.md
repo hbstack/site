@@ -31,7 +31,8 @@ authors:
 | `repo`         | object |    -     |    -    | 仓库设置。                           |
 | `repo.branch`  | string |    -     | `main`  | 分支名称。                           |
 | `repo.repo`    | string |    Y     |    -    | 仓库名称，如 `user/name`。           |
-| `repo.service` | string |    Y     |    -    | Git 服务提供商：`github`、`gitlab`。 |
+| `repo.service` | string |    Y     |    -    | Git 服务提供商：`github`、`gitlab`、`gitee`、`codeberg`。 |
+| `repo.service_baseurl` | string | - |    -   | 自托管的 Git 服务器 URL。            |
 | `repo.subpath` | string |    -     |    -    | 内容子路径，如 `exampleSite`。       |
 
 {{% bs/config-toggle hugo %}}

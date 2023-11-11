@@ -31,7 +31,8 @@ This module display a content panel on single pages, which includes translations
 | `repo`         | object |    -     |    -    | The repository settings.                  |
 | `repo.branch`  | string |    -     | `main`  | The branch name.                          |
 | `repo.repo`    | string |    Y     |    -    | The repo name, i.e. `user/name`.          |
-| `repo.service` | string |    Y     |    -    | Git service provider: `github`, `gitlab`. |
+| `repo.service` | string |    Y     |    -    | Git service provider: `github`, `gitlab`, `gitee`, `codeberg`. |
+| `repo.service_baseurl` | string | - |    -   | Self-hosted Git service URL.              |
 | `repo.subpath` | string |    -     |    -    | The content subpath, i.e. `exampleSite`.  |
 
 {{% bs/config-toggle hugo %}}
