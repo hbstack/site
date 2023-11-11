@@ -44,8 +44,8 @@ repos = 4
 id = 1410375
 login = 'gavlinski'
 avatar_url = 'https://avatars.githubusercontent.com/u/1410375?v=4'
-contributions = 4
-repos = 3
+contributions = 10
+repos = 8
 
 [jbleonesio]
 id = 11542230
@@ -65,7 +65,7 @@ repos = 3
 id = 17720932
 login = 'razonyang'
 avatar_url = 'https://avatars.githubusercontent.com/u/17720932?v=4'
-contributions = 1163
+contributions = 1169
 repos = 48
 
 [salim-b]
