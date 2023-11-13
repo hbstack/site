@@ -70,6 +70,16 @@ main:
         color: orange
       description: Suggest new or updated features.
 
+  - name: Status
+    parent: support
+    url: https://status.hbstack.dev/
+    params:
+      icon:
+        vendor: bs
+        name: cloud-check
+        color: green
+      description: HB Framework services status.
+
 footer:
   - name: Projects
     identifier: projects

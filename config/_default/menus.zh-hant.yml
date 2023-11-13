@@ -70,6 +70,16 @@ main:
         color: orange
       description: 建議新的或需要改進的功能。
 
+  - name: 狀態
+    parent: support
+    url: https://status.hbstack.dev/
+    params:
+      icon:
+        vendor: bs
+        name: cloud-check
+        color: green
+      description: HB 框架服務狀態。
+
 footer:
   - name: 項目
     identifier: projects
