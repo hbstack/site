@@ -190,6 +190,7 @@ github.com/hugomods/mermaid v0.1.1 h1:12b8DbdiKOTtPmkWOMXsBz3LKkAWVqa5tGkbEboj0a
 github.com/hugomods/mermaid v0.1.1/go.mod h1:7sKIZLAeYsXXnKRh4KR70UQx27xnzf0mSQ2o99zTLS0=
 github.com/hugomods/pwa v0.5.1 h1:x9QhTGIqZHaL46gvdS6JYeJdfwvY1ZePsNWDCF9ogCA=
 github.com/hugomods/pwa v0.5.1/go.mod h1:22AYzuQ64DKY2WJAytKqRKC2BIFc6j39Jo8tTQE+6Xc=
+github.com/hugomods/pwa v0.6.0/go.mod h1:22AYzuQ64DKY2WJAytKqRKC2BIFc6j39Jo8tTQE+6Xc=
 github.com/hugomods/recaptcha-v2 v0.1.1 h1:+Sq2OlTygjZb5JOs5d+IoOz7SCX7hMU1WZFuqNy1yyY=
 github.com/hugomods/recaptcha-v2 v0.1.1/go.mod h1:LX4oUH6d2TagnPUt/o4JClM7K9kxlWBZQ9hKz6+vZyw=
 github.com/hugomods/search v0.6.0 h1:3pziZXB79x+lrD+6sg9GBh6eZuziCeByYslE5dhkalQ=
