@@ -1,4 +1,5 @@
 imports:
+  - path: github.com/hbstack/google-fonts
   - path: github.com/hbstack/header/themes/pills
   - path: github.com/hbstack/header/modules/news
   - path: github.com/hbstack/blog/modules/sidebar/posts

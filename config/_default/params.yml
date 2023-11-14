@@ -2,6 +2,14 @@ description: >
   Fast, responsive, flexible, modular, FOSS and feature-rich Hugo Bootstrap Framework.
 
 hb:
+  google_fonts:
+    families:
+      - name: Poppins
+        axis:
+          ital: [0, 1]
+          wght: [400, 400]
+      # - name: Noto Serif Simplified Chinese
+      - name: Agbalumo
   styles:
     primary: "#7952b3"
   # debug: true
@@ -17,6 +25,7 @@ hb:
     breakpoint: lg
     sticky: true
     full_width: true
+    logo: false
     # theme: 'classic'
     # logo_bg: '#7952b3'
     # menus_alignment: 'end'
