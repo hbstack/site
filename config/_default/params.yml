@@ -5,9 +5,6 @@ hb:
   google_fonts:
     families:
       - name: Poppins
-        axis:
-          ital: [0, 1]
-          wght: [400, 400]
       # - name: Noto Serif Simplified Chinese
       - name: Agbalumo
   styles:
