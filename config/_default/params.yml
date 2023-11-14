@@ -60,7 +60,7 @@ hb:
       posts:
         style: pills
       taxonomies:
-        style: underline
+        style: pills
       profile:
         company: "[HB STACK](https://hbstack.dev/)"
         location: Internet
