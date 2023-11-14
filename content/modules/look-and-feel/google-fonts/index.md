@@ -5,6 +5,7 @@ linkTitle: "Google Fonts"
 description: This module integrates Google fonts with HB framework, which allow specifying multiple fonts and their axises.
 date: 2023-11-15T00:24:24+08:00
 draft: false
+featured: true
 nav_weight: 1000
 nav_icon:
   vendor: bs

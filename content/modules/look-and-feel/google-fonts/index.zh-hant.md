@@ -5,6 +5,7 @@ linkTitle: "谷歌字體"
 description: 該模塊將谷歌字體整合於 HB 框架，其允許制定多個字體及其軸範圍。
 date: 2023-11-15T00:24:24+08:00
 draft: false
+featured: true
 nav_weight: 1000
 nav_icon:
   vendor: bs
