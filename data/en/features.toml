@@ -83,7 +83,7 @@ name = "arrow-right-square"
 [icons]
 weight = 11
 title = "Icons"
-url = "https://hugomods.com/en/icons/"
+url = "https://icons.hugomods.com/"
 description = "Bootstrap, FontAwesome, Feather, Tabler, Material Design and Simple icons."
 [icons.icon]
 vendor = "fas"

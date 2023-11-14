@@ -83,7 +83,7 @@ name = "arrow-right-square"
 [icons]
 weight = 11
 title = "圖標"
-url = "https://hugomods.com/zh-hans/icons/"
+url = "https://icons.hugomods.com/"
 description = "Bootstrap, FontAwesome, Feather 等圖標。"
 [icons.icon]
 vendor = "fas"
