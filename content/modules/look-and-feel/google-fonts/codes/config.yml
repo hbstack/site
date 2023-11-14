@@ -1,0 +1,9 @@
+params:
+  hb:
+    google_fonts:
+      families:
+        - name: Roboto
+        - name: Agbalumo
+          axis:
+            ital: ["0", "1"]
+            wght: ["600", "600..900"]

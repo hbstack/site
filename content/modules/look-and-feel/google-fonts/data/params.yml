@@ -1,0 +1,21 @@
+- name: families
+  type: array
+  description: The array of font families, the first one are preferred.
+  required: true
+
+- name: families.name
+  type: string
+  description: Font name.
+  required: true
+
+- name: families.axis
+  type: object
+  description: Font axis.
+
+- name: families.axis.ital
+  type: array
+  description: Font italic, range from `0` to `1`.
+
+- name: families.axis.wght
+  type: array
+  description: Font weight, the quantity must be the same as the `families.axis.ital`, range from `100` to `900` typically.
