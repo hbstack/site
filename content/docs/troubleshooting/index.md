@@ -58,3 +58,15 @@ It happens on the case of using Hugo server on production mode without the `--re
 {{% code-snippet postcss-purgecss-error %}}
 
 {{% code-snippet postcss-purgecss-solution %}}
+
+## Extremely Inefficient Build Performance
+
+There are a number of factors that slow down site builds, here's a list of some common ones.
+
+1. Inefficient disk IO performance, e.g external disks.
+1. Windows Defender or others antivirus software's real-time protection.
+1. The publish folder are being watching by sync softwares, such as OneDrive, NutStore.
+
+We recommend building your sites on high performance disk, such as SSD. Building on Linux system is also recommended if possible, since it's typically faster than other OSs like Windows.
+
+> WSL2 is a good choice for Windows users.

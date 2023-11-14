@@ -58,3 +58,15 @@ It happens on the case of using Hugo server on production mode without the `--re
 {{% code-snippet postcss-purgecss-error %}}
 
 {{% code-snippet postcss-purgecss-solution %}}
+
+## 效率極低的構建性能
+
+導致網站構建速度減慢的因素有很多，下面列出了一些常見的因素。
+
+1. 低效的磁盤 IO 性能，如外部磁盤。
+1. Windows Defender 或其他殺毒軟件的實時保護。
+1. 同步軟件（如 OneDrive、NutStore）正在監視發佈文件夾。
+
+我們建議在固態硬盤等高性能磁盤上構建網站。如果可能，還建議在 Linux 系統上構建，因為它通常比 Windows 等其他操作系統更快。
+
+> 對於 Windows 用戶來說，WSL2 是一個不錯的選擇。
