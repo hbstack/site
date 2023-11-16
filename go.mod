@@ -92,6 +92,7 @@ require (
 	github.com/hugomods/images v0.8.3 // indirect
 	github.com/hugomods/katex v0.3.0 // indirect
 	github.com/hugomods/mermaid v0.1.1 // indirect
+	github.com/hugomods/microsoft-clarity v0.1.0 // indirect
 	github.com/hugomods/pwa v0.6.0 // indirect
 	github.com/hugomods/recaptcha-v2 v0.1.1 // indirect
 	github.com/hugomods/search v0.8.1 // indirect

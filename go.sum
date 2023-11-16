@@ -14,6 +14,7 @@ github.com/hbstack/bigger-picture v0.9.2 h1:JTvg77xSkUBvz0TAX/eVDllFYAxpiCECxwX1
 github.com/hbstack/bigger-picture v0.9.2/go.mod h1:CficQfdxEJx1U/5JOUOSgAqkH40XxdnSRcvLzsyHMl8=
 github.com/hbstack/blog v0.22.1 h1:c425duocrTa2Fk+Vw+UT1kbXTZ4mcfSPkNQBBdEPYIs=
 github.com/hbstack/blog v0.22.1/go.mod h1:/7lTlv0U75nnxemioHYmBEOW/rYYm+n0s/xjEWnW8FI=
+github.com/hbstack/blog v0.22.2 h1:9G+nfIxlGtt7qPdWd4YpuPjiFqDI44XoHBq1fHSgasE=
 github.com/hbstack/blog v0.22.2/go.mod h1:chG+CUsXw7iAnB+PU1sYCRzEg/wGIbSDjycnuG0rus4=
 github.com/hbstack/blog/modules/breadcrumb v0.1.22 h1:NDcjR5805LBDRcLaDF12VAIAJiRqCL/e/GX+1DE7O0k=
 github.com/hbstack/blog/modules/breadcrumb v0.1.22/go.mod h1:abqj7FTsHihbv3B2szGm4YmVGVZWzWg2VVA5ZhqUyKY=
@@ -31,6 +32,7 @@ github.com/hbstack/blog/modules/related-posts v0.2.4 h1:H13JxGyQA87AMrBFmpdpNtnN
 github.com/hbstack/blog/modules/related-posts v0.2.4/go.mod h1:doDygspG1tGEX2VUdLe0VhJ0uApoBUzku7s3/WyThCc=
 github.com/hbstack/blog/modules/sidebar/posts v0.5.4 h1:9FQ2EDVrjh3ntIoH1N7srQ38bhapeWbq35IkmI5AbP8=
 github.com/hbstack/blog/modules/sidebar/posts v0.5.4/go.mod h1:lON1JanaR6Gn9V9PY0oDMWjcipsVpYrEOfh4Xr9SPzo=
+github.com/hbstack/blog/modules/sidebar/posts v0.6.0 h1:mQ9bKWRgWLIAw9/QhpPJJcuMaKbJXjh7nQwvFw2GIlM=
 github.com/hbstack/blog/modules/sidebar/posts v0.6.0/go.mod h1:3GGTcyptp/ml8F4/ZTugrLpzjsVUnY5Pbh8jGPWYynA=
 github.com/hbstack/blog/modules/sidebar/profile v1.1.4 h1:jS1bEGGAR49zVe3VhA/UMmz+9W/b6qxLiMCpqf9Dwz4=
 github.com/hbstack/blog/modules/sidebar/profile v1.1.4/go.mod h1:l5T3IcyTrdvbzxu6cvMadwkDEDUYvXlWw0sQ5KbaDxQ=
@@ -178,6 +180,8 @@ github.com/hugomods/katex v0.3.0 h1:hq0Kels9clL38Y2K/QZgXFKF7hQuumyQYz16TT4/Hhk=
 github.com/hugomods/katex v0.3.0/go.mod h1:EBY1YQTN6F8FDQz+mWp3EzEh8vDN31YjL9luVni+Wm0=
 github.com/hugomods/mermaid v0.1.1 h1:12b8DbdiKOTtPmkWOMXsBz3LKkAWVqa5tGkbEboj0a4=
 github.com/hugomods/mermaid v0.1.1/go.mod h1:7sKIZLAeYsXXnKRh4KR70UQx27xnzf0mSQ2o99zTLS0=
+github.com/hugomods/microsoft-clarity v0.1.0 h1:hTv1wadsqzilBd9YuHvzQ2Dh79d2mCzNFovYWUF7MgQ=
+github.com/hugomods/microsoft-clarity v0.1.0/go.mod h1:CsSVKpJIt6BxS7yhqZeyXTwnYLTaseg37kbRpOY09Qs=
 github.com/hugomods/pwa v0.6.0 h1:qo/WjC559Fo81T/XP62PfetCwKelL4WFo5hI9h6RcnM=
 github.com/hugomods/pwa v0.6.0/go.mod h1:22AYzuQ64DKY2WJAytKqRKC2BIFc6j39Jo8tTQE+6Xc=
 github.com/hugomods/recaptcha-v2 v0.1.1 h1:+Sq2OlTygjZb5JOs5d+IoOz7SCX7hMU1WZFuqNy1yyY=

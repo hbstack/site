@@ -22,6 +22,7 @@ imports:
 
   - path: github.com/hbstack/header/modules/docsearch
 
+  - path: github.com/hugomods/microsoft-clarity
   - path: github.com/hugomods/google-analytics
   - path: github.com/hugomods/google-adsense
 
