@@ -144,6 +144,7 @@ github.com/hugomods/base v0.4.0 h1:jzBIJpqDx8aLAlNe/zF1xbefu1XYxumZc39tOO0ZjSw=
 github.com/hugomods/base v0.4.0/go.mod h1:hnWCPbVxuhXBwdFax3mmbMlWKmIo/7OP36MCLOyHtT4=
 github.com/hugomods/bootstrap v0.13.0 h1:0xtsCsx1Kek4iYpQHX1LLxHPYt/f7qABEGv1qPaWBSI=
 github.com/hugomods/bootstrap v0.13.0/go.mod h1:7IkovSZw/9Grx2bgcTMielY5vvLjPBzy5x/bPIA1BlY=
+github.com/hugomods/bootstrap v0.14.0/go.mod h1:xibujTCci1NMBmQ8jzvxAYx2bKKQVWaoaZYNcnx6tGQ=
 github.com/hugomods/code-block-panel v0.5.0 h1:IjlVQZJccs02x0TaNxsLR4S2PRyzy3tBXE3nFT2vJxA=
 github.com/hugomods/code-block-panel v0.5.0/go.mod h1:3J9yUxaShbhYvFFZbGVHcBoHPl6TUKLL3f2fTsnVNNg=
 github.com/hugomods/docsearch v0.1.0 h1:c4H/DaCG+o3TGG3mt3l5WKh9lTFHIudZG+QzzGpZ534=
