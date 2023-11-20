@@ -1,6 +1,10 @@
 description: >
   Fast, responsive, flexible, modular, FOSS and feature-rich Hugo Bootstrap Framework.
 
+aos:
+  js_url: /js/aos.min.js
+  css_url: /css/aos.min.css
+
 hb:
   google_fonts:
     families:
