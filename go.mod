@@ -112,5 +112,5 @@ require (
 	github.com/krisk/Fuse v7.0.0+incompatible // indirect
 	github.com/razonyang/hb-mod-thanks v0.5.0 // indirect
 	github.com/twbs/bootstrap v5.3.2+incompatible // indirect
-	github.com/twbs/icons v1.11.1 // indirect
+	github.com/twbs/icons v1.11.2 // indirect
 )
