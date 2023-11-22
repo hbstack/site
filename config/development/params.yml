@@ -14,3 +14,7 @@ hugopress:
   modules:
     pwa:
       disable: true
+
+hb:
+  anti_adblock:
+    # remind_interval: 0.0025 # 9s
