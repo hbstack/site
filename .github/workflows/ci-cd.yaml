@@ -33,6 +33,8 @@ jobs:
           tags: ghcr.io/hbstack/site:latest,ghcr.io/hbstack/site:${{ github.sha }}
           build-args: |
             GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }}
+            NETRC_USERNAME=${{ secrets.NETRC_GITHUB_USERNAME }}
+            NETRC_PASSWORD=${{ secrets.NETRC_GITHUB_PASSWORD }}
 
       - uses: azure/setup-kubectl@v3
         id: install

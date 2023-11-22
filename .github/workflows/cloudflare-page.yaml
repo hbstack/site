@@ -16,12 +16,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
 
-      - uses: extractions/netrc@v1
-        with:
-          machine: github.com
-          username: ${{ secrets.NETRC_GITHUB_USERNAME }}
-          password: ${{ secrets.NETRC_GITHUB_PASSWORD }}
-
       # - name: Cache dependencies
       #   uses: actions/cache@v3
       #   with:
@@ -45,10 +39,13 @@ jobs:
           options: -v ${{ github.workspace }}:/src -e GITHUB_TOKEN
           run: >-
             git config --global --add safe.directory /src &&
+            printf "machine github.com\nlogin $NETRC_USERNAME\npassword $NETRC_PASSWORD" >> ~/.netrc &&
             hugo --minify --gc --enableGitInfo &&
             cp public/en/404.html public/404.html
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NETRC_USERNAME: ${{ secrets.NETRC_GITHUB_USERNAME }}
+          NETRC_PASSWORD: ${{ secrets.NETRC_GITHUB_PASSWORD }}
       
       - name: Publish English Site to Cloudflare Pages
         uses: cloudflare/pages-action@v1
