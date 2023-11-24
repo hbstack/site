@@ -18,6 +18,12 @@ url = "https://github.com/Rubonnek"
 weight = 1
 avatar_url = "https://avatars.githubusercontent.com/u/8337880?v=4"
 
+[[gold]]
+weight = 3
+name = "Elio Gavlinski"
+url = "https://github.com/gavlinski"
+avatar_url = "https://avatars.githubusercontent.com/u/1410375?v=4"
+
 # [[silver]]
 # name = "Become a backer"
 # url = "https://ko-fi.com/razonyang"
