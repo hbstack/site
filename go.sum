@@ -6,8 +6,8 @@ github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20200 h1:SmpwwN3DNzJWbV+
 github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20200/go.mod h1:kx8MBj9T7SFR8ZClWvKZPmmUxBaltkoXvnWlZZcSnYA=
 github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 h1:GZxx4Hc+yb0/t3/rau1j8XlAxLE4CyXns2fqQbyqWfs=
 github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000/go.mod h1:mFberT6ZtcchrsDtfvJM7aAH2bDKLdOnruUHl0hlapI=
-github.com/hbstack/anti-adblock v0.2.2 h1:UYNBTpXCkkdt3/1MIVoqrT3Y16G2KA6sW1rOCP4b/wY=
-github.com/hbstack/anti-adblock v0.2.2/go.mod h1:03wrSomNZbskc8vo0ThQMIZ3o08a058lrEiuGLwTpDQ=
+github.com/hbstack/anti-adblock v0.2.3 h1:eah2VVfazYSITUOPzABLz97tHkf/qat8u3bdfWFsW5w=
+github.com/hbstack/anti-adblock v0.2.3/go.mod h1:03wrSomNZbskc8vo0ThQMIZ3o08a058lrEiuGLwTpDQ=
 github.com/hbstack/back-to-top v0.1.2 h1:eQ05oJjjl6ByFMKjuSCYJDLl5i5DCRyUt7Z5EdsxzIU=
 github.com/hbstack/back-to-top v0.1.2/go.mod h1:/Hc4gkEbdaNLSd5j7jjYsvjl39UBX0bTO5/g4ltNfR0=
 github.com/hbstack/base v0.4.0 h1:5gvYI8HumSeeKEuX9Yr2HNPMjsjt1CpNs8HTakMLdsw=
@@ -180,8 +180,8 @@ github.com/hugomods/mermaid v0.1.1 h1:12b8DbdiKOTtPmkWOMXsBz3LKkAWVqa5tGkbEboj0a
 github.com/hugomods/mermaid v0.1.1/go.mod h1:7sKIZLAeYsXXnKRh4KR70UQx27xnzf0mSQ2o99zTLS0=
 github.com/hugomods/microsoft-clarity v0.1.0 h1:hTv1wadsqzilBd9YuHvzQ2Dh79d2mCzNFovYWUF7MgQ=
 github.com/hugomods/microsoft-clarity v0.1.0/go.mod h1:CsSVKpJIt6BxS7yhqZeyXTwnYLTaseg37kbRpOY09Qs=
-github.com/hugomods/pwa v0.6.0 h1:qo/WjC559Fo81T/XP62PfetCwKelL4WFo5hI9h6RcnM=
-github.com/hugomods/pwa v0.6.0/go.mod h1:22AYzuQ64DKY2WJAytKqRKC2BIFc6j39Jo8tTQE+6Xc=
+github.com/hugomods/pwa v0.7.0 h1:4m8WTkWSEWi2FCnfHMJm1ZbcAPbPbHElh2gepPzfM3A=
+github.com/hugomods/pwa v0.7.0/go.mod h1:KpYK2Ffn969+Py5SzV3+iXYase4UoUeRAsd9jY7Q2Us=
 github.com/hugomods/recaptcha-v2 v0.1.1 h1:+Sq2OlTygjZb5JOs5d+IoOz7SCX7hMU1WZFuqNy1yyY=
 github.com/hugomods/recaptcha-v2 v0.1.1/go.mod h1:LX4oUH6d2TagnPUt/o4JClM7K9kxlWBZQ9hKz6+vZyw=
 github.com/hugomods/search v0.8.1 h1:lilPsLdYnKKF8f7eIqfY9vy2eySZU4qq3tBm7jyt3iQ=
