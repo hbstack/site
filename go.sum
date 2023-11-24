@@ -214,8 +214,8 @@ github.com/jakearchibald/idb v7.1.1+incompatible h1:/o1ng3qUjgMUeeKFim3J3tiQAitc
 github.com/jakearchibald/idb v7.1.1+incompatible/go.mod h1:AuDoW54s2DKfbclM+ScrnPp8ahUQ9rHph9bb8sZTEXc=
 github.com/krisk/Fuse v7.0.0+incompatible h1:jVyg6No+Joc51Rn97QQYJZIpCxzd4ywACn/4+FKWjvo=
 github.com/krisk/Fuse v7.0.0+incompatible/go.mod h1:3moWv8rDjwoKic9nwiPLgZjldkbdTAbtzJHCu/Vsj4A=
-github.com/razonyang/hb-mod-thanks v0.5.0 h1:VjL9Ahych+xZqQqXsbjRna7MxWcorxv9ZsKwQ/Die1M=
-github.com/razonyang/hb-mod-thanks v0.5.0/go.mod h1:QNNUPfVp6v3fyvFjkk1DDDl0qhajEuzXAPgnuwMLg1w=
+github.com/razonyang/hb-mod-thanks v0.5.1 h1:KZ8shtq1WUdECssXjkv+zRGXA0TqZKJ8qcrgpE3qKAg=
+github.com/razonyang/hb-mod-thanks v0.5.1/go.mod h1:QNNUPfVp6v3fyvFjkk1DDDl0qhajEuzXAPgnuwMLg1w=
 github.com/twbs/bootstrap v5.3.2+incompatible h1:tuiO5acc6xnZUR77Sbi5aKWXxjYxbmsSbJwYrhAKoQQ=
 github.com/twbs/bootstrap v5.3.2+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/icons v1.11.2 h1:I0zuO+pk4F1jKGautLPFUQyU2uQyir0GBGb4ArpXZLg=
