@@ -3,6 +3,9 @@
   "extends": [
     "config:base"
   ],
+  "ignorePaths": [
+    "modules/common"
+  ],
   "packageRules": [
     {
       "matchManagers": ["gomod"],
