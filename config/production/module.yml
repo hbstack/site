@@ -1,2 +1,3 @@
 imports:
+  - path: github.com/hbstack/anti-adblock
   - path: github.com/hbstack/site/modules/common
