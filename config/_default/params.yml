@@ -159,7 +159,30 @@ hugopress:
 
 decap_cms:
   publish_mode: editorial_workflow
+  logo_url: images/logo.png
+  i18n:
+    structure: multiple_files
+    locales:
+      - en
+      - zh-hans
+      - zh-hant
+    default_locale: en
   collections:
+    news:
+      hide: true
+      label: News
+      name: news
+      folder: content/news
+      create: true
+      i18n: true
+      nested:
+        depth: 3
+      fields:
+        - {label: Title, name: title, widget: string}
+        - {label: URL, name: params.url, widget: url}
+        - {label: Date, name: date, widget: datetime}
+        - {label: Description, name: description, widget: string}
+        - {label: Content, name: body, widget: markdown}
     sites:
       editor:
         preview: false
@@ -178,6 +201,6 @@ decap_cms:
         - {label: Domain, name: domain, widget: string}
         - {label: Date, name: date, widget: datetime, date_format: "YYYY-MM-DD", time_format: false}
         - {label: Pinned, name: pinned, widget: "hidden", default: false}
-        - {label: Logo, name: logo, widget: string, required: false, hint: "Logo URL."}
+        - {label: Logo, name: logo, widget: url, required: false, hint: "Logo URL."}
         - {label: Logo width, name: logo_width, widget: number, required: false, value_type: int, hint: "Logo intrinsic width, required when logo is set."}
         - {label: Logo height, name: logo_height, widget: number, required: false, value_type: int, hint: "Logo intrinsic height, required when logo is set."}

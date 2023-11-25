@@ -1,6 +1,6 @@
 module github.com/hbstack/site
 
-go 1.21.3
+go 1.21.4
 
 replace github.com/hbstack/site/modules/common => ./modules/common
 
@@ -79,7 +79,9 @@ require (
 	github.com/hugomods/base v0.4.0 // indirect
 	github.com/hugomods/bootstrap v0.14.0 // indirect
 	github.com/hugomods/code-block-panel v0.5.0 // indirect
-	github.com/hugomods/decap-cms v0.3.0 // indirect
+	github.com/hugomods/decap-cms v0.5.0 // indirect
+	github.com/hugomods/decap-cms/editor-components/todo v0.1.0 // indirect
+	github.com/hugomods/decap-cms/widgets/url v0.1.0 // indirect
 	github.com/hugomods/docsearch v0.1.0 // indirect
 	github.com/hugomods/font-awesome v6.4.2+incompatible // indirect
 	github.com/hugomods/fuse-js v0.1.0 // indirect
