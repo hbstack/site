@@ -1,0 +1,7 @@
+title = "Example Site"
+domain = "https://example.org"
+date = 2023-11-25T15:13:57.187Z
+pinned = false
+logo = "https://example.org/images/logo.png"
+logo_width = 120
+logo_height = 120
