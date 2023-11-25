@@ -7,4 +7,5 @@ decap_cms:
   backend:
     name: github
     repo: hbstack/site
+    branch: main
     open_authoring: true
