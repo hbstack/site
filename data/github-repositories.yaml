@@ -20,6 +20,7 @@
 - name: hbstack/gallery
 - name: hbstack/giscus
 - name: hbstack/github-releases
+- name: hbstack/google-fonts
 - name: hbstack/hb
 - name: hbstack/header
 - name: hbstack/heading-sign
