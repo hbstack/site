@@ -31,6 +31,12 @@ Sharing with us about your sites built with HB, once the request is approved, yo
 
 ## How to Add My Sites?
 
+### Using CMS (Recommended)
+
+We set up a CMS for open authoring, you can add and modify your sites [here](https://hbstack.dev/admin/#/collections/sites).
+
+### Using CLI or GitHub Web UI
+
 Create a data file with following format to describe your site under the [/data/sites/](https://github.com/hbstack/site/blob/main/data/sites/) folder, then create a PR and waiting for reviewing and merging.
 
 {{< bs/alert warning >}}

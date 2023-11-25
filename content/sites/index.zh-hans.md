@@ -31,6 +31,12 @@ menu:
 
 ## 如何添加我的网站？
 
+### 使用 CMS（推荐）
+
+我们建立了一个开放式创作的 CMS，您可以在[这里](https://hbstack.dev/admin/#/collections/sites)添加和修改您的网站。
+
+### 使用命令行或者 GitHub 网页版
+
 于 [/data/sites/](https://github.com/hbstack/site/blob/main/data/sites/) 目录下新建一个数据文件以描述和添加你的站点，然后创建 PR 并等待审查和合并。
 
 {{< bs/alert warning >}}

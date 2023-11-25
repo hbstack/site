@@ -26,16 +26,22 @@ menu:
 
 # {{< param title >}} { .mb-3 }
 
-與我們分享你使用 HB 構建的網站，一旦審覈通過，你的網站將於我們的主頁和本頁面進行展示。
+與我們分享你使用 HB 構建的網站，一旦審核通過，你的網站將於我們的主頁和本頁面進行展示。
 { .lead .mb-5 }
 
 ## 如何添加我的網站？
+
+### 使用 CMS（推薦）
+
+我們建立了一個開放式創作的 CMS，您可以在[這裡](https://hbstack.dev/admin/#/collections/sites)添加和修改您的網站。
+
+### 使用命令行或者 GitHub 網頁版
 
 於 [/data/sites/](https://github.com/hbstack/site/blob/main/data/sites/) 目錄下新建一個數據文件以描述和添加你的站點，然後創建 PR 並等待審查和合並。
 
 {{< bs/alert warning >}}
 {{< markdownify >}}
-數據文件命名約定：使用域名並將其中的點（`.`）替換爲破折號（`-`），比如 `example.org` 應該保存爲 `example-org.toml`。
+數據文件命名約定：使用域名並將其中的點（`.`）替換為破折號（`-`），比如 `example.org` 應該保存為 `example-org.toml`。
 {{< /markdownify >}}
 {{< /bs/alert >}}
 
