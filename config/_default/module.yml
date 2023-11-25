@@ -1,4 +1,2 @@
 imports:
-  - path: github.com/hugomods/decap-cms/widgets/url
-  - path: github.com/hugomods/decap-cms/editor-components/todo
   - path: github.com/hbstack/site/modules/common
