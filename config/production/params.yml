@@ -2,3 +2,9 @@ google_adsense: ca-pub-7827859788508375
 
 microsoft_clarity:
   id: jqynhnhhg9
+
+decap_cms:
+  backend:
+    name: github
+    repo: hbstack/site
+    open_authoring: true

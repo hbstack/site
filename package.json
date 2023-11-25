@@ -4,6 +4,7 @@
     "url": "https://github.com/hbstack/site/issues"
   },
   "devDependencies": {
+    "decap-server": "^3.0.1",
     "glob": "^10.3.10",
     "prettier": "^3.0.0",
     "prettier-plugin-go-template": "^0.0.15"
@@ -24,7 +25,8 @@
     "clean": "rm hugo_stats.json && rm -rf public/",
     "clean-build": "npm run clean && npm run build",
     "update": "hugo mod get -u && hugo mod tidy",
-    "translate": "node ./scripts/translate.js"
+    "translate": "node ./scripts/translate.js",
+    "decap-server": "npx decap-server"
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^5.0.0",

@@ -18,6 +18,7 @@ outputs:
     - RSS
     - SearchIndex
     - WebAppManifest
+    - DecapCMSConfig
 
 taxonomies:
   authors: authors

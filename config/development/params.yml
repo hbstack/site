@@ -18,3 +18,8 @@ hugopress:
 # hb:
   # anti_adblock:
     # remind_interval: 0.0025 # 9s
+
+decap_cms:
+  backend:
+    name: git-gateway
+  local_backend: true

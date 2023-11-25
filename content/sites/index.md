@@ -35,12 +35,12 @@ Create a data file with following format to describe your site under the [/data/
 
 {{< bs/alert warning >}}
 {{< markdownify >}}
-The data file naming convention: use the domain name and replace the dot (`.`) with the dash (`-`), for example, `https://example.org/` should saved as `example-org.toml`.
+The data file naming convention: use the domain name and replace the dot (`.`) with the dash (`-`), for example, `example.org` should saved as `example-org.toml`.
 {{< /markdownify >}}
 {{< /bs/alert >}}
 
 ```toml
-url = "https://example.org/"
+domain = "example.org"
 title = "Site title"
 date = "2023-xx-xx"
 # logo = ""
@@ -50,18 +50,12 @@ date = "2023-xx-xx"
 
 | Property | Type | Description |
 | -------- | :--: | ----------- |
-| `url` | string | Site URL, **required**. |
+| `domain` | string | Site domain, **required**. |
 | `title` | string | Site title, **required**, please take as short as possible, otherwise it'll be truncated. |
 | `date` | date | The date you're requesting to add the site, such as `2023-09-01`, **required**. |
 | `logo` | string | Site logo, optional. |
 | `logo_width` | number | Logo intrinsic width, required when `logo` is set. |
 | `logo_height` | number | Logo intrinsic height, required when `logo` is set. |
-
-{{< bs/alert warning >}}
-{{< markdownify >}}
-The URLs **MUST** begin with HTTPS protocol, otherwise we won't accept your site.
-{{< /markdownify >}}
-{{< /bs/alert >}}
 
 ## Sites Using HB Framework {.text-center .mt-5}
 

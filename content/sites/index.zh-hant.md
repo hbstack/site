@@ -35,12 +35,12 @@ menu:
 
 {{< bs/alert warning >}}
 {{< markdownify >}}
-數據文件命名約定：使用域名並將其中的點（`.`）替換爲破折號（`-`），比如 `https://example.org/` 應該保存爲 `example-org.toml`。
+數據文件命名約定：使用域名並將其中的點（`.`）替換爲破折號（`-`），比如 `example.org` 應該保存爲 `example-org.toml`。
 {{< /markdownify >}}
 {{< /bs/alert >}}
 
 ```toml
-url = "https://example.org/"
+domain = "example.org"
 title = "站點名稱"
 date = "2023-xx-xx"
 # logo = ""
@@ -50,18 +50,12 @@ date = "2023-xx-xx"
 
 | Property | Type | Description |
 | -------- | :--: | ----------- |
-| `url` | string | 網站 URL，**必填**。 |
+| `domain` | string | 網站域名，**必填**。 |
 | `title` | string | 網站名稱，請儘可能短，否則可能會被截斷。 |
 | `date` | date | 請求添加你的站點時的日期，如 `2023-09-01`，**必填**。 |
 | `logo` | string | 網站 logo，可選。|
 | `logo_width` | number | Logo 原始寬度，當設置了 `logo` 時則必填。 |
 | `logo_height` | number | Logo 原始高度，當設置了 `logo` 時則必填。 |
-
-{{< bs/alert warning >}}
-{{< markdownify >}}
-URLs **必須**使用 HTTPS 協議，否則我們不會接受你的站點。
-{{< /markdownify >}}
-{{< /bs/alert >}}
 
 ## 正在使用 HB 框架的站點 { .text-center .mt-5 }
 
