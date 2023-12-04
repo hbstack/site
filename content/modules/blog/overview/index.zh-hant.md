@@ -39,6 +39,7 @@ aliases:
 | `blog.home`                       | object  |                        | 博客首頁設置。                       |
 | `blog.home.featured_posts`        | number  |          `10`          | 特刊博文數量。                       |
 | `blog.home.main_sections`         |  array  |           -            | 博文欄目，默認所有欄目。             |
+| `blog.home.pinned_posts_position` | string  |        幻燈片右側        | 置頂文章的位置，可選項：`list`。     |
 | `blog.home.taxonomies`            | boolean |         `true`         | 是否於首頁顯示分類統計。             |
 | `terms.paginate` | number | `12` | 分類列表博文數量。 |
 

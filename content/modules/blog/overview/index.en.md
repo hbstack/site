@@ -39,6 +39,7 @@ The blog module provides the basic layouts and templates for blog site.
 | `blog.home`                       | object  |                        | Homepage settings.                                       |
 | `blog.home.featured_posts`        | number  |          `10`          | The number of featured posts.                            |
 | `blog.home.main_sections`         |  array  |           -            | The main sections of posts, default to ALL.              |
+| `blog.home.pinned_posts_position` | string  |    Next to carousel    | The position of pinned posts, available options: `list`. |
 | `blog.home.taxonomies`            | boolean |         `true`         | Whether to show the taxonomies stat on home page.        |
 | `terms.paginate` | number | `12` | The number of posts per term list page. |
 
