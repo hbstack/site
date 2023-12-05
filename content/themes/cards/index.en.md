@@ -7,7 +7,7 @@ nav_icon:
 date: 2023-12-05T13:04:44+08:00
 draft: false
 images:
-  - https://raw.githubusercontent.com/hbstack/theme-cards/main/images/screenshot.png
+  - https://raw.githubusercontent.com/hbstack/theme-cards/main/images/screenshot.png?height=1920&width=1280
 ---
 
 The cards style theme of [HB Framework](https://hbstack.dev/), live demo: https://theme-cards.hbstack.dev/.
