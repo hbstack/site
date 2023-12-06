@@ -115,7 +115,7 @@ require (
 	github.com/hugomods/snackbar v0.1.2 // indirect
 	github.com/hugomods/video-js v0.1.1 // indirect
 	github.com/hugomods/workbox v0.1.0 // indirect
-	github.com/jakearchibald/idb v7.1.1+incompatible // indirect
+	github.com/jakearchibald/idb v8.0.0+incompatible // indirect
 	github.com/krisk/Fuse v7.0.0+incompatible // indirect
 	github.com/razonyang/hb-mod-thanks v0.5.1 // indirect
 	github.com/twbs/bootstrap v5.3.2+incompatible // indirect
