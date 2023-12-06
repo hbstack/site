@@ -68,7 +68,7 @@ require (
 	github.com/hbstack/scrollbar v0.1.0 // indirect
 	github.com/hbstack/search v0.1.7 // indirect
 	github.com/hbstack/site/modules/common v0.0.0-00010101000000-000000000000 // indirect
-	github.com/hbstack/slide v0.3.0 // indirect
+	github.com/hbstack/slide v0.3.1 // indirect
 	github.com/hbstack/snackbar v0.1.2 // indirect
 	github.com/hbstack/socials v0.9.0 // indirect
 	github.com/hbstack/syntax-highlighting v0.1.0 // indirect
