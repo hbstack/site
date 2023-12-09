@@ -46,7 +46,7 @@ authors:
 | `icon.color`     | string  | 圖標顏色。                         |
 | `icon.className` | string  | 圖標 CSS 類名。                    |
 
-詳情請參閱[菜單配置]({{< ref "docs/configuration/menus" >}})。
+詳情請參閱[菜單配置]({{< ref "docs/configuration/menus" >}})和[圖標配置]({{< ref "docs/configuration/icons" >}})。
 
 ## Example
 

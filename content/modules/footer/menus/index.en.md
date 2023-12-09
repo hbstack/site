@@ -40,7 +40,7 @@ The `footer` is taken as the footer's menus set identifier.
 | `icon.color`     | string | The icon's color.            |
 | `icon.className` | string | The icon's CSS class name.   |
 
-See also [Menus Configuration]({{< ref "docs/configuration/menus" >}}).
+See also [Menus Configuration]({{< ref "docs/configuration/menus" >}}) and [Icons Configuration]({{< ref "docs/configuration/icons" >}}).
 
 ## Example
 
