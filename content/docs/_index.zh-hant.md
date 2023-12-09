@@ -1,5 +1,8 @@
 ---
 title: 用戶手冊
+nav_icon:
+  vendor: bs
+  name: book
 menu:
   main:
     parent: docs

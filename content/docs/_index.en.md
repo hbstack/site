@@ -1,5 +1,8 @@
 ---
 title: User Guide
+nav_icon:
+  vendor: bs
+  name: book
 menu:
   main:
     parent: docs

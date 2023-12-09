@@ -4,6 +4,9 @@ description: Build fast, responsive sites with Hugo Bootstrap Framework
 date: 2022-09-24T18:24:31+08:00
 draft: false
 layout: landing
+nav_icon:
+  vendor: bs
+  name: house
 header:
   banner:
     alignment: center
