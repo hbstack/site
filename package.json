@@ -17,10 +17,10 @@
     "url": "git+https://github.com/hbstack/site.git"
   },
   "scripts": {
-    "dev": "hugo server -p 13130 --gc --disableFastRender --buildDrafts --enableGitInfo",
-    "prod": "npm run clean && hugo server -e production --minify --gc --renderToDisk --disableFastRender --enableGitInfo -b http://localhost:13140 -p 13140",
-    "docker": "docker run -v $PWD:/src -p 13130:13130 -p 13131:13131 -p 13132:13132 hugomods/hugo:exts hugo server --bind 0.0.0.0 -p 13130",
-    "docker-prod": "docker run -v $PWD:/src -p 13140:13140 -p 13141:13141 -p 13142:13142 hugomods/hugo:exts hugo server --bind 0.0.0.0  -e production --minify --gc --renderToDisk --disableFastRender --enableGitInfo -b http://localhost:13140 -p 13140",
+    "dev": "hugo server -p 7070 --gc --disableFastRender --buildDrafts --enableGitInfo",
+    "prod": "npm run clean && hugo server -e production --minify --gc --renderToDisk --disableFastRender --enableGitInfo -b http://localhost:7080 -p 7080",
+    "docker": "docker run -v $PWD:/src -p 7070:7070 -p 7071:7071 -p 7072:7072 hugomods/hugo:exts hugo server --bind 0.0.0.0 -p 7070",
+    "docker-prod": "docker run -v $PWD:/src -p 7080:7080 -p 7081:7081 -p 7082:7082 hugomods/hugo:exts hugo server --bind 0.0.0.0 -e production --minify --gc --renderToDisk --disableFastRender --enableGitInfo -b http://localhost:7080 -p 7080",
     "build": "hugo --gc --minify --enableGitInfo",
     "clean": "rm hugo_stats.json && rm -rf public/",
     "clean-build": "npm run clean && npm run build",
