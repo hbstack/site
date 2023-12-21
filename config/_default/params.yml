@@ -40,6 +40,13 @@ hb:
       rss: true
   blog:
     post_thumbnail_default: /images/thumbnail.jpg
+    social_share_buttons:
+      alignment: center
+      media:
+        - twitter
+        - facebook
+        - linkedin
+        - sinaweibo
     home:
       main_sections:
         - blog

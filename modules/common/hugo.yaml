@@ -3,6 +3,8 @@ module:
   imports:
     - path: github.com/hbstack/theme-cards
 
+    - path: github.com/hbstack/blog/modules/social-share-buttons
+
     - path: github.com/hugomods/decap-cms/widgets/url
     - path: github.com/hugomods/decap-cms/editor-components/todo
     - path: github.com/hugomods/decap-cms
