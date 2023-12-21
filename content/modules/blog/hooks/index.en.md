@@ -30,6 +30,8 @@ The list of blog's custom hooks.
 | `hb-blog-post-begin`          | Before post.                                  |
 | `hb-blog-post-end`            | Follows post.                                 |
 | `hb-blog-post-content-begin`  | Before post content.                          |
+| `hb-blog-post-content-afterbegin` | After the post content begin.             |
+| `hb-blog-post-content-beforeend`  | Before post content end.                  |
 | `hb-blog-post-content-end`    | Follows post content.                         |
 | `hb-blog-post-comments-begin` | Before comments.                              |
 | `hb-blog-post-comments`       | Comments, used to implement comments engines. |

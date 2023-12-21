@@ -29,6 +29,8 @@ aliases:
 | Parameter                    |  Type   |        Default         | Description                          |
 | ---------------------------- | :-----: | :--------------------: | ------------------------------------ |
 | `blog.full_width`                 | boolean |        `false`         | 是否全寬。                             |
+| `blog.list_cols_md` | number | `2` | 於 `md` 斷點下，列表每行的文章數目。
+| `blog.list_cols_lg` | number | `3` | 於 `lg` 斷點下，列表每行的文章數目。
 | `blog.paginate`                   | number  |          `9`           | 每頁博文數量。                       |
 | `blog.post_date_format`           | string  |      `:date_long`      | 博文日期格式。                       |
 | `blog.post_thumbnail`             | boolean |         `true`         | 是否顯示縮略圖。                     |
@@ -41,6 +43,7 @@ aliases:
 | `blog.home.main_sections`         |  array  |           -            | 博文欄目，默認所有欄目。             |
 | `blog.home.pinned_posts_position` | string  |        幻燈片右側        | 置頂文章的位置，可選項：`list`。     |
 | `blog.home.taxonomies`            | boolean |         `true`         | 是否於首頁顯示分類統計。             |
+| `blog.toc.position` | string | `end` | `start`：內容左側、`end`：內容右側、`content`：內容上方。
 | `terms.paginate` | number | `12` | 分類列表博文數量。 |
 
 {{< bs/config-toggle params >}}

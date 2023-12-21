@@ -1,0 +1,6 @@
+hb:
+  blog:
+    sidebar:
+      sticky: true
+      position: start
+      width: .35

@@ -30,6 +30,8 @@ authors:
 | `hb-blog-post-begin`          | 于文章前。               |
 | `hb-blog-post-end`            | 于文章后。               |
 | `hb-blog-post-content-begin`  | 于文章内容前。           |
+| `hb-blog-post-content-afterbegin` | 于内容开始后。|
+| `hb-blog-post-content-beforeend`  | 于内容结束前。|
 | `hb-blog-post-content-end`    | 于文章内容后。           |
 | `hb-blog-post-comments-begin` | 于评论前。               |
 | `hb-blog-post-comments`       | 评论，用于实现评论引擎。 |

@@ -25,7 +25,25 @@ The blog module supports an optional sidebar layout.
 
 To enable the sidebar, you'll need to import at least one sidebar modules, such as the [profile]({{< relref "modules/blog/sidebar/profile" >}}), [posts]({{< relref "modules/blog/sidebar/posts" >}}) and [taxonomies]({{< relref "modules/blog/sidebar/taxonomies" >}}) modules.
 
-## How to Add Sidebar Widget
+## Sidebar Parameters
+
+{{< bs/config-toggle filename="params" title="Site Parameters" >}}
+{{% code-snippet params.yaml %}}
+{{< /bs/config-toggle >}}
+
+### `position`
+
+Default to `start` (left), when `end`, place the sidebar to the right.
+
+### `sticky`
+
+Whether to stick the sidebar, default to `true`.
+
+### `width`
+
+The width that the sidebar takes, which is a percentage value, such as `0.3` (equals to `30%`), `40%`.
+
+## How to Add Custom Sidebar Widgets
 
 You're able to add custom sidebar widget, for example.
 

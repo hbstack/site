@@ -25,7 +25,25 @@ authors:
 
 你需要导入至少一个侧边栏模块，以启用侧边栏布局，比如[简介]({{< relref "modules/blog/sidebar/profile" >}})、[文章]({{< relref "modules/blog/sidebar/posts" >}})和[分类]({{< relref "modules/blog/sidebar/taxonomies" >}})模块。
 
-## 如何添加侧边栏组件
+## 侧边栏参数
+
+{{< bs/config-toggle filename="params" title="站点参数" >}}
+{{% code-snippet params.yaml %}}
+{{< /bs/config-toggle >}}
+
+### `position`
+
+默认为 `start`（左侧），为 `end` 时，侧边栏将被置于右侧。
+
+### `sticky`
+
+是否固定侧边栏，默认为 `true`。
+
+### `width`
+
+侧边栏占用的宽度，其为一个百分比值，如 `0.3`（等同于 `30%`）、`40%`。
+
+## 如何添加自定义侧边栏组件
 
 你可以添加自定义的侧边栏小挂件，比如：
 

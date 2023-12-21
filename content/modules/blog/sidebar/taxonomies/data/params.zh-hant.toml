@@ -11,3 +11,51 @@ required = false
 default = 10
 type = 'number'
 description = '分類條目的最大數量。'
+
+[style]
+name = "style"
+required = false
+default = 'pills'
+description = '`pills`、`tabs` 或 `underline`。'
+
+[separate]
+name = "separate"
+required = false
+default = false
+description = '是否分成多個部分。'
+
+[taxonomy]
+name = "[taxonomy]"
+required = false
+type = 'object'
+description = '特定分類的參數，比如 `authors`、`categories`、`series` 和 `tags`。'
+
+[taxonomy-count]
+name = "[taxonomy].count"
+required = false
+type = 'boolean'
+description = '若存在，則覆蓋 `count` 參數。'
+
+[taxonomy-limit]
+name = "[taxonomy].limit"
+required = false
+type = 'number'
+description = '若存在，則覆蓋 `limit` 參數。'
+
+[taxonomy-weight]
+name = "[taxonomy].weight"
+required = false
+type = 'number'
+description = '用於分類排序，值越低優先級越高。'
+
+[taxonomy-disable]
+name = "[taxonomy].disable"
+required = false
+default = false
+type = 'boolean'
+description = '是否禁用當前分類。'
+
+[taxonomy-title]
+name = "[taxonomy].title"
+required = false
+description = '為當前分類指定另外的標題。'

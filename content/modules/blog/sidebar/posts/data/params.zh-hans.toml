@@ -11,6 +11,12 @@ default = true
 type = "boolean"
 description = '为 `true` 时，选项卡采用全宽。'
 
+[list_style]
+name = "list_style"
+required = false
+default = 'slide'
+description = '列表样式：`slide` 或者 `vertical`。'
+
 [recent_posts]
 name = "recent_posts"
 required = false

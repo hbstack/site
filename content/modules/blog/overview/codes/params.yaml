@@ -8,6 +8,10 @@ hb:
     post_thumbnail: true
     post_thumbnail_default: "images/thumbnail.png"
     post_thumbnail_placeholder: ""
+    list_cols_md: 2
+    list_cols_lg: 3
+    toc:
+      position: end
     home:
       taxonomies: true
       featured_posts: 5

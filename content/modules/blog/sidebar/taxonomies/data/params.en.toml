@@ -11,3 +11,52 @@ required = false
 default = 10
 type = 'number'
 description = 'The maximum number of taxonomy items.'
+
+[style]
+name = "style"
+required = false
+default = 'pills'
+description = '`pills`, `tabs` or `underline`.'
+
+[separate]
+name = "separate"
+required = false
+default = false
+description = 'Whether to separate into mutliple sections.'
+
+[taxonomy]
+name = "[taxonomy]"
+required = false
+type = 'object'
+description = 'Parameters for specified taxonomy, such as `authors`, `categories`, `series` and `tags`.'
+
+[taxonomy-count]
+name = "[taxonomy].count"
+required = false
+type = 'boolean'
+description = 'Override the `count` if present.'
+
+[taxonomy-limit]
+name = "[taxonomy].limit"
+required = false
+type = 'number'
+description = 'Override the `limit` if present.'
+
+[taxonomy-weight]
+name = "[taxonomy].weight"
+required = false
+type = 'number'
+description = 'Used to sort the taxonomies, lower gets higher priority.'
+
+[taxonomy-disable]
+name = "[taxonomy].disable"
+required = false
+default = false
+type = 'boolean'
+description = 'Whether to disable this taxonomy.'
+
+[taxonomy-title]
+name = "[taxonomy].title"
+required = false
+description = 'Specify another title for this taxonomy.'
+

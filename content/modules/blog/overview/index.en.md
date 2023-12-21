@@ -29,6 +29,8 @@ The blog module provides the basic layouts and templates for blog site.
 | Parameter                    |  Type   |        Default         | Description                                              |
 | ---------------------------- | :-----: | :--------------------: | -------------------------------------------------------- |
 | `blog.full_width`                 | boolean |        `false`         | Whether take full width.                                 |
+| `blog.list_cols_md` | number | `2` | The number of posts per list row on `md` breakpoint.
+| `blog.list_cols_lg` | number | `3` | The number of posts per list row on `lg` breakpoint.
 | `blog.paginate`                   | number  |          `9`           | How many posts per list page.                            |
 | `blog.post_date_format`           | string  |      `:date_long`      | The date format.                                         |
 | `blog.post_thumbnail`             | boolean |         `true`         | Whether to display thumbnail.                            |
@@ -41,6 +43,7 @@ The blog module provides the basic layouts and templates for blog site.
 | `blog.home.main_sections`         |  array  |           -            | The main sections of posts, default to ALL.              |
 | `blog.home.pinned_posts_position` | string  |    Next to carousel    | The position of pinned posts, available options: `list`. |
 | `blog.home.taxonomies`            | boolean |         `true`         | Whether to show the taxonomies stat on home page.        |
+| `blog.toc.position` | string | `end` | `start`: on the left of content, `end`: on the right of content, `content`: above the content.
 | `terms.paginate` | number | `12` | The number of posts per term list page. |
 
 {{< bs/config-toggle params >}}

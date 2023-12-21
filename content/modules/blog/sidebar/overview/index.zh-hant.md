@@ -23,9 +23,27 @@ authors:
 
 ## 如何使用？
 
-你需要導入至少一個側邊欄模塊，以啓用側邊欄佈局，比如[簡介]({{< relref "modules/blog/sidebar/profile" >}})、[文章]({{< relref "modules/blog/sidebar/posts" >}})和[分類]({{< relref "modules/blog/sidebar/taxonomies" >}})模塊。
+你需要導入至少一個側邊欄模塊，以啟用側邊欄佈局，比如[簡介]({{< relref "modules/blog/sidebar/profile" >}})、[文章]({{< relref "modules/blog/sidebar/posts" >}})和[分類]({{< relref "modules/blog/sidebar/taxonomies" >}})模塊。
 
-## 如何添加側邊欄組件
+## 側邊欄參數
+
+{{< bs/config-toggle filename="params" title="站點參數" >}}
+{{% code-snippet params.yaml %}}
+{{< /bs/config-toggle >}}
+
+### `position`
+
+默認為 `start`（左側），為 `end` 時，側邊欄將被置於右側。
+
+### `sticky`
+
+是否固定側邊欄，默認為 `true`。
+
+### `width`
+
+側邊欄佔用的寬度，其為一個百分比值，如 `0.3`（等同於 `30%`）、`40%`。
+
+## 如何添加自定義側邊欄組件
 
 你可以添加自定義的側邊欄小掛件，比如：
 

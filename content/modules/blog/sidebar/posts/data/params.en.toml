@@ -11,6 +11,12 @@ default = true
 type = "boolean"
 description = 'When `true` the tabs take full width.'
 
+[list_style]
+name = "list_style"
+required = false
+default = 'slide'
+description = 'The list style: `slide` or `vertical`.'
+
 [recent_posts]
 name = "recent_posts"
 required = false

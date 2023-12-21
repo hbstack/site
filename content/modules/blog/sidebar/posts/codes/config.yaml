@@ -7,3 +7,4 @@ params:
           fill: true
           recent_count: 5
           featured_count: 5
+          list_style: slide

@@ -30,6 +30,8 @@ authors:
 | `hb-blog-post-begin`          | 於文章前。               |
 | `hb-blog-post-end`            | 於文章後。               |
 | `hb-blog-post-content-begin`  | 於文章內容前。           |
+| `hb-blog-post-content-afterbegin` | 於內容開始後。|
+| `hb-blog-post-content-beforeend`  | 於內容結束前。|
 | `hb-blog-post-content-end`    | 於文章內容後。           |
 | `hb-blog-post-comments-begin` | 於評論前。               |
 | `hb-blog-post-comments`       | 評論，用於實現評論引擎。 |

@@ -5,3 +5,21 @@ params:
         taxonomies:
           count: true
           limit: 10
+          style: pills # pills, tabs or underline.
+          separate: false # whether to separate into mutliple sections.
+          authors:
+            disable: false # whether to disable this taxonomy.
+            weight: 1 # the weight of this taxonomy, lower gets higher priority.
+            count: false # override the global count setting.
+            limit: 5 # override the global limit setting.
+          categories:
+            disable: false
+            weight: 3
+          series:
+            disable: false
+            weight: 2
+          tags:
+            disable: false
+            weight: 4
+            limit: 20
+            title: Popular Tags # override the title.
