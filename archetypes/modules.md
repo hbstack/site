@@ -2,6 +2,7 @@
 type: docs
 title: "{{ replace .Name "-" " " | title }}"
 linkTitle: "{{ replace .Name "-" " " | title }}"
+description: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: true
 nav_weight: 1000
@@ -16,5 +17,3 @@ images:
 authors:
   - HB
 ---
-
-<!--more-->
