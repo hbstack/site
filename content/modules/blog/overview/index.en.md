@@ -31,7 +31,7 @@ The blog module provides the basic layouts and templates for blog site.
 
 | Parameter                    |  Type   |        Default         | Description                                              |
 | ---------------------------- | :-----: | :--------------------: | -------------------------------------------------------- |
-| `blog.full_width`                 | boolean |        `false`         | Whether take full width.                                 |
+| ~~`blog.full_width`~~                 | boolean |        `false`         | Whether take full width.                              |
 | `blog.list_cols_md` | number | `2` | The number of posts per list row on `md` breakpoint.
 | `blog.list_cols_lg` | number | `3` | The number of posts per list row on `lg` breakpoint.
 | `blog.paginate`                   | number  |          `9`           | How many posts per list page.                            |

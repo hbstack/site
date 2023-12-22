@@ -86,10 +86,17 @@ See also [creating a module]({{< relref "develop/module" >}}).
 | `debug`           | boolean |    -     |      `false`      | Debug mode.                                |
 | `js_bundle_name`  | string  |    -     |       `hb`        | The bundle name of JS.                     |
 | `logo`            | string  |    -     | `images/logo.png` | The logo path relative to `assets` folder. |
+| `full_width`      | boolean/array | - | `false` | Whether to take full width, a boolean value or array of first level sections, e.g. `["docs", "blog"]`. |
 
 {{< bs/config-toggle hugo >}}
 {{% code-snippet params.yaml %}}
 {{< /bs/config-toggle >}}
+
+## Page Parameters
+
+| Name              |  Type   | Required |      Default      | Description                                |
+| ----------------- | :-----: | :------: | :---------------: | ------------------------------------------ |
+| `full_width` | boolean  |    -     |       `false`        | When `true` then the current page takes full width, otherwise fallback to the site's `full_width`. |
 
 ## HugoPress Attributes
 

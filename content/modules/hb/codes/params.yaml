@@ -4,3 +4,4 @@ params:
     debug: false
     js_bundle_name: hb
     logo: images/logo.png
+    full_width: false

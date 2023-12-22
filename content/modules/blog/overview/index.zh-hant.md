@@ -31,7 +31,7 @@ aliases:
 
 | Parameter                    |  Type   |        Default         | Description                          |
 | ---------------------------- | :-----: | :--------------------: | ------------------------------------ |
-| `blog.full_width`                 | boolean |        `false`         | 是否全寬。                             |
+| ~~`blog.full_width`~~                 | boolean |        `false`         | 是否全寬。                             |
 | `blog.list_cols_md` | number | `2` | 於 `md` 斷點下，列表每行的文章數目。
 | `blog.list_cols_lg` | number | `3` | 於 `lg` 斷點下，列表每行的文章數目。
 | `blog.paginate`                   | number  |          `9`           | 每頁博文數量。                       |

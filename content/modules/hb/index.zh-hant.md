@@ -86,10 +86,17 @@ HB 將會：
 | `debug`           | boolean |    -     |      `false`      | 調試模式。                        |
 | `js_bundle_name`  | string  |    -     |       `hb`        | JS 的名稱。                       |
 | `logo`            | string  |    -     | `images/logo.png` | Logo 路徑，相對於 `assets` 目錄。 |
+| `full_width`      | boolean/array | - | `false` | 是否全寬，其為布爾值或者第一層級的欄目數值，如 `["docs", "blog"]`。 |
 
 {{< bs/config-toggle hugo >}}
 {{% code-snippet params.yaml %}}
 {{< /bs/config-toggle >}}
+
+## 頁面參數
+
+| Name              |  Type   | Required |      Default      | Description                                |
+| ----------------- | :-----: | :------: | :---------------: | ------------------------------------------ |
+| `full_width` | boolean  |    -     |       `false`        | 為 `true` 時，當前頁佔用全寬，否則回退到站點 `full_width` 設置。
 
 ## HugoPress 屬性
 
