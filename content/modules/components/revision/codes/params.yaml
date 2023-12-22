@@ -1,0 +1,6 @@
+hb:
+  revision:
+    date_format: ":date_full"
+    icons: true
+    font_size: ".825rem"
+    created_at: true
