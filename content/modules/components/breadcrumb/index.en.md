@@ -6,6 +6,9 @@ description: HB breadcrumb component for indicating the current page’s locatio
 date: 2023-12-09T14:23:27+08:00
 draft: false
 nav_weight: 1000
+nav_icon:
+  vendor: bs
+  name: segmented-nav
 series:
   - Modules
 categories:

@@ -4,6 +4,9 @@ title: "Scrollbar Module"
 linkTitle: Scrollbar
 date: 2023-02-16T23:48:35+08:00
 draft: false
+nav_icon:
+  vendor: bs
+  name: arrow-down-up
 series:
   - Docs
 categories:

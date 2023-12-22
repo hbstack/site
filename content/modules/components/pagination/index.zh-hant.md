@@ -4,6 +4,9 @@ title: "分頁"
 linkTitle: "分頁"
 date: 2023-05-13T22:32:45+08:00
 draft: false
+nav_icon:
+  vendor: fas
+  name: ellipsis
 series:
   - 模塊
 categories:

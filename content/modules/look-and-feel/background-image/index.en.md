@@ -4,6 +4,9 @@ title: "Background Image Module"
 linkTitle: "Background Image"
 date: 2023-02-19T22:11:36+08:00
 draft: false
+nav_icon:
+  vendor: bs
+  name: card-image
 series:
   - Docs
 categories:

@@ -12,6 +12,9 @@ authors = ["HB"]
 aliases = [
     "/en/docs/modules/back-to-top/"
 ]
+[nav_icon]
+vendor = "bs"
+name = "arrow-up-square"
 +++
 
 AKA return to top, a button to back to top.

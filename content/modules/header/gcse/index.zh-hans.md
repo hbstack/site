@@ -6,9 +6,9 @@ description: 于页头添加谷歌自定义搜索引擎。
 date: 2023-10-12T20:11:15+08:00
 draft: false
 nav_weight: 1000
-# nav_icon:
-#   vendor: bs
-#   name: book
+nav_icon:
+  vendor: simple
+  name: google
 series:
   - 模块
 categories:

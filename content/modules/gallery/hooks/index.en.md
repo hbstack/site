@@ -6,6 +6,9 @@ title: "Gallery Hooks"
 linkTitle: "Hooks"
 date: 2023-04-15T02:44:01+08:00
 draft: false
+nav_icon:
+  vendor: bs
+  name: gear
 series:
   - Docs
 categories:

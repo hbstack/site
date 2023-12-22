@@ -4,6 +4,9 @@ title: "Preferred Language Module"
 linkTitle: "Preferred Language"
 date: 2023-04-22T22:35:07+08:00
 draft: false
+nav_icon:
+  vendor: bs
+  name: translate
 series:
   - Docs
 categories:

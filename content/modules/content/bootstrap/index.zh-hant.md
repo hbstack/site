@@ -6,6 +6,9 @@ title: "Bootstrap 模塊"
 linkTitle: "Bootstrap"
 date: 2023-04-14T15:54:58+08:00
 draft: false
+nav_icon:
+  vendor: simple
+  name: bootstrap
 series:
   - 文檔
 categories:

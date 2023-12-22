@@ -5,6 +5,9 @@ aliases:
 title: "代码块面板"
 date: 2023-02-13T02:43:40+08:00
 draft: false
+nav_icon:
+  vendor: bs
+  name: code-square
 series:
   - 文档
 categories:

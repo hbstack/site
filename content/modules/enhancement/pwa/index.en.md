@@ -6,6 +6,9 @@ title: PWA Module
 linkTitle: PWA
 date: 2023-04-14T16:14:51+08:00
 draft: false
+nav_icon:
+  vendor: bs
+  name: rocket
 series:
   - Docs
 categories:

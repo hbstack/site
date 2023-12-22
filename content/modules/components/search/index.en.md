@@ -6,6 +6,9 @@ title: "Search Module"
 linkTitle: "Search"
 date: 2023-02-18T18:55:03+08:00
 draft: false
+nav_icon:
+  vendor: bs
+  name: search
 series:
   - Docs
 categories:

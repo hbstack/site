@@ -6,6 +6,9 @@ title: "Bigger Picture Module"
 linkTitle: "Bigger Picture"
 date: 2023-02-19T13:39:32+08:00
 draft: false
+nav_icon:
+  vendor: bs
+  name: card-image
 pinned: false
 series:
   - Docs

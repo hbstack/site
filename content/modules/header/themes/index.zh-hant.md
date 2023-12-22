@@ -6,9 +6,9 @@ description: 本文展示可用的頁頭主題。
 date: 2023-07-27T20:59:06+08:00
 draft: false
 nav_weight: 1000
-# nav_icon:
-#   vendor: bs
-#   name: book
+nav_icon:
+  vendor: bs
+  name: palette
 series:
   - 模塊
 categories:

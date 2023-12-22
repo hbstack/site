@@ -4,6 +4,9 @@ title: "语法高亮模块"
 linkTitle: "语法高亮"
 date: 2023-02-15T10:11:42+08:00
 draft: false
+nav_icon:
+  vendor: bs
+  name: code-slash
 series:
   - 文档
 categories:

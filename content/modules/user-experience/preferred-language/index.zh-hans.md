@@ -4,6 +4,9 @@ title: "首选语言模块"
 linkTitle: "首选语言"
 date: 2023-04-22T22:35:07+08:00
 draft: false
+nav_icon:
+  vendor: bs
+  name: translate
 series:
   - 文档
 categories:

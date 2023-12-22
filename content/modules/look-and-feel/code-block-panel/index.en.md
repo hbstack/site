@@ -5,6 +5,9 @@ aliases:
 title: "Code Block Panel"
 date: 2023-02-13T02:43:40+08:00
 draft: false
+nav_icon:
+  vendor: bs
+  name: code-square
 series:
   - Docs
 categories:

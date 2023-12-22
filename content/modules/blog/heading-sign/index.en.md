@@ -6,6 +6,9 @@ title: "Blog Heading Sign"
 title: "Heading Sign"
 date: 2023-03-31T16:44:00+08:00
 draft: false
+nav_icon:
+  vendor: bs
+  name: paragraph
 series:
   - Docs
 categories:

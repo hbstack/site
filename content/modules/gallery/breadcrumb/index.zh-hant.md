@@ -6,6 +6,9 @@ title: "圖庫麪包屑導航"
 linkTitle: "麪包屑導航"
 date: 2023-04-14
 draft: false
+nav_icon:
+  vendor: bs
+  name: segmented-nav
 series:
   - 文檔
 categories:

@@ -6,6 +6,9 @@ title: "页尾备案模块"
 linkTitle: 备案
 date: 2023-04-17T13:12:16+08:00
 draft: false
+nav_icon:
+  vendor: bs
+  name: '123'
 series:
   - 文档
 categories:

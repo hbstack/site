@@ -6,6 +6,9 @@ title: "頁尾備案模塊"
 linkTitle: 備案
 date: 2023-04-17T13:12:16+08:00
 draft: false
+nav_icon:
+  vendor: bs
+  name: '123'
 series:
   - 文檔
 categories:

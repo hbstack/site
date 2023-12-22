@@ -11,6 +11,9 @@ categories = ["Module"]
 series = ["Docs"]
 images = ["https://mermaid.js.org/header.png"]
 authors = ["HB"]
+[nav_icon]
+vendor = "simple"
+name = "mermaid"
 +++
 
 Mermaid is a JavaScript-based diagramming and charting tool that uses Markdown-inspired text definitions and a renderer to create and modify complex diagrams.

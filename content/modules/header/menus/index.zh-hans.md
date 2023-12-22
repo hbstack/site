@@ -7,6 +7,9 @@ linkTitle: "菜单"
 date: 2023-02-17T00:43:12+08:00
 draft: false
 nav_weight: 2
+nav_icon:
+  vendor: bs
+  name: list
 series:
   - 文档
 categories:

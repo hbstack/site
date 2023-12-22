@@ -6,6 +6,9 @@ title: "博客特色图片"
 title: "特色图片"
 date: 2023-03-31T16:50:16+08:00
 draft: false
+nav_icon:
+  vendor: bs
+  name: card-image
 series:
   - 文档
 categories:

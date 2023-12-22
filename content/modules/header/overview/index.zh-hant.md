@@ -8,6 +8,9 @@ description: 頁頭模塊是一個通用的頂部應用欄，其帶有一些實�
 date: 2023-02-16T23:58:05+08:00
 draft: false
 nav_weight: 1
+nav_icon:
+  vendor: bs
+  name: file-richtext
 series:
   - 文檔
 categories:

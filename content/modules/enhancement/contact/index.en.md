@@ -4,9 +4,9 @@ title: "Contact Module"
 linkTitle: "Contact"
 date: 2023-06-20T15:26:36+08:00
 nav_weight: 1000
-# nav_icon:
-#   vendor: bs
-#   name: book
+nav_icon:
+  vendor: bs
+  name: headset
 series:
   - Modules
 categories:

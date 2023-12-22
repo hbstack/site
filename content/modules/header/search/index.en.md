@@ -6,6 +6,9 @@ title: "Header Search Module"
 linkTitle: "Search"
 date: 2023-02-17T00:06:59+08:00
 nav_weight: 10
+nav_icon:
+  vendor: bs
+  name: search
 draft: false
 series:
   - Docs

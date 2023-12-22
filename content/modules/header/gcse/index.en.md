@@ -6,9 +6,9 @@ description: Add Google custom search engine on the header.
 date: 2023-10-12T20:11:15+08:00
 draft: false
 nav_weight: 1000
-# nav_icon:
-#   vendor: bs
-#   name: book
+nav_icon:
+  vendor: simple
+  name: google
 series:
   - Modules
 categories:

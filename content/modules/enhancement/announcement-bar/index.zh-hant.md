@@ -4,9 +4,9 @@ title: "公告欄"
 linkTitle: "公告欄"
 date: 2023-06-11T18:36:36+08:00
 nav_weight: 1000
-# nav_icon:
-#   vendor: bs
-#   name: book
+nav_icon:
+  vendor: bs
+  name: bell
 series:
   - 模塊
 categories:

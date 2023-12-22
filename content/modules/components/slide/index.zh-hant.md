@@ -6,6 +6,9 @@ title: "幻燈片模塊"
 linkTitle: 幻燈片
 date: 2023-04-14T23:43:28+08:00
 draft: false
+nav_icon:
+  vendor: bs
+  name: arrows
 series:
   - 文檔
 categories:

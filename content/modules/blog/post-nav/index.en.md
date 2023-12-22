@@ -6,6 +6,9 @@ title: "Blog Post Navigation"
 linkTitle: "Post Navigation"
 date: 2023-03-31T16:47:30+08:00
 draft: false
+nav_icon:
+  vendor: bs
+  name: arrow-left-right
 series:
   - Docs
 categories:

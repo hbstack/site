@@ -6,6 +6,9 @@ title: "Header Socials Module"
 linkTitle: Socials
 date: 2023-02-17T00:06:59+08:00
 draft: false
+nav_icon:
+  vendor: bs
+  name: share
 series:
   - Docs
 categories:

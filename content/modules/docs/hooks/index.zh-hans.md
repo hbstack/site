@@ -6,6 +6,9 @@ title: "文档钩子"
 linkTitle: "钩子"
 date: 2023-04-15T02:44:01+08:00
 draft: false
+nav_icon:
+  vendor: bs
+  name: gear
 series:
   - 文档
 categories:

@@ -10,9 +10,9 @@ header:
 date: 2023-08-26T13:40:01+08:00
 # draft: true
 nav_weight: 1000
-# nav_icon:
-#   vendor: bs
-#   name: card-image
+nav_icon:
+  vendor: bs
+  name: card-image
 series:
   - Modules
 categories:

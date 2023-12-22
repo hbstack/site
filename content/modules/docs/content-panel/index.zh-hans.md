@@ -6,6 +6,9 @@ title: "文档内容面板"
 linkTitle: 内容面板
 date: 2023-04-14T23:35:22+08:00
 draft: false
+nav_icon:
+  vendor: bs
+  name: gear
 series:
   - 文档
 categories:

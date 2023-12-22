@@ -6,6 +6,9 @@ title: "Docs ToC Scrollspy Module"
 linkTitle: "ToC Scrollspy"
 date: 2023-04-17T14:49:18+08:00
 draft: false
+nav_icon:
+  vendor: bs
+  name: list-ul
 series:
   - Docs
 categories:

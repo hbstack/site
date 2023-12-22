@@ -12,6 +12,9 @@ authors = ["HB"]
 aliases = [
     "/zh-hans/docs/modules/back-to-top/"
 ]
+[nav_icon]
+vendor = "bs"
+name = "arrow-up-square"
 +++
 
 又称回到顶部，一个用于返回顶部的按钮。

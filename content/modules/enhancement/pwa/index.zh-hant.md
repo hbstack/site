@@ -6,6 +6,9 @@ title: PWA 模塊
 linkTitle: PWA
 date: 2023-04-14T16:14:51+08:00
 draft: false
+nav_icon:
+  vendor: bs
+  name: rocket
 series:
   - 文檔
 categories:

@@ -6,6 +6,9 @@ title: "Header DocSearch Module"
 linkTitle: "DocSearch"
 date: 2023-04-21T01:52:36+08:00
 draft: false
+nav_icon:
+  vendor: bs
+  name: search
 series:
   - Docs
 categories:

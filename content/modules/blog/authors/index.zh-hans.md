@@ -7,6 +7,9 @@ linkTitle: 作者
 date: 2023-03-31T15:59:18+08:00
 draft: false
 nav_weight: 10
+nav_icon:
+  vendor: bs
+  name: pencil-square
 series:
   - 文档
 categories:

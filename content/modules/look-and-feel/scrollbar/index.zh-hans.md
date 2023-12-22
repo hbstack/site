@@ -4,6 +4,9 @@ title: "滚动条模块"
 linkTitle: 滚动条
 date: 2023-02-16T23:48:35+08:00
 draft: false
+nav_icon:
+  vendor: bs
+  name: arrow-down-up
 series:
   - 文档
 categories:

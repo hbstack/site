@@ -6,6 +6,9 @@ title: "No Script 模块"
 linkTitle: "No Script"
 date: 2023-02-19T18:19:29+08:00
 draft: false
+nav_icon:
+  vendor: fab
+  name: js
 series:
   - 文档
 categories:

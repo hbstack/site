@@ -7,6 +7,9 @@ linkTitle: "Bigger Picture"
 date: 2023-02-19T13:39:32+08:00
 draft: false
 pinned: false
+nav_icon:
+  vendor: bs
+  name: card-image
 series:
   - 文档
 categories:

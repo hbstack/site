@@ -4,6 +4,9 @@ title: "Syntax Highlighting Modules"
 linkTitle: "Syntax Highlighting"
 date: 2023-02-15T10:11:42+08:00
 draft: false
+nav_icon:
+  vendor: bs
+  name: code-slash
 series:
   - Docs
 categories:

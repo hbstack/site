@@ -5,9 +5,9 @@ linkTitle: "Staticman Comments"
 date: 2023-05-28T23:54:58+08:00
 draft: false
 nav_weight: 1000
-# nav_icon:
-#   vendor: bs
-#   name: book
+nav_icon:
+  vendor: bs
+  name: chat-dots
 series:
   - Modules
 categories:

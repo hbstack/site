@@ -11,6 +11,9 @@ categories = ["模块"]
 series = ["文档"]
 images = ["https://mermaid.js.org/header.png"]
 authors = ["HB"]
+[nav_icon]
+vendor = "simple"
+name = "mermaid"
 +++
 
 Mermaid 是一个基于 JavaScript 的图表工具，使用 Markdown 启发的文本定义和一个渲染器来创建和修改复杂的图表。

@@ -4,6 +4,9 @@ title: "背景圖片模塊"
 linkTitle: "背景圖片"
 date: 2023-02-19T22:11:36+08:00
 draft: false
+nav_icon:
+  vendor: bs
+  name: card-image
 series:
   - 文檔
 categories:

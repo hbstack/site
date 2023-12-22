@@ -7,6 +7,9 @@ linkTitle: Overview
 date: 2023-02-17T00:39:18+08:00
 draft: false
 nav_weight: 1
+nav_icon:
+  vendor: bs
+  name: file-richtext
 series:
   - Docs
 categories:

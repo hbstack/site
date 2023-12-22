@@ -6,6 +6,9 @@ description: HB 麵包屑導航組件可用於指示當前頁面的位置。
 date: 2023-12-09T14:23:27+08:00
 draft: false
 nav_weight: 1000
+nav_icon:
+  vendor: bs
+  name: segmented-nav
 series:
   - 模塊
 categories:

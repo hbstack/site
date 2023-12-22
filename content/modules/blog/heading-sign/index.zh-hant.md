@@ -6,6 +6,9 @@ title: "博客標題鏈接"
 title: "標題鏈接"
 date: 2023-03-31T16:44:00+08:00
 draft: false
+nav_icon:
+  vendor: bs
+  name: paragraph
 series:
   - 文檔
 categories:

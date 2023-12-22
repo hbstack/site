@@ -5,6 +5,9 @@ aliases:
 title: "社交链接"
 date: 2023-02-17T00:20:03+08:00
 draft: false
+nav_icon:
+  vendor: bs
+  name: share
 series:
   - 文档
 categories:

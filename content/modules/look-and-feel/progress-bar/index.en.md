@@ -12,6 +12,9 @@ tags = ["Progress Bar"]
 series = ["Docs"]
 images = []
 authors = ["HB"]
+[nav_icon]
+vendor = "fas"
+name = "bars-progress"
 +++
 
 A progress bar will be shown when opening a new page in the current tab and window.

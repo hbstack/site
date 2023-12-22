@@ -6,6 +6,9 @@ description: HB 面包屑导航组件可用于指示当前页面的位置。
 date: 2023-12-09T14:23:27+08:00
 draft: false
 nav_weight: 1000
+nav_icon:
+  vendor: bs
+  name: segmented-nav
 series:
   - 模块
 categories:

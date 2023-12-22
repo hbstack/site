@@ -12,6 +12,9 @@ tags = ["進度條"]
 series = ["文檔"]
 images = []
 authors = ["HB"]
+[nav_icon]
+vendor = "fas"
+name = "bars-progress"
 +++
 
 當在當前標籤頁和窗口打開一個新頁面時，將顯示進度條。

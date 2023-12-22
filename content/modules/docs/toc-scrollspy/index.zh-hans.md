@@ -6,6 +6,9 @@ title: "文档目录滚动监听模块"
 linkTitle: "目录滚动监听"
 date: 2023-04-17T14:49:18+08:00
 draft: false
+nav_icon:
+  vendor: bs
+  name: list-ul
 series:
   - 文档
 categories:

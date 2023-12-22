@@ -6,6 +6,9 @@ title: "页头语言选项模块"
 linkTitle: 语言选项
 date: 2023-02-17T00:06:59+08:00
 draft: false
+nav_icon:
+  vendor: bs
+  name: translate
 series:
   - 文档
 categories:

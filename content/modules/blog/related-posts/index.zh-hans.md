@@ -5,6 +5,9 @@ aliases:
 title: "相关文章"
 date: 2023-03-31T17:16:29+08:00
 draft: false
+nav_icon:
+  vendor: bs
+  name: files
 series:
   - 文档
 categories:

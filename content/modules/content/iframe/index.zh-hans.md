@@ -5,9 +5,9 @@ linkTitle: "Inline Frame"
 date: 2023-05-29T22:26:59+08:00
 draft: false
 nav_weight: 1000
-# nav_icon:
-#   vendor: bs
-#   name: book
+nav_icon:
+  vendor: bs
+  name: window
 series:
   - 模块
 categories:

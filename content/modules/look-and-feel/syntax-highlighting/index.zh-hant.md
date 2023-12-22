@@ -4,6 +4,9 @@ title: "語法高亮模塊"
 linkTitle: "語法高亮"
 date: 2023-02-15T10:11:42+08:00
 draft: false
+nav_icon:
+  vendor: bs
+  name: code-slash
 series:
   - 文檔
 categories:

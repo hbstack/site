@@ -6,6 +6,9 @@ title: "Footer Beian Module"
 linkTitle: Beian
 date: 2023-04-17T13:12:16+08:00
 draft: false
+nav_icon:
+  vendor: bs
+  name: '123'
 series:
   - Docs
 categories:

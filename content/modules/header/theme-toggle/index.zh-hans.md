@@ -6,6 +6,9 @@ title: 页头主题切换模块
 linkTitle: 主题切换
 date: 2023-02-17T00:06:59+08:00
 draft: false
+nav_icon:
+  vendor: bs
+  name: circle-half
 series:
   - 文档
 categories:

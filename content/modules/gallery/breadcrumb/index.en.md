@@ -6,6 +6,9 @@ title: "Gallery Breadcrumb"
 linkTitle: "Breadcrumb"
 date: 2023-04-14
 draft: false
+nav_icon:
+  vendor: bs
+  name: segmented-nav
 series:
   - Docs
 categories:

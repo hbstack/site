@@ -6,6 +6,9 @@ title: "页头社交链接模块"
 linkTitle: 社交链接
 date: 2023-02-17T00:06:59+08:00
 draft: false
+nav_icon:
+  vendor: bs
+  name: share
 series:
   - 文档
 categories:

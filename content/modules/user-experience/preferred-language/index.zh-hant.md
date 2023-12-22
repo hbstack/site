@@ -4,6 +4,9 @@ title: "首選語言模塊"
 linkTitle: "首選語言"
 date: 2023-04-22T22:35:07+08:00
 draft: false
+nav_icon:
+  vendor: bs
+  name: translate
 series:
   - 文檔
 categories:

@@ -8,6 +8,9 @@ description: The header module is a universal top app bar that ships with some u
 date: 2023-02-16T23:58:05+08:00
 draft: false
 nav_weight: 1
+nav_icon:
+  vendor: bs
+  name: file-richtext
 series:
   - Docs
 categories:
