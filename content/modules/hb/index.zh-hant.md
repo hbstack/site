@@ -87,6 +87,7 @@ HB 將會：
 | `js_bundle_name`  | string  |    -     |       `hb`        | JS 的名稱。                       |
 | `logo`            | string  |    -     | `images/logo.png` | Logo 路徑，相對於 `assets` 目錄。 |
 | `full_width`      | boolean/array | - | `false` | 是否全寬，其為布爾值或者第一層級的欄目數值，如 `["docs", "blog"]`。 |
+| `full_width_types` | object | - | - | 哪些內容類型佔據全寬，被用於模塊。|
 
 {{< bs/config-toggle hugo >}}
 {{% code-snippet params.yaml %}}

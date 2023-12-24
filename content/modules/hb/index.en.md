@@ -87,6 +87,7 @@ See also [creating a module]({{< relref "develop/module" >}}).
 | `js_bundle_name`  | string  |    -     |       `hb`        | The bundle name of JS.                     |
 | `logo`            | string  |    -     | `images/logo.png` | The logo path relative to `assets` folder. |
 | `full_width`      | boolean/array | - | `false` | Whether to take full width, a boolean value or array of first level sections, e.g. `["docs", "blog"]`. |
+| `full_width_types` | object | - | - | The content types to take full width, used by modules. |
 
 {{< bs/config-toggle hugo >}}
 {{% code-snippet params.yaml %}}
