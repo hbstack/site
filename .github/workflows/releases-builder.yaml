@@ -1,0 +1,38 @@
+name: Releases Builder
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 * * * *'
+
+jobs:
+  contributors:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    name: Update Releases
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.MAINTAINER_TOKEN }}
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '>=1.20.0'
+      
+      - name: Install Releases Builder CLI
+        run: go install github.com/hugomods/releases-builder@latest
+      
+      - name: Run Releases Builder
+        run: releases-builder
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit Changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update releases"
+          commit_author: "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>" 
+          file_pattern: 'content/releases'
+

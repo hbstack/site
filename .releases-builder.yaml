@@ -1,0 +1,54 @@
+languages:
+  - code: en
+  - code: zh-hans
+  - code: zh-hant
+contentDir: content/releases
+repositories:
+  - github.com/hbstack/announcement-bar
+  - github.com/hbstack/back-to-top
+  - github.com/hbstack/background-image
+  - github.com/hbstack/base
+  - github.com/hbstack/bigger-picture
+  - github.com/hbstack/blog
+  - github.com/hbstack/bootstrap
+  - github.com/hbstack/breadcrumb
+  - github.com/hbstack/bs-tooltip
+  - github.com/hbstack/carousel
+  - github.com/hbstack/cloudflare-rocket-loader
+  - github.com/hbstack/code-block-panel
+  - github.com/hbstack/contact
+  - github.com/hbstack/content-panel
+  - github.com/hbstack/disqus
+  - github.com/hbstack/docs
+  - github.com/hbstack/featured-image
+  - github.com/hbstack/footer
+  - github.com/hbstack/form
+  - github.com/hbstack/gallery
+  - github.com/hbstack/giscus
+  - github.com/hbstack/github-releases
+  - github.com/hbstack/google-fonts
+  - github.com/hbstack/hb
+  - github.com/hbstack/header
+  - github.com/hbstack/heading-sign
+  - github.com/hbstack/iframe
+  - github.com/hbstack/mermaid
+  - github.com/hbstack/meta
+  - github.com/hbstack/noscript
+  - github.com/hbstack/pagination
+  - github.com/hbstack/preferred-language
+  - github.com/hbstack/progress-bar
+  - github.com/hbstack/pwa
+  - github.com/hbstack/revision
+  - github.com/hbstack/scrollbar
+  - github.com/hbstack/search
+  - github.com/hbstack/slide
+  - github.com/hbstack/snackbar
+  - github.com/hbstack/social-share-buttons
+  - github.com/hbstack/socials
+  - github.com/hbstack/staticman-comments
+  - github.com/hbstack/syntax-highlighting
+  - github.com/hbstack/theme
+  - github.com/hbstack/theme-cards
+  - github.com/hbstack/theme-start
+  - github.com/hbstack/toc-scrollspy
+  - github.com/hbstack/utterances
