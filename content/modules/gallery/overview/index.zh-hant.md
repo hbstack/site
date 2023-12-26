@@ -46,7 +46,7 @@ authors:
 
 ## 創建相冊
 
-{{% bs/collapse "content/gallery/hello/_index.md" primary true %}}
+{{% bs/collapse "content/gallery/hello/index.md" primary true %}}
 {{% code-snippet album %}}
 {{% /bs/collapse %}}
 

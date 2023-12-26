@@ -46,7 +46,7 @@ The gallery module provides a simple layout for images.
 
 ## Create Images Album
 
-{{% bs/collapse "content/gallery/hello/_index.md" primary true %}}
+{{% bs/collapse "content/gallery/hello/index.md" primary true %}}
 {{% code-snippet album %}}
 {{% /bs/collapse %}}
 
