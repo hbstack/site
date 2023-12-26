@@ -73,3 +73,44 @@ The image names will be used by sorting, you should apply same pattern on images
 | `params`        | object |    -     | The image parameters. |
 | `params.author` | string |    -     | The author/painter.   |
 | `params.source` | string |    -     | The source of image.  |
+
+## 如何創建子圖庫
+
+你可以通過複雜的結構來管理圖庫和畫冊，以下列結構作為例子。
+
+```sh
+$ tree content/gallery/events
+├── _index.md
+├── bar
+│   ├── ***.jpg
+│   └── index.md
+└── foo
+│   ├── ***.jpg
+    └── index.md
+```
+
+上述結構展示了一個 `events` 子圖庫，其包含兩個畫冊：`foo` 和 `bar`。
+
+## 如何於其他欄目使用圖庫佈局
+
+或許你打算修改 `gallery` 欄目，又或者將圖片分離到不同的欄目，比如 `photos`，為此，你只需要於前言指定一個名為 `type` 的參數為 `gallery`。
+
+1. 創建圖庫 `content/photos/_index.md`。
+
+```markdown
+---
+title: Photos
+type: gallery
+---
+```
+
+2. 創建相冊 `content/photos/foo/index.md`，並將圖片保存至 `content/photos/foo`。
+
+```markdown
+---
+title: Foo
+type: gallery
+---
+```
+
+3. 至此大功告成，新圖庫可通過 `/photos` URL 訪問。
