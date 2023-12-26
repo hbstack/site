@@ -33,6 +33,7 @@ The gallery module provides a simple layout for images.
 | ---------------- | :----: | :-----: | --------------------------------------------------------------------- |
 | `paginate`       | number |  `24`   | How many images per page.                                             |
 | `thumbnail_size` | string | `x640`  | The size of thumbnail: `[width]x[height]`, `[width]x` or `x[height]`. |
+| `date_sort_order` | string | `desc` | `desc` or `asc`. |
 
 {{% bs/config-toggle params %}}
 {{% code-snippet params.yaml %}}
@@ -65,14 +66,35 @@ images:
 
 ## Image Properties
 
-The image names will be used by sorting, you should apply same pattern on images filenames, such as date.
-
 | Property        |  Type  | Required | Description           |
 | --------------- | :----: | :------: | --------------------- |
 | `src`           | string |    Y     | The name of image.    |
 | `params`        | object |    -     | The image parameters. |
 | `params.author` | string |    -     | The author/painter.   |
 | `params.source` | string |    -     | The source of image.  |
+| `params.date`   | string |    -     | The image date, it's useful for images without EXIF. |
+
+## Images Sorting
+
+The images were sorting by date (EXIF date or specified by [params.date](#image-properties)) in [date_sort_order](#site-parameters) order, images those without date will be sorted by name in alphabetical order, and be appended into the end.
+
+## Styles
+
+| Name | Type | Default | Description |
+| --- | :-: | :-: | --- |
+| `hb_gallery_album_item_gap` | string | `5px` | The gap between of items.
+| `hb_gallery_album_item_border_radius` | string | `5px` | The border radius of item.
+
+Take flat style as example.
+
+{{< bs/config-toggle filename=params title="Site Parameters" >}}
+hb:
+  styles:
+    hb_gallery_album_item_gap: 1px
+    hb_gallery_album_item_border_radius: 0
+{{< /bs/config-toggle >}}
+
+![Gallery flat style](flat.png#center "Gallery Flat Style")
 
 ## How to Create Sub Galleries
 

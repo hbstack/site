@@ -33,6 +33,7 @@ authors:
 | ---------------- | :----: | :-----: | ----------------------------------------------------------- |
 | `paginate`       | number |  `24`   | 每页图片数量。                                              |
 | `thumbnail_size` | string | `x640`  | 缩略图尺寸：`[width]x[height]`、`[width]x` 或 `x[height]`。 |
+| `date_sort_order` | string | `desc` | `desc` 或者 `asc`。 |
 
 {{% bs/config-toggle params %}}
 {{% code-snippet params.yaml %}}
@@ -65,14 +66,35 @@ images:
 
 ## 图片属性
 
-The image names will be used by sorting, you should apply same pattern on images filenames, such as date.
-
 | Property        |  Type  | Required | Description           |
 | --------------- | :----: | :------: | --------------------- |
 | `src`           | string |    Y     | The name of image.    |
 | `params`        | object |    -     | The image parameters. |
 | `params.author` | string |    -     | The author/painter.   |
 | `params.source` | string |    -     | The source of image.  |
+| `params.date`   | string |    -     | The image date, it's useful for images without EXIF. |
+
+## 图片排序
+
+图片按日期（EXIF 或由 [params.date](#图片属性) 指定的日期）以 [date_sort_order](#站点配置) 顺序进行排序。其他没有日期的图片则按名称字母排序，并追加到最后。
+
+## 样式
+
+| Name | Type | Default | Description |
+| --- | :-: | :-: | --- |
+| `hb_gallery_album_item_gap` | string | `5px` | 条目间隔。
+| `hb_gallery_album_item_border_radius` | string | `5px` | 条目圆角大小。
+
+以扁平样式为例。
+
+{{< bs/config-toggle filename=params title="Site Parameters" >}}
+hb:
+  styles:
+    hb_gallery_album_item_gap: 1px
+    hb_gallery_album_item_border_radius: 0
+{{< /bs/config-toggle >}}
+
+![图库扁平样式](flat.png#center "图库扁平样式")
 
 ## 如何创建子图库
 

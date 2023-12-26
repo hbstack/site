@@ -2,3 +2,4 @@ hb:
   gallery:
     paginate: 24
     thumbnail_size: "x640"
+    date_sort_order: "desc"
