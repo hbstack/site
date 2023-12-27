@@ -10,7 +10,7 @@ jobs:
     permissions:
       contents: write
     runs-on: ubuntu-latest
-    name: Update Releases
+    name: Releases Builder
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -19,12 +19,12 @@ jobs:
 
       - uses: actions/setup-go@v5
         with:
-          go-version: '>=1.20.0'
+          go-version: 'latest'
       
       - name: Install Releases Builder CLI
         run: go install github.com/hugomods/releases-builder@latest
       
-      - name: Run Releases Builder
+      - name: Fetch and Save Releases
         run: releases-builder
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
