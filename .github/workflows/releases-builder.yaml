@@ -19,7 +19,7 @@ jobs:
 
       - uses: actions/setup-go@v5
         with:
-          go-version: 'latest'
+          go-version: 'stable'
       
       - name: Install Releases Builder CLI
         run: go install github.com/hugomods/releases-builder@latest
