@@ -61,11 +61,18 @@ avatar_url = 'https://avatars.githubusercontent.com/u/12704135?v=4'
 contributions = 4
 repos = 3
 
+[pleasantone]
+id = 5339793
+login = 'pleasantone'
+avatar_url = 'https://avatars.githubusercontent.com/u/5339793?v=4'
+contributions = 2
+repos = 1
+
 [razonyang]
 id = 17720932
 login = 'razonyang'
 avatar_url = 'https://avatars.githubusercontent.com/u/17720932?v=4'
-contributions = 1340
+contributions = 1346
 repos = 52
 
 [salim-b]
