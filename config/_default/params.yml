@@ -38,6 +38,10 @@ hb:
       # twitter: razonyang
       mastodon: https://techhub.social/@hbstack
       rss: true
+    news:
+      sections:
+        - news
+        - releases
   blog:
     post_thumbnail_default: /images/thumbnail.jpg
     social_share_buttons:
