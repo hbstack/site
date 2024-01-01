@@ -11,7 +11,7 @@ require (
 	github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 // indirect
 	github.com/hbstack/back-to-top v0.1.2 // indirect
 	github.com/hbstack/base v0.4.1 // indirect
-	github.com/hbstack/bigger-picture v0.10.0 // indirect
+	github.com/hbstack/bigger-picture v0.10.1 // indirect
 	github.com/hbstack/blog v0.24.1 // indirect
 	github.com/hbstack/blog/modules/breadcrumb v0.1.22 // indirect
 	github.com/hbstack/blog/modules/content-panel v0.1.21 // indirect
@@ -44,17 +44,16 @@ require (
 	github.com/hbstack/footer/modules/socials v0.2.5 // indirect
 	github.com/hbstack/form v0.1.1 // indirect
 	github.com/hbstack/giscus v0.1.1 // indirect
-	github.com/hbstack/github-releases v0.2.0 // indirect
 	github.com/hbstack/google-fonts v0.1.1 // indirect
 	github.com/hbstack/hb v0.8.1 // indirect
-	github.com/hbstack/header v0.12.4 // indirect
+	github.com/hbstack/header v0.12.5 // indirect
 	github.com/hbstack/header/modules/banner v0.5.11 // indirect
 	github.com/hbstack/header/modules/docsearch v0.1.23 // indirect
 	github.com/hbstack/header/modules/language-picker v0.1.23 // indirect
 	github.com/hbstack/header/modules/news v0.2.1 // indirect
-	github.com/hbstack/header/modules/search v0.1.33 // indirect
+	github.com/hbstack/header/modules/search v0.1.34 // indirect
 	github.com/hbstack/header/modules/socials v0.1.28 // indirect
-	github.com/hbstack/header/modules/theme-toggle v0.4.2 // indirect
+	github.com/hbstack/header/modules/theme-toggle v0.4.3 // indirect
 	github.com/hbstack/header/themes/pills v0.2.18 // indirect
 	github.com/hbstack/heading-sign v0.1.3 // indirect
 	github.com/hbstack/iframe v0.1.1 // indirect
@@ -72,11 +71,11 @@ require (
 	github.com/hbstack/snackbar v0.1.2 // indirect
 	github.com/hbstack/social-share-buttons v0.1.2 // indirect
 	github.com/hbstack/socials v0.9.0 // indirect
-	github.com/hbstack/syntax-highlighting v0.1.0 // indirect
-	github.com/hbstack/syntax-highlighting/styles/gruvbox v0.1.0 // indirect
+	github.com/hbstack/syntax-highlighting v0.2.0 // indirect
+	github.com/hbstack/syntax-highlighting/styles/gruvbox v0.1.1 // indirect
 	github.com/hbstack/theme-cards v0.1.0 // indirect
 	github.com/hbstack/toc-scrollspy v0.1.0 // indirect
-	github.com/henrygd/bigger-picture v1.1.12 // indirect
+	github.com/henrygd/bigger-picture v1.1.13 // indirect
 	github.com/hugomods/aos v0.1.0 // indirect
 	github.com/hugomods/base v0.4.0 // indirect
 	github.com/hugomods/bootstrap v0.15.0 // indirect
