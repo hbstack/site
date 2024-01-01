@@ -4,6 +4,9 @@ module:
     - path: github.com/hbstack/header/themes/pills
     - path: github.com/hbstack/theme-cards
 
+    # - path: github.com/hbstack/header/modules/git-repo
+    - path: github.com/hbstack/header/modules/git-org
+
     - path: github.com/hbstack/blog/modules/social-share-buttons
 
     - path: github.com/hugomods/decap-cms/widgets/url

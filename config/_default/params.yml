@@ -42,6 +42,13 @@ hb:
       sections:
         - news
         - releases
+    git_org:
+      service: github
+      name: hbstack
+    # git_repo:
+    #   service: github
+    #   owner: hbstack
+    #   name: hb
   blog:
     post_thumbnail_default: /images/thumbnail.jpg
     social_share_buttons:

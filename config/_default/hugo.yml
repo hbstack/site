@@ -55,5 +55,5 @@ security:
       - '^CI$'
       - '^GITHUB_TOKEN$'
 
-ignoreErrors:
-  - error-remote-getjson
+# ignoreErrors:
+#   - error-remote-getjson
