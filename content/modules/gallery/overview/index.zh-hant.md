@@ -34,6 +34,8 @@ authors:
 | `paginate`       | number |  `24`   | 每頁圖片數量。                                              |
 | `thumbnail_size` | string | `x640`  | 縮略圖尺寸：`[width]x[height]`、`[width]x` 或 `x[height]`。 |
 | `date_sort_order` | string | `desc` | `desc` 或者 `asc`。 |
+| `highlight_images_count` | number | `10` | 高亮圖片數量。 |
+| `highlight_images_recursive` | boolean | `false` | 為 `true` 時，遞歸展示高亮圖片。 |
 
 {{% bs/config-toggle params %}}
 {{% code-snippet params.yaml %}}
@@ -68,11 +70,12 @@ images:
 
 | Property        |  Type  | Required | Description           |
 | --------------- | :----: | :------: | --------------------- |
-| `src`           | string |    Y     | The name of image.    |
-| `params`        | object |    -     | The image parameters. |
-| `params.author` | string |    -     | The author/painter.   |
-| `params.source` | string |    -     | The source of image.  |
-| `params.date`   | string |    -     | The image date, it's useful for images without EXIF. |
+| `src`           | string |    Y     | 圖片文件名。    |
+| `params`        | object |    -     | 圖片參數。 |
+| `params.author` | string |    -     | 圖片作者、畫家。  |
+| `params.source` | string |    -     | 圖片來源。  |
+| `params.date`   | string |    -     | 圖片日期，一般用於沒有 EXIF 信息的圖片。 |
+| `params.highlight` | boolean | - | 指示該圖片是否高亮。 |
 
 ## 圖片排序
 

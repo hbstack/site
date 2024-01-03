@@ -3,3 +3,5 @@ hb:
     paginate: 24
     thumbnail_size: "x640"
     date_sort_order: "desc"
+    highlight_images_count: 10
+    highlight_images_recursive: false

@@ -34,6 +34,8 @@ The gallery module provides a simple layout for images.
 | `paginate`       | number |  `24`   | How many images per page.                                             |
 | `thumbnail_size` | string | `x640`  | The size of thumbnail: `[width]x[height]`, `[width]x` or `x[height]`. |
 | `date_sort_order` | string | `desc` | `desc` or `asc`. |
+| `highlight_images_count` | number | `10` | The maximum number of highlight images. |
+| `highlight_images_recursive` | boolean | `false` | When `true`, list highlight images recursive. |
 
 {{% bs/config-toggle params %}}
 {{% code-snippet params.yaml %}}
@@ -68,11 +70,12 @@ images:
 
 | Property        |  Type  | Required | Description           |
 | --------------- | :----: | :------: | --------------------- |
-| `src`           | string |    Y     | The name of image.    |
+| `src`           | string |    Y     | The filename of image.    |
 | `params`        | object |    -     | The image parameters. |
 | `params.author` | string |    -     | The author/painter.   |
 | `params.source` | string |    -     | The source of image.  |
 | `params.date`   | string |    -     | The image date, it's useful for images without EXIF. |
+| `params.highlight` | boolean | - | Indicates the image is highlight. |
 
 ## Images Sorting
 
