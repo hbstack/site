@@ -65,14 +65,14 @@ repos = 3
 id = 5339793
 login = 'pleasantone'
 avatar_url = 'https://avatars.githubusercontent.com/u/5339793?v=4'
-contributions = 2
+contributions = 3
 repos = 1
 
 [razonyang]
 id = 17720932
 login = 'razonyang'
 avatar_url = 'https://avatars.githubusercontent.com/u/17720932?v=4'
-contributions = 1371
+contributions = 1377
 repos = 52
 
 [salim-b]
@@ -86,7 +86,7 @@ repos = 1
 id = 159569
 login = 'whiztech'
 avatar_url = 'https://avatars.githubusercontent.com/u/159569?v=4'
-contributions = 17
+contributions = 18
 repos = 13
 
 [wildserver]
