@@ -17,7 +17,7 @@ tags:
 
 Currently, the applications are specified through the menus configuration.
 
-{{< bs/config-toggle "config/_default/menus.yaml" >}}
+{{< bs/config-toggle "menus" >}}
 apps:
   - name: Group 1
     identifier: group-1
