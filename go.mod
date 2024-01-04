@@ -9,7 +9,7 @@ require (
 	github.com/KaTeX/KaTeX v0.16.9 // indirect
 	github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20200 // indirect
 	github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 // indirect
-	github.com/hbstack/back-to-top v0.1.2 // indirect
+	github.com/hbstack/back-to-top v0.2.0 // indirect
 	github.com/hbstack/base v0.4.1 // indirect
 	github.com/hbstack/bigger-picture v0.10.1 // indirect
 	github.com/hbstack/blog v0.24.1 // indirect
@@ -50,11 +50,11 @@ require (
 	github.com/hbstack/header/modules/banner v0.5.11 // indirect
 	github.com/hbstack/header/modules/docsearch v0.1.23 // indirect
 	github.com/hbstack/header/modules/git-org v0.2.0 // indirect
-	github.com/hbstack/header/modules/language-picker v0.1.23 // indirect
+	github.com/hbstack/header/modules/language-picker v0.1.24 // indirect
 	github.com/hbstack/header/modules/news v0.2.1 // indirect
 	github.com/hbstack/header/modules/search v0.1.34 // indirect
 	github.com/hbstack/header/modules/socials v0.1.28 // indirect
-	github.com/hbstack/header/modules/theme-toggle v0.4.3 // indirect
+	github.com/hbstack/header/modules/theme-toggle v0.4.4 // indirect
 	github.com/hbstack/header/themes/pills v0.2.18 // indirect
 	github.com/hbstack/heading-sign v0.1.3 // indirect
 	github.com/hbstack/iframe v0.1.1 // indirect
@@ -94,7 +94,7 @@ require (
 	github.com/hugomods/hugopress v0.2.3 // indirect
 	github.com/hugomods/i18n-js v0.2.1 // indirect
 	github.com/hugomods/icons v0.6.0 // indirect
-	github.com/hugomods/icons/vendors/bootstrap v0.5.2 // indirect
+	github.com/hugomods/icons/vendors/bootstrap v0.5.3 // indirect
 	github.com/hugomods/icons/vendors/font-awesome v0.6.1 // indirect
 	github.com/hugomods/icons/vendors/simple-icons v1.0.26 // indirect
 	github.com/hugomods/idb-js v0.1.0 // indirect
@@ -121,5 +121,5 @@ require (
 	github.com/krisk/Fuse v7.0.0+incompatible // indirect
 	github.com/razonyang/hb-mod-thanks v0.5.1 // indirect
 	github.com/twbs/bootstrap v5.3.2+incompatible // indirect
-	github.com/twbs/icons v1.11.2 // indirect
+	github.com/twbs/icons v1.11.3 // indirect
 )
