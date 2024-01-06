@@ -6,6 +6,8 @@ aos:
   css_url: /css/aos.min.css
 
 hb:
+  heading_sign:
+    symbol: '¶'
   google_fonts:
     families:
       - name: Poppins
