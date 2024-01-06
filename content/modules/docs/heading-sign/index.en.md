@@ -24,6 +24,8 @@ The heading sign module shows the section sign when hovering on headings.
 
 {{% hb-module "docs/modules/heading-sign" %}}
 
+See [Heading Sign Component]({{< relref "modules/components/heading-sign" >}}) for details.
+
 ## Headings Example
 
 Hover on the heading above to see how it works.

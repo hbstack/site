@@ -24,6 +24,8 @@ images:
 
 {{% hb-module "docs/modules/heading-sign" %}}
 
+詳情請參閱[標題符號組件]({{< relref "modules/components/heading-sign" >}})。
+
 ## 標題示例
 
 將鼠標懸停於上述標題，以查看它是如何工作的。
