@@ -9,4 +9,19 @@
 
 ## Source Code
 
-<script src="https://emgithub.com/embed-v2.js?target=https://github.com/hbstack/site/blob/main/content/{{ .Page.File.Path }}&style=default&type=code&showBorder=on&showLineNumbers=on&showFileMeta=on&showFullPath=on&showCopy=on"></script>
+{{- $params := newScratch }}
+{{- $paramKeys := slice "header" }}
+{{- with .Page.Params.example_params }}
+  {{- $paramKeys = $paramKeys | append . }}
+{{- end }}
+{{- range $key := $paramKeys }}
+  {{- with index $.Page.Params $key }}
+    {{- $params.Set $key . }}
+  {{- end }}
+{{- end }}
+
+```yaml
+---
+{{ $params.Values | jsonify | transform.Unmarshal | transform.Remarshal `yaml` -}}
+---
+```

@@ -25,6 +25,8 @@ header:
       type: application/dash+xml
 requirements:
   - github.com/hbstack/modules/banner
+example_params:
+  - video_js
 ---
 
 {{% example %}}
