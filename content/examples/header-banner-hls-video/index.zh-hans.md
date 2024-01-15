@@ -23,7 +23,7 @@ header:
       src: https://devstreaming-cdn.apple.com/videos/streaming/examples/adv_dv_atmos/main.m3u8
       type: application/x-mpegURL
 requirements:
-  - github.com/hbstack/modules/banner
+  - github.com/hbstack/header/modules/banner
 example_params:
   - video_js
 ---

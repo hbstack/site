@@ -11,7 +11,7 @@ tags:
   - AOS
   - 动画
 requirements:
-  - github.com/hbstack/banner
+  - github.com/hbstack/header/modules/banner
   - github.com/hugomods/aos
 header:
   banner:

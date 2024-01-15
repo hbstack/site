@@ -20,7 +20,7 @@ header:
       poster: https://www.heishenhua.com/img/Wallpaper/Wallpaper6.jpg
       src: https://www.heishenhua.com/video/preview/video_Day2.mp4
 requirements:
-  - github.com/hbstack/modules/banner
+  - github.com/hbstack/header/modules/banner
 ---
 
 {{% example %}}

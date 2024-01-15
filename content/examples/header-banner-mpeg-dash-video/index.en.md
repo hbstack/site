@@ -24,7 +24,7 @@ header:
       src: https://customer-m033z5x00ks6nunl.cloudflarestream.com/b236bde30eb07b9d01318940e5fc3eda/manifest/video.mpd
       type: application/dash+xml
 requirements:
-  - github.com/hbstack/modules/banner
+  - github.com/hbstack/header/modules/banner
 example_params:
   - video_js
 ---
