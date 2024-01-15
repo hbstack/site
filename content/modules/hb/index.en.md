@@ -83,6 +83,7 @@ See also [creating a module]({{< relref "develop/module" >}}).
 | Name              |  Type   | Required |      Default      | Description                                |
 | ----------------- | :-----: | :------: | :---------------: | ------------------------------------------ |
 | `css_bundle_name` | string  |    -     |       `hb`        | The bundle name of CSS.                    |
+| `color`           | string  |    -     |      `light`      | Default color/mode, `light` or `dark`.     |
 | `debug`           | boolean |    -     |      `false`      | Debug mode.                                |
 | `js_bundle_name`  | string  |    -     |       `hb`        | The bundle name of JS.                     |
 | `logo`            | string  |    -     | `images/logo.png` | The logo path relative to `assets` folder. |

@@ -83,6 +83,7 @@ HB 将会：
 | Name              |  Type   | Required |      Default      | Description                       |
 | ----------------- | :-----: | :------: | :---------------: | --------------------------------- |
 | `css_bundle_name` | string  |    -     |       `hb`        | CSS 的名称。                      |
+| `color`           | string  |    -     |      `light`      | 默认颜色主题，`light` 或者 `dark`。 |
 | `debug`           | boolean |    -     |      `false`      | 调试模式。                        |
 | `js_bundle_name`  | string  |    -     |       `hb`        | JS 的名称。                       |
 | `logo`            | string  |    -     | `images/logo.png` | Logo 路径，相对于 `assets` 目录。 |
