@@ -34,6 +34,7 @@ The `hb.color` is available since `github.com/hbstack/hb@v0.9.0`, please make su
 {{% /bs/alert%}}
 
 {{< bs/config-toggle filename=hugo title="Site Parameters" >}}
-hb:
-  color: dark
+params:
+  hb:
+    color: dark
 {{< /bs/config-toggle >}}
