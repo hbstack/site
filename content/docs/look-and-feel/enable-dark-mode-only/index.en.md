@@ -33,8 +33,7 @@ See [replace meta module]({{< relref "blog/replace-meta-modules" >}}) if you're 
 The `hb.color` is available since `github.com/hbstack/hb@v0.9.0`, please make sure you've upgraded to the latest version.
 {{% /bs/alert%}}
 
-{{< bs/config-toggle filename=hugo title="Site Parameters" >}}
-params:
-  hb:
-    color: dark
+{{< bs/config-toggle filename=params title="Site Parameters" >}}
+hb:
+  color: dark
 {{< /bs/config-toggle >}}
