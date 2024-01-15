@@ -34,6 +34,7 @@ authors:
 {{% /bs/alert%}}
 
 {{< bs/config-toggle filename=hugo title="站点参数" >}}
-hb:
-  color: dark
+params:
+  hb:
+    color: dark
 {{< /bs/config-toggle >}}
