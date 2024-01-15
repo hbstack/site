@@ -33,8 +33,7 @@ authors:
 `hb.color` 自 `github.com/hbstack/hb@v0.9.0` 可用，请确保你已升级到最新版本。
 {{% /bs/alert%}}
 
-{{< bs/config-toggle filename=hugo title="站点参数" >}}
-params:
-  hb:
-    color: dark
+{{< bs/config-toggle filename=params title="站点参数" >}}
+hb:
+  color: dark
 {{< /bs/config-toggle >}}
