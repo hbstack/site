@@ -82,6 +82,13 @@ avatar_url = 'https://avatars.githubusercontent.com/u/20040931?v=4'
 contributions = 2
 repos = 1
 
+[upptime-bot]
+id = 73812536
+login = 'upptime-bot'
+avatar_url = 'https://avatars.githubusercontent.com/u/73812536?v=4'
+contributions = 1
+repos = 1
+
 [whiztech]
 id = 159569
 login = 'whiztech'
