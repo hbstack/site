@@ -1,2 +1,17 @@
 [sponsors]
 other = "赞助商"
+
+[cms_label_module]
+other = "模块"
+
+[cms_label_modules]
+other = "模块"
+
+[cms_label_news]
+other = "新闻"
+
+[cms_label_site]
+other = "站点"
+
+[cms_label_sites]
+other = "站点"

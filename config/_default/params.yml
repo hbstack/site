@@ -182,27 +182,52 @@ decap_cms:
   logo_url: images/logo.png
   i18n:
     structure: multiple_files
-    locales:
-      - en
-      - zh-hans
-      - zh-hant
-    default_locale: en
   collections:
     news:
-      hide: true
-      label: News
+      _weight: 1
+      _extends:
+        - nested
+        - meta_path
+        - hb_blog_posts
       name: news
+      label: News
+      label_singular: News
       folder: content/news
-      create: true
       i18n: true
-      nested:
-        depth: 3
-      fields:
-        - {label: Title, name: title, widget: string}
-        - {label: URL, name: params.url, widget: url}
-        - {label: Date, name: date, widget: datetime}
-        - {label: Description, name: description, widget: string}
-        - {label: Content, name: body, widget: markdown}
+    blog:
+      _weight: 2
+      _extends:
+        - nested
+        - meta_path
+        - hb_blog_posts
+      folder: content/blog
+      i18n: true
+    archives:
+      _extends:
+        - nested
+        - meta_path
+        - hb_blog_archives
+      folder: content/archives
+      i18n: true
+    docs:
+      _weight: 3
+      _extends:
+        - nested
+        - meta_path
+        - hb_docs_doc
+      i18n: true
+      folder: content/docs
+    modules:
+      _weight: 4
+      _extends:
+        - nested
+        - meta_path
+        - hb_docs_doc
+      i18n: true
+      folder: content/modules
+      name: modules
+      label: Modules
+      label_singular: Module
     sites:
       editor:
         preview: false

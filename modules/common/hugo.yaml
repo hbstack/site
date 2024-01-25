@@ -9,9 +9,12 @@ module:
 
     - path: github.com/hbstack/blog/modules/social-share-buttons
 
+    - path: github.com/hbstack/blog/modules/decap-cms
+    - path: github.com/hbstack/docs/modules/decap-cms
     - path: github.com/hugomods/decap-cms/widgets/url
     - path: github.com/hugomods/decap-cms/editor-components/todo
     - path: github.com/hugomods/decap-cms
+
     - path: github.com/hbstack/google-fonts
     - path: github.com/hbstack/header/modules/news
     - path: github.com/hbstack/blog/modules/sidebar/posts
