@@ -178,6 +178,16 @@ hugopress:
       disabled: true
 
 decap_cms:
+  # _js_url: http://localhost:8080/dist/decap-cms.js
+  _preview_templates:
+    - name: hb/blog-post
+      collections:
+        - blog
+        - news
+    - name: hb/docs-doc
+      collections:
+        - documents
+        - modules
   publish_mode: editorial_workflow
   logo_url: images/logo.png
   i18n:
@@ -202,6 +212,7 @@ decap_cms:
         - hb_blog_posts
       folder: content/blog
       i18n: true
+      preview_path: /blog/{{year}}/{{month}}/{{title}}
     archives:
       _extends:
         - nested
