@@ -12,6 +12,8 @@ tags:
 images:
 authors:
   - HB
+aliases:
+  - /2023/10/replace-meta-modules
 ---
 
 ## 背景

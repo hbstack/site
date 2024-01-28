@@ -15,6 +15,8 @@ tags:
 images:
 authors:
   - HB
+aliases:
+  - /2023/12/whats-news-in-blogs-v0.23.0-v0.24.0-and-related-modules/
 ---
 
 ## Blog Module

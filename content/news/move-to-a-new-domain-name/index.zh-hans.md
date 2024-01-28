@@ -10,6 +10,8 @@ tags:
 images:
 authors:
   - HB
+aliases:
+  - /2023/04/move-to-a-new-domain-name/
 ---
 
 最近我们将网站迁移到新的域名 - [hbstack.dev](https://hbstack.dev/)。

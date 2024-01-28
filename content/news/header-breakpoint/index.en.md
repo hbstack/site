@@ -14,6 +14,8 @@ tags:
 images:
 authors:
   - HB
+aliases:
+  - /2023/09/header-breakpoint/
 ---
 
 ## Backgrounds

@@ -8,8 +8,8 @@ enableRobotsTXT: true
 enableEmoji: true
 
 permalinks:
-  blog: /:year/:month/:title
-  news: /:year/:month/:title
+  blog: /blog/:year/:month/:title
+  news: /news/:year/:month/:title
 
 outputs:
   home:

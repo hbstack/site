@@ -10,6 +10,8 @@ tags:
 images:
 authors:
   - HB
+aliases:
+  - /2023/10/broken-styles-when-building-site-via-hugo-v0.120.0-or-later/
 ---
 
 ```sh

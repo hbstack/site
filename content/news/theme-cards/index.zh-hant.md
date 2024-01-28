@@ -12,6 +12,8 @@ images:
   - https://raw.githubusercontent.com/hbstack/theme-cards/main/images/screenshot.png?height=1920&width=1280
 authors:
   - HB
+aliases:
+  - /2023/12/hb-cards-theme-is-out/
 ---
 
 我們很榮幸地宣佈，我們的新[卡片主題]({{< relref path="/themes/cards" lang="en" >}})現在可用了。
