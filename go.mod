@@ -32,7 +32,6 @@ require (
 	github.com/hbstack/code-block-panel v0.1.1 // indirect
 	github.com/hbstack/contact v0.2.0 // indirect
 	github.com/hbstack/content-panel v0.7.2 // indirect
-	github.com/hbstack/decap-cms v0.1.0 // indirect
 	github.com/hbstack/docs v0.11.6 // indirect
 	github.com/hbstack/docs/modules/breadcrumb v0.1.9 // indirect
 	github.com/hbstack/docs/modules/content-panel v0.1.8 // indirect
@@ -84,7 +83,7 @@ require (
 	github.com/hugomods/base v0.4.1 // indirect
 	github.com/hugomods/bootstrap v0.17.0 // indirect
 	github.com/hugomods/code-block-panel v0.5.0 // indirect
-	github.com/hugomods/decap-cms v0.11.0 // indirect
+	github.com/hugomods/decap-cms v0.11.1 // indirect
 	github.com/hugomods/decap-cms/editor-components/todo v0.1.1 // indirect
 	github.com/hugomods/decap-cms/widgets/url v0.1.1 // indirect
 	github.com/hugomods/docsearch v0.1.0 // indirect
