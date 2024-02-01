@@ -19,6 +19,7 @@ repositories:
   - github.com/hbstack/contact
   - github.com/hbstack/content-panel
   - github.com/hbstack/disqus
+  - github.com/hbstack/decap-cms
   - github.com/hbstack/docs
   - github.com/hbstack/featured-image
   - github.com/hbstack/footer
