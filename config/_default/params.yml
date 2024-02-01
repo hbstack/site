@@ -92,6 +92,13 @@ hb:
           mastodon: https://techhub.social/@hbstack
           rss: true
   docs:
+    social_share_buttons:
+      alignment: center
+      media:
+        - twitter
+        - facebook
+        - linkedin
+        - sinaweibo
     giscus:
       repo: hbstack/site
       repo_id: R_kgDOJLvAsw

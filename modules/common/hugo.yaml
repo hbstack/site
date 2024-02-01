@@ -8,6 +8,7 @@ module:
     - path: github.com/hbstack/header/modules/git-org
 
     - path: github.com/hbstack/blog/modules/social-share-buttons
+    - path: github.com/hbstack/docs/modules/social-share-buttons
 
     # - path: github.com/hugomods/bootstrap/modules/decap-cms
     - path: github.com/hbstack/blog/modules/decap-cms
