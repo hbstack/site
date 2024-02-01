@@ -153,6 +153,9 @@ code_block_panel:
 
 search:
   min_match_char_length: 1
+  index_all_pages: false
+  index_content: true
+  ignore_location: true
 
 docsearch:
   app_id: ZUM0MDPYWM
