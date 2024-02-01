@@ -32,6 +32,7 @@ require (
 	github.com/hbstack/code-block-panel v0.1.1 // indirect
 	github.com/hbstack/contact v0.2.0 // indirect
 	github.com/hbstack/content-panel v0.7.2 // indirect
+	github.com/hbstack/decap-cms v0.1.0 // indirect
 	github.com/hbstack/docs v0.11.6 // indirect
 	github.com/hbstack/docs/modules/breadcrumb v0.1.9 // indirect
 	github.com/hbstack/docs/modules/content-panel v0.1.8 // indirect
@@ -52,7 +53,7 @@ require (
 	github.com/hbstack/header v0.12.7 // indirect
 	github.com/hbstack/header/modules/banner v0.5.11 // indirect
 	github.com/hbstack/header/modules/docsearch v0.1.23 // indirect
-	github.com/hbstack/header/modules/git-org v0.2.1 // indirect
+	github.com/hbstack/header/modules/git-org v0.2.2 // indirect
 	github.com/hbstack/header/modules/language-picker v0.1.24 // indirect
 	github.com/hbstack/header/modules/news v0.2.2 // indirect
 	github.com/hbstack/header/modules/search v0.1.35 // indirect
