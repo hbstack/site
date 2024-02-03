@@ -21,4 +21,4 @@ authors:
   - HB
 ---
 
-{{% hb-module "bs-tooltip" %}}
+{{% hb-module "bs-tooltip/modules/abbr" %}}
