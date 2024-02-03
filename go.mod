@@ -15,7 +15,7 @@ require (
 	github.com/hbstack/blog v0.24.3 // indirect
 	github.com/hbstack/blog/modules/breadcrumb v0.1.22 // indirect
 	github.com/hbstack/blog/modules/content-panel v0.1.21 // indirect
-	github.com/hbstack/blog/modules/decap-cms v0.2.0 // indirect
+	github.com/hbstack/blog/modules/decap-cms v0.2.1 // indirect
 	github.com/hbstack/blog/modules/featured-image v0.2.21 // indirect
 	github.com/hbstack/blog/modules/giscus v0.1.23 // indirect
 	github.com/hbstack/blog/modules/heading-sign v0.1.23 // indirect
@@ -36,20 +36,20 @@ require (
 	github.com/hbstack/docs v0.11.6 // indirect
 	github.com/hbstack/docs/modules/breadcrumb v0.1.9 // indirect
 	github.com/hbstack/docs/modules/content-panel v0.1.8 // indirect
-	github.com/hbstack/docs/modules/decap-cms v0.2.0 // indirect
+	github.com/hbstack/docs/modules/decap-cms v0.2.1 // indirect
 	github.com/hbstack/docs/modules/doc-nav v0.3.4 // indirect
 	github.com/hbstack/docs/modules/featured-image v0.2.8 // indirect
 	github.com/hbstack/docs/modules/giscus v0.1.10 // indirect
 	github.com/hbstack/docs/modules/heading-sign v0.1.9 // indirect
 	github.com/hbstack/docs/modules/social-share-buttons v0.1.0 // indirect
 	github.com/hbstack/docs/modules/toc-scrollspy v0.1.7 // indirect
-	github.com/hbstack/featured-image v0.1.2 // indirect
+	github.com/hbstack/featured-image v0.2.0 // indirect
 	github.com/hbstack/footer v0.2.10 // indirect
 	github.com/hbstack/footer/modules/socials v0.2.5 // indirect
 	github.com/hbstack/form v0.1.1 // indirect
 	github.com/hbstack/giscus v0.1.1 // indirect
 	github.com/hbstack/google-fonts v0.1.1 // indirect
-	github.com/hbstack/hb v0.9.2 // indirect
+	github.com/hbstack/hb v0.11.0 // indirect
 	github.com/hbstack/header v0.12.7 // indirect
 	github.com/hbstack/header/modules/banner v0.5.11 // indirect
 	github.com/hbstack/header/modules/docsearch v0.1.23 // indirect
@@ -85,9 +85,9 @@ require (
 	github.com/hugomods/base v0.4.1 // indirect
 	github.com/hugomods/bootstrap v0.17.0 // indirect
 	github.com/hugomods/code-block-panel v0.5.0 // indirect
-	github.com/hugomods/decap-cms v0.11.1 // indirect
-	github.com/hugomods/decap-cms/editor-components/todo v0.1.1 // indirect
-	github.com/hugomods/decap-cms/widgets/url v0.1.1 // indirect
+	github.com/hugomods/decap-cms v0.11.2 // indirect
+	github.com/hugomods/decap-cms/editor-components/todo v0.1.2 // indirect
+	github.com/hugomods/decap-cms/widgets/url v0.1.2 // indirect
 	github.com/hugomods/docsearch v0.1.0 // indirect
 	github.com/hugomods/font-awesome v6.4.2+incompatible // indirect
 	github.com/hugomods/fuse-js v0.1.0 // indirect
