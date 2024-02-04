@@ -39,6 +39,7 @@ repositories:
   - github.com/hbstack/preferred-language
   - github.com/hbstack/progress-bar
   - github.com/hbstack/pwa
+  - github.com/hbstack/pwa-installer
   - github.com/hbstack/revision
   - github.com/hbstack/scrollbar
   - github.com/hbstack/search
