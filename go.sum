@@ -126,6 +126,8 @@ github.com/hbstack/progress-bar v0.1.0 h1:2ZiGS3RFZbZYBUbT2nFCoU9SJsbD9jtV4A7ab4
 github.com/hbstack/progress-bar v0.1.0/go.mod h1:JZt160XK62FxThzt+RmokjOww3De8ZL0ITcxMJLVE7g=
 github.com/hbstack/pwa v0.1.2 h1:zJhLf5Uf+jO9aCBKvFcASlw7sULK2i0qUJZxscBo0HM=
 github.com/hbstack/pwa v0.1.2/go.mod h1:8x01rczLrSw1aCWD+yrn6v5FRQPtaEh/PYCtFDICEWo=
+github.com/hbstack/pwa-installer v0.1.0 h1:XiZW/foRrtW0ivZ63XquVFJUNo8FVOV+79mfycRtPpQ=
+github.com/hbstack/pwa-installer v0.1.0/go.mod h1:1WJRkIxzDdxK4ZIPwl/oxjxM5noFRVC73Etf7FO98SU=
 github.com/hbstack/scrollbar v0.1.0 h1:uQMNbkWbLxnjQMiD3zdt33RG48sY2a0XWyGQkK2HsyY=
 github.com/hbstack/scrollbar v0.1.0/go.mod h1:BEDha5gOjQfXBKZfwT+4vn8hCE88qElocjEI2SY1eAs=
 github.com/hbstack/search v0.2.1 h1:u7DbLPZ0WO1db2ARb2reubn5KzPE3wG6NLrgylB6WQg=

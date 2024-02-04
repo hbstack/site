@@ -69,6 +69,7 @@ require (
 	github.com/hbstack/preferred-language v0.1.0 // indirect
 	github.com/hbstack/progress-bar v0.1.0 // indirect
 	github.com/hbstack/pwa v0.1.2 // indirect
+	github.com/hbstack/pwa-installer v0.1.0 // indirect
 	github.com/hbstack/scrollbar v0.1.0 // indirect
 	github.com/hbstack/search v0.2.1 // indirect
 	github.com/hbstack/site/modules/common v0.0.0-00010101000000-000000000000 // indirect
