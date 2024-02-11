@@ -60,6 +60,7 @@ The blog module provides the basic layouts and templates for blog site.
 | `comments` | boolean | `true`  | Whether to display comments.                      |
 | `featured` | boolean | `false` | Whether to display the post on homepage carousel. |
 | `pinned`   | boolean | `false` | Whether to pin the post next to the carousel.     |
+| `toc`      | boolean | `true`  | Whether to show the ToC (Table of Contents).      |
 
 ## Archives
 

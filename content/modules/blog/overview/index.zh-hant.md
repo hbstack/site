@@ -21,7 +21,7 @@ aliases:
   - /zh-hant/docs/modules/blog/archives/
 ---
 
-博客模塊爲博客站點提供了基本的佈局和模板。
+博客模塊為博客站點提供了基本的佈局和模板。
 
 <!--more-->
 
@@ -60,6 +60,7 @@ aliases:
 | `comments` | boolean | `true`  | 是否顯示評論。                 |
 | `featured` | boolean | `false` | 是否於首頁幻燈片中顯示該文章。 |
 | `pinned`   | boolean | `false` | 是否於首頁置頂該文章。         |
+| `toc`      | boolean | `true`  | 是否顯示文章目錄。            |
 
 ## 歸檔
 
@@ -73,7 +74,7 @@ aliases:
 
 ### 創建按年歸檔欄目
 
-以 `archives/2023/` 爲例。
+以 `archives/2023/` 為例。
 
 {{% bs/collapse "content/archives/2023/_index.md" primary true %}}
 {{% code-snippet archives-year %}}
@@ -81,7 +82,7 @@ aliases:
 
 ### 創建按月歸檔欄目
 
-以 `archives/2023/01/` 爲例。
+以 `archives/2023/01/` 為例。
 
 {{% bs/collapse "content/archives/2023/01/_index.md" primary true %}}
 {{% code-snippet archives-month %}}

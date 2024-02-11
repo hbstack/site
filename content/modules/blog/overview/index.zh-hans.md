@@ -60,6 +60,7 @@ aliases:
 | `comments` | boolean | `true`  | 是否显示评论。                 |
 | `featured` | boolean | `false` | 是否于首页幻灯片中显示该文章。 |
 | `pinned`   | boolean | `false` | 是否于首页置顶该文章。         |
+| `toc`      | boolean | `true`  | 是否显示文章目录。            |
 
 ## 归档
 
