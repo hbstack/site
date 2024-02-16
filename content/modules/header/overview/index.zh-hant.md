@@ -31,7 +31,13 @@ authors:
 | `brand`           | string  | 站點標題 | 品牌文本。                                    |
 | `breakpoint` | string | `lg` | 當屏幕寬度小於 breakpoint 時摺疊，否則展開。可選項：`lg`、`xl`、`xxl`。 |
 | `full_width`      | boolean |  `true`  | 是否全寬。                                    |
+| `logo`            | boolean |    -     | 為 `false` 時隱藏 Logo。                      |
 | `logo_bg`         | string  |    -     | Logo 背景色 background，用於透明背景的 Logo。 |
+| `main_brand`      | object  |    -     | 主品牌。 |
+| `main_brand.title` | string |    -     | 主品牌標題。 |
+| `main_brand.logo` | string  |    -     | 主品牌 Logo，相對於 `assets` 目錄。 |
+| `main_brand.url`  | string  |    -     | 主品牌 URL。 |
+| `main_brand.hide_title` | boolean | `false`| 是否隱藏主品牌 Logo。 |
 | `menus_alignment` | string  | `start`  | 菜單對齊：`start`、`center` 和 `end`。        |
 | `sticky`          | boolean |  `true`  | 是否固定頭部。                                |
 | ~~`theme`~~       | string  |    -     | 自 `v0.4.0` 刪除，另請參閱[主題]({{< relref "modules/header/themes" >}})。 |
