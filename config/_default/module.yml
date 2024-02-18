@@ -1,2 +1,2 @@
 imports:
-  - path: github.com/hbstack/site/modules/common
+  - path: github.com/hbstack/site/common

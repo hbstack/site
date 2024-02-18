@@ -4,7 +4,7 @@
     "config:base"
   ],
   "ignoreDeps": [
-    "github.com/hbstack/site/modules/common"
+    "github.com/hbstack/site/common"
   ],
   "packageRules": [
     {
