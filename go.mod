@@ -10,9 +10,9 @@ require (
 	github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20200 // indirect
 	github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 // indirect
 	github.com/hbstack/back-to-top v0.2.0 // indirect
-	github.com/hbstack/base v0.4.1 // indirect
+	github.com/hbstack/base v0.4.2 // indirect
 	github.com/hbstack/bigger-picture v0.10.1 // indirect
-	github.com/hbstack/blog v0.25.0 // indirect
+	github.com/hbstack/blog v0.25.1 // indirect
 	github.com/hbstack/blog/modules/breadcrumb v0.1.22 // indirect
 	github.com/hbstack/blog/modules/content-panel v0.1.21 // indirect
 	github.com/hbstack/blog/modules/decap-cms v0.3.0 // indirect
@@ -29,11 +29,11 @@ require (
 	github.com/hbstack/bootstrap v0.2.1 // indirect
 	github.com/hbstack/breadcrumb v0.6.0 // indirect
 	github.com/hbstack/carousel v0.2.4 // indirect
-	github.com/hbstack/code-block-panel v0.1.1 // indirect
+	github.com/hbstack/code-block-panel v0.1.2 // indirect
 	github.com/hbstack/contact v0.2.0 // indirect
 	github.com/hbstack/content-panel v0.7.2 // indirect
 	github.com/hbstack/decap-cms v0.3.0 // indirect
-	github.com/hbstack/docs v0.11.6 // indirect
+	github.com/hbstack/docs v0.11.7 // indirect
 	github.com/hbstack/docs/modules/breadcrumb v0.1.9 // indirect
 	github.com/hbstack/docs/modules/content-panel v0.1.8 // indirect
 	github.com/hbstack/docs/modules/decap-cms v0.2.1 // indirect
