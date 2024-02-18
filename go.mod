@@ -44,13 +44,13 @@ require (
 	github.com/hbstack/docs/modules/social-share-buttons v0.1.0 // indirect
 	github.com/hbstack/docs/modules/toc-scrollspy v0.1.7 // indirect
 	github.com/hbstack/featured-image v0.2.1 // indirect
-	github.com/hbstack/footer v0.2.10 // indirect
+	github.com/hbstack/footer v0.3.0 // indirect
 	github.com/hbstack/footer/modules/socials v0.2.5 // indirect
 	github.com/hbstack/form v0.1.1 // indirect
 	github.com/hbstack/giscus v0.1.1 // indirect
 	github.com/hbstack/google-fonts v0.1.1 // indirect
 	github.com/hbstack/hb v0.11.0 // indirect
-	github.com/hbstack/header v0.13.0 // indirect
+	github.com/hbstack/header v0.14.0 // indirect
 	github.com/hbstack/header/modules/banner v0.5.11 // indirect
 	github.com/hbstack/header/modules/docsearch v0.1.23 // indirect
 	github.com/hbstack/header/modules/git-org v0.2.2 // indirect
@@ -124,7 +124,7 @@ require (
 	github.com/hugomods/workbox v0.1.0 // indirect
 	github.com/jakearchibald/idb v8.0.0+incompatible // indirect
 	github.com/krisk/Fuse v7.0.0+incompatible // indirect
-	github.com/razonyang/hb-mod-thanks v0.5.1 // indirect
+	github.com/razonyang/hb-mod-thanks v0.5.2 // indirect
 	github.com/twbs/bootstrap v5.3.2+incompatible // indirect
 	github.com/twbs/icons v1.11.3 // indirect
 )

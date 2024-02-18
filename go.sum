@@ -86,6 +86,8 @@ github.com/hbstack/featured-image v0.2.1 h1:sRIzjV6YPVG7Ah0Hxjiuxd9bQnEV+62McOgX
 github.com/hbstack/featured-image v0.2.1/go.mod h1:hux3nYqQUVnQHPttJxVrvwfTsULGuVGRGFk3lO2Si54=
 github.com/hbstack/footer v0.2.10 h1:1w8fUXLajGSvEsu7UeWgnrDZumTqnC3pfl4vmmi+feU=
 github.com/hbstack/footer v0.2.10/go.mod h1:z779/sE1prEcABuz4RjhSwA8QkFLkmf+xv/5yM3BtPc=
+github.com/hbstack/footer v0.3.0 h1:V0gz8UGRi8Bo2eltfd34BQTRS3xBNaJw8rw2GyAzCGA=
+github.com/hbstack/footer v0.3.0/go.mod h1:mYITqQNk4PJWxPciS4/r0bRuB3cDDOXZ3dGwIHuYTME=
 github.com/hbstack/footer/modules/socials v0.2.5 h1:VmIBdRc8+ujwOjurcltNW0yU7rX2CzectEtmhgy9I6Y=
 github.com/hbstack/footer/modules/socials v0.2.5/go.mod h1:bggKfxJiylFYCG3AP3cKkhNBNtQrYnZzU9S5UBJ3gu8=
 github.com/hbstack/form v0.1.1 h1:AO9k/vp0qjs4BsN7zlafN7t0kn6VfvccITOl97vo6P8=
@@ -98,6 +100,8 @@ github.com/hbstack/hb v0.11.0 h1:5rPtnOMUaKxd4tT4hm08kDqit7EMNcPkX3PdPEX11z4=
 github.com/hbstack/hb v0.11.0/go.mod h1:6T8TytCOb1C0EIRVcjzwuhI/G/H0ytTOaJbT1xwiDuY=
 github.com/hbstack/header v0.13.0 h1:JwjIsOoMawsY0d0areZzYKOMIpeb4p1sf81SvLSrLC8=
 github.com/hbstack/header v0.13.0/go.mod h1:F50k0BteNpwlfSs4V+5k4jn+ozqRnjTfxugUT7esA80=
+github.com/hbstack/header v0.14.0 h1:yodL6LUP4pOAH9LHAZxgS9kn+68XUWIxl/4TI3dTO5c=
+github.com/hbstack/header v0.14.0/go.mod h1:F50k0BteNpwlfSs4V+5k4jn+ozqRnjTfxugUT7esA80=
 github.com/hbstack/header/modules/banner v0.5.11 h1:G85qDsvncpdjvTwWA1MMlFXvNr87iM7USRo6C1JJaeQ=
 github.com/hbstack/header/modules/banner v0.5.11/go.mod h1:/83SGqEooqqReOqF1wG9a3jSumQ1qS9PgZcCz+d0xCs=
 github.com/hbstack/header/modules/docsearch v0.1.23 h1:+OfgSt6Hqy5ZtAa5siuZfyorQ2dsyPXC4KfQmzR71Tg=
@@ -244,6 +248,8 @@ github.com/krisk/Fuse v7.0.0+incompatible h1:jVyg6No+Joc51Rn97QQYJZIpCxzd4ywACn/
 github.com/krisk/Fuse v7.0.0+incompatible/go.mod h1:3moWv8rDjwoKic9nwiPLgZjldkbdTAbtzJHCu/Vsj4A=
 github.com/razonyang/hb-mod-thanks v0.5.1 h1:KZ8shtq1WUdECssXjkv+zRGXA0TqZKJ8qcrgpE3qKAg=
 github.com/razonyang/hb-mod-thanks v0.5.1/go.mod h1:QNNUPfVp6v3fyvFjkk1DDDl0qhajEuzXAPgnuwMLg1w=
+github.com/razonyang/hb-mod-thanks v0.5.2 h1:0KVNw2G5azn+xSGrWc9uUq5nw0gDZr9cdPFF65Q4N+k=
+github.com/razonyang/hb-mod-thanks v0.5.2/go.mod h1:QNNUPfVp6v3fyvFjkk1DDDl0qhajEuzXAPgnuwMLg1w=
 github.com/twbs/bootstrap v5.3.2+incompatible h1:tuiO5acc6xnZUR77Sbi5aKWXxjYxbmsSbJwYrhAKoQQ=
 github.com/twbs/bootstrap v5.3.2+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/icons v1.11.3 h1:XhvrQ1XDom9ggBbQx3wQCFGEr8qAQwQP/dAcw8OXMtA=
