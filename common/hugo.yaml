@@ -1,6 +1,7 @@
 module:
   private: github.com/hbstack/anti-adblock
   imports:
+    - path: github.com/hbstack/shortcodes
     - path: github.com/hbstack/header/themes/pills
     - path: github.com/hbstack/theme-cards
 

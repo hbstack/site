@@ -1,0 +1,24 @@
+- name: text
+  position: 0
+  required: true
+  description:
+    default: "Required when using self closing syntax."
+    zh-hans: "当使用自闭合语法时必填。"
+    zh-hant: "當使用自閉合語法時必填。"
+
+- name: markdown
+  type: boolean
+  position: 1
+  default: false
+  description:
+    default: "When `true`, render the `text` or `Inner` as Markdown."
+    zh-hans: "为 `true` 时，将其视作 Markdown 文本进行渲染。"
+    zh-hant: "為 `true` 時，將其視作 Markdown 文本進行渲染。"
+
+- name: selectable
+  type: boolean
+  default: false
+  description:
+    default: "Whether the spoiler tag is selectable."
+    zh-hans: "标签文本是否可选择。"
+    zh-hant: "標籤文本是否可選擇。"
