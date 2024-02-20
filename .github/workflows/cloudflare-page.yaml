@@ -35,7 +35,7 @@ jobs:
       - name: Build
         uses: addnab/docker-run-action@v3
         with:
-          image: hugomods/hugo:exts:0.122.0
+          image: hugomods/hugo:exts-0.122.0
           options: -v ${{ github.workspace }}:/src -e GITHUB_TOKEN -e NETRC_USERNAME -e NETRC_PASSWORD
           run: >-
             git config --global --add safe.directory /src &&
