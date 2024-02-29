@@ -3,3 +3,4 @@ params:
     header:
       banner:
         img: /images/banner.png
+        transparentize_navbar_bg: true
