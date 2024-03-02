@@ -46,6 +46,8 @@ authors:
 | ------------ | :-----: | :-----: | -------------------------- |
 | `powered_by` | boolean | `true`  | 是否显示 Powered by 信息。 |
 | `site_title` | string  |    -    | 用于替代默认的站点标题。   |
+| `site_description` | string  |    -    | 用于替代默认的站点描述。 |
+| `site_copyright` | string  |    -    | 用于替代默认的站点版权。 |
 
 {{< bs/config-toggle filename=hugo >}}
 {{% code-snippet config.toml %}}

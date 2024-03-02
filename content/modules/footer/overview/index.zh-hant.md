@@ -46,6 +46,8 @@ authors:
 | ------------ | :-----: | :-----: | -------------------------- |
 | `powered_by` | boolean | `true`  | 是否顯示 Powered by 信息。 |
 | `site_title` | string  |    -    | 用於替代默認的站點標題。   |
+| `site_description` | string  |    -    | 用於替代默認的站點描述。 |
+| `site_copyright` | string  |    -    | 用於替代默認的站點版權。 |
 
 {{< bs/config-toggle filename=hugo >}}
 {{% code-snippet config.toml %}}

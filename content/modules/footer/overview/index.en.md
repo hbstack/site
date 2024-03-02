@@ -46,6 +46,8 @@ This module is a universal footer, which ships with menus and some useful sub mo
 | ------------ | :-----: | :-----: | ------------------------------------ |
 | `powered_by` | boolean | `true`  | Whether to show the powered by.      |
 | `site_title` | string  |    -    | Replace site title with this if set. |
+| `site_description` | string  |    -    | Replace site description with this if set. |
+| `site_copyright` | string  |    -    | Replace site copyright with this if set. |
 
 {{< bs/config-toggle filename=hugo >}}
 {{% code-snippet config.toml %}}
