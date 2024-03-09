@@ -30,6 +30,11 @@ name = "Paul Traina"
 url = "https://github.com/pleasantone"
 avatar_url = "https://avatars.githubusercontent.com/u/5339793?v=4"
 
+[[gold]]
+weight = 5
+name = "Gordolin"
+url = "https://github.com/Gordolin"
+
 # [[silver]]
 # name = "Become a backer"
 # url = "https://ko-fi.com/razonyang"
