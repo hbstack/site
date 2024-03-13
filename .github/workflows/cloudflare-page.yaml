@@ -35,10 +35,14 @@ jobs:
       - name: Build
         uses: addnab/docker-run-action@v3
         with:
-          image: hugomods/hugo:exts-0.122.0
-          options: -v ${{ github.workspace }}:/src -e GITHUB_TOKEN -e NETRC_USERNAME -e NETRC_PASSWORD
+          image: hugomods/hugo:exts-0.123.7
+          options: >-
+            -v ${{ github.workspace }}:/src
+            -v /tmp/hugo_cache:/tmp/hugo_cache
+            -e GITHUB_TOKEN
+            -e NETRC_USERNAME
+            -e NETRC_PASSWORD
           run: >-
-            git config --global --add safe.directory /src &&
             echo "machine github.com" >> $HOME/.netrc &&
             echo "login ${NETRC_USERNAME}" >> $HOME/.netrc &&
             echo "password ${NETRC_PASSWORD}" >> $HOME/.netrc &&
