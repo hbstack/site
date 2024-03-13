@@ -35,6 +35,12 @@ weight = 5
 name = "Gordolin"
 url = "https://github.com/Gordolin"
 
+[[gold]]
+weight = 6
+name = "Pedro Lima"
+url = "https://github.com/LITUATUI"
+avatar_url = "https://avatars.githubusercontent.com/u/49299328?v=4"
+
 # [[silver]]
 # name = "Become a backer"
 # url = "https://ko-fi.com/razonyang"
