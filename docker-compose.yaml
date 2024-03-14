@@ -13,8 +13,7 @@ services:
       - ../../:/workspaces
       - /tmp/hugo_cache:/tmp/hugo_cache
 
-prod:
-  dev:
+  prod:
     image: hugomods/hugo:exts-0.123.7
     command: npm run prod -- --bind 0.0.0.0
     ports:
