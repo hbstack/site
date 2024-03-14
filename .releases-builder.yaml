@@ -21,6 +21,7 @@ repositories:
   - github.com/hbstack/disqus
   - github.com/hbstack/decap-cms
   - github.com/hbstack/docs
+  - github.com/hbstack/echarts
   - github.com/hbstack/featured-image
   - github.com/hbstack/footer
   - github.com/hbstack/form
