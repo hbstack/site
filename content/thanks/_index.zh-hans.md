@@ -1,15 +1,8 @@
 ---
 title: 致谢
 description: 十分感谢你对我们工作的支持。
-header:
-  banner:
-    img: /images/banners/thanks.jpg
-    title: |
-      致谢
-      { data-aos="fade-up" }
-    description: |
-      十分感谢你对我们工作的支持
-      { data-aos="fade-up" data-aos-delay="200" }
+images:
+  - /images/banners/thanks.jpg
 menu:
   main:
     parent: support
