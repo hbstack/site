@@ -55,11 +55,17 @@ hb:
     post_thumbnail_default: /images/thumbnail.jpg
     social_share_buttons:
       alignment: center
+      labels: false
+      size: 2em
       media:
         - twitter
         - facebook
         - linkedin
         - sinaweibo
+        - email
+        - reddit
+        - telegram
+        - whatsapp
     home:
       main_sections:
         - blog
@@ -94,11 +100,17 @@ hb:
   docs:
     social_share_buttons:
       alignment: center
+      labels: false
+      size: 2em
       media:
         - twitter
         - facebook
         - linkedin
         - sinaweibo
+        - email
+        - reddit
+        - telegram
+        - whatsapp
     giscus:
       repo: hbstack/site
       repo_id: R_kgDOJLvAsw
