@@ -75,9 +75,4 @@ authors:
 
 ## 支持的媒體
 
-| Media |
-| --- |
-| `facebook` |
-| `linkedin` |
-| `sinaweibo` |
-| `twitter` |
+{{< page-resource-content "codes/media" >}}

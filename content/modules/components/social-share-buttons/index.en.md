@@ -75,9 +75,4 @@ The array of [supported media](#supported-media).
 
 ## Supported Media
 
-| Media |
-| --- |
-| `facebook` |
-| `linkedin` |
-| `sinaweibo` |
-| `twitter` |
+{{< page-resource-content "codes/media" >}}
