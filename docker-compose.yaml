@@ -1,0 +1,27 @@
+name: hbstack-site
+
+services:
+  dev:
+    image: hugomods/hugo:exts-0.123.7
+    command: npm run dev -- --bind 0.0.0.0
+    ports:
+      - 7070:7070
+      - 7071:7071
+      - 7072:7072
+    volumes:
+      - $PWD:/src
+      - ../../:/workspaces
+      - /tmp/hugo_cache:/tmp/hugo_cache
+
+prod:
+  dev:
+    image: hugomods/hugo:exts-0.123.7
+    command: npm run prod -- --bind 0.0.0.0
+    ports:
+      - 7075:7075
+      - 7076:7076
+      - 7077:7077
+    volumes:
+      - $PWD:/src
+      - ../../:/workspaces
+      - /tmp/hugo_cache:/tmp/hugo_cache
