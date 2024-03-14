@@ -76,6 +76,7 @@ require (
 	github.com/hbstack/site/common v0.0.0-00010101000000-000000000000 // indirect
 	github.com/hbstack/slide v0.3.1 // indirect
 	github.com/hbstack/snackbar v0.1.2 // indirect
+	github.com/hbstack/social-share-buttons v0.2.0 // indirect
 	github.com/hbstack/socials v0.9.0 // indirect
 	github.com/hbstack/syntax-highlighting v0.2.0 // indirect
 	github.com/hbstack/syntax-highlighting/styles/gruvbox v0.1.1 // indirect

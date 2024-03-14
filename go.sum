@@ -138,6 +138,8 @@ github.com/hbstack/slide v0.3.1 h1:OdBsUs8w4/flxDlFAV8LelHSuJpckmyhZi8TWbY5zZA=
 github.com/hbstack/slide v0.3.1/go.mod h1:DXC2z0RZvREHl2+gcN6n90xD5c+l+edSkC1q/VUi8yI=
 github.com/hbstack/snackbar v0.1.2 h1:/9R2CdWnLcOBobxzdpe30cgM1gcKJAXtbVbZtp2pgmY=
 github.com/hbstack/snackbar v0.1.2/go.mod h1:4uZSGpI9ZtR9by0bA8yJW2y61sRks2W4a8VvyMluXuo=
+github.com/hbstack/social-share-buttons v0.2.0 h1:6vs7iqmtaYOaGJ7Csd3c7azzvltrnsHq/SFXk99IM30=
+github.com/hbstack/social-share-buttons v0.2.0/go.mod h1:WAXsqPI+12QA67fA/IWLvxVubuvbW8kzLwTo0pZW41E=
 github.com/hbstack/socials v0.9.0 h1:Lru22qqydHTcBJkkYlsk0Dl91IuZPLWBpr+BQB6d87U=
 github.com/hbstack/socials v0.9.0/go.mod h1:8H+ztN27J59oWcQyQTFj95HsauF2a22GXqQlNMGTQw4=
 github.com/hbstack/syntax-highlighting v0.2.0 h1:BP5SR/AbVlJyAFtVdgYjeqVZKmncEmuplTR5R2AUbw8=
@@ -236,6 +238,7 @@ github.com/krisk/Fuse v7.0.0+incompatible h1:jVyg6No+Joc51Rn97QQYJZIpCxzd4ywACn/
 github.com/krisk/Fuse v7.0.0+incompatible/go.mod h1:3moWv8rDjwoKic9nwiPLgZjldkbdTAbtzJHCu/Vsj4A=
 github.com/razonyang/hb-mod-thanks v0.5.2 h1:0KVNw2G5azn+xSGrWc9uUq5nw0gDZr9cdPFF65Q4N+k=
 github.com/razonyang/hb-mod-thanks v0.5.2/go.mod h1:QNNUPfVp6v3fyvFjkk1DDDl0qhajEuzXAPgnuwMLg1w=
+github.com/twbs/bootstrap v5.3.2+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/bootstrap v5.3.3+incompatible h1:goFoqinzdHfkeegpFP7pvhbd0g+A3O2hbU3XCjuNrEQ=
 github.com/twbs/bootstrap v5.3.3+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/icons v1.11.3 h1:XhvrQ1XDom9ggBbQx3wQCFGEr8qAQwQP/dAcw8OXMtA=
