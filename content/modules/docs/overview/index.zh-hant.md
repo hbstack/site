@@ -45,4 +45,8 @@ images:
 | `nav_icon.name`      | string  |    -    | 圖標名稱。                                   |
 | `nav_icon.color`     | string  |    -    | 圖標顏色。                                   |
 | `nav_icon.className` | string  |    -    | 圖標 CSS 類名。                              |
+| `nav_menus`          | object  |    -    | 額外的外部菜單，僅對欄目有效。                 |
+| `nav_menus.name`     | object  |    -    | 額外菜單名稱。                               |
+| `nav_menus.url`      | object  |    -    | 額外菜單 URL。                               |
+| `nav_menus.icon`     | object  |    -    | 額外菜單圖標。                               |
 | `redirect`           | string  |    -    | 外部文檔的 URL。                             |

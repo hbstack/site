@@ -46,4 +46,8 @@ The docs module provides the basic layouts and templates for docs site, it's use
 | `nav_icon.name`      | string  |    -    | The icon name.                                         |
 | `nav_icon.color`     | string  |    -    | The icon color.                                        |
 | `nav_icon.className` | string  |    -    | The icon CSS class names.                              |
+| `nav_menus`          | object  |    -    | Extra external menus, works only on sections.          |
+| `nav_menus.name`     | object  |    -    | Extra menu name.                                       |
+| `nav_menus.url`      | object  |    -    | Extra menu URL.                                        |
+| `nav_menus.icon`     | object  |    -    | Extra menu's icons.                                    |
 | `redirect`           | string  |    -    | URL of external documentation.                         |

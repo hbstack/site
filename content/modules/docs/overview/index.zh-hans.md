@@ -45,4 +45,8 @@ images:
 | `nav_icon.name`      | string  |    -    | 图标名称。                                   |
 | `nav_icon.color`     | string  |    -    | 图标颜色。                                   |
 | `nav_icon.className` | string  |    -    | 图标 CSS 类名。                              |
+| `nav_menus`          | object  |    -    | 额外的外部菜单，仅对栏目有效。                 |
+| `nav_menus.name`     | object  |    -    | 额外菜单名称。                               |
+| `nav_menus.url`      | object  |    -    | 额外菜单 URL。                               |
+| `nav_menus.icon`     | object  |    -    | 额外菜单图标。                               |
 | `redirect`           | string  |    -    | 外部文档的 URL。                             |
