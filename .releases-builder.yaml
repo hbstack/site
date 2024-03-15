@@ -33,6 +33,7 @@ repositories:
   - github.com/hbstack/header
   - github.com/hbstack/heading-sign
   - github.com/hbstack/iframe
+  - github.com/hbstack/kroki
   - github.com/hbstack/mermaid
   - github.com/hbstack/meta
   - github.com/hbstack/noscript
