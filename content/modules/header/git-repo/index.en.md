@@ -49,6 +49,10 @@ The repository owner.
 
 The repository name.
 
+### `docker`
+
+The Docker settings, which is used to fetch the image's pull count, you'll need to configure the `namespace` and `name`.
+
 ## API Authentication and Rate Limit
 
 ### GitHub

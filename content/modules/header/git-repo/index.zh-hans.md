@@ -49,6 +49,10 @@ Git 服务商，支持 `github`。
 
 仓库名称。
 
+### `docker`
+
+Docker 设置，其用于获取镜像的下载数，你需要配置 `namespace` 和 `name`。
+
 ## API 身份验证和速率限制
 
 ### GitHub
