@@ -22,6 +22,8 @@ github.com/hbstack/blog/modules/decap-cms v0.3.0 h1:l8ZRAvoQWDz0BhohEomj49PugSxO
 github.com/hbstack/blog/modules/decap-cms v0.3.0/go.mod h1:puWiq3wUHAaU+gfoXcXBcpUV9cQAzS2Onvwoz2TD5PA=
 github.com/hbstack/blog/modules/disqus v0.1.19 h1:fWGsnxrHCJo0Qmim2FTxCl2dGnTVaWX/jQgpDIiRim4=
 github.com/hbstack/blog/modules/disqus v0.1.19/go.mod h1:/UrJpL/0thUReAoHmAP1TYDlm41Lk9vKRNuAlOlvNh8=
+github.com/hbstack/blog/modules/disqus v0.1.20 h1:h7IKmKnxVoI9uP95v1rzVtlDTYNuDhUY2CSO+U/ldUQ=
+github.com/hbstack/blog/modules/disqus v0.1.20/go.mod h1:nRgiu2tPVVsWnzRZECPwvKj0BsZkCc6OF5eDVEdK4XE=
 github.com/hbstack/blog/modules/featured-image v0.2.21 h1:G4nwll995EsnEAJOBUKJMjH12HtJ0YFPL0nH8m7qneI=
 github.com/hbstack/blog/modules/featured-image v0.2.21/go.mod h1:+gxtGAEh7aXDDKQA0wWzdi9HPLcqCSRtRp63F+NN8QU=
 github.com/hbstack/blog/modules/giscus v0.1.23 h1:k70d91K6mU6LJGhXYh1Mrpk+MFFrxwTOGyCVWHWHgbo=

@@ -7,10 +7,6 @@ defaultContentLanguageInSubdir: false
 enableRobotsTXT: true
 enableEmoji: true
 
-services:
-  disqus:
-    shortname: hbstack
-
 permalinks:
   blog: /blog/:year/:month/:title
   news: /news/:year/:month/:title
