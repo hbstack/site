@@ -61,6 +61,11 @@ aliases:
 | `featured` | boolean | `false` | 是否于首页幻灯片中显示该文章。 |
 | `pinned`   | boolean | `false` | 是否于首页置顶该文章。         |
 | `toc`      | boolean | `true`  | 是否显示文章目录。            |
+| `meta`     | boolean/object | `true` | 为 `false` 时，禁用所有元信息。 |
+| `meta.authors` | boolean | `true` | 为 `false` 时，禁用作者元信息。|
+| `meta.date`    | boolean | `true` | 为 `false` 时，禁用日期元信息。|
+| `meta.reading_time` | boolean | `true` | 为 `false` 时，禁用阅读时长元信息。|
+| `meta.taxonomies` | boolean | `true` | 为 `false` 时，禁用专栏、分类和标签元信息。|
 
 ## 归档
 
