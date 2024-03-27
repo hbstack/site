@@ -39,6 +39,11 @@ images:
 | Name                 |  Type   | Default | Description                                  |
 | -------------------- | :-----: | :-----: | -------------------------------------------- |
 | `comments`           | boolean | `true`  | 是否显示评论。                               |
+| `meta`     | boolean/object | `true` | 为 `false` 时，禁用所有元信息。 |
+| `meta.authors` | boolean | `true` | 为 `false` 时，禁用作者元信息。|
+| `meta.date`    | boolean | `true` | 为 `false` 时，禁用日期元信息。|
+| `meta.reading_time` | boolean | `true` | 为 `false` 时，禁用阅读时长元信息。|
+| `meta.taxonomies` | boolean | `true` | 为 `false` 时，禁用专栏、分类和标签元信息。|
 | `nav_weight`         | number  |    -    | 文档导航的权重，若未设置，则按链接标题排序。 |
 | `nav_icon`           | object  |    -    | 显示于文档导航的图标。                       |
 | `nav_icon.vendor`    | string  |    -    | 图标提供商。                                 |

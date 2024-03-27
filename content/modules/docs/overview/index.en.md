@@ -40,6 +40,11 @@ The docs module provides the basic layouts and templates for docs site, it's use
 | Name                 |  Type   | Default | Description                                            |
 | -------------------- | :-----: | :-----: | ------------------------------------------------------ |
 | `comments`           | boolean | `true`  | Whether to display the comments.                       |
+| `meta`     | boolean/object | `true` | When `false` then disable all meta.         |
+| `meta.authors` | boolean | `true` | When `false` then disable the authors meta.    |
+| `meta.date`    | boolean | `true` | When `false` then disable the date meta.       |
+| `meta.reading_time` | boolean | `true` | When `false` then disable the reading time meta.    |
+| `meta.taxonomies` | boolean | `true` | When `false` then disable the taxonimies meta: series, categories and tags.    |
 | `nav_weight`         | number  |    -    | The weight of docs nav, sort by link title if not set. |
 | `nav_icon`           | object  |    -    | The icon shown on the docs nav.                        |
 | `nav_icon.vendor`    | string  |    -    | The icon vendor.                                       |

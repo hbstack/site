@@ -39,6 +39,11 @@ images:
 | Name                 |  Type   | Default | Description                                  |
 | -------------------- | :-----: | :-----: | -------------------------------------------- |
 | `comments`           | boolean | `true`  | 是否顯示評論。                               |
+| `meta`     | boolean/object | `true` | 为 `false` 时，禁用所有元信息。 |
+| `meta.authors` | boolean | `true` | 为 `false` 时，禁用作者元信息。|
+| `meta.date`    | boolean | `true` | 为 `false` 时，禁用日期元信息。|
+| `meta.reading_time` | boolean | `true` | 为 `false` 时，禁用阅读时长元信息。|
+| `meta.taxonomies` | boolean | `true` | 为 `false` 时，禁用专栏、分类和标签元信息。|
 | `nav_weight`         | number  |    -    | 文檔導航的權重，若未設置，則按鏈接標題排序。 |
 | `nav_icon`           | object  |    -    | 顯示於文檔導航的圖標。                       |
 | `nav_icon.vendor`    | string  |    -    | 圖標提供商。                                 |
