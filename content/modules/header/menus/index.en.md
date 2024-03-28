@@ -48,6 +48,8 @@ The `main` is taken as the header's menus set identifier.
 | `icon.name`      | string  | The icon's name, required.                                                                                         |
 | `icon.color`     | string  | The icon's color.                                                                                                  |
 | `icon.className` | string  | The icon's CSS class name.                                                                                         |
+| `target` | string | The link [target](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#target) attribute. |
+| `rel` | string | The link [rel](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel) attribute. |
 
 See also [Menus Configuration]({{< ref "docs/configuration/menus" >}}) and [Icons Configuration]({{< ref "docs/configuration/icons" >}}).
 

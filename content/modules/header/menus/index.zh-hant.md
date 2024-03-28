@@ -48,6 +48,8 @@ authors:
 | `icon.name`      | string  | 圖標名稱，必填。                   |
 | `icon.color`     | string  | 圖標顏色。                         |
 | `icon.className` | string  | 圖標 CSS 類名。                    |
+| `target` | string | 鏈接 [target](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#target) 屬性。 |
+| `rel` | string | 鏈接 [rel](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel) 屬性。 |
 
 詳情請參閱[菜單配置]({{< ref "docs/configuration/menus" >}})和[圖標配置]({{< ref "docs/configuration/icons" >}})。
 
