@@ -29,7 +29,7 @@ Let's get started with a simple example, which displays a greeting message on th
 - [Footer's hooks]({{< relref "modules/footer/overview#hooks" >}}).
 - [Blog's hooks]({{< relref "modules/blog/hooks" >}}).
 - [Docs's hooks]({{< relref "modules/docs#hooks" >}}).
-- You can find more on our documentations.
+- You can find more on our documentation.
 
 In this example, the `body-begin` hook is the hook we're looking for.
 

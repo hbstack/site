@@ -43,7 +43,7 @@ We're glad you plan to join us, and we appreciate any contributions. You can sup
 4. [Share your ideas](https://github.com/orgs/hbstack/discussions/new?category=ideas).
 5. [Report issues and bugs](https://github.com/orgs/hbstack/discussions/new?category=issues-and-bugs).
 6. [Internationalize module's UI](#i18n).
-7. Improve documentations via fixing typos and translating in other languages.
+7. Improve documentation via fixing typos and translating in other languages.
 8. Write any article about Hugo on our site, we're happy to create an author page for you, e.g. [HB Authors]({{< relref "/authors/hb" >}}), and link that article to the original one.
 9. [Implements features and fix bugs]({{< relref "develop" >}}).
 10. Financial contribution through [Ko-fi](https://ko-fi.com/razonyang) and [PayPal](https://www.paypal.com/paypalme/razonyang).

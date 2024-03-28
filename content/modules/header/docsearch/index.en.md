@@ -22,7 +22,7 @@ authors:
   - HB
 ---
 
-[DocSearch](https://docsearch.algolia.com/) is a free online search service for open source documentations sites.
+[DocSearch](https://docsearch.algolia.com/) is a free online search service for open source documentation sites.
 
 <!--more-->
 

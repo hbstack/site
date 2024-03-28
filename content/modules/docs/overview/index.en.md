@@ -19,7 +19,7 @@ tags:
 images:
 ---
 
-The docs module provides the basic layouts and templates for docs site, it's useful for writing project documentations, digital garden, users guides and tutorials.
+The docs module provides the basic layouts and templates for docs site, it's useful for writing project documentation, digital garden, users guides and tutorials.
 
 <!--more-->
 

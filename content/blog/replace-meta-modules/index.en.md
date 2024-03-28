@@ -46,7 +46,7 @@ First of all, replace the meta module with the modules imported by it _in order_
   type=code
 >}}
 
-And then remove or replace the unwanted modules, for example, you might want to replace the `github.com/hbstack/header/modules/search` with `github.com/hbstack/header/modules/docsearch` for your open source project documentations site.
+And then remove or replace the unwanted modules, for example, you might want to replace the `github.com/hbstack/header/modules/search` with `github.com/hbstack/header/modules/docsearch` for your open source project documentation site.
 
 {{< bs/alert >}}
 For other configurations written in YAML or JSON, you'll need to convert it to corresponding languages first.

@@ -4,7 +4,7 @@ aliases:
   - /en/docs/modules/docs/
 title: "Docs Module"
 linkTitle: Docs
-description: Universal documentations module.
+description: Universal documentation module.
 nav_weight: 60
 nav_icon:
   vendor: bs
