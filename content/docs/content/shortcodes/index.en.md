@@ -77,7 +77,7 @@ A list of Bootstrap shortcodes.
 * [Icon Grid](https://hugomods.com/en/bootstrap/icon-grid/): display a icon grid with icon, heading and description.
 * [Lead](https://hugomods.com/en/bootstrap/lead/): make a paragraph stand out.
 * [Ratio](https://hugomods.com/en/bootstrap/ratio/): perfect for responsively handling video or slideshow embeds based on the width of the parent.
-* [Toggle](https://hugomods.com/en/bootstrap/toggle/): much more versatile than config toggle, designed for any content, such as SDK codes.
+* [Toggle](https://hugomods.com/en/bootstrap/toggle/): much more versatile than config toggle, designed for any content, such as SDK code.
 
 ## Extended Shortcodes
 

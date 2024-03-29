@@ -31,7 +31,7 @@ Previously, we had a rough understanding of Hugo's [configuration structure]({{<
 | Name                             | Description                                                             |
 | -------------------------------- | ----------------------------------------------------------------------- |
 | `defaultContentLanguage`         | The default site language.                                              |
-| `defaultContentLanguageInSubdir` | Whether URLs for the default language contain language codes, eg `/en`. |
+| `defaultContentLanguageInSubdir` | Whether URLs for the default language contain language code, eg `/en`. |
 
 {{% bs/config-toggle hugo %}}
 {{% code-snippet site-config.yaml %}}
