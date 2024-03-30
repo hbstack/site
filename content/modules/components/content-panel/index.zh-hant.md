@@ -31,6 +31,7 @@ authors:
 | Parameter      |  Type  | Required | Default | Description                          |
 | -------------- | :----: | :------: | :-----: | ------------------------------------ |
 | `bottom`       | string |    -     | `20px`  | `bottom` 屬性。                      |
+| `comments`     | boolean|    -     | `true`  | 為 `true` 時全局禁用評論。            |
 | `repo`         | object |    -     |    -    | 倉庫設置。                           |
 | `repo.branch`  | string |    -     | `main`  | 分支名稱。                           |
 | `repo.repo`    | string |    Y     |    -    | 倉庫名稱，如 `user/name`。           |

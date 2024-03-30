@@ -31,6 +31,7 @@ This module display a content panel on single pages, which includes translations
 | Parameter      |  Type  | Required | Default | Description                               |
 | -------------- | :----: | :------: | :-----: | ----------------------------------------- |
 | `bottom`       | string |    -     | `20px`  | The `bottom` property.                    |
+| `comments`     | boolean|    -     | `true`  | When `true` disable comments globally.    |
 | `repo`         | object |    -     |    -    | The repository settings.                  |
 | `repo.branch`  | string |    -     | `main`  | The branch name.                          |
 | `repo.repo`    | string |    Y     |    -    | The repo name, i.e. `user/name`.          |

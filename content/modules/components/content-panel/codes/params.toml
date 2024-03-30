@@ -1,5 +1,6 @@
 [params.hb.content_panel]
 bottom = '20px'
+comments = true
 
 [params.hb.content_panel.repo]
 service = "github"
