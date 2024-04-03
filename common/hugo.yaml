@@ -4,6 +4,8 @@ module:
     - path: github.com/hbstack/shortcodes
     - path: github.com/hbstack/header/themes/pills
     - path: github.com/hbstack/theme-cards
+    - path: github.com/hbstack/blog/modules/sticky-till-the-end
+    - path: github.com/hbstack/docs/modules/sticky-till-the-end
 
     - path: github.com/hbstack/pwa-installer
 
