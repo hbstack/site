@@ -1,2 +1,3 @@
 [params.hb.docs]
 date_format = ":date_long"
+navs_border = true

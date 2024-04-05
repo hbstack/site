@@ -29,6 +29,7 @@ images:
 | Parameter     |  Type  |   Default    | Description |
 | ------------- | :----: | :----------: | ----------- |
 | `date_format` | string | `:date_long` | 日期格式。  |
+| `navs_border` | boolean|    `true`    | 是否為深層導航顯示左側邊框。|
 
 {{< bs/config-toggle params >}}
 {{% code-snippet params.toml %}}

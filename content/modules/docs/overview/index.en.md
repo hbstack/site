@@ -30,6 +30,7 @@ The docs module provides the basic layouts and templates for docs site, it's use
 | Parameter     |  Type  |   Default    | Description  |
 | ------------- | :----: | :----------: | ------------ |
 | `date_format` | string | `:date_long` | Date format. |
+| `navs_border` | boolean|    `true`    | Whether to show the left border for sub navs. |
 
 {{< bs/config-toggle params >}}
 {{% code-snippet params.toml %}}
