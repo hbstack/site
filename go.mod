@@ -92,7 +92,7 @@ require (
 	github.com/hugomods/base v0.6.0 // indirect
 	github.com/hugomods/bootstrap v0.21.2 // indirect
 	github.com/hugomods/code-block-panel v0.5.0 // indirect
-	github.com/hugomods/decap-cms v0.14.4 // indirect
+	github.com/hugomods/decap-cms v0.14.5 // indirect
 	github.com/hugomods/decap-cms/editor-components/todo v0.1.2 // indirect
 	github.com/hugomods/decap-cms/widgets/url v0.1.2 // indirect
 	github.com/hugomods/docsearch v0.1.1 // indirect

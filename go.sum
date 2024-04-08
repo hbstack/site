@@ -168,6 +168,8 @@ github.com/hugomods/code-block-panel v0.5.0 h1:IjlVQZJccs02x0TaNxsLR4S2PRyzy3tBX
 github.com/hugomods/code-block-panel v0.5.0/go.mod h1:3J9yUxaShbhYvFFZbGVHcBoHPl6TUKLL3f2fTsnVNNg=
 github.com/hugomods/decap-cms v0.14.4 h1:0GPaPAt2Mm2jxbV+4W6SlEuxfmNpxzrDxVp7ZIX5oCY=
 github.com/hugomods/decap-cms v0.14.4/go.mod h1:P9gUtk59PZYBCNVIqiovRPqI13WiKkutMtJl2YQLkMA=
+github.com/hugomods/decap-cms v0.14.5 h1:BM4HmaMFIECp+fNZ9t7pRyLQkB2oqc4rll1FoRafEfg=
+github.com/hugomods/decap-cms v0.14.5/go.mod h1:P9gUtk59PZYBCNVIqiovRPqI13WiKkutMtJl2YQLkMA=
 github.com/hugomods/decap-cms/editor-components/todo v0.1.2 h1:358itSlZSkRAT4KtU5ymBDWldoSKVX/qU+Hp8GEwyVE=
 github.com/hugomods/decap-cms/editor-components/todo v0.1.2/go.mod h1:H6twtMoytIh1mFmeA09gJ2T4WwT1WX6KFO3QEZoWwkc=
 github.com/hugomods/decap-cms/widgets/url v0.1.2 h1:i/JLvydLE2eKDQTpHiuL8qP5oUHywMa9/cOLuzbrihc=
@@ -244,6 +246,7 @@ github.com/krisk/Fuse v7.0.0+incompatible h1:jVyg6No+Joc51Rn97QQYJZIpCxzd4ywACn/
 github.com/krisk/Fuse v7.0.0+incompatible/go.mod h1:3moWv8rDjwoKic9nwiPLgZjldkbdTAbtzJHCu/Vsj4A=
 github.com/razonyang/hb-mod-thanks v0.6.1 h1:PJ1mPNKajXw8aD/PK3EkdIsx8lnvCnmd6xoTzrbKGXQ=
 github.com/razonyang/hb-mod-thanks v0.6.1/go.mod h1:QNNUPfVp6v3fyvFjkk1DDDl0qhajEuzXAPgnuwMLg1w=
+github.com/twbs/bootstrap v5.3.2+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/bootstrap v5.3.3+incompatible h1:goFoqinzdHfkeegpFP7pvhbd0g+A3O2hbU3XCjuNrEQ=
 github.com/twbs/bootstrap v5.3.3+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/icons v1.11.3 h1:XhvrQ1XDom9ggBbQx3wQCFGEr8qAQwQP/dAcw8OXMtA=
