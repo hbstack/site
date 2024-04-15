@@ -58,6 +58,7 @@ aliases:
 | Name       |  Type   | Default | Description                    |
 | ---------- | :-----: | :-----: | ------------------------------ |
 | `comments` | boolean | `true`  | 是否顯示評論。                 |
+| `external_url` | string |  -   | 外部文章 URL。                 |
 | `featured` | boolean | `false` | 是否於首頁幻燈片中顯示該文章。 |
 | `pinned`   | boolean | `false` | 是否於首頁置頂該文章。         |
 | `toc`      | boolean | `true`  | 是否顯示文章目錄。            |

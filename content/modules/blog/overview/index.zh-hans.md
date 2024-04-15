@@ -58,6 +58,7 @@ aliases:
 | Name       |  Type   | Default | Description                    |
 | ---------- | :-----: | :-----: | ------------------------------ |
 | `comments` | boolean | `true`  | 是否显示评论。                 |
+| `external_url` | string |  -   | 外部文章 URL。                 |
 | `featured` | boolean | `false` | 是否于首页幻灯片中显示该文章。 |
 | `pinned`   | boolean | `false` | 是否于首页置顶该文章。         |
 | `toc`      | boolean | `true`  | 是否显示文章目录。            |

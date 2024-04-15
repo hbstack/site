@@ -58,6 +58,7 @@ The blog module provides the basic layouts and templates for blog site.
 | Name       |  Type   | Default | Description                                       |
 | ---------- | :-----: | :-----: | ------------------------------------------------- |
 | `comments` | boolean | `true`  | Whether to display comments.                      |
+| `external_url` | string |  -   | External post URL.                                |
 | `featured` | boolean | `false` | Whether to display the post on homepage carousel. |
 | `pinned`   | boolean | `false` | Whether to pin the post next to the carousel.     |
 | `toc`      | boolean | `true`  | Whether to show the ToC (Table of Contents).      |
