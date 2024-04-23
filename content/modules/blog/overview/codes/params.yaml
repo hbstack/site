@@ -8,6 +8,7 @@ hb:
     post_thumbnail: true
     post_thumbnail_default: "images/thumbnail.png"
     post_thumbnail_placeholder: ""
+    post_thumbnail_position: top
     list_cols_md: 2
     list_cols_lg: 3
     toc:

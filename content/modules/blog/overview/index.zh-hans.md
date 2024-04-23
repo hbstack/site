@@ -39,6 +39,7 @@ aliases:
 | `blog.post_thumbnail`             | boolean |         `true`         | 是否显示缩略图。                     |
 | `blog.post_thumbnail_default`     | string  | `images/thumbnail.png` | 相对于 `assets` 文件夹的默认缩略图。 |
 | `blog.post_thumbnail_placeholder` | string  |        站点标题        | 缩略图占位符。                       |
+| `blog.post_thumbnail_position`    | string  |          `top`         | 缩略图的位置，`start` 或 `top`。      |
 | `blog.archives`                   | object  |                        | 归档设置。                           |
 | `blog.archives.paginate`          | number  |          `30`          | 归档每页博文数量。                   |
 | `blog.home`                       | object  |                        | 博客首页设置。                       |

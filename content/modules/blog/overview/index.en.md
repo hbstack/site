@@ -39,6 +39,7 @@ The blog module provides the basic layouts and templates for blog site.
 | `blog.post_thumbnail`             | boolean |         `true`         | Whether to display thumbnail.                            |
 | `blog.post_thumbnail_default`     | string  | `images/thumbnail.png` | The default thumbnail image relative to `assets` folder. |
 | `blog.post_thumbnail_placeholder` | string  |      Site's title      | The thumbnail placeholder.                               |
+| `blog.post_thumbnail_position`    | string  |          `top`         | The position of thumbnail, `start` or `top`.             |
 | `blog.archives`                   | object  |                        | Archives settings.                                       |
 | `blog.archives.paginate`          | number  |          `30`          | How many posts per page.                                 |
 | `blog.home`                       | object  |                        | Homepage settings.                                       |
