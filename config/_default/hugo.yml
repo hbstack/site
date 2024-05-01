@@ -31,6 +31,16 @@ build:
 
 related:
   threshold: 20
+  indices:
+    - name: categories
+      type: basic
+      weight: 80
+    - name: tags
+      type: basic
+      weight: 80
+    - name: series
+      type: basic
+      weight: 80
 
 markup:
   goldmark:
@@ -57,3 +67,10 @@ security:
 
 # ignoreErrors:
 #   - error-remote-getjson
+
+cascade:
+  - _target:
+      path: '*/**'
+    params:
+      authors:
+        - HB

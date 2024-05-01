@@ -1,0 +1,6 @@
+{{< bs/config-toggle filename=hugo title=Configuration >}}
+params:
+  hb:
+    razonyang_hello:
+      foo: bar
+{{< /bs/config-toggle >}}

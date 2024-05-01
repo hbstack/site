@@ -36,10 +36,13 @@ The blog module provides the basic layouts and templates for blog site.
 | `blog.list_cols_lg` | number | `3` | The number of posts per list row on `lg` breakpoint.
 | `blog.paginate`                   | number  |          `9`           | How many posts per list page.                            |
 | `blog.post_date_format`           | string  |      `:date_long`      | The date format.                                         |
+| `blog.post_read_more`             | boolean |         `true`         | Whether to show the read more button.                    |
 | `blog.post_thumbnail`             | boolean |         `true`         | Whether to display thumbnail.                            |
 | `blog.post_thumbnail_default`     | string  | `images/thumbnail.png` | The default thumbnail image relative to `assets` folder. |
+| `blog.post_thumbnail_height`      | string  |        `160px`         | The height thumbnails.                                   |
 | `blog.post_thumbnail_placeholder` | string  |      Site's title      | The thumbnail placeholder.                               |
 | `blog.post_thumbnail_position`    | string  |          `top`         | The position of thumbnail, `start` or `top`.             |
+| `blog.post_thumbnail_resize_height` | string |         `360`         | The height for resizing thumbnails.                      |
 | `blog.archives`                   | object  |                        | Archives settings.                                       |
 | `blog.archives.paginate`          | number  |          `30`          | How many posts per page.                                 |
 | `blog.home`                       | object  |                        | Homepage settings.                                       |
@@ -48,7 +51,12 @@ The blog module provides the basic layouts and templates for blog site.
 | `blog.home.pinned_posts_position` | string  |    Next to carousel    | The position of pinned posts, available options: `list`. |
 | `blog.home.taxonomies`            | boolean |         `true`         | Whether to show the taxonomies stat on home page.        |
 | `blog.toc.position` | string | `end` | `start`: on the left of content, `end`: on the right of content, `content`: above the content.
+| `blog.list_style` | string | - | Empty or `minimalist`. |
+| `terms.list_style` | string | - | Empty or `minimalist`. |
 | `terms.paginate` | number | `12` | The number of posts per term list page. |
+| `terms.profile` | boolean | `true` | When `false`, hide the profile. |
+| `terms.profile_metrics` | boolean | `true` | When `false`, hide the profile's metrics. |
+
 
 {{< bs/config-toggle params >}}
 {{% code-snippet params.yaml %}}

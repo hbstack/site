@@ -6,6 +6,6 @@ images:
 socials:
   github: hbstack
   paypal: razonyang
-  kofi: razonyang
-  gmail: mailto:support@hugomods.com
+  githubsponsors: razonyang
+  gmail: mailto:support@hbstack.dev
 ---

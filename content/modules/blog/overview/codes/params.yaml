@@ -1,8 +1,12 @@
 hb:
   terms:
     paginate: 12
+    profile: true
+    profile_metrics: true
+    list_style: ''
   blog:
     full_width: false
+    list_style: ''
     paginate: 12
     post_date_format: ":date_long"
     post_thumbnail: true

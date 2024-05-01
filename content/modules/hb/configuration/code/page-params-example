@@ -1,0 +1,4 @@
+{{< bs/config-toggle title="Front Matter" delimiter=true >}}
+params:
+  full_width: false
+{{< /bs/config-toggle >}}

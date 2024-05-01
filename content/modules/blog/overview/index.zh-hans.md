@@ -36,10 +36,13 @@ aliases:
 | `blog.list_cols_lg` | number | `3` | 于 `lg` 断点下，列表每行的文章数目。
 | `blog.paginate`                   | number  |          `9`           | 每页博文数量。                       |
 | `blog.post_date_format`           | string  |      `:date_long`      | 博文日期格式。                       |
+| `blog.post_read_more`             | boolean |         `true`         | 是否显示阅读更多按钮。                |
 | `blog.post_thumbnail`             | boolean |         `true`         | 是否显示缩略图。                     |
 | `blog.post_thumbnail_default`     | string  | `images/thumbnail.png` | 相对于 `assets` 文件夹的默认缩略图。 |
+| `blog.post_thumbnail_height`      | string  |        `160px`         | 缩略图高度。                        |
 | `blog.post_thumbnail_placeholder` | string  |        站点标题        | 缩略图占位符。                       |
 | `blog.post_thumbnail_position`    | string  |          `top`         | 缩略图的位置，`start` 或 `top`。      |
+| `blog.post_thumbnail_resize_height` | string |         `360`         | 缩略图缩放的高度。                    |
 | `blog.archives`                   | object  |                        | 归档设置。                           |
 | `blog.archives.paginate`          | number  |          `30`          | 归档每页博文数量。                   |
 | `blog.home`                       | object  |                        | 博客首页设置。                       |
@@ -48,7 +51,11 @@ aliases:
 | `blog.home.pinned_posts_position` | string  |        幻灯片右侧        | 置顶文章的位置，可选项：`list`。     |
 | `blog.home.taxonomies`            | boolean |         `true`         | 是否于首页显示分类统计。             |
 | `blog.toc.position` | string | `end` | `start`：内容左侧、`end`：内容右侧、`content`：内容上方。
+| `blog.list_style` | string | - | 空字符串或 `minimalist`。 |
+| `terms.list_style` | string | - | 空字符串或 `minimalist`。 |
 | `terms.paginate` | number | `12` | 分类列表博文数量。 |
+| `terms.profile` | boolean | `true` | 为 `false` 时，隐藏简介。 |
+| `terms.profile_metrics` | boolean | `true` |  为 `false` 时，隐藏简介上的指标。 |
 
 {{< bs/config-toggle params >}}
 {{% code-snippet params.yaml %}}

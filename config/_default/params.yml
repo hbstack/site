@@ -6,6 +6,15 @@ aos:
   css_url: /css/aos.min.css
 
 hb:
+  revision:
+    repo_service: github
+    repo_owner: hbstack
+    repo_name: site
+    repo_branch: main
+    repo_subpath: ''
+    repo_contributors: true
+    repo_actions: true
+    icons: true
   heading_sign:
     symbol: '¶'
   google_fonts:
@@ -34,12 +43,16 @@ hb:
     # menus_alignment: 'end'
     brand: 'HB'
     socials:
-      github: hbstack
-      githubsponsors: https://github.com/sponsors/razonyang
-      paypal: razonyang
-      # twitter: razonyang
-      mastodon: https://techhub.social/@hbstack
-      rss: true
+      - name: githubsponsors
+        id: razonyang
+      - name: paypal
+        id: razonyang
+      - name: github
+        id: hbstack
+      - name: mastodon
+        id: hbstack
+      - name: rss
+        id: true
     news:
       sections:
         - news
@@ -52,6 +65,9 @@ hb:
     #   owner: hbstack
     #   name: hb
   blog:
+    # post_thumbnail: false
+    post_thumbnail_height: 180px
+    post_thumbnail_resize_height: 480
     post_thumbnail_default: /images/thumbnail.jpg
     social_share_buttons:
       alignment: center
@@ -67,6 +83,7 @@ hb:
         - telegram
         - whatsapp
     home:
+      # pinned_posts_position: list
       main_sections:
         - blog
         - docs
@@ -83,20 +100,31 @@ hb:
       repo: hbstack/site
     twikoo:
       env_id: https://twikoo.hugomods.com/
+    post_authors:
+      position: top
+    related_posts:
+      number: 10
+      # list_style: vertical
     sidebar:
       posts:
         style: pills
+        # list_style: vertical
       taxonomies:
         style: pills
       profile:
         company: "[HB STACK](https://hbstack.dev/)"
         location: Internet
         socials:
-          github: hbstack
-          paypal: razonyang
-          githubsponsors: https://github.com/sponsors/razonyang
-          mastodon: https://techhub.social/@hbstack
-          rss: true
+          - name: githubsponsors
+            id: razonyang
+          - name: paypal
+            id: razonyang
+          - name: github
+            id: hbstack
+          - name: rss
+            id: true
+          - name: mastodon
+            id: hbstack
   docs:
     social_share_buttons:
       alignment: center
@@ -125,12 +153,16 @@ hb:
     powered_by: true
     # site_title: HB Framework
     socials:
-      github: hbstack
-      githubsponsors: https://github.com/sponsors/razonyang
-      paypal: razonyang
-      twitter: razonyang
-      mastodon: razonyang
-      rss: true
+      - name: githubsponsors
+        id: razonyang
+      - name: paypal
+        id: razonyang
+      - name: github
+        id: hbstack
+      - name: mastodon
+        id: hbstack
+      - name: rss
+        id: true
   content_panel:
     repo:
       service: github

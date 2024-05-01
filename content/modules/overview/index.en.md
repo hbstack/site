@@ -1,5 +1,5 @@
 ---
-type: docs
+type: 'docs'
 title: "Modules Overview"
 description: This article shows how to install, uninstall, upgrade, clean and tidy modules.
 linkTitle: Overview

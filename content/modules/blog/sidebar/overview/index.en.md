@@ -43,6 +43,10 @@ Whether to stick the sidebar, default to `true`.
 
 The width that the sidebar takes, which is a percentage value, such as `0.3` (equals to `30%`), `40%`.
 
+### `max_width`
+
+Default to `320px`.
+
 ## How to Add Custom Sidebar Widgets
 
 You're able to add custom sidebar widget, for example.

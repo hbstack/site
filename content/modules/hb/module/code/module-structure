@@ -1,0 +1,24 @@
+```sh {data-max-lines=25}
+├── assets
+│   └── hb
+│       └── modules
+│           └── vendor-name
+│               ├── js
+│               │   └── index.ts
+│               └── scss
+│                   ├── index.scss
+│                   └── variables.tmpl.scss
+├── go.mod
+├── hugo.toml
+├── i18n
+├── layouts
+    └── partials
+        └── hugopress
+            └── modules
+                └── hb-vendor-name
+                    ├── attributes
+                    │   └── ...
+                    └── hooks
+                        └── ...
+└── ...
+```

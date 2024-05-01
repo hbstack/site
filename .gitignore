@@ -4,3 +4,4 @@ resources/
 node_modules/
 _vendor/
 hugo_stats.json
+.env

@@ -35,45 +35,4 @@ authors:
 
 ## 社交媒体
 
-| Media            | Description                       |
-| ---------------- | --------------------------------- |
-| `artstation`     |                                   |
-| `bilibili`       |                                   |
-| `bitbucket`      |                                   |
-| `discord`        |                                   |
-| `discourse`      |                                   |
-| `dockerhub`      |                                   |
-| `email`          | Email address.                    |
-| `facebook`       |                                   |
-| `facebookgroup`  |                                   |
-| `github`         |                                   |
-| `gitlab`         |                                   |
-| `gmail`          |                                   |
-| `instagram`      |                                   |
-| `itchdotio`      |                                   |
-| `kaggle`         |                                   |
-| `kofi`           |                                   |
-| `lastfm`         |                                   |
-| `liberapay`      |                                   |
-| `linkedin`       |                                   |
-| `mastodon`       |                                   |
-| `medium`         |                                   |
-| `opencollective` |                                   |
-| `patreon`        |                                   |
-| `paypal`         |                                   |
-| `pinterest`      |                                   |
-| `quora`          |                                   |
-| `reddit`         |                                   |
-| `rss`            | The RSS feeds, `true` or `false`. |
-| `stackoverflow`  |                                   |
-| `tel`            | Telephone number.                 |
-| `telegram`       |                                   |
-| `tencetqq`       |                                   |
-| `threads`        |                                   |
-| `tiktok`         |                                   |
-| `tumblr`         |                                   |
-| `twitter`        |                                   |
-| `weibo`          |                                   |
-| `xing`           |                                   |
-| `youtube`        |                                   |
-| `zhihu`          |                                   |
+{{% socials-media %}}

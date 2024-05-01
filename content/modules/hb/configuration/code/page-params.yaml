@@ -1,0 +1,7 @@
+- name: full_width
+  type: boolean
+  default: false
+  description:
+    default: When `true` then the current page takes full width, otherwise fallback to the site’s `full_width`.
+    zh-hans: 为 `true` 时，当前页占用全宽，否则回退到站点 `full_width` 设置。
+    zh-hant: 為 `true` 時，當前頁佔用全寬，否則回退到站點 `full_width` 設置。

@@ -1,0 +1,164 @@
+- name: artstation
+  url: https://www.artstation.com/
+
+- name: bilibili
+  url: https://bilibili.com/
+
+- name: bitbucket
+  url: https://bitbucket.org/
+
+- name: buymeacoffee
+  url: https://buymeacoffee.com/
+  description: 
+
+- name: discord
+  url: https://discord.com/
+  description: 
+
+- name: discourse
+  url: https://www.discourse.org/
+  description: 
+
+- name: dockerhub
+  url: https://hub.docker.com/
+  description: 
+
+- name: email
+  description: 
+
+- name: facebook
+  url: https://www.facebook.com/
+  description: 
+
+- name: facebookgroup
+  url: https://www.facebook.com/groups/
+  description: 
+
+- name: github
+  url: https://github.com/
+  description: 
+
+- name: githubsponsors
+  url: https://github.com/sponsors
+  description: 
+
+- name: gitlab
+  url: https://gitlab.com/
+  description: 
+
+- name: gmail
+  url: https://gmail.com/
+  description: 
+
+- name: instagram
+  url: https://www.instagram.com/
+  description: 
+
+- name: itchdotio
+  url: https://itch.io/
+  description: 
+
+- name: kaggle
+  url: https://www.kaggle.com/
+  description: 
+
+- name: kofi
+  url: https://ko-fi.com/
+  description: 
+
+- name: lastfm
+  url: https://www.last.fm/
+  description: 
+
+- name: liberapay
+  url: https://liberapay.com/
+  description: 
+
+- name: linkedin
+  url: https://www.linkedin.com/
+  description: 
+
+- name: mastodon
+  url: https://joinmastodon.org/
+  description: 
+
+- name: medium
+  url: https://medium.com/
+  description: 
+
+- name: opencollective
+  url: https://opencollective.com/
+  description: 
+
+- name: patreon
+  url: https://www.patreon.com/
+  description: 
+
+- name: paypal
+  url: https://www.paypal.com/
+  description: 
+
+- name: pinterest
+  url: https://www.pinterest.com/
+  description: 
+
+- name: quora
+  url: https://www.quora.com/
+  description: 
+
+- name: reddit
+  url: https://reddit.com/
+  description: 
+
+- name: rss
+  description: The RSS feeds, `true` or `false`.
+
+- name: sinaweibo
+  url: https://weibo.com/
+  description: 
+
+- name: stackoverflow
+  url: https://stackoverflow.com/
+  description: 
+
+- name: tel
+  description: 
+
+- name: telegram
+  url: https://telegram.org/
+  description: 
+
+- name: tencetqq
+  url: https://qq.com/
+  description: 
+
+- name: threads
+  url: https://www.threads.net/
+  description: 
+
+- name: tiktok
+  url: https://www.tiktok.com/
+  description: 
+
+- name: tumblr
+  url: https://www.tumblr.com/
+  description: 
+
+- name: twitter
+  url: https://twitter.com/
+  description: 
+
+- name: website
+  description: 
+
+- name: xing
+  url: https://www.xing.com/
+  description: 
+
+- name: youtube
+  url: https://youtube.com/
+  description: 
+
+- name: zhihu
+  url: https://zhihu.com/
+  description: 

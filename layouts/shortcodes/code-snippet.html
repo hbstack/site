@@ -1,4 +1,4 @@
-{{- $name := .Get 0 | printf "codes/%s" }}
+{{- $name := printf "{code/%s,codes/%s}" (.Get 0) (.Get 0) }}
 {{- $res := .Page.Resources.GetMatch $name }}
 {{- with $res }}
   {{- .Content | safeHTML }}

@@ -1,5 +1,10 @@
 cascade:
   - _target:
+      path: '*/**'
+    params:
+      authors:
+        - HB
+  - _target:
       path: /releases/*/**
     _build:
       list: never

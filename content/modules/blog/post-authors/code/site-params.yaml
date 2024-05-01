@@ -1,0 +1,9 @@
+- name: hb.blog.post_authors.position
+  default: top
+  description:
+    default: The position to place the authors information.
+    zh-hans: 放置作者信息的位置。
+    zh-hant: 放置作者信息的位置。
+  options:
+    - top
+    - bottom

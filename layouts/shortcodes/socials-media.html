@@ -1,0 +1,10 @@
+{{ range index site.Data "socials-media" }}
+### `{{ .name }}`
+  {{ $title := default (title .name) (printf "social_%s" .name | i18n) }}
+  {{ if .url }}
+    {{- printf "[%s](%s)" $title .url }}
+  {{ else }}
+    {{- printf "%s" $title }}
+  {{ end }}
+{{ .description | markdownify }}
+{{ end }}

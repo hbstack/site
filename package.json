@@ -17,8 +17,8 @@
     "url": "git+https://github.com/hbstack/site.git"
   },
   "scripts": {
-    "dev": "hugo server -p 7070 --gc --disableFastRender --buildDrafts --enableGitInfo",
-    "prod": "hugo server -e production --minify --gc --disableFastRender --enableGitInfo -b http://localhost:7075 -p 7075",
+    "dev": "hugo server -p 7070 --gc --buildDrafts --enableGitInfo",
+    "prod": "hugo server -e production --minify --gc --enableGitInfo -b http://localhost:7075 -p 7075",
     "build": "hugo --gc --minify --enableGitInfo",
     "update": "hugo mod get -u && hugo mod tidy",
     "translate": "node ./scripts/translate.js",

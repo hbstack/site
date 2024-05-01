@@ -1,0 +1,6 @@
+{{< bs/config-toggle params >}}
+hb:
+  blog:
+    post_authors:
+      position: top
+{{< /bs/config-toggle >}}
