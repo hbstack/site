@@ -24,6 +24,7 @@ require (
 	github.com/hbstack/blog/modules/post-authors v0.1.0 // indirect
 	github.com/hbstack/blog/modules/post-nav v0.4.0 // indirect
 	github.com/hbstack/blog/modules/related-posts v0.4.0 // indirect
+	github.com/hbstack/blog/modules/revision v0.1.0 // indirect
 	github.com/hbstack/blog/modules/sidebar/posts v0.8.0 // indirect
 	github.com/hbstack/blog/modules/sidebar/profile v1.3.0 // indirect
 	github.com/hbstack/blog/modules/sidebar/taxonomies v0.5.0 // indirect
@@ -77,7 +78,7 @@ require (
 	github.com/hbstack/progress-bar v0.1.0 // indirect
 	github.com/hbstack/pwa v0.1.2 // indirect
 	github.com/hbstack/pwa-installer v0.2.0 // indirect
-	github.com/hbstack/revision v0.6.0 // indirect
+	github.com/hbstack/revision v0.6.1 // indirect
 	github.com/hbstack/scrollbar v0.1.0 // indirect
 	github.com/hbstack/search v0.2.2 // indirect
 	github.com/hbstack/shortcodes v0.2.0 // indirect

@@ -1,3 +1,2 @@
 imports:
   - path: github.com/hbstack/site/common
-  - path: github.com/hbstack/docs/modules/revision

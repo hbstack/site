@@ -8,7 +8,9 @@ module:
     - path: github.com/hbstack/blog/modules/post-authors
     - path: github.com/hbstack/shortcodes
     - path: github.com/hbstack/blog/modules/sticky-till-the-end
+    - path: github.com/hbstack/blog/modules/revision
     - path: github.com/hbstack/docs/modules/sticky-till-the-end
+    - path: github.com/hbstack/docs/modules/revision
 
     - path: github.com/hbstack/pwa-installer
 
