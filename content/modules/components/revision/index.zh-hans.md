@@ -42,3 +42,12 @@ authors:
 | `icons` | boolean | `true` | - | 是否显示图标。
 | `font_size` | string | `.825rem` | - | 文本字体大小。
 | `created_at` | boolean | `true` | - | 为 `false` 时，隐藏创建日期。
+| `repo_service` | string | - | - | 支持 `github`。 |
+| `repo_owner` | string | - | - | 仓库所有者。 |
+| `repo_name` | string | - | - | 仓库名称。 |
+| `repo_branch` | string | `master` | - | 默认分支。 |
+| `repo_subpath` | string | - | - | 子路径。 |
+| `repo_contributors` | boolean | `false` | - | 是否显示贡献者。 |
+| `repo_actions` | boolean | `true` | - | 是否显示编辑、查看和历史按钮。|
+
+您需要设置 `GITHUB_TOKEN` 环境变量，以避免在启用 `repo_contributors` 时遇到 GitHub API 的速率限制问题。
