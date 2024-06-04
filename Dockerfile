@@ -1,7 +1,7 @@
 ###############
 # Build Stage #
 ###############
-FROM hugomods/hugo:exts-0.122.0 as builder
+FROM hugomods/hugo:exts as builder
 ARG GITHUB_TOKEN
 ENV GITHUB_TOKEN=${GITHUB_TOKEN}
 ARG NETRC_USERNAME
