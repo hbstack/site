@@ -74,3 +74,9 @@ cascade:
     params:
       authors:
         - HB
+  - _target:
+      path: /releases/*/**
+      environment: development
+    _build:
+      list: never
+      render: never
