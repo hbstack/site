@@ -14,8 +14,8 @@ require (
 	github.com/hbstack/back-to-top v0.2.0 // indirect
 	github.com/hbstack/base v0.6.0 // indirect
 	github.com/hbstack/bigger-picture v0.10.1 // indirect
-	github.com/hbstack/blog v0.35.0 // indirect
-	github.com/hbstack/blog/modules/breadcrumb v0.1.22 // indirect
+	github.com/hbstack/blog v0.35.1 // indirect
+	github.com/hbstack/blog/modules/breadcrumb v0.1.23 // indirect
 	github.com/hbstack/blog/modules/content-panel v0.1.21 // indirect
 	github.com/hbstack/blog/modules/decap-cms v0.4.0 // indirect
 	github.com/hbstack/blog/modules/featured-image v0.2.21 // indirect
@@ -31,14 +31,14 @@ require (
 	github.com/hbstack/blog/modules/sticky-till-the-end v0.2.0 // indirect
 	github.com/hbstack/blog/modules/toc-scrollspy v0.2.0 // indirect
 	github.com/hbstack/bootstrap v0.2.2 // indirect
-	github.com/hbstack/breadcrumb v0.6.0 // indirect
+	github.com/hbstack/breadcrumb v0.7.0 // indirect
 	github.com/hbstack/carousel v0.2.5 // indirect
 	github.com/hbstack/code-block-panel v0.1.2 // indirect
 	github.com/hbstack/contact v0.3.0 // indirect
 	github.com/hbstack/content-panel v0.10.1 // indirect
 	github.com/hbstack/decap-cms v0.4.0 // indirect
-	github.com/hbstack/docs v0.17.1 // indirect
-	github.com/hbstack/docs/modules/breadcrumb v0.1.9 // indirect
+	github.com/hbstack/docs v0.17.2 // indirect
+	github.com/hbstack/docs/modules/breadcrumb v0.1.10 // indirect
 	github.com/hbstack/docs/modules/content-panel v0.1.8 // indirect
 	github.com/hbstack/docs/modules/decap-cms v0.3.0 // indirect
 	github.com/hbstack/docs/modules/doc-nav v0.3.7 // indirect
@@ -95,6 +95,7 @@ require (
 	github.com/hugomods/ascii v0.1.0 // indirect
 	github.com/hugomods/base v0.7.0 // indirect
 	github.com/hugomods/bootstrap v0.22.2 // indirect
+	github.com/hugomods/code-block-panel v0.7.0 // indirect
 	github.com/hugomods/decap-cms v0.15.0 // indirect
 	github.com/hugomods/decap-cms/editor-components/todo v0.1.2 // indirect
 	github.com/hugomods/decap-cms/widgets/url v0.1.2 // indirect
@@ -119,6 +120,7 @@ require (
 	github.com/hugomods/microsoft-clarity v0.1.0 // indirect
 	github.com/hugomods/pwa v0.9.0 // indirect
 	github.com/hugomods/recaptcha-v2 v0.1.1 // indirect
+	github.com/hugomods/search v0.14.0 // indirect
 	github.com/hugomods/seo/modules/alternatives v0.1.0 // indirect
 	github.com/hugomods/seo/modules/base v0.1.2 // indirect
 	github.com/hugomods/seo/modules/favicons v0.2.1 // indirect
