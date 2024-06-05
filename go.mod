@@ -32,7 +32,7 @@ require (
 	github.com/hbstack/blog/modules/sticky-till-the-end v0.2.0 // indirect
 	github.com/hbstack/blog/modules/toc-scrollspy v0.2.0 // indirect
 	github.com/hbstack/bootstrap v0.2.2 // indirect
-	github.com/hbstack/breadcrumb v0.7.0 // indirect
+	github.com/hbstack/breadcrumb v0.7.1 // indirect
 	github.com/hbstack/carousel v0.2.5 // indirect
 	github.com/hbstack/code-block-panel v0.1.2 // indirect
 	github.com/hbstack/contact v0.3.0 // indirect
@@ -78,7 +78,7 @@ require (
 	github.com/hbstack/progress-bar v0.1.0 // indirect
 	github.com/hbstack/pwa v0.1.2 // indirect
 	github.com/hbstack/pwa-installer v0.2.0 // indirect
-	github.com/hbstack/revision v0.6.1 // indirect
+	github.com/hbstack/revision v0.6.3 // indirect
 	github.com/hbstack/scrollbar v0.1.0 // indirect
 	github.com/hbstack/search v0.2.2 // indirect
 	github.com/hbstack/shortcodes v0.2.0 // indirect
