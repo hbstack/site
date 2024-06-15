@@ -25,11 +25,6 @@
     "decap-server": "npx decap-server"
   },
   "dependencies": {
-    "@fullhuman/postcss-purgecss": "^5.0.0",
-    "autoprefix": "^1.0.1",
-    "autoprefixer": "^10.4.13",
-    "postcss-cli": "^10.1.0",
-    "postcss-purgecss": "^5.0.0",
-    "rtlcss": "^4.0.0"
+    "@hbstack/node-packages": "^0.1.3"
   }
 }
