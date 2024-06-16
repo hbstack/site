@@ -39,4 +39,5 @@ The list of blog's custom hooks.
 | `hb-blog-post-comments-begin` | Before comments.                              |
 | `hb-blog-post-comments`       | Comments, used to implement comments engines. |
 | `hb-blog-post-comments-end`   | Follows comments.                             |
+| `hb-blog-post-meta`           | Meta.                                         |
 | `hb-blog-sidebar`             | Sidebar.                                      |
