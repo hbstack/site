@@ -16,13 +16,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
 
-      # - name: Cache dependencies
-      #   uses: actions/cache@v3
-      #   with:
-      #     path: ~/.npm
-      #     key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-      #     restore-keys: |
-      #       ${{ runner.os }}-node-
+      - name: Cache resources
+        uses: actions/cache@v3
+        with:
+          path: ./resources
+          key: hugo-resources
 
       - name: Cache Hugo modules
         uses: actions/cache@v3
