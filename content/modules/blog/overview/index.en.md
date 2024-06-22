@@ -51,8 +51,8 @@ The blog module provides the basic layouts and templates for blog site.
 | `blog.home.pinned_posts_position` | string  |    Next to carousel    | The position of pinned posts, available options: `list`. |
 | `blog.home.taxonomies`            | boolean |         `true`         | Whether to show the taxonomies stat on home page.        |
 | `blog.toc.position` | string | `end` | `start`: on the left of content, `end`: on the right of content, `content`: above the content.
-| `blog.list_style` | string | - | Empty or `minimalist`. |
-| `terms.list_style` | string | - | Empty or `minimalist`. |
+| `blog.list_style` | string | - | Empty, `minimalist`, `cascade`. |
+| `terms.list_style` | string | - | Empty, `minimalist`, `cascade`. |
 | `terms.paginate` | number | `12` | The number of posts per term list page. |
 | `terms.profile` | boolean | `true` | When `false`, hide the profile. |
 | `terms.profile_metrics` | boolean | `true` | When `false`, hide the profile's metrics. |

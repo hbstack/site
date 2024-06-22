@@ -51,8 +51,8 @@ aliases:
 | `blog.home.pinned_posts_position` | string  |        幻灯片右侧        | 置顶文章的位置，可选项：`list`。     |
 | `blog.home.taxonomies`            | boolean |         `true`         | 是否于首页显示分类统计。             |
 | `blog.toc.position` | string | `end` | `start`：内容左侧、`end`：内容右侧、`content`：内容上方。
-| `blog.list_style` | string | - | 空字符串或 `minimalist`。 |
-| `terms.list_style` | string | - | 空字符串或 `minimalist`。 |
+| `blog.list_style` | string | - | 空字符串、`minimalist`、`cascade`。 |
+| `terms.list_style` | string | - | 空字符串、`minimalist`、`cascade`。 |
 | `terms.paginate` | number | `12` | 分类列表博文数量。 |
 | `terms.profile` | boolean | `true` | 为 `false` 时，隐藏简介。 |
 | `terms.profile_metrics` | boolean | `true` |  为 `false` 时，隐藏简介上的指标。 |
