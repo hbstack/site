@@ -35,3 +35,5 @@ The list of docs's custom hooks.
 | `hb-docs-doc-comments-begin` | Before comments.                              |
 | `hb-docs-doc-comments`       | Comments, used to implement comments engines. |
 | `hb-docs-doc-comments-end`   | Follows comments.                             |
+| `hb-docs-nav-afterbegin`     | The beginning of docs navigation, it is always cached according to the first section regardless of its cache configuration. |
+| `hb-docs-nav-beforeend`      | The ending of docs navigation, it is always cached according to the first section regardless of its cache configuration.    |

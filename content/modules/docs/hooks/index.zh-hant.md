@@ -35,3 +35,5 @@ authors:
 | `hb-docs-doc-comments-begin` | 於評論前。               |
 | `hb-docs-doc-comments`       | 評論，用於實現評論引擎。 |
 | `hb-docs-doc-comments-end`   | 於評論後。               |
+| `hb-docs-nav-afterbegin`     | 文檔導航的開始部分，不管其緩存配置如何，總是按照每第一個欄目進行緩存。 |
+| `hb-docs-nav-beforeend`      | 文檔導航的結束部分，不管其緩存配置如何，總是按照每第一個欄目進行緩存。 |
