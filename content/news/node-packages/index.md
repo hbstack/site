@@ -1,5 +1,5 @@
 ---
-title: "HB Framework Node.js Meta Packages"
+title: "HB Framework Node.js Meta Package"
 description: "A meta Node.js package that include all HB Framework requires build tools."
 date: 2024-07-19T12:14:52+08:00
 series:
@@ -17,7 +17,7 @@ tags:
 
 ## What Is This?
 
-The `@hbstack/node-packages` is a meta packages that includes all requirements of HB Framework, such as Autoprefixer, PostCSS, PurgeCSS and RTLCSS, which is used to simplify the installation of dependencies.
+The `@hbstack/node-packages` is a meta package that includes all requirements of HB Framework, such as Autoprefixer, PostCSS, PurgeCSS and RTLCSS, which is used to simplify the installation of dependencies.
 
 ## Migration
 
