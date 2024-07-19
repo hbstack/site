@@ -90,19 +90,9 @@ HB requires the following [Node.js](https://nodejs.org/) packages.
 | Autoprefixer | Parse CSS and add vendor prefixes to rules by Can I Use.      |
 | PurgeCSS     | Remove unused CSS.                                            |
 
-NPM has been included in the Node.js installation, you can either install those packages locally or globally.
+We offered a meta package `@hbstack/node-packages` that includes all required packages.
 
-{{% bs/collapse "Install Locally" primary true %}}
-{{< code-snippet npm-i >}}
-This approach writes dependencies to `package.json`, so that those packages can be installed via `npm i` without having to remember the complicated package names.
-{{% /bs/collapse %}}
-
-{{% bs/collapse "Install Globally" success true %}}
-{{< code-snippet npm-i-g >}}
-This command needs to be executed only once and does not need to be executed again for subsequent HB sites.
-{{% /bs/collapse %}}
-
-Both are valid, HB will try to look up the packages locally first.
+{{% code-snippet npm-i %}}
 
 ## Notes
 

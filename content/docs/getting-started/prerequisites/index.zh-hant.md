@@ -90,19 +90,9 @@ HB 依賴以下 [Node.js](https://nodejs.org/) 包。
 | Autoprefixer | 解析 CSS 並在 Can I Use 規則中添加對應的前綴。     |
 | PurgeCSS     | 移除未使用的 CSS。                                 |
 
-NPM 已被包含於 Node.js 安裝中，你可以選擇局部或全局地安裝這些包。
+我們提供了一個元包，其包含了上述所有必要的包。
 
-{{% bs/collapse "局部安裝" primary true %}}
-{{< code-snippet npm-i >}}
-局部安裝將依賴寫入 `package.json`，以便部署時通過 `npm i` 安裝這些包，而無需記住這些繁雜的包名。
-{{% /bs/collapse %}}
-
-{{% bs/collapse "全局安裝" success true %}}
-{{< code-snippet npm-i-g >}}
-該命令只需執行一次，後續的 HB 站點無需再次執行此命令。
-{{% /bs/collapse %}}
-
-兩者都是有效的，HB 會優先局部查找需要的包。
+{{% code-snippet npm-i %}}
 
 ## 注意
 
