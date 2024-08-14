@@ -63,7 +63,7 @@ You have to specify `name` or `identifier` for dividers to unique each divider.
 
 ### Second Level Menus Dividers
 
-If second level menu entries has `divider` parameter enabled, then the divider will be append to the end of the menu.
+If second level menu entries's `divider` parameter is enabled, then the divider will be append to the end of the menu.
 
 ## Example
 
