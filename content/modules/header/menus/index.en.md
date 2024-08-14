@@ -40,7 +40,7 @@ The `main` is taken as the header's menus set identifier.
 | Parameter        |  Type   | Description                                                                                                        |
 | :--------------- | :-----: | :----------------------------------------------------------------------------------------------------------------- |
 | `header`         | string  | The header of dropdown menus, available on top level menu only.                                                    |
-| `divider`        | boolean | Show the divider if `true`.                                                                                        |
+| `divider`        | boolean | Show the divider if `true`, see the [Dividers](#dividers) below.                                                   |
 | `description`    | string  | The description for sub menus only, default to page description.                                                   |
 | `columns`        | number  | The column count of sub menus, up to `2`, default to `1` when the number of menus is less than `6`, otherwise `2`. |
 | `icon`           | object  | The icon parameters.                                                                                               |
@@ -52,6 +52,18 @@ The `main` is taken as the header's menus set identifier.
 | `rel` | string | The link [rel](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel) attribute. |
 
 See also [Menus Configuration]({{< ref "docs/configuration/menus" >}}) and [Icons Configuration]({{< ref "docs/configuration/icons" >}}).
+
+## Dividers
+
+### Top Level Menus Dividers
+
+If the `divider` parameter is set as `true` for top level menu entries, then the current menu entry will become a divider entry, which won't show text and link.
+
+You have to specify `name` or `identifier` for dividers to unique each divider.
+
+### Second Level Menus Dividers
+
+If second level menu entries has `divider` parameter enabled, then the divider will be append to the end of the menu.
 
 ## Example
 

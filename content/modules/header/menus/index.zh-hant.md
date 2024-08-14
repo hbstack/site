@@ -40,7 +40,7 @@ authors:
 | Parameter        |  Type   | Description                        |
 | :--------------- | :-----: | :--------------------------------- |
 | `header`         | string  | 下拉菜單的標題，只作用於頂級菜單。 |
-| `divider`        | boolean | 爲 `true` 時，作爲分隔符顯示。     |
+| `divider`        | boolean | 爲 `true` 時，作爲分隔符顯示，請參閱[分割符](#分割符)。     |
 | `description`    | string  | 子菜單的描述，默認爲頁面描述。       |
 | `columns`        | number  | 子菜單的列數，最大爲 `2`，當菜單數目小於 `6` 時，默認爲 `1`，否則爲 `2`。 |
 | `icon`           | object  | 圖標參數。                         |
@@ -52,6 +52,18 @@ authors:
 | `rel` | string | 鏈接 [rel](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel) 屬性。 |
 
 詳情請參閱[菜單配置]({{< ref "docs/configuration/menus" >}})和[圖標配置]({{< ref "docs/configuration/icons" >}})。
+
+## 分割符
+
+### 頂級菜單分隔符
+
+如果頂級菜單項的 `divider` 參數設置為 `true`，則當前菜單項將成為分隔符項，不會顯示文本和鏈接。
+
+您必須為分隔符指定 `name` 或 `identifier`，以使每個分隔符唯一。
+
+### 次級菜單分隔符
+
+如果二級菜單條目啟用了 `divider` 參數，則分隔符將附加到菜單末尾。
 
 ## Example
 

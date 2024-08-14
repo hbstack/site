@@ -40,7 +40,7 @@ authors:
 | Parameter        |  Type   | Description                        |
 | :--------------- | :-----: | :--------------------------------- |
 | `header`         | string  | 下拉菜单的标题，只作用于顶级菜单。 |
-| `divider`        | boolean | 为 `true` 时，作为分隔符显示。     |
+| `divider`        | boolean | 为 `true` 时，作为分隔符显示，请参阅[分割符](#分割符)。 |
 | `description`    | string  | 子菜单的描述，默认为页面描述。       |
 | `columns`        | number  | 子菜单的列数，最大为 `2`，当菜单数目小于 `6` 时，默认为 `1`，否则为 `2`。 |
 | `icon`           | object  | 图标参数。                         |
@@ -52,6 +52,18 @@ authors:
 | `rel` | string | 链接 [rel](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel) 属性。 |
 
 详情请参阅[菜单配置]({{< ref "docs/configuration/menus" >}})和[图标配置]({{< ref "docs/configuration/icons" >}})。
+
+## 分割符
+
+### 顶级菜单分隔符
+
+如果顶级菜单项的 `divider` 参数设置为 `true`，则当前菜单项将成为分隔符项，不会显示文本和链接。
+
+您必须为分隔符指定 `name` 或 `identifier`，以使每个分隔符唯一。
+
+### 次级菜单分隔符
+
+如果二级菜单条目启用了 `divider` 参数，则分隔符将附加到菜单末尾。
 
 ## Example
 
