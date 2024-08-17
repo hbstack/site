@@ -15,7 +15,9 @@ hugopress:
     pwa:
       disable: true
 
-# hb:
+hb:
+  revision:
+    repo_contributors: false
   # anti_adblock:
     # remind_interval: 0.0025 # 9s
 
