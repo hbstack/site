@@ -28,3 +28,4 @@ If you don't have time to do it or doesn't care about this, you can set the foll
 1. `hb.sass_transpiler` - HB Framework Core Module, required.
 2. `search.sass_transpiler` - Search Module, optional.
 3. `decap_cms.sass_transpiler` - Decap CMS Module, optional.
+4. `swagger_ui.sass_transpiler` - Swagger UI Module, optional.

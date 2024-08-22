@@ -28,3 +28,4 @@ authors:
 1. `hb.sass_transpiler` - HB 框架核心模块，必选。
 2. `search.sass_transpiler` - 搜索模块，可选。
 3. `decap_cms.sass_transpiler` - Decap CMS 模块，可选。
+4. `swagger_ui.sass_transpiler` - Swagger UI 模块，可选。
