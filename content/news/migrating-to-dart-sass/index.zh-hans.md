@@ -21,6 +21,14 @@ authors:
 
 若出现了任何错误，请将其反馈到 [GitHub 讨论](https://github.com/orgs/hbstack/discussions)。
 
+### Dart Sass 警告？
+
+你或许会看到来自 Dart Sass 的警告，其已被 Bootstrap 修复了，但并未发布，要修正它，需要升级 Bootstrap 到最新的测试版。
+
+```sh
+hugo mod get github.com/twbs/bootstrap@main
+```
+
 ## 如何继续使用 LibSass？
 
 若你没时间或者对此不关系，你可以设置以下参数为 `libsass` 以继续使用 LibSass。

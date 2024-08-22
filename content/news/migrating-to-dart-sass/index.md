@@ -21,6 +21,14 @@ Since the Dart Sass isn't included into Hugo binary, you've to [install](https:/
 
 If there is any errors, please report to us via [GitHub Discussions](https://github.com/orgs/hbstack/discussions).
 
+### Dart Sass Warnings?
+
+You may see some warnings from Dart Sass, it has been fixed in Bootstrap, but not release yet, to fix it, you'll need to upgrade Bootstrap to latest dev version.
+
+```sh
+hugo mod get github.com/twbs/bootstrap@main
+```
+
 ## How to Keep Using LibSass?
 
 If you don't have time to do it or doesn't care about this, you can set the following parameters as `libsass`, to keep using LibSass.
