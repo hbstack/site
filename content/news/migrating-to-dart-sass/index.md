@@ -31,7 +31,7 @@ hugo mod get github.com/twbs/bootstrap@main
 
 ## How to Keep Using LibSass?
 
-If you don't have time to do it or doesn't care about this, you can set the following parameters as `libsass`, to keep using LibSass.
+If you don't have time to do it or do not care about this, you can set the following parameters as `libsass`, to keep using LibSass.
 
 1. `hb.sass_transpiler` - HB Framework Core Module, required.
 2. `search.sass_transpiler` - Search Module, optional.
