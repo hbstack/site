@@ -54,6 +54,10 @@ HB is a modular framework, requires [Go installation](https://go.dev/dl/) to dow
 {{< code-snippet install-go-on-arch-linux >}}
 {{% /bs/collapse %}}
 
+### Dart Sass
+
+See [Install Dart Sass](https://sass-lang.com/install/).
+
 ### Hugo
 
 ![Version](https://img.shields.io/badge/dynamic/json?color=blue&label=requirements&query=requirements&url=https://api.razonyang.com/v1/hugo/modules/github.com/hbstack/hb&style=flat-square)

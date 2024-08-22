@@ -54,6 +54,10 @@ HB 是一个模块化的框架，需要[安装 Go 语言](https://golang.google.
 {{< code-snippet install-go-on-arch-linux >}}
 {{% /bs/collapse %}}
 
+### Dart Sass
+
+详情请参阅[Dart Sass 安装](https://sass-lang.com/install/)。
+
 ### Hugo
 
 ![Version](https://img.shields.io/badge/dynamic/json?color=blue&label=requirements&query=requirements&url=https://api.razonyang.com/v1/hugo/modules/github.com/hbstack/hb&style=flat-square)
