@@ -17,7 +17,7 @@ authors:
 
 ## 如何迁移至 Dart Sass？
 
-由于 Dart Sass 并不包含于 Hugo 二进制文件中，首先你需要[安装](https://sass-lang.com/install/)它，并升级模块，然后重建站点。
+由于 Dart Sass 并不包含于 Hugo 二进制文件中，首先你需要[安装](https://gohugo.io/hugo-pipes/transpile-sass-to-css/#installing-in-a-development-environment)它，并升级模块，然后重建站点。
 
 若出现了任何错误，请将其反馈到 [GitHub 讨论](https://github.com/orgs/hbstack/discussions)。
 

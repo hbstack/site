@@ -17,7 +17,7 @@ authors:
 
 ## How to Migrate to Dart Sass?
 
-Since the Dart Sass isn't included into Hugo binary, you've to [install](https://sass-lang.com/install/) it on your environment first, and upgrade modules, then rebuild sites.
+Since the Dart Sass isn't included into Hugo binary, you've to [install](https://gohugo.io/hugo-pipes/transpile-sass-to-css/#installing-in-a-development-environment) it on your environment first, and upgrade modules, then rebuild sites.
 
 If there is any errors, please report to us via [GitHub Discussions](https://github.com/orgs/hbstack/discussions).
 
