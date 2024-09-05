@@ -59,7 +59,7 @@ require (
 	github.com/hbstack/form v0.2.0 // indirect
 	github.com/hbstack/giscus v0.1.1 // indirect
 	github.com/hbstack/google-fonts v0.1.1 // indirect
-	github.com/hbstack/hb v0.15.0 // indirect
+	github.com/hbstack/hb v0.15.1 // indirect
 	github.com/hbstack/header v0.15.0 // indirect
 	github.com/hbstack/header/modules/banner v0.7.2 // indirect
 	github.com/hbstack/header/modules/docsearch v0.1.24 // indirect

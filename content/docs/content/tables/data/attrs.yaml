@@ -53,15 +53,6 @@
     zh-hans: 是否在表格组之间添加更厚的深色边框。
     zh-hant: 是否在表格組之間添加更厚的深色邊框。
 
-- name: _header
-  type: boolean
-  default: true
-  since: v0.15.0
-  description:
-    default: Whether to show the header.
-    zh-hans: 是否显示表头。
-    zh-hant: 是否顯示錶頭。
-
 - name: _hover
   type: boolean
   default: hb.tables.hover
@@ -108,6 +99,15 @@
     - secondary
     - success
     - warning
+
+- name: _thead
+  type: boolean
+  default: true
+  since: v0.15.1
+  description:
+    default: Whether to show the header.
+    zh-hans: 是否显示表头。
+    zh-hant: 是否顯示錶頭。
 
 - name: _thead_style
   description:
