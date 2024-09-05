@@ -1,4 +1,5 @@
 - name: _align
+  default: hb.tables.align
   options:
     - top
     - middle
@@ -10,7 +11,7 @@
 
 - name: _borderless
   type: boolean
-  default: true
+  default: false
   description:
     default: Whether to remove border.
     zh-hans: 是否去除边框。
