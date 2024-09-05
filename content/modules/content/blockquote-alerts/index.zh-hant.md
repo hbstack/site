@@ -1,15 +1,15 @@
 ---
 type: docs
-title: "Blockquote 警告模块"
+title: "Blockquote 警告模塊"
 linkTitle: "Blockquote 警告"
-description: "用于通过 Blockquote 生成警告，与短代码相比，其更加简单易用。"
+description: "用於通過 Blockquote 生成警告，與短代碼相比，其更加簡單易用。"
 date: 2024-09-05T10:34:31+08:00
 draft: false
 nav_icon:
   vendor: bs
   name: info-circle
 series:
-  - 模块
+  - 模塊
 categories:
   - Markdown
 tags:
@@ -22,18 +22,18 @@ authors:
 
 {{% hb-module "blockquote-alerts" %}}
 
-## 警告语法
+## 警告語法
 
 {{< page-resource-content "data/syntax" >}}
 
 > [!IMPORTANT]
-> `TYPE` 为必填。
+> `TYPE` 為必填。
 
 > [!NOTE]+
-> `SIGN` 可选，其用于指示警告是否可折叠，加号 `+` 将默认展开警告。
+> `SIGN` 可選，其用於指示警告是否可摺疊，加號 `+` 將默認展開警告。
 
 > [!QUESTION]+ TITLE 是否必填？
-> 仅当类型为 `QUESTION` 时，`TITLE` 必填，当然其可以用于自定义标题。
+> 僅當類型為 `QUESTION` 時，`TITLE` 必填，當然其可以用於自定義標題。
 
 ## 警告示例
 

@@ -1,4 +1,5 @@
 ---
+type: docs
 title: "Blockquote Alerts Module"
 linkTitle: "Blockquote Alerts"
 description: "Module to generate alerts via blockquote, which is much simpler than using shortcodes."
