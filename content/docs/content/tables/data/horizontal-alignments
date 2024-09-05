@@ -1,0 +1,7 @@
+{{< hugo/shortcode-example >}}
+| Left | Center | Right |
+| :- | :-: | -: |
+| 1 | 2 | 3 |
+| 1 | 2 | 3 |
+| 1 | 2 | 3 |
+{{< /hugo/shortcode-example >}}

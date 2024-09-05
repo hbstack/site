@@ -1,0 +1,5 @@
+{{< hugo/shortcode-example >}}
+> Tiam, ad mint andaepu dandae nostion secatur sequo quae.
+> 
+> **Note** that you can use *Markdown syntax* within a blockquote.
+{{< /hugo/shortcode-example >}}

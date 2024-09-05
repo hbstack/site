@@ -1,0 +1,9 @@
+{{< hugo/shortcode-example >}}
+> Align to the center
+{align=center}
+{{< /hugo/shortcode-example >}}
+
+{{< hugo/shortcode-example >}}
+> Align to the end
+{align=end}
+{{< /hugo/shortcode-example >}}

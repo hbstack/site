@@ -1,0 +1,6 @@
+{{< hugo/shortcode-example >}}
+| Default Table |
+| --- |
+| Foo |
+| Bar |
+{{< /hugo/shortcode-example >}}

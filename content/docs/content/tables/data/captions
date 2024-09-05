@@ -1,0 +1,7 @@
+{{< hugo/shortcode-example >}}
+| Name | Age | Role |
+| --- | :-: | :-: |
+| Foo | 35 | Leader |
+| Bar | 23 | Developer |
+{_caption="Members"}
+{{< /hugo/shortcode-example >}}

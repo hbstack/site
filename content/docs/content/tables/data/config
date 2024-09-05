@@ -1,0 +1,12 @@
+{{< bs/config-toggle "hugo" >}}
+[params.hb.tables]
+align = ""
+bordered = true
+border_style = ""
+group_divider = false
+hover = true
+striped = true
+striped_columns = false
+style = ""
+thead_style = ""
+{{< /bs/config-toggle >}}

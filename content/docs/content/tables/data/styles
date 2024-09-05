@@ -1,0 +1,23 @@
+{{< hugo/shortcode-example >}}
+| Primary Table |
+| --- |
+| Foo |
+| Bar |
+{_style=primary}
+{{< /hugo/shortcode-example >}}
+
+{{< hugo/shortcode-example >}}
+| Danger Table |
+| --- |
+| Foo |
+| Bar |
+{_style=danger}
+{{< /hugo/shortcode-example >}}
+
+{{< hugo/shortcode-example >}}
+| Dark Table |
+| --- |
+| Foo |
+| Bar |
+{_style=dark}
+{{< /hugo/shortcode-example >}}

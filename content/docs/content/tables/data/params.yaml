@@ -1,0 +1,94 @@
+- name: align
+  options:
+    - top
+    - middle
+    - bottom
+  description:
+    default: Vertical alignment.
+    zh-hans: 垂直对齐。
+    zh-hant: 垂直對齊。
+
+- name: bordered
+  type: boolean
+  default: true
+  description:
+    default: Whether to enable borders globally.
+    zh-hans: 是否在全局内启用边框。
+    zh-hant: 是否在全域性內啟用邊框。
+
+- name: border_style
+  description:
+    default: Border style.
+    zh-hans: 边框样式。
+    zh-hant: 邊框樣式。
+  options:
+    - danger
+    - dark
+    - light
+    - info
+    - primary
+    - secondary
+    - success
+    - warning
+
+- name: group_divider
+  type: boolean
+  default: false
+  description:
+    default: Whether to add a thicker border, darker between table groups.
+    zh-hans: 是否在表格组之间添加更厚的深色边框。
+    zh-hant: 是否在表格組之間添加更厚的深色邊框。
+
+- name: hover
+  type: boolean
+  default: true
+  description:
+    default: Whether to enable a hover state on tables.
+    zh-hans: 是否在表格上启用悬停状态。
+    zh-hant: 是否在表格上啟用懸停狀態。
+
+- name: striped
+  type: boolean
+  default: true
+  description:
+    default: Whether to add zebra-striping on table rows.
+    zh-hans: 是否在表格行上添加斑马纹。
+    zh-hant: 是否在表格行上添加斑馬紋。
+
+- name: striped_columns
+  type: boolean
+  default: false
+  description:
+    default: Whether to add zebra-striping on table columns.
+    zh-hans: 是否在表格列上添加斑马纹。
+    zh-hant: 是否在表格列上添加斑馬紋。
+
+- name: style
+  description:
+    default: Table style.
+    zh-hans: 表格样式。
+    zh-hant: 表格樣式。
+  options:
+    - danger
+    - dark
+    - light
+    - info
+    - primary
+    - secondary
+    - success
+    - warning
+
+- name: thead_style
+  description:
+    default: Table header style.
+    zh-hans: 表头样式。
+    zh-hant: 表頭樣式。
+  options:
+    - danger
+    - dark
+    - light
+    - info
+    - primary
+    - secondary
+    - success
+    - warning

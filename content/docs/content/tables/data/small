@@ -1,0 +1,7 @@
+{{< hugo/shortcode-example >}}
+| Small Table |
+| --- |
+| Foo |
+| Bar |
+{_size=sm}
+{{< /hugo/shortcode-example >}}

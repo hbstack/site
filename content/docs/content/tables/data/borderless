@@ -1,0 +1,7 @@
+{{< hugo/shortcode-example >}}
+| Borderless Table |
+| --- |
+| Foo |
+| Bar |
+{_borderless=true}
+{{< /hugo/shortcode-example >}}

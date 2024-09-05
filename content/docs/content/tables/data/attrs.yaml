@@ -1,0 +1,116 @@
+- name: _align
+  options:
+    - top
+    - middle
+    - bottom
+  description:
+    default: Vertical alignment.
+    zh-hans: 垂直对齐。
+    zh-hant: 垂直對齊。
+
+- name: _borderless
+  type: boolean
+  default: true
+  description:
+    default: Whether to remove border.
+    zh-hans: 是否去除边框。
+    zh-hant: 是否去除邊框。
+
+- name: _bordered
+  type: boolean
+  default: hb.tables.bordered
+  description:
+    default: Whether to enable border.
+    zh-hans: 是否启用边框。
+    zh-hant: 是否啟用邊框。
+
+- name: _border_style
+  description:
+    default: Border style.
+    zh-hans: 边框样式。
+    zh-hant: 邊框樣式。
+  options:
+    - danger
+    - dark
+    - light
+    - info
+    - primary
+    - secondary
+    - success
+    - warning
+
+- name: _caption
+  description:
+    default: Caption.
+    zh-hans: 表格说明。
+    zh-hant: 表格說明。
+
+- name: _group_divider
+  type: boolean
+  default: hb.tables.group_divider
+  description:
+    default: Whether to add a thicker border, darker between table groups.
+    zh-hans: 是否在表格组之间添加更厚的深色边框。
+    zh-hant: 是否在表格組之間添加更厚的深色邊框。
+
+- name: _hover
+  type: boolean
+  default: hb.tables.hover
+  description:
+    default: Whether to enable a hover state on tables.
+    zh-hans: 是否在表格上启用悬停状态。
+    zh-hant: 是否在表格上啟用懸停狀態。
+
+- name: _striped
+  type: boolean
+  default: hb.tables.striped
+  description:
+    default: Whether to add zebra-striping on table rows.
+    zh-hans: 是否在表格行上添加斑马纹。
+    zh-hant: 是否在表格行上添加斑馬紋。
+
+- name: _striped_columns
+  type: boolean
+  default: hb.tables.striped_columns
+  description:
+    default: Whether to add zebra-striping on table columns.
+    zh-hans: 是否在表格列上添加斑马纹。
+    zh-hant: 是否在表格列上添加斑馬紋。
+
+- name: _size
+  description:
+    default: Table size.
+    zh-hans: 表格尺寸。
+    zh-hant: 表格尺寸。
+  options:
+    - sm
+
+- name: _style
+  description:
+    default: Table style.
+    zh-hans: 表格样式。
+    zh-hant: 表格樣式。
+  options:
+    - danger
+    - dark
+    - light
+    - info
+    - primary
+    - secondary
+    - success
+    - warning
+
+- name: _thead_style
+  description:
+    default: Table header style.
+    zh-hans: 表头样式。
+    zh-hant: 表頭樣式。
+  options:
+    - danger
+    - dark
+    - light
+    - info
+    - primary
+    - secondary
+    - success
+    - warning

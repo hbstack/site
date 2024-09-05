@@ -3,6 +3,7 @@
 - name: hbstack/background-image
 - name: hbstack/base
 - name: hbstack/bigger-picture
+- name: hbstack/blockquote-alerts
 - name: hbstack/blog
 - name: hbstack/bootstrap
 - name: hbstack/breadcrumb

@@ -1,0 +1,20 @@
+{{< hugo/shortcode-example >}}
+| Heading 1 | Heading 2 |
+| --- | --- |
+| `top` | This here is some placeholder text, intended to take up quite a bit of vertical space, to demonstrate how the vertical alignment works in the preceding cells. |
+{_align=top}
+{{< /hugo/shortcode-example >}}
+
+{{< hugo/shortcode-example >}}
+| Heading 1 | Heading 2 |
+| --- | --- |
+| `middle` | This here is some placeholder text, intended to take up quite a bit of vertical space, to demonstrate how the vertical alignment works in the preceding cells. |
+{_align=middle}
+{{< /hugo/shortcode-example >}}
+
+{{< hugo/shortcode-example >}}
+| Heading 1 | Heading 2 |
+| --- | --- |
+| `bottom` | This here is some placeholder text, intended to take up quite a bit of vertical space, to demonstrate how the vertical alignment works in the preceding cells. |
+{_align=bottom}
+{{< /hugo/shortcode-example >}}

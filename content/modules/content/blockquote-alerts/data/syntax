@@ -1,0 +1,9 @@
+````abnf
+```markdown
+> [!TYPE]SIGN TITLE
+> body
+```
+
+TYPE = "NOTE" | "TIP" | "IMPORTANT" | "WARNING" | "CAUTION" | "QUESTION"
+SIGN = "+" | "-"
+````

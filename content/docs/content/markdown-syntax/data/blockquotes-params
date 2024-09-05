@@ -1,0 +1,6 @@
+{{< bs/config-toggle "hugo" >}}
+[params.hb.blockquotes]
+bordered = true
+border_width = 4 # 1-5.
+border_style = "primary"
+{{< /bs/config-toggle >}}

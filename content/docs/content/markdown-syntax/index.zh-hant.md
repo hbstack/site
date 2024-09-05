@@ -1,5 +1,6 @@
 +++
 title = "Markdown 語法指南"
+linkTitle = "Markdown"
 date = "2020-11-09"
 featured = true
 pinned = true
@@ -18,6 +19,9 @@ authors = [
   "hb",
   "hugo"
 ]
+[nav_icon]
+vendor = "bs"
+name = "markdown"
 +++
 
 本文將提供一些能用於 Hugo 內容文件的 Markdown 的基礎語法示例。
@@ -50,18 +54,21 @@ Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sap
 
 The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a `footer` or `cite` element, and optionally with in-line changes such as annotations and abbreviations.
 
+### 引用參數
+
+{{< page-resource-content "data/blockquotes-params" >}}
+
 ### 不帶出處的引用
 
-> Tiam, ad mint andaepu dandae nostion secatur sequo quae.
->
-> **Note** that you can use _Markdown syntax_ within a blockquote.
+{{< page-resource-content "data/blockquotes-example" >}}
 
 ### 帶有出處的引用
 
-> Don't communicate by sharing memory, share memory by communicating.<br>
-> — <cite>Rob Pike[^1]</cite>
+{{< page-resource-content "data/blockquotes-example-attribution" >}}
 
-[^1]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.
+### 引用對齊
+
+{{< page-resource-content "data/blockquotes-example-alignments" >}}
 
 ## 表格
 
@@ -77,6 +84,10 @@ Tables aren't part of the core Markdown spec, but Hugo supports supports them ou
 | Italics   | Bold     | Code   |
 | --------- | -------- | ------ |
 | _italics_ | **bold** | `code` |
+
+### 高级表格用法
+
+另請參閱[表格]({{< relref "docs/content/tables" >}})。
 
 ## 代碼塊
 

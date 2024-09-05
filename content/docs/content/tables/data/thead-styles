@@ -1,0 +1,23 @@
+{{< hugo/shortcode-example >}}
+| Primary Header |
+| --- |
+| Foo |
+| Bar |
+{_thead_style=primary}
+{{< /hugo/shortcode-example >}}
+
+{{< hugo/shortcode-example >}}
+| Danger Header |
+| --- |
+| Foo |
+| Bar |
+{_thead_style=danger}
+{{< /hugo/shortcode-example >}}
+
+{{< hugo/shortcode-example >}}
+| Dark Header |
+| --- |
+| Foo |
+| Bar |
+{_thead_style=dark}
+{{< /hugo/shortcode-example >}}

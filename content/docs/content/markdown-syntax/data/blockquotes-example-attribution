@@ -1,0 +1,4 @@
+{{< hugo/shortcode-example >}}
+> Don't communicate by sharing memory, share memory by communicating.
+{caption="The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015."}
+{{< /hugo/shortcode-example >}}

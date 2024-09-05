@@ -1,0 +1,15 @@
+{{< hugo/shortcode-example >}}
+| Primary Bordered Table |
+| --- |
+| Foo |
+| Bar |
+{_border_style=primary}
+{{< /hugo/shortcode-example >}}
+
+{{< hugo/shortcode-example >}}
+| Danger Bordered Table |
+| --- |
+| Foo |
+| Bar |
+{_border_style=danger}
+{{< /hugo/shortcode-example >}}
