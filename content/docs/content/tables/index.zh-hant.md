@@ -71,3 +71,7 @@ authors:
 ### 表頭樣式
 
 {{< page-resource-content "data/thead-styles" >}}
+
+### 無表頭表格
+
+{{< page-resource-content "data/without-header" >}}

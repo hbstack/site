@@ -71,3 +71,7 @@ The style depends on the default configurations.
 ### Table Header Styles
 
 {{< page-resource-content "data/thead-styles" >}}
+
+### Table Without Header
+
+{{< page-resource-content "data/without-header" >}}
