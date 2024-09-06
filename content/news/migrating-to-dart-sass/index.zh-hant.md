@@ -31,7 +31,7 @@ hugo mod get github.com/twbs/bootstrap@main
 
 ## 如何繼續使用 LibSass？
 
-若你沒時間或者對此不關係，你可以設置以下參數為 `libsass` 以繼續使用 LibSass。
+若你沒時間或者對此不關心，你可以設置以下參數為 `libsass` 以繼續使用 LibSass。
 
 1. `hb.sass_transpiler` - HB 框架核心模塊，必選。
 2. `search.sass_transpiler` - 搜索模塊，可選。
