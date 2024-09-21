@@ -1,0 +1,8 @@
+- name: border
+  default: true
+  type: boolean
+  since: v0.2.0
+  description:
+    default: Whether to show left border.
+    zh-hans: 是否显示左边框。
+    zh-hant: 是否顯示左邊框。

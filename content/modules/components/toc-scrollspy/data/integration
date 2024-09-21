@@ -1,0 +1,5 @@
+```html
+<div class="content" data-bs-spy="scroll" data-bs-target="#TableOfContents">
+  CONTENT HERE
+</div>
+```
