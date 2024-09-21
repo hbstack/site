@@ -29,7 +29,9 @@ images:
 | Parameter     |  Type  |   Default    | Description |
 | ------------- | :----: | :----------: | ----------- |
 | `date_format` | string | `:date_long` | 日期格式。  |
-| `navs_border` | boolean|    `true`    | 是否为深层导航显示左侧边框。|
+| `navs_border` | boolean|    `true`    | 是否为深层导航显示左侧边框。 |
+| `navs_reduce_font_size` | boolean | `true` | 是否缩小子导航的字体。 |
+| `navs_sticky_scroll` | boolean | `true` | 为 `true` 时，当滚动时，祖先菜单将被固定。 |
 
 {{< bs/config-toggle params >}}
 {{% code-snippet params.toml %}}

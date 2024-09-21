@@ -31,6 +31,8 @@ The docs module provides the basic layouts and templates for docs site, it's use
 | ------------- | :----: | :----------: | ------------ |
 | `date_format` | string | `:date_long` | Date format. |
 | `navs_border` | boolean|    `true`    | Whether to show the left border for sub navs. |
+| `navs_reduce_font_size` | boolean | `true` | Whether to reduce submenu's font size. |
+| `navs_sticky_scroll` | boolean | `true` | When `true`, the ancestors will be sticky on scroll. |
 
 {{< bs/config-toggle params >}}
 {{% code-snippet params.toml %}}
