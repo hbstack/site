@@ -1,5 +1,8 @@
 ---
 title: News
+nav_icon:
+  vendor: bs
+  name: newspaper
 menu:
   main:
     parent: blog

@@ -1,5 +1,8 @@
 ---
 title: 新闻
+nav_icon:
+  vendor: bs
+  name: newspaper
 menu:
   main:
     parent: blog

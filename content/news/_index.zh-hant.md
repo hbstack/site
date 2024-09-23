@@ -1,5 +1,8 @@
 ---
 title: 新聞
+nav_icon:
+  vendor: bs
+  name: newspaper
 menu:
   main:
     parent: blog
