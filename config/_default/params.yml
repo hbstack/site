@@ -50,7 +50,7 @@ hb:
       - name: github
         id: hbstack
       - name: mastodon
-        id: hbstack
+        id: https://techhub.social/@hbstack
       - name: rss
         id: true
     news:
@@ -125,7 +125,7 @@ hb:
           - name: rss
             id: true
           - name: mastodon
-            id: hbstack
+            id: https://techhub.social/@hbstack
   docs:
     social_share_buttons:
       alignment: center
@@ -161,7 +161,7 @@ hb:
       - name: github
         id: hbstack
       - name: mastodon
-        id: hbstack
+        id: https://techhub.social/@hbstack
       - name: rss
         id: true
   content_panel:
