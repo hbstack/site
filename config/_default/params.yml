@@ -69,6 +69,7 @@ hb:
     post_thumbnail_height: 180px
     post_thumbnail_resize_height: 480
     post_thumbnail_default: /images/thumbnail.jpg
+    post_read_more: false
     social_share_buttons:
       alignment: center
       labels: false
