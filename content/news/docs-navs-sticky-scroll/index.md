@@ -27,4 +27,4 @@ videos:
 
 This feature is turn on by default, of course, you can turn it off at any time.
 
-To turn it off, you'll need to the set `hb.docs.navs_sticky_scroll` as `false`.
+To turn it off, you'll need to set the `hb.docs.navs_sticky_scroll` as `false`.
