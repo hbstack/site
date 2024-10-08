@@ -28,7 +28,7 @@ This article describes how to configure the header's menus.
 <!--more-->
 
 {{< bs/alert info >}}
-The header's menus maximum depth is limited up to two levels.
+The header's menus maximum depth is limited up to three levels.
 {{< /bs/alert >}}
 
 ## Menus Set Identifier
