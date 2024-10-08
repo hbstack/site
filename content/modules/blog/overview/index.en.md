@@ -77,6 +77,7 @@ The blog module provides the basic layouts and templates for blog site.
 | `meta.reading_time` | boolean | `true` | When `false` then disable the reading time meta.    |
 | `meta.taxonomies` | boolean | `true` | When `false` then disable the taxonimies meta: series, categories and tags.    |
 | `meta.first_section` | boolean | `true` | Whether to display the first section of page. |
+| `sidebar` | boolean | `true` | Whether to display the sidebar. |
 
 ## Archives
 

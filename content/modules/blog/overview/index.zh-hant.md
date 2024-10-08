@@ -76,6 +76,7 @@ aliases:
 | `meta.reading_time` | boolean | `true` | 为 `false` 时，禁用阅读时长元信息。|
 | `meta.taxonomies` | boolean | `true` | 为 `false` 时，禁用专栏、分类和标签元信息。|
 | `meta.first_section` | boolean | `true` |  是否顯示文章的根欄目。 |
+| `sidebar` | boolean | `true` | 是否顯示側邊欄。 |
 
 ## 歸檔
 
