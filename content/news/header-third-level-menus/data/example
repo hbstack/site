@@ -1,0 +1,21 @@
+{{< bs/config-toggle hugo >}}
+menu:
+  main:
+    - name: Level 1
+      identifier: lvl-1
+
+    - name: Level 1-2
+      identifier: lvl-1-2
+      parent: lvl-1
+      params:
+        description: 2nd level menus.
+
+    - name: Level 1-2-1
+      parent: lvl-1-2
+
+    - name: Level 1-2-2
+      parent: lvl-1-2
+
+    - name: Level 1-2-3
+      parent: lvl-1-2
+{{< /bs/config-toggle >}}
