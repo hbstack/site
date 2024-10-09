@@ -47,6 +47,8 @@ hb:
         id: razonyang
       - name: paypal
         id: razonyang
+      - name: afdian
+        id: razonyang
       - name: github
         id: hbstack
       - name: mastodon
@@ -120,6 +122,8 @@ hb:
             id: razonyang
           - name: paypal
             id: razonyang
+          - name: afdian
+            id: razonyang
           - name: github
             id: hbstack
           - name: rss
@@ -157,6 +161,8 @@ hb:
       - name: githubsponsors
         id: razonyang
       - name: paypal
+        id: razonyang
+      - name: afdian
         id: razonyang
       - name: github
         id: hbstack
