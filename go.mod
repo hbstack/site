@@ -38,7 +38,7 @@ require (
 	github.com/hbstack/carousel v0.2.7 // indirect
 	github.com/hbstack/code-block-panel v0.1.2 // indirect
 	github.com/hbstack/contact v0.3.0 // indirect
-	github.com/hbstack/content-panel v0.10.1 // indirect
+	github.com/hbstack/content-panel v0.10.2 // indirect
 	github.com/hbstack/decap-cms v0.4.0 // indirect
 	github.com/hbstack/docs v0.19.0 // indirect
 	github.com/hbstack/docs/modules/breadcrumb v0.1.10 // indirect
@@ -139,7 +139,7 @@ require (
 	github.com/hugomods/workbox v0.1.0 // indirect
 	github.com/jakearchibald/idb v8.0.0+incompatible // indirect
 	github.com/krisk/Fuse v7.0.0+incompatible // indirect
-	github.com/razonyang/hb-mod-thanks v0.6.1 // indirect
+	github.com/razonyang/hb-mod-thanks v0.7.0 // indirect
 	github.com/twbs/bootstrap v5.3.4-0.20240813125344-048f56f51460+incompatible // indirect
 	github.com/twbs/icons v1.11.3 // indirect
 )
