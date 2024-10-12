@@ -32,6 +32,7 @@ images:
 | `navs_border` | boolean|    `true`    | 是否为深层导航显示左侧边框。 |
 | `navs_reduce_font_size` | boolean | `true` | 是否缩小子导航的字体。 |
 | `navs_sticky_scroll` | boolean | `true` | 为 `true` 时，当滚动时，祖先菜单将被固定。 |
+| `navs_active_style` | string | - | 活跃的导航菜单的样式，空字符串或 `bordered`。 |
 
 {{< bs/config-toggle params >}}
 {{% code-snippet params.toml %}}

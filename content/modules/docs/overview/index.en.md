@@ -33,6 +33,7 @@ The docs module provides the basic layouts and templates for docs site, it's use
 | `navs_border` | boolean|    `true`    | Whether to show the left border for sub navs. |
 | `navs_reduce_font_size` | boolean | `true` | Whether to reduce submenu's font size. |
 | `navs_sticky_scroll` | boolean | `true` | When `true`, the ancestors will be sticky on scroll. |
+| `navs_active_style` | string | - | Active style for navs item, empty or `bordered`. |
 
 {{< bs/config-toggle params >}}
 {{% code-snippet params.toml %}}
