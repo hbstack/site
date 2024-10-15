@@ -1,4 +1,4 @@
-```yaml{_max_lines=20}
+```yaml{data-max-lines=30}
 name: GitHub Pages
 
 on:
