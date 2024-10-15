@@ -27,10 +27,13 @@ authors:
 首先創建以下配置文件，然後提交到你的倉庫。
 
 {{% bs/collapse netlify.toml primary true %}}
-```toml
+```toml {data-max-lines=30}
 {{% code-snippet netlify.toml %}}
 ```
 {{% /bs/collapse %}}
+
+> [!NOTE]
+> Dart Sass 默認版本為 `-1.79.5`，可通過指定 `DART_SASS_VERSION` 環境變量來修改。
 
 ### 新增站點
 

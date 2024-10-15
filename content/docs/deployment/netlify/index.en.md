@@ -27,10 +27,13 @@ There are multiple ways to deploy sites on Netlify, this article introduces the 
 Firstly, create the following configuration file, and commit it to your repo.
 
 {{% bs/collapse netlify.toml primary true %}}
-```toml
+```toml {data-max-lines=30}
 {{% code-snippet netlify.toml %}}
 ```
 {{% /bs/collapse %}}
+
+> [!NOTE]
+> The Dart Sass version is `-1.79.5` by default, change it by specifying the `DART_SASS_VERSION` environment variable.
 
 ### Create a Site
 
