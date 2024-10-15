@@ -25,6 +25,7 @@ defaults:
 
 jobs:
   build:
+    # Must runs on Ubuntu, since this workflow use snap to install Dart Sass.
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
