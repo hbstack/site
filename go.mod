@@ -136,7 +136,7 @@ require (
 	github.com/hugomods/shortcodes v0.23.0 // indirect
 	github.com/hugomods/simple-icons v13.14.0+incompatible // indirect
 	github.com/hugomods/snackbar v0.1.2 // indirect
-	github.com/hugomods/umami-analytics v0.3.0 // indirect
+	github.com/hugomods/umami-analytics v0.3.1 // indirect
 	github.com/hugomods/video-js v0.3.0 // indirect
 	github.com/hugomods/workbox v0.1.0 // indirect
 	github.com/jakearchibald/idb v8.0.0+incompatible // indirect
