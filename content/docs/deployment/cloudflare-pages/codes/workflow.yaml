@@ -1,4 +1,4 @@
-```yaml
+```yaml {data-max-lines=30}
 name: Cloudflare Pages
 
 on:
@@ -12,6 +12,7 @@ on:
 
 jobs:
   publish:
+    # Must runs on Ubuntu, since this workflow use snap to install Dart Sass.
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -25,6 +26,9 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: "19"
+
+      - name: Setup Dart Sass
+        run: sudo snap install dart-sass && sudo snap alias dart-sass sass
 
       - name: Cache dependencies
         uses: actions/cache@v3

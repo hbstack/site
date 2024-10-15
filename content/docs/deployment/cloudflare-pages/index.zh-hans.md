@@ -32,9 +32,11 @@ authors:
    1. 框架预设置：Hugo。
    1. 构建命令：其取决于你如何安装构建工具，对于[新手主题](https://github.com/hbstack/theme)：`npm ci && hugo --gc --minify --enableGitInfo`。
    1. 构建输出目录：`/public`。
+   1. **确保 `Build system version` 为 `2`，否则无法安装 Dart Sass。**
    1. 环境变量：
       1. `HUGO_VERSION`：比如 `0.111.3`。
       1. `NODE_VERSION`：任意大于 `16` 的版本，如：`19`。
+      1. `EMBEDDED_DART_SASS_VERSION`：Embedded Dart Sass，如：`1.62.1`。
 
 ## 通过 GitHub Cloudflare Pages Actions 部署站点
 

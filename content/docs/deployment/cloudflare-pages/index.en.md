@@ -32,9 +32,11 @@ There are multiple ways to deploy you sites on Cloudflare Pages.
    1. Framework preset: Hugo.
    1. Build command: it depends on how you install the build tools, for [starter theme](https://github.com/hbstack/theme): `npm ci && hugo --gc --minify --enableGitInfo`.
    1. Build output directory: `/public`.
+   1. **Make sure the `Build system version` was `2`, it's required to install Dart Sass.**
    1. Environment variables:
       1. `HUGO_VERSION`: i.e. `0.111.3`.
       1. `NODE_VERSION`: any version large than `16`, e.g `19`.
+      1. `EMBEDDED_DART_SASS_VERSION`: Embedded Dart Sass, i.e. `1.62.1`.
 
 ## Deploy Sites via GitHub Cloudflare Pages Actions
 
