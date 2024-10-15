@@ -1,7 +1,10 @@
 google_adsense: ca-pub-7827859788508375
 
-microsoft_clarity:
-  id: jqynhnhhg9
+services:
+  umami_analytics:
+    id: ef4bea52-3cb7-40ca-abf7-a5441354cc9b
+  microsoft_clarity:
+    id: jqynhnhhg9w
 
 decap_cms:
   backend:
@@ -9,3 +12,4 @@ decap_cms:
     repo: hbstack/site
     branch: main
     open_authoring: true
+

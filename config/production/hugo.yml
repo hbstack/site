@@ -1,6 +1,5 @@
-baseURL: https://hbstack.dev/
-googleAnalytics: G-NNBSK1X2YW
-
 services:
   disqus:
     shortname: hbstack
+  googleAnalytics:
+    id: G-NNBSK1X2YW

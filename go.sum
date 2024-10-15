@@ -226,6 +226,8 @@ github.com/hugomods/mermaid v0.1.4 h1:/u0FZRSBMpqTbDh4XPBL7c6p0DUjvIkoo9cC89GASS
 github.com/hugomods/mermaid v0.1.4/go.mod h1:GOID2Ko1vdrX03ZMaFNQL/vdTU1tZmGcVjOgBN8O42Y=
 github.com/hugomods/microsoft-clarity v0.3.0 h1:le5nM+2SWVtQfHrrLd8IHw4Cos7iMjtkLMTNFd38Ijw=
 github.com/hugomods/microsoft-clarity v0.3.0/go.mod h1:CsSVKpJIt6BxS7yhqZeyXTwnYLTaseg37kbRpOY09Qs=
+github.com/hugomods/minimal-google-analytics v0.2.0 h1:dtlc+wLB8zyQl2FKRwpYwto8SHaWJxIsluR14RTSmNw=
+github.com/hugomods/minimal-google-analytics v0.2.0/go.mod h1:XnXnh3VZzjbnF9WwN2iedl9fS+YU4QJnWgYWAwyWaZA=
 github.com/hugomods/pwa v0.9.0 h1:bEKFkP7xkow6IadY9hKEwPbdKeLC0XZfVT31gGP7CPc=
 github.com/hugomods/pwa v0.9.0/go.mod h1:KpYK2Ffn969+Py5SzV3+iXYase4UoUeRAsd9jY7Q2Us=
 github.com/hugomods/recaptcha-v2 v0.1.1 h1:+Sq2OlTygjZb5JOs5d+IoOz7SCX7hMU1WZFuqNy1yyY=
@@ -252,6 +254,8 @@ github.com/hugomods/simple-icons v13.14.0+incompatible h1:e9sqmoq9kUVYta3mmBsnu8
 github.com/hugomods/simple-icons v13.14.0+incompatible/go.mod h1:1Lvymol7AMVY7ji/o88jMoDHHZIJ5Wc+WwNe5hjmk+U=
 github.com/hugomods/snackbar v0.1.2 h1:SLpfH9jlYwf81epH7DvM2XTZHo+3fXXpk6XKtxmo964=
 github.com/hugomods/snackbar v0.1.2/go.mod h1:ykFm0IFibeQPuPAm8Gaa27xJS/bNZcSez4omVSl2gQ0=
+github.com/hugomods/umami-analytics v0.3.0 h1:rFUljFiEGGgYQWRPV/kvVE49l8gNY+/JXv1H6aSMNWA=
+github.com/hugomods/umami-analytics v0.3.0/go.mod h1:nlZGLPH5L+H25+HwmuzHsEfM869+tMTUTcSUBcOQEm4=
 github.com/hugomods/video-js v0.3.0 h1:SzdEiU2bXvYkjBiy415IoXL2ppmYLIUxPqez1ejuTs8=
 github.com/hugomods/video-js v0.3.0/go.mod h1:uNF7SDARVaQwpirTpZbKZxqvuKTalYsg2mHPDW5n2vU=
 github.com/hugomods/workbox v0.1.0 h1:yxuTj3gT1BNf6OitxrjxSJXfmbFBj2UTwdWr142eYFQ=
@@ -262,6 +266,7 @@ github.com/krisk/Fuse v7.0.0+incompatible h1:jVyg6No+Joc51Rn97QQYJZIpCxzd4ywACn/
 github.com/krisk/Fuse v7.0.0+incompatible/go.mod h1:3moWv8rDjwoKic9nwiPLgZjldkbdTAbtzJHCu/Vsj4A=
 github.com/razonyang/hb-mod-thanks v0.7.0 h1:eJv3vwjerg/ZpZPLToPY1RDHjoe6/Th/c1YwBrrxGko=
 github.com/razonyang/hb-mod-thanks v0.7.0/go.mod h1:31Ugh+Mh9ZBtwRbApmayL9JaPC26WHHoynPXcOGZueo=
+github.com/twbs/bootstrap v5.3.2+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/bootstrap v5.3.4-0.20240813125344-048f56f51460+incompatible h1:DukQq3m9Bnc0h7OSUeHOWDUGXo72Fq6UiEBlxrBGGZc=
 github.com/twbs/bootstrap v5.3.4-0.20240813125344-048f56f51460+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/icons v1.11.3 h1:XhvrQ1XDom9ggBbQx3wQCFGEr8qAQwQP/dAcw8OXMtA=
