@@ -1,4 +1,4 @@
-```yaml
+```yaml{_max_lines=20}
 name: GitHub Pages
 
 on:
@@ -40,6 +40,9 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: "18"
+
+      - name: Setup Dart Sass
+        run: sudo snap install dart-sass && sudo snap alias dart-sass sass
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
