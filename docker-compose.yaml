@@ -3,26 +3,26 @@ name: hbstack-site
 services:
   dev:
     env_file: .env
-    image: hugomods/hugo:exts
-    command: npm run dev -- --bind 0.0.0.0
+    image: hugomods/hugo:exts-non-root
+    command: npm run dev
     ports:
       - 7070:7070
       - 7071:7071
       - 7072:7072
     volumes:
-      - $PWD:/src
-      - ../../:/workspaces
-      - /tmp/hugo_cache:/tmp/hugo_cache
+      - ./:/src
+      - ~/.cache/hugo_cache:/tmp/hugo_cache
+      - ~/Workspaces:/workspaces
 
   prod:
     env_file: .env
-    image: hugomods/hugo:exts
-    command: npm run prod -- --bind 0.0.0.0
+    image: hugomods/hugo:exts-non-root
+    command: npm run prod
     ports:
       - 7075:7075
       - 7076:7076
       - 7077:7077
     volumes:
-      - $PWD:/src
-      - ../../:/workspaces
-      - /tmp/hugo_cache:/tmp/hugo_cache
+      - ./:/src
+      - ~/.cache/hugo_cache:/tmp/hugo_cache
+      - ~/Workspaces:/workspaces
