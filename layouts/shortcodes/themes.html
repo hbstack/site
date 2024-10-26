@@ -1,0 +1,13 @@
+<div class="themes row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+  {{- range sort .Page.FirstSection.Pages ".Params.nav_weight" }}
+  <div class="theme col h-100">
+    <a class="card-body text-decoration-none" href="{{ .RelPermalink }}">
+      {{- $imgs := partial "_funcs/get-page-images" . }}
+      {{- with index $imgs 0 }}
+        <img class="card-img-top img-fluid theme-img mb-3 border" src="{{ .RelPermalink }}" alt="{{ .Title }}" width="1500" height="1000" />
+      {{- end }}
+      <div class="card-title ">{{ .Title }}</div>
+    </a>
+  </div>
+  {{- end }}
+</div>

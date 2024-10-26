@@ -1,0 +1,7 @@
+{{< bs/config-toggle hugo >}}
+server:
+  headers:
+    - for: '/**'
+      values:
+        - Access-Control-Allow-Origin: '*'
+{{< /bs/config-toggle >}}

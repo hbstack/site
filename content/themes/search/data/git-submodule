@@ -1,0 +1,10 @@
+```sh
+git submodule add https://github.com/hugomods/search-index themes/search-index
+```
+
+{{< bs/config-toggle hugo >}}
+theme = [
+  "your-theme-name",
+  "search-index"
+]
+{{< /bs/config-toggle >}}

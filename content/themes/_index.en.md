@@ -1,6 +1,6 @@
 ---
 title: Themes
-type: docs
+layout: landing
 description: List of HB themes.
 menu:
   main:
@@ -9,3 +9,7 @@ menu:
         vendor: bootstrap
         name: palette
 ---
+
+{{< bs/container class="mt-5" >}}
+{{< themes >}}
+{{< /bs/container >}}
