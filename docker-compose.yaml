@@ -4,7 +4,7 @@ services:
   dev:
     env_file: .env
     image: hugomods/hugo:exts-non-root
-    command: npm run dev
+    command: npm run dev -- --bind 0.0.0.0
     ports:
       - 7070:7070
       - 7071:7071
@@ -17,7 +17,7 @@ services:
   prod:
     env_file: .env
     image: hugomods/hugo:exts-non-root
-    command: npm run prod
+    command: npm run prod -- --bind 0.0.0.0
     ports:
       - 7075:7075
       - 7076:7076
