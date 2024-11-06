@@ -4,7 +4,7 @@ services:
   umami_analytics:
     id: ef4bea52-3cb7-40ca-abf7-a5441354cc9b
   microsoft_clarity:
-    id: jqynhnhhg9w
+    id: jqynhnhhg9
 
 decap_cms:
   backend:
