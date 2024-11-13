@@ -6,6 +6,7 @@ defaultContentLanguageInSubdir: false
 # disqusShortname: hbstack
 enableRobotsTXT: true
 enableEmoji: true
+enableGitInfo: true
 
 permalinks:
   blog: /blog/:year/:month/:title
