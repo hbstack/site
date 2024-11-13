@@ -50,4 +50,4 @@ The partial `hb/modules/revision/index` accepts the current page as the context.
 | `repo_contributors` | boolean | `false` | - | Whether to show contributors. |
 | `repo_actions` | boolean | `true` | - | Show edit, view and histories buttons. |
 
-You'll need to set up `GITHUB_TOKEN` environment variable, to get rid of encountering rate limit issues of GitHub API when `repo_contributors` is enabled.
+You'll need to set up `GITHUB_TOKEN` environment variable and the [GitInfo](https://gohugo.io/methods/page/gitinfo/) feature, to get rid of encountering rate limit issues of GitHub API when `repo_contributors` is enabled.

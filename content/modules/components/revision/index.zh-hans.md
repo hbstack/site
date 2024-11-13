@@ -50,4 +50,4 @@ authors:
 | `repo_contributors` | boolean | `false` | - | 是否显示贡献者。 |
 | `repo_actions` | boolean | `true` | - | 是否显示编辑、查看和历史按钮。|
 
-您需要设置 `GITHUB_TOKEN` 环境变量，以避免在启用 `repo_contributors` 时遇到 GitHub API 的速率限制问题。
+您需要设置 `GITHUB_TOKEN` 环境变量和 [GitInfo](https://gohugo.io/methods/page/gitinfo/) 功能，以避免在启用 `repo_contributors` 时遇到 GitHub API 的速率限制问题。
