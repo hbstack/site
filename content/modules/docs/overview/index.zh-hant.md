@@ -43,6 +43,7 @@ images:
 | Name                 |  Type   | Default | Description                                  |
 | -------------------- | :-----: | :-----: | -------------------------------------------- |
 | `comments`           | boolean | `true`  | 是否顯示評論。                               |
+| `docs_root_section`  | boolean | `true`  | 當其於**第一個欄目**為 `false` 時，則第二個欄目將作為文檔導航的根欄目。 |
 | `meta`     | boolean/object | `true` | 为 `false` 时，禁用所有元信息。 |
 | `meta.authors` | boolean | `true` | 为 `false` 时，禁用作者元信息。|
 | `meta.date`    | boolean | `true` | 为 `false` 时，禁用日期元信息。|

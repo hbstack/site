@@ -43,6 +43,7 @@ images:
 | Name                 |  Type   | Default | Description                                  |
 | -------------------- | :-----: | :-----: | -------------------------------------------- |
 | `comments`           | boolean | `true`  | 是否显示评论。                               |
+| `docs_root_section`  | boolean | `true`  | 当其于**第一个栏目**为 `false` 时，则第二个栏目将作为文档导航的根栏目。 |
 | `meta`     | boolean/object | `true` | 为 `false` 时，禁用所有元信息。 |
 | `meta.authors` | boolean | `true` | 为 `false` 时，禁用作者元信息。|
 | `meta.date`    | boolean | `true` | 为 `false` 时，禁用日期元信息。|

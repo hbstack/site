@@ -44,6 +44,7 @@ The docs module provides the basic layouts and templates for docs site, it's use
 | Name                 |  Type   | Default | Description                                            |
 | -------------------- | :-----: | :-----: | ------------------------------------------------------ |
 | `comments`           | boolean | `true`  | Whether to display the comments.                       |
+| `docs_root_section`  | boolean | `true`  | When `false` on **First Section**, then the second section will be used as the root section of navigation. |
 | `meta`     | boolean/object | `true` | When `false` then disable all meta.         |
 | `meta.authors` | boolean | `true` | When `false` then disable the authors meta.    |
 | `meta.date`    | boolean | `true` | When `false` then disable the date meta.       |
