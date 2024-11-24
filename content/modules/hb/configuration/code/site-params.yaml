@@ -53,3 +53,20 @@
     default: The content types to take full width, used by modules.
     zh-hans: 哪些内容类型占据全宽，被用于模块。
     zh-hant: 哪些內容類型佔據全寬，被用於模塊。
+
+- name: sass_transpiler
+  default: dartsass
+  description:
+    default: The Sass transpiler.
+    zh-hans: Sass 编译器。
+    zh-hant: Sass 編譯器。
+  options:
+    - dartsass
+    - libsass
+
+- name: sass_silence_deprecations
+  type: array
+  description:
+    default: Used to silence deprecations, e.g. `["import"]`.
+    zh-hans: 用于过滤弃用警告，比如：`["import"]`。
+    zh-hant: 用於過濾棄用警告，比如：`["import"]`。
