@@ -1,3 +1,10 @@
+[EA4HAM]
+id = 99614339
+login = 'EA4HAM'
+avatar_url = 'https://avatars.githubusercontent.com/u/99614339?v=4'
+contributions = 1
+repos = 1
+
 [Gordolin]
 id = 120491875
 login = 'Gordolin'
@@ -107,7 +114,7 @@ repos = 1
 id = 73812536
 login = 'upptime-bot'
 avatar_url = 'https://avatars.githubusercontent.com/u/73812536?v=4'
-contributions = 1898
+contributions = 1904
 repos = 1
 
 [whiztech]
