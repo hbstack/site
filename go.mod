@@ -34,12 +34,13 @@ require (
 	github.com/hbstack/blog/modules/sticky-till-the-end v0.2.0 // indirect
 	github.com/hbstack/blog/modules/toc-scrollspy v0.2.0 // indirect
 	github.com/hbstack/bootstrap v0.2.2 // indirect
-	github.com/hbstack/breadcrumb v0.7.4 // indirect
+	github.com/hbstack/breadcrumb v0.8.0 // indirect
 	github.com/hbstack/carousel v0.2.7 // indirect
 	github.com/hbstack/code-block-panel v0.1.2 // indirect
 	github.com/hbstack/contact v0.3.0 // indirect
+	github.com/hbstack/content-panel v0.10.2 // indirect
 	github.com/hbstack/decap-cms v0.4.0 // indirect
-	github.com/hbstack/docs v0.20.1 // indirect
+	github.com/hbstack/docs v0.21.0 // indirect
 	github.com/hbstack/docs/modules/breadcrumb v0.1.10 // indirect
 	github.com/hbstack/docs/modules/content-panel v0.1.8 // indirect
 	github.com/hbstack/docs/modules/decap-cms v0.3.0 // indirect
@@ -58,7 +59,7 @@ require (
 	github.com/hbstack/form v0.2.0 // indirect
 	github.com/hbstack/giscus v0.1.1 // indirect
 	github.com/hbstack/google-fonts v0.1.1 // indirect
-	github.com/hbstack/hb v0.15.3 // indirect
+	github.com/hbstack/hb v0.15.4 // indirect
 	github.com/hbstack/header v0.16.4 // indirect
 	github.com/hbstack/header/modules/banner v0.7.2 // indirect
 	github.com/hbstack/header/modules/docsearch v0.1.24 // indirect
@@ -92,7 +93,7 @@ require (
 	github.com/hbstack/syntax-highlighting/styles/gruvbox v0.1.1 // indirect
 	github.com/hbstack/theme-cards v0.1.1 // indirect
 	github.com/hbstack/toc-scrollspy v0.2.0 // indirect
-	github.com/henrygd/bigger-picture v1.1.17 // indirect
+	github.com/henrygd/bigger-picture v1.1.18 // indirect
 	github.com/hugomods/aos v0.1.0 // indirect
 	github.com/hugomods/ascii v0.1.0 // indirect
 	github.com/hugomods/base v0.7.2 // indirect
@@ -103,7 +104,7 @@ require (
 	github.com/hugomods/decap-cms/widgets/url v0.1.2 // indirect
 	github.com/hugomods/docsearch v0.1.2 // indirect
 	github.com/hugomods/encoder v0.1.0 // indirect
-	github.com/hugomods/font-awesome v6.6.0+incompatible // indirect
+	github.com/hugomods/font-awesome v6.7.1+incompatible // indirect
 	github.com/hugomods/fuse-js v0.1.0 // indirect
 	github.com/hugomods/giscus v0.1.1 // indirect
 	github.com/hugomods/google-adsense v0.2.1 // indirect
@@ -112,7 +113,7 @@ require (
 	github.com/hugomods/i18n-js v0.2.1 // indirect
 	github.com/hugomods/icons v0.6.6 // indirect
 	github.com/hugomods/icons/vendors/bootstrap v0.5.9 // indirect
-	github.com/hugomods/icons/vendors/font-awesome v0.6.10 // indirect
+	github.com/hugomods/icons/vendors/font-awesome v0.6.12 // indirect
 	github.com/hugomods/icons/vendors/simple-icons v1.0.60 // indirect
 	github.com/hugomods/idb-js v0.1.0 // indirect
 	github.com/hugomods/images v0.11.2 // indirect
@@ -123,7 +124,7 @@ require (
 	github.com/hugomods/minimal-google-analytics v0.2.0 // indirect
 	github.com/hugomods/pwa v0.9.0 // indirect
 	github.com/hugomods/recaptcha-v2 v0.1.1 // indirect
-	github.com/hugomods/search v0.18.3 // indirect
+	github.com/hugomods/search v0.19.0 // indirect
 	github.com/hugomods/search-index v0.1.1 // indirect
 	github.com/hugomods/seo/modules/alternatives v0.1.1 // indirect
 	github.com/hugomods/seo/modules/base v0.1.3 // indirect
@@ -133,7 +134,7 @@ require (
 	github.com/hugomods/seo/modules/translations v0.1.1 // indirect
 	github.com/hugomods/seo/modules/twitter-cards v0.1.1 // indirect
 	github.com/hugomods/shortcodes v0.23.0 // indirect
-	github.com/hugomods/simple-icons v13.15.0+incompatible // indirect
+	github.com/hugomods/simple-icons v13.18.0+incompatible // indirect
 	github.com/hugomods/snackbar v0.1.2 // indirect
 	github.com/hugomods/umami-analytics v0.3.1 // indirect
 	github.com/hugomods/video-js v0.3.0 // indirect
