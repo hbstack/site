@@ -75,6 +75,13 @@ avatar_url = 'https://avatars.githubusercontent.com/u/1410375?v=4'
 contributions = 12
 repos = 9
 
+[jaigeye]
+id = 40611566
+login = 'jaigeye'
+avatar_url = 'https://avatars.githubusercontent.com/u/40611566?v=4'
+contributions = 1
+repos = 1
+
 [jbleonesio]
 id = 11542230
 login = 'jbleonesio'
