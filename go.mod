@@ -63,7 +63,7 @@ require (
 	github.com/hbstack/header v0.16.4 // indirect
 	github.com/hbstack/header/modules/banner v0.7.2 // indirect
 	github.com/hbstack/header/modules/docsearch v0.1.24 // indirect
-	github.com/hbstack/header/modules/git-org v0.2.4 // indirect
+	github.com/hbstack/header/modules/git-org v0.2.5 // indirect
 	github.com/hbstack/header/modules/language-picker v0.1.26 // indirect
 	github.com/hbstack/header/modules/news v0.3.1 // indirect
 	github.com/hbstack/header/modules/search v0.1.38 // indirect
@@ -80,7 +80,7 @@ require (
 	github.com/hbstack/progress-bar v0.1.1 // indirect
 	github.com/hbstack/pwa v0.1.2 // indirect
 	github.com/hbstack/pwa-installer v0.2.0 // indirect
-	github.com/hbstack/revision v0.6.8 // indirect
+	github.com/hbstack/revision v0.6.9 // indirect
 	github.com/hbstack/scrollbar v0.1.0 // indirect
 	github.com/hbstack/search v0.2.2 // indirect
 	github.com/hbstack/shortcodes v0.2.0 // indirect
