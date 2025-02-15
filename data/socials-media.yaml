@@ -10,6 +10,9 @@
 - name: bitbucket
   url: https://bitbucket.org/
 
+- name: bluesky
+  url: https://bsky.app/
+
 - name: buymeacoffee
   url: https://buymeacoffee.com/
   description: 
