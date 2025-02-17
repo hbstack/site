@@ -89,6 +89,13 @@ avatar_url = 'https://avatars.githubusercontent.com/u/11542230?v=4'
 contributions = 1
 repos = 1
 
+[jbouse]
+id = 41886
+login = 'jbouse'
+avatar_url = 'https://avatars.githubusercontent.com/u/41886?v=4'
+contributions = 1
+repos = 1
+
 [jnonino]
 id = 12704135
 login = 'jnonino'
