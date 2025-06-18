@@ -70,11 +70,12 @@ aliases:
 | `featured` | boolean | `false` | 是否於首頁幻燈片中顯示該文章。 |
 | `pinned`   | boolean | `false` | 是否於首頁置頂該文章。         |
 | `toc`      | boolean | `true`  | 是否顯示文章目錄。            |
-| `meta`     | boolean/object | `true` | 为 `false` 时，禁用所有元信息。 |
-| `meta.authors` | boolean | `true` | 为 `false` 时，禁用作者元信息。|
-| `meta.date`    | boolean | `true` | 为 `false` 时，禁用日期元信息。|
-| `meta.reading_time` | boolean | `true` | 为 `false` 时，禁用阅读时长元信息。|
-| `meta.taxonomies` | boolean | `true` | 为 `false` 时，禁用专栏、分类和标签元信息。|
+| `main_sections` | array | `[]` | 為列表頁指定不同於 `blog.home.main_sections` 的主要欄目。 |
+| `meta`     | boolean/object | `true` | 為 `false` 時，禁用所有元信息。 |
+| `meta.authors` | boolean | `true` | 為 `false` 時，禁用作者元信息。|
+| `meta.date`    | boolean | `true` | 為 `false` 時，禁用日期元信息。|
+| `meta.reading_time` | boolean | `true` | 為 `false` 時，禁用閱讀時長元信息。|
+| `meta.taxonomies` | boolean | `true` | 為 `false` 時，禁用專欄、分類和標籤元信息。|
 | `meta.first_section` | boolean | `true` |  是否顯示文章的根欄目。 |
 | `sidebar` | boolean | `true` | 是否顯示側邊欄。 |
 

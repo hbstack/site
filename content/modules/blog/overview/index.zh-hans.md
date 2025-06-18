@@ -70,6 +70,7 @@ aliases:
 | `featured` | boolean | `false` | 是否于首页幻灯片中显示该文章。 |
 | `pinned`   | boolean | `false` | 是否于首页置顶该文章。         |
 | `toc`      | boolean | `true`  | 是否显示文章目录。            |
+| `main_sections` | array | `[]` | 为列表页指定不同于 `blog.home.main_sections` 的主要栏目。 |
 | `meta`     | boolean/object | `true` | 为 `false` 时，禁用所有元信息。 |
 | `meta.authors` | boolean | `true` | 为 `false` 时，禁用作者元信息。|
 | `meta.date`    | boolean | `true` | 为 `false` 时，禁用日期元信息。|

@@ -71,6 +71,7 @@ The blog module provides the basic layouts and templates for blog site.
 | `featured` | boolean | `false` | Whether to display the post on homepage carousel. |
 | `pinned`   | boolean | `false` | Whether to pin the post next to the carousel.     |
 | `toc`      | boolean | `true`  | Whether to show the ToC (Table of Contents).      |
+| `main_sections` | array | `[]` | Specify main sections other than `blog.home.main_sections` for list pages. |
 | `meta`     | boolean/object | `true` | When `false` then disable all meta.         |
 | `meta.authors` | boolean | `true` | When `false` then disable the authors meta.    |
 | `meta.date`    | boolean | `true` | When `false` then disable the date meta.       |
