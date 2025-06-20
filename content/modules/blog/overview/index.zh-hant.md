@@ -33,7 +33,8 @@ aliases:
 | ---------------------------- | :-----: | :--------------------: | ------------------------------------ |
 | ~~`blog.full_width`~~                 | boolean |        `false`         | 是否全寬。                             |
 | `blog.list_cols_md` | number | `2` | 於 `md` 斷點下，列表每行的文章數目。
-| `blog.list_cols_lg` | number | `3` | 於 `lg` 斷點下，列表每行的文章數目。
+| `blog.list_cols_lg` | number | `3` | 於 `lg` 斷點下，列表每行的文章數目。 |
+| `blog.list_pinned_posts` | number / boolean | `1` | 置頂文章數量，`false` 時禁用。 |
 | `blog.paginate`                   | number  |          `9`           | 每頁博文數量。                       |
 | `blog.post_date_format`           | string  |      `:date_long`      | 博文日期格式。                       |
 | `blog.post_read_more`             | boolean |         `true`         | 是否顯示閱讀更多按鈕。                |

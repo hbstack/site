@@ -33,7 +33,8 @@ The blog module provides the basic layouts and templates for blog site.
 | ---------------------------- | :-----: | :--------------------: | -------------------------------------------------------- |
 | ~~`blog.full_width`~~                 | boolean |        `false`         | Whether take full width.                              |
 | `blog.list_cols_md` | number | `2` | The number of posts per list row on `md` breakpoint.
-| `blog.list_cols_lg` | number | `3` | The number of posts per list row on `lg` breakpoint.
+| `blog.list_cols_lg` | number | `3` | The number of posts per list row on `lg` breakpoint. |
+| `blog.list_pinned_posts` | number / boolean | `1` | The number of pinned posts on list pages, `false` to disable it. |
 | `blog.paginate`                   | number  |          `9`           | How many posts per list page.                            |
 | `blog.post_date_format`           | string  |      `:date_long`      | The date format.                                         |
 | `blog.post_read_more`             | boolean |         `true`         | Whether to show the read more button.                    |
