@@ -17,8 +17,8 @@ header:
     title: false
     description: false
     video:
-      poster: https://www.heishenhua.com/img/Wallpaper/Wallpaper6.jpg
-      src: https://www.heishenhua.com/video/preview/video_Day2.mp4
+      poster: https://images.pexels.com/videos/3343679/free-video-3343679.jpg?auto=compress&cs=tinysrgb&w=600
+      src: https://videos.pexels.com/video-files/3343679/3343679-hd_1920_1080_30fps.mp4
 requirements:
   - github.com/hbstack/header/modules/banner
 ---
