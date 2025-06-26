@@ -119,6 +119,9 @@
 - name: rss
   description: The RSS feeds, `true` or `false`.
 
+- name: signal
+  url: https://signal.org/
+
 - name: sinaweibo
   url: https://weibo.com/
   description: 
