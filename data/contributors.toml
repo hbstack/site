@@ -1,3 +1,10 @@
+[AlMaVis]
+id = 78228205
+login = 'AlMaVis'
+avatar_url = 'https://avatars.githubusercontent.com/u/78228205?v=4'
+contributions = 1
+repos = 1
+
 [Andrwe]
 id = 231689
 login = 'Andrwe'
@@ -32,13 +39,6 @@ login = 'TetraTheta'
 avatar_url = 'https://avatars.githubusercontent.com/u/37061801?v=4'
 contributions = 5
 repos = 3
-
-[VM-137]
-id = 78228205
-login = 'VM-137'
-avatar_url = 'https://avatars.githubusercontent.com/u/78228205?v=4'
-contributions = 1
-repos = 1
 
 [aaofyi]
 id = 85140042
@@ -135,7 +135,7 @@ repos = 1
 id = 73812536
 login = 'upptime-bot'
 avatar_url = 'https://avatars.githubusercontent.com/u/73812536?v=4'
-contributions = 3200
+contributions = 3206
 repos = 1
 
 [whiztech]
