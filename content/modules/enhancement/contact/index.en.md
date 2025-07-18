@@ -46,15 +46,15 @@ There are multiple ways to generate the contact form.
 
 This module ship with a built-in layout called `contact`, you can simply create a contact page.
 
-{{% bs/collapse "content/contact/_index.md" primary true %}}
+{{< bs/collapse "content/contact/_index.md" primary true >}}
 {{% code-snippet contact-page %}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 You can also use any custom path other than `/contact/`, what you need to do is that specify the `layout` as `contact`. Let's take `/contact-us/` as an example.
 
-{{% bs/collapse "content/contact-us/_index.md" primary true %}}
+{{< bs/collapse "content/contact-us/_index.md" primary true >}}
 {{% code-snippet contact-page-with-layout %}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 ### Generate Contact Form via Shortcode
 

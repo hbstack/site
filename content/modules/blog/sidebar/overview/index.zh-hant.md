@@ -59,9 +59,9 @@ authors:
 
 然後創建相關的模板。
 
-{{% bs/collapse "layouts/partials/hugopress/modules/hb-custom/hooks/hb-blog-sidebar.html" primary true %}}
+{{< bs/collapse "layouts/partials/hugopress/modules/hb-custom/hooks/hb-blog-sidebar.html" primary true >}}
 {{% code-snippet custom-widget-html %}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 ## 修改模塊的順序
 

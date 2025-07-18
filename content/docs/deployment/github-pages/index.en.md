@@ -29,6 +29,6 @@ This guide shows how to deploy your site on GitHub Pages via GitHub Actions.
 
 Create the following workflow and commit it to repo.
 
-{{% bs/collapse ".github/workflows/gh-pages.yaml" primary true %}}
+{{< bs/collapse ".github/workflows/gh-pages.yaml" primary true >}}
 {{% code-snippet workflow.yaml %}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}

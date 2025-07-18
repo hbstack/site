@@ -46,9 +46,9 @@ There are multiple ways to deploy you sites on Cloudflare Pages.
 1. Replace the `projectName` with your site name on Cloudflare Pages.
 1. Commit the changes to repo.
 
-{{% bs/collapse ".github/workflows/cloudflare-pages.yaml" primary true %}}
+{{< bs/collapse ".github/workflows/cloudflare-pages.yaml" primary true >}}
 {{% code-snippet workflow.yaml %}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 [^1]: Please checkout the [Get account ID](https://github.com/cloudflare/pages-action#get-account-id).
 [^2]: See also [Generate an API token](https://github.com/cloudflare/pages-action#generate-an-api-token).

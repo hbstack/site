@@ -87,22 +87,22 @@ The blog module ships with a built-in layout for archiving posts, which grouping
 
 ### Create Archives Section
 
-{{% bs/collapse "content/archives/_index.md" primary true %}}
+{{< bs/collapse "content/archives/_index.md" primary true >}}
 {{% code-snippet archives %}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 ### Create Archives Section for Year
 
 Takes `archives/2023/` as an example.
 
-{{% bs/collapse "content/archives/2023/_index.md" primary true %}}
+{{< bs/collapse "content/archives/2023/_index.md" primary true >}}
 {{% code-snippet archives-year %}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 ### Create Archives Section for Month
 
 Takes `archives/2023/01/` as an example.
 
-{{% bs/collapse "content/archives/2023/01/_index.md" primary true %}}
+{{< bs/collapse "content/archives/2023/01/_index.md" primary true >}}
 {{% code-snippet archives-month %}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}

@@ -46,15 +46,15 @@ authors:
 
 該模塊提供了一個內置的佈局 - `contact`, 你可以簡單地創建一個聯繫表單頁面。
 
-{{% bs/collapse "content/contact/_index.md" primary true %}}
+{{< bs/collapse "content/contact/_index.md" primary true >}}
 {{% code-snippet contact-page %}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 你還可以使用任意不同於 `/contact` 的自定義路徑，你只需要於前言中設置 `layout` 爲 `contact`。以 `/contact-us/` 爲例。
 
-{{% bs/collapse "content/contact-us/_index.md" primary true %}}
+{{< bs/collapse "content/contact-us/_index.md" primary true >}}
 {{% code-snippet contact-page-with-layout %}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 ### 通過短代碼生成聯繫表單
 

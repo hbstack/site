@@ -23,9 +23,9 @@ HB allows adding custom styles and overriding the Bootstrap default SCSS variabl
 
 Create the following file to add custom styles.
 
-{{% bs/collapse "assets/hb/modules/custom/scss/index.scss" primary true %}}
+{{< bs/collapse "assets/hb/modules/custom/scss/index.scss" primary true >}}
 {{% code-snippet index.scss %}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 {{< bs/alert >}}
 Please restart the Hugo server on first load.
@@ -35,9 +35,9 @@ Please restart the Hugo server on first load.
 
 To customize the SCSS variables, you need to create the following file.
 
-{{% bs/collapse "assets/hb/modules/custom/scss/variables.tmpl.scss" primary true %}}
+{{< bs/collapse "assets/hb/modules/custom/scss/variables.tmpl.scss" primary true >}}
 {{% code-snippet variables.scss %}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 {{< bs/alert >}}
 Please restart the Hugo server to make sure the newer created file was loaded.

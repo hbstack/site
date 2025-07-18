@@ -21,9 +21,9 @@ This article offers a sample for showing how to add custom scripts.
 
 ## Add Custom Scripts
 
-{{% bs/collapse "assets/hb/modules/custom/js/index.ts" primary true %}}
+{{< bs/collapse "assets/hb/modules/custom/js/index.ts" primary true >}}
 {{% code-snippet index.ts %}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 {{< bs/alert >}}
 Please restart the Hugo server to make sure the newer created file was loaded.

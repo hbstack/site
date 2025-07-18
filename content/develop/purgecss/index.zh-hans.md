@@ -42,9 +42,9 @@ authors:
 
 HB 支持配置 PurgeCSS，此种方式对于通过 JavaScript 使用到的 classes、ids 和 tags 来说十分实用，因为 Hugo 无法得知 JS 使用了哪些样式。
 
-{{% bs/collapse "assets/hb/modules/[name]/purgecss.config.toml" primary true %}}
+{{< bs/collapse "assets/hb/modules/[name]/purgecss.config.toml" primary true >}}
 {{% code-snippet purgecss.config.toml %}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 {{< bs/alert >}}
 {{% markdownify %}}

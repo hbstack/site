@@ -79,11 +79,11 @@ Staticman 評論模塊爲其他模塊提供了一個靈活的模板，以生成�
 
 此外，你還需要於倉庫根目錄創建 `staticman.yml`，舉個例子。
 
-{{% bs/collapse staticman.yml primary true %}}
+{{< bs/collapse staticman.yml primary true >}}
 ```yaml
 {{% code-snippet staticman.yaml %}}
 ```
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 {{< bs/alert warning >}}
 {{% markdownify %}}

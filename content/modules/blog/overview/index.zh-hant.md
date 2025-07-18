@@ -86,22 +86,22 @@ aliases:
 
 ### 創建歸檔欄目
 
-{{% bs/collapse "content/archives/_index.md" primary true %}}
+{{< bs/collapse "content/archives/_index.md" primary true >}}
 {{% code-snippet archives %}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 ### 創建按年歸檔欄目
 
 以 `archives/2023/` 為例。
 
-{{% bs/collapse "content/archives/2023/_index.md" primary true %}}
+{{< bs/collapse "content/archives/2023/_index.md" primary true >}}
 {{% code-snippet archives-year %}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 ### 創建按月歸檔欄目
 
 以 `archives/2023/01/` 為例。
 
-{{% bs/collapse "content/archives/2023/01/_index.md" primary true %}}
+{{< bs/collapse "content/archives/2023/01/_index.md" primary true >}}
 {{% code-snippet archives-month %}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}

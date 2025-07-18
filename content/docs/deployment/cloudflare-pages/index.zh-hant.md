@@ -45,9 +45,9 @@ authors:
 1. 創建以下工作流程，並按需修改配置。
 1. 將 `projectName` 替換爲你的站點名稱。
 
-{{% bs/collapse ".github/workflows/cloudflare-pages.yaml" primary true %}}
+{{< bs/collapse ".github/workflows/cloudflare-pages.yaml" primary true >}}
 {{% code-snippet workflow.yaml %}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 [^1]: 詳情請參閱 [Get account ID](https://github.com/cloudflare/pages-action#get-account-id)。
 [^2]: 另請參閱 [Generate an API token](https://github.com/cloudflare/pages-action#generate-an-api-token)。

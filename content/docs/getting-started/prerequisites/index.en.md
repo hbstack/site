@@ -38,9 +38,9 @@ menu:
 {{% code-snippet config.yaml %}}
 {{< /bs/config-toggle >}}
 
-{{% bs/collapse build.writeStats primary true %}}
+{{< bs/collapse build.writeStats primary true >}}
 Used to collect used CSS, such as classes, ids and tags, which will be used to purging unused CSS.
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 ## Build Tools
 
@@ -50,9 +50,9 @@ It's recommended using the latest version of those tools as possible.
 
 HB is a modular framework, requires [Go installation](https://go.dev/dl/) to download and upgrade [Hugo Modules](https://gohugo.io/hugo-modules/use-modules/#prerequisite).
 
-{{% bs/collapse "Install Go on Arch Linux" %}}
+{{< bs/collapse "Install Go on Arch Linux" >}}
 {{< code-snippet install-go-on-arch-linux >}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 ### Dart Sass
 
@@ -64,18 +64,18 @@ See [Install Dart Sass](https://sass-lang.com/install/).
 
 HB uses Hugo Pipes to compile SCSS, so an **extended** version of [Hugo](https://gohugo.io/installation/) is required.
 
-{{% bs/collapse "Install Hugo via Go" %}}
+{{< bs/collapse "Install Hugo via Go" >}}
 If you're located in China mainland without VPN, you'll need to set up the [Go proxy](https://hugomods.com/en/blog/2023/04/go-and-hugo-proxy-servers/) first.
 {{< code-snippet install-hugo-via-go >}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 ### Git
 
 The version control system, can be fetched on the [downloads](https://git-scm.com/downloads) page.
 
-{{% bs/collapse "Install Git on Arch Linux" %}}
+{{< bs/collapse "Install Git on Arch Linux" >}}
 {{< code-snippet install-git-on-arch-linux >}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 ### Node.js
 
@@ -83,9 +83,9 @@ The version control system, can be fetched on the [downloads](https://git-scm.co
 
 HB requires the following [Node.js](https://nodejs.org/) packages.
 
-{{% bs/collapse "Install Node.js on Arch Linux" %}}
+{{< bs/collapse "Install Node.js on Arch Linux" >}}
 {{< code-snippet install-node-js-on-arch-linux >}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 | Name         | Description                                                   |
 | ------------ | ------------------------------------------------------------- |

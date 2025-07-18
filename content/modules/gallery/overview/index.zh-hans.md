@@ -43,15 +43,15 @@ authors:
 
 ## 创建图库栏目
 
-{{% bs/collapse "content/gallery/_index.md" primary true %}}
+{{< bs/collapse "content/gallery/_index.md" primary true >}}
 {{% code-snippet gallery %}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 ## 创建相册
 
-{{% bs/collapse "content/gallery/hello/index.md" primary true %}}
+{{< bs/collapse "content/gallery/hello/index.md" primary true >}}
 {{% code-snippet album %}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 然后将图片保存到 `content/gallery/hello` 目录，还可以[进一步描述图片](#图片属性)。
 

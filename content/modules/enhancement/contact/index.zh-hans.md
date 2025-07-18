@@ -45,15 +45,15 @@ authors:
 
 该模块提供了一个内置的布局 - `contact`, 你可以简单地创建一个联系表单页面。
 
-{{% bs/collapse "content/contact/_index.md" primary true %}}
+{{< bs/collapse "content/contact/_index.md" primary true >}}
 {{% code-snippet contact-page %}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 你还可以使用任意不同于 `/contact` 的自定义路径，你只需要于前言中设置 `layout` 为 `contact`。以 `/contact-us/` 为例。
 
-{{% bs/collapse "content/contact-us/_index.md" primary true %}}
+{{< bs/collapse "content/contact-us/_index.md" primary true >}}
 {{% code-snippet contact-page-with-layout %}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 ### 通过短代码生成联系表单
 

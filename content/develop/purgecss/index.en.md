@@ -42,9 +42,9 @@ This approach uses special comment to tell PurgeCSS do not to remove the styles.
 
 HB allows configuring PurgeCSS, this approach is useful to add some classes, ids and tags which used by JavaScript, since Hugo unable to detect used styles in JS way.
 
-{{% bs/collapse "assets/hb/modules/[name]/purgecss.config.toml" primary true %}}
+{{< bs/collapse "assets/hb/modules/[name]/purgecss.config.toml" primary true >}}
 {{% code-snippet purgecss.config.toml %}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 {{< bs/alert >}}
 {{% markdownify %}}

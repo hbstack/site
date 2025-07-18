@@ -79,11 +79,11 @@ Staticman 评论模块为其他模块提供了一个灵活的模板，以生成�
 
 此外，你还需要于仓库根目录创建 `staticman.yml`，举个例子。
 
-{{% bs/collapse staticman.yml primary true %}}
+{{< bs/collapse staticman.yml primary true >}}
 ```yaml
 {{% code-snippet staticman.yaml %}}
 ```
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 {{< bs/alert warning >}}
 {{% markdownify %}}

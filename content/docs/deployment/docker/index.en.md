@@ -26,9 +26,9 @@ This example uses Nginx as web server to serve Hugo generated static files.
 
 Create the `Dockerfile` and tweak it as need, such as the fallback 404 page.
 
-{{% bs/collapse "Dockerfile" primary true %}}
+{{< bs/collapse "Dockerfile" primary true >}}
 {{% code-snippet dockerfile %}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 ## Test Dockerfile
 

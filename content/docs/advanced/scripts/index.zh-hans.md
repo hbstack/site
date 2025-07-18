@@ -21,9 +21,9 @@ authors:
 
 ## 添加自定义脚本
 
-{{% bs/collapse "assets/hb/modules/custom/js/index.ts" primary true %}}
+{{< bs/collapse "assets/hb/modules/custom/js/index.ts" primary true >}}
 {{% code-snippet index.ts %}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 {{< bs/alert >}}
 请重启 Hugo 服务器，以确保加载新创建的文件。

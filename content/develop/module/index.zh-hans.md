@@ -115,13 +115,13 @@ path = "example.com/vendor/hello"
 
 然后通过模板定义额外的属性。
 
-{{% bs/collapse "layouts/partials/hugopress/modules/hb-vendor-hello/attributes/document.html" primary true %}}
+{{< bs/collapse "layouts/partials/hugopress/modules/hb-vendor-hello/attributes/document.html" primary true >}}
 {{% code-snippet attributes-document %}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
-{{% bs/collapse "layouts/partials/hugopress/modules/hb-vendor-hello/attributes/body.html" primary true %}}
+{{< bs/collapse "layouts/partials/hugopress/modules/hb-vendor-hello/attributes/body.html" primary true >}}
 {{% code-snippet attributes-body %}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 若无意外，HTML 源代码如下所示：
 
@@ -147,13 +147,13 @@ path = "example.com/vendor/hello"
 
 然后创建对应的模板：
 
-{{% bs/collapse "layouts/partials/hugopress/modules/hb-vendor-hello/hooks/head-begin.html" primary true %}}
+{{< bs/collapse "layouts/partials/hugopress/modules/hb-vendor-hello/hooks/head-begin.html" primary true >}}
 {{% code-snippet hook-head-begin %}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
-{{% bs/collapse "layouts/partials/hugopress/modules/hb-vendor-hello/hooks/head-end.html" primary true %}}
+{{< bs/collapse "layouts/partials/hugopress/modules/hb-vendor-hello/hooks/head-end.html" primary true >}}
 {{% code-snippet hook-head-end %}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 现在页面将包含以下元标记。
 
@@ -169,9 +169,9 @@ path = "example.com/vendor/hello"
 {{% code-snippet hook-body-begin.toml %}}
 {{< /bs/config-toggle >}}
 
-{{% bs/collapse "layouts/partials/hugopress/modules/hb-vendor-hello/hooks/body-begin.html" primary true %}}
+{{< bs/collapse "layouts/partials/hugopress/modules/hb-vendor-hello/hooks/body-begin.html" primary true >}}
 {{% code-snippet body-begin %}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 如无意外，该问候语将显示与页面顶部。
 
@@ -187,17 +187,17 @@ path = "example.com/vendor/hello"
 
 接着创建以下 SCSS 文件。
 
-{{% bs/collapse "assets/hb/modules/vendor-hello/scss/variables.tmpl.scss" primary true %}}
+{{< bs/collapse "assets/hb/modules/vendor-hello/scss/variables.tmpl.scss" primary true >}}
 ```scss
 {{% code-snippet variables.scss %}}
 ```
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
-{{% bs/collapse "assets/hb/modules/vendor-hello/scss/index.scss" primary true %}}
+{{< bs/collapse "assets/hb/modules/vendor-hello/scss/index.scss" primary true >}}
 ```scss
 {{% code-snippet style.scss %}}
 ```
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 重启 Hugo 服务器以确保完全加载 SCSS 文件。
 
@@ -209,11 +209,11 @@ path = "example.com/vendor/hello"
 {{% code-snippet js-config.toml %}}
 {{< /bs/config-toggle >}}
 
-{{% bs/collapse "assets/hb/modules/vendor-hello/js/index.ts" primary true %}}
+{{< bs/collapse "assets/hb/modules/vendor-hello/js/index.ts" primary true >}}
 ```ts
 {{% code-snippet index.ts %}}
 ```
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 ## 于生产模式下测试
 

@@ -49,19 +49,19 @@ It's recommended to use `hb-custom` as the HugoPress module name, to avoid confl
 {{% /markdownify %}}
 {{% /bs/alert %}}
 
-{{% bs/collapse cacheable primary true %}}
+{{< bs/collapse cacheable primary true >}}
 Since the example HTML markup doesn't contains dynamic content, mark it as `cacheable` to improve build performance.
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 ## Create Partial
 
 It's time to create the partial for including custom HTML. The partial name is related to the module and hook name.
 
-{{% bs/collapse "layouts/partials/hugopress/modules/hb-custom/hooks/body-begin.html" primary true %}}
+{{< bs/collapse "layouts/partials/hugopress/modules/hb-custom/hooks/body-begin.html" primary true >}}
 ```html
 {{% code-snippet body-end.html %}}
 ```
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 You're able to access Page variables via `.Page`, please don't forgot disabling the `cacheable` for dynamic data.
 See also [Hooks Context](https://hugomods.com/en/docs/hugopress/#hooks-context).

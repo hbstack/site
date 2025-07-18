@@ -49,19 +49,19 @@ authors:
 {{% /markdownify %}}
 {{% /bs/alert %}}
 
-{{% bs/collapse cacheable primary true %}}
+{{< bs/collapse cacheable primary true >}}
 因为示例 HTML 并不包含动态内容，将其标记为 `cacheable`，以提升构建性能。
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 ## 创建模板
 
 紧接着创建模板以包含 HTML，模板名称和模块、钩子名称相关。
 
-{{% bs/collapse "layouts/partials/hugopress/modules/hb-custom/hooks/body-begin.html" primary true %}}
+{{< bs/collapse "layouts/partials/hugopress/modules/hb-custom/hooks/body-begin.html" primary true >}}
 ```html
 {{% code-snippet body-end.html %}}
 ```
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 你可以通过 `.Page` 获取页面参数，若包含动态内容，请别忘记禁用 `cacheable`。
 详情请参阅 [Hooks Context](https://hugomods.com/en/docs/hugopress/#hooks-context)。

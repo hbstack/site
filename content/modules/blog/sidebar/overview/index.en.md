@@ -59,9 +59,9 @@ Firstly, declare the following configuration.
 
 And then create the related template.
 
-{{% bs/collapse "layouts/partials/hugopress/modules/hb-custom/hooks/hb-blog-sidebar.html" primary true %}}
+{{< bs/collapse "layouts/partials/hugopress/modules/hb-custom/hooks/hb-blog-sidebar.html" primary true >}}
 {{% code-snippet custom-widget-html %}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 ## Change the Order of Modules
 

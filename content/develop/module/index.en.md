@@ -115,13 +115,13 @@ The `cacheable` flag caches the attributes to improve the build performance, dis
 
 And then define the additional attributes via partials.
 
-{{% bs/collapse "layouts/partials/hugopress/modules/hb-vendor-hello/attributes/document.html" primary true %}}
+{{< bs/collapse "layouts/partials/hugopress/modules/hb-vendor-hello/attributes/document.html" primary true >}}
 {{% code-snippet attributes-document %}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
-{{% bs/collapse "layouts/partials/hugopress/modules/hb-vendor-hello/attributes/body.html" primary true %}}
+{{< bs/collapse "layouts/partials/hugopress/modules/hb-vendor-hello/attributes/body.html" primary true >}}
 {{% code-snippet attributes-body %}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 If everything is OK, the HTML source code looks like follows:
 
@@ -147,13 +147,13 @@ Append the following configuration to enable it.
 
 And then create the corresponding templates.
 
-{{% bs/collapse "layouts/partials/hugopress/modules/hb-vendor-hello/hooks/head-begin.html" primary true %}}
+{{< bs/collapse "layouts/partials/hugopress/modules/hb-vendor-hello/hooks/head-begin.html" primary true >}}
 {{% code-snippet hook-head-begin %}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
-{{% bs/collapse "layouts/partials/hugopress/modules/hb-vendor-hello/hooks/head-end.html" primary true %}}
+{{< bs/collapse "layouts/partials/hugopress/modules/hb-vendor-hello/hooks/head-end.html" primary true >}}
 {{% code-snippet hook-head-end %}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 Now the pages have the following meta tags.
 
@@ -169,9 +169,9 @@ Configuration as following.
 {{% code-snippet hook-body-begin.toml %}}
 {{< /bs/config-toggle >}}
 
-{{% bs/collapse "layouts/partials/hugopress/modules/hb-vendor-hello/hooks/body-begin.html" primary true %}}
+{{< bs/collapse "layouts/partials/hugopress/modules/hb-vendor-hello/hooks/body-begin.html" primary true >}}
 {{% code-snippet body-begin %}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 Now the greeting message will be shown on the top of pages.
 
@@ -187,17 +187,17 @@ To make module flexible, we declare parameters for those styles.
 
 And then create the SCSS files.
 
-{{% bs/collapse "assets/hb/modules/vendor-hello/scss/variables.tmpl.scss" primary true %}}
+{{< bs/collapse "assets/hb/modules/vendor-hello/scss/variables.tmpl.scss" primary true >}}
 ```scss
 {{% code-snippet variables.scss %}}
 ```
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
-{{% bs/collapse "assets/hb/modules/vendor-hello/scss/index.scss" primary true %}}
+{{< bs/collapse "assets/hb/modules/vendor-hello/scss/index.scss" primary true >}}
 ```scss
 {{% code-snippet style.scss %}}
 ```
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 Restart the Hugo server to ensure loading the SCSS files fully.
 
@@ -209,11 +209,11 @@ Finally, let's modify the greeting message in JS way.
 {{% code-snippet js-config.toml %}}
 {{< /bs/config-toggle >}}
 
-{{% bs/collapse "assets/hb/modules/vendor-hello/js/index.ts" primary true %}}
+{{< bs/collapse "assets/hb/modules/vendor-hello/js/index.ts" primary true >}}
 ```ts
 {{% code-snippet index.ts %}}
 ```
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 ## Test on Production Mode
 

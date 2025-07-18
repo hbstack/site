@@ -23,9 +23,9 @@ HB 允許添加自定義樣式和覆蓋 Bootstrap 默認的 SCSS 變量。
 
 創建以下文件以添加自定義樣式。
 
-{{% bs/collapse "assets/hb/modules/custom/scss/index.scss" primary true %}}
+{{< bs/collapse "assets/hb/modules/custom/scss/index.scss" primary true >}}
 {{% code-snippet index.scss %}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 {{< bs/alert >}}
 第一次加載時請重啓 Hugo 服務器。
@@ -35,9 +35,9 @@ HB 允許添加自定義樣式和覆蓋 Bootstrap 默認的 SCSS 變量。
 
 爲了自定義 Bootstrap SCSS 變量，你需要創建以下文件。
 
-{{% bs/collapse "assets/hb/modules/custom/scss/variables.tmpl.scss" primary true %}}
+{{< bs/collapse "assets/hb/modules/custom/scss/variables.tmpl.scss" primary true >}}
 {{% code-snippet variables.scss %}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 {{< bs/alert >}}
 請重啓 Hugo 服務器，以確保加載新創建的文件。

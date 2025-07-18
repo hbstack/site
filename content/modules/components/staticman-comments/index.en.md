@@ -80,11 +80,11 @@ Please change the `my_staticman` as your own to avoid conflicting with other mod
 
 You also need to create the `staticman.yml` on your repo root, for example.
 
-{{% bs/collapse staticman.yml primary true %}}
+{{< bs/collapse staticman.yml primary true >}}
 ```yaml
 {{% code-snippet staticman.yaml %}}
 ```
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 {{< bs/alert warning >}}
 {{% markdownify %}}

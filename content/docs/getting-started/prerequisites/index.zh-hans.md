@@ -38,9 +38,9 @@ menu:
 {{% code-snippet config.yaml %}}
 {{< /bs/config-toggle >}}
 
-{{% bs/collapse build.writeStats primary true %}}
+{{< bs/collapse build.writeStats primary true >}}
 用于收集站点所使用到的 `classes`、`ids` 和 `tags`，以供 PurgeCSS 清除未使用的 CSS。
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 ## 构建工具
 
@@ -50,9 +50,9 @@ menu:
 
 HB 是一个模块化的框架，需要[安装 Go 语言](https://golang.google.cn/dl/)以下载和更新 [Hugo 模块](https://gohugo.io/hugo-modules/use-modules/#prerequisite)。
 
-{{% bs/collapse "Arch Linux 安装 Go" %}}
+{{< bs/collapse "Arch Linux 安装 Go" >}}
 {{< code-snippet install-go-on-arch-linux >}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 ### Dart Sass
 
@@ -64,18 +64,18 @@ HB 是一个模块化的框架，需要[安装 Go 语言](https://golang.google.
 
 HB 使用 Hugo Pipes 来编译 SCSS，因此需要扩展版（**extended**）的 [Hugo](https://gohugo.io/installation/)。
 
-{{% bs/collapse "通过 Go 安装 Hugo" %}}
+{{< bs/collapse "通过 Go 安装 Hugo" >}}
 若你位于中国大陆而没有 VPN 时，你需要先设置 [Go 代理服务器](https://hugomods.com/zh-hans/blog/2023/04/go-和-hugo-代理服务器/)。
 {{< code-snippet install-hugo-via-go >}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 ### Git
 
 版本控制系统，可通过[下载](https://git-scm.com/downloads)页面获得。
 
-{{% bs/collapse "Arch Linux 安装 Git" %}}
+{{< bs/collapse "Arch Linux 安装 Git" >}}
 {{< code-snippet install-git-on-arch-linux >}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 ### Node.js
 
@@ -83,9 +83,9 @@ HB 使用 Hugo Pipes 来编译 SCSS，因此需要扩展版（**extended**）的
 
 HB 依赖以下 [Node.js](https://nodejs.org/) 包。
 
-{{% bs/collapse "Arch Linux 安装 Node.js" %}}
+{{< bs/collapse "Arch Linux 安装 Node.js" >}}
 {{< code-snippet install-node-js-on-arch-linux >}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 | 名称         | 描述                                               |
 | ------------ | -------------------------------------------------- |

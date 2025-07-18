@@ -60,9 +60,9 @@ Generally, newly created content is in draft stage (`draft: true`) and can be pr
 
 Content archetypes is the templates for creating content, you can define some initial parameters and content, for example the following `notes` archetype specifies `type` as `docs` to use the `docs` layout.
 
-{{% bs/collapse "archetypes/notes.md" primary true %}}
+{{< bs/collapse "archetypes/notes.md" primary true >}}
 {{% code-snippet archetype %}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 When created, the initial content will be generated using the corresponding template.
 

@@ -66,9 +66,9 @@ draft: true
 
 內容原型是用於創建內容的模板，可以定義一些初始化的參數和內容，比如以下 `notes` 原型指定 `type` 爲 `docs` 以使用 `docs` 佈局。
 
-{{% bs/collapse "archetypes/notes.md" primary true %}}
+{{< bs/collapse "archetypes/notes.md" primary true >}}
 {{% code-snippet archetype %}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 當創建時，將會使用對應的模板生成初始內容。
 

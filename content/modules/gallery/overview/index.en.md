@@ -43,15 +43,15 @@ The gallery module provides a simple layout for images.
 
 ## Create Gallery Section
 
-{{% bs/collapse "content/gallery/_index.md" primary true %}}
+{{< bs/collapse "content/gallery/_index.md" primary true >}}
 {{% code-snippet gallery %}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 ## Create Images Album
 
-{{% bs/collapse "content/gallery/hello/index.md" primary true %}}
+{{< bs/collapse "content/gallery/hello/index.md" primary true >}}
 {{% code-snippet album %}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 And then put your images into the `content/gallery/hello` folder, you may want to [describe in details](#image-properties).
 

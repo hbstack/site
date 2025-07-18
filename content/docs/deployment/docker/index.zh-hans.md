@@ -26,9 +26,9 @@ authors:
 
 创建 `Dockerfile` 并按需调整，比如回退的 404 页面。
 
-{{% bs/collapse "Dockerfile" primary true %}}
+{{< bs/collapse "Dockerfile" primary true >}}
 {{% code-snippet dockerfile %}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
 
 ## 测试 Dockerfile
 

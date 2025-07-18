@@ -29,6 +29,6 @@ authors:
 
 创建以下工作流程，并提交到仓库。
 
-{{% bs/collapse ".github/workflows/gh-pages.yaml" primary true %}}
+{{< bs/collapse ".github/workflows/gh-pages.yaml" primary true >}}
 {{% code-snippet workflow.yaml %}}
-{{% /bs/collapse %}}
+{{< /bs/collapse >}}
