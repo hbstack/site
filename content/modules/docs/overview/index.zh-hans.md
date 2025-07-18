@@ -60,3 +60,4 @@ images:
 | `nav_menus.url`      | object  |    -    | 额外菜单 URL。                               |
 | `nav_menus.icon`     | object  |    -    | 额外菜单图标。                               |
 | `redirect`           | string  |    -    | 外部文档的 URL。                             |
+| `hide_subtitle`      | boolean | `false` | 是否隐藏副标题(描述)。                        |

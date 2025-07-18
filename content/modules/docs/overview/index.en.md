@@ -61,3 +61,4 @@ The docs module provides the basic layouts and templates for docs site, it's use
 | `nav_menus.url`      | object  |    -    | Extra menu URL.                                        |
 | `nav_menus.icon`     | object  |    -    | Extra menu's icons.                                    |
 | `redirect`           | string  |    -    | URL of external documentation.                         |
+| `hide_subtitle`      | boolean | `false` | Whether to hide the subtitle (description) on page.    |

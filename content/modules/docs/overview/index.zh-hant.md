@@ -60,3 +60,4 @@ images:
 | `nav_menus.url`      | object  |    -    | 額外菜單 URL。                               |
 | `nav_menus.icon`     | object  |    -    | 額外菜單圖標。                               |
 | `redirect`           | string  |    -    | 外部文檔的 URL。                             |
+| `hide_subtitle`      | boolean | `false` | 是否隱藏副標題(描述)。                        |
