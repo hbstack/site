@@ -9,7 +9,6 @@ categories:
   - 部署
 tags:
 images:
-nav_weight: 5
 nav_icon:
   vendor: bs
   name: globe

@@ -3,7 +3,6 @@ type: docs
 aliases:
   - /zh-hans/docs/modules/blog/heading-sign/
 title: "博客标题链接"
-title: "标题链接"
 date: 2023-03-31T16:44:00+08:00
 draft: false
 nav_icon:

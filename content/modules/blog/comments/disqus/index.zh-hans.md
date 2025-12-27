@@ -3,7 +3,6 @@ type: docs
 aliases:
   - /zh-hans/docs/modules/blog/disqus/
 title: "博客 Disqus 评论引擎"
-title: "Disqus"
 date: 2023-03-31T16:42:09+08:00
 draft: false
 series:

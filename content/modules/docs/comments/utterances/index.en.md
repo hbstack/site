@@ -3,7 +3,7 @@ type: docs
 aliases:
   - /en/docs/modules/docs/utterances/
 title: Docs Utterances Comments Engine
-title: "Utterances"
+linkTitle: "Utterances"
 date: 2023-03-31T16:28:09+08:00
 draft: false
 series:

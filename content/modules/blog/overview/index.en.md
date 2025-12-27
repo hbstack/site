@@ -3,7 +3,6 @@ type: docs
 aliases:
   - /en/docs/modules/blog/overview/
 title: "Blog Overview"
-linkTitle: "Overview"
 date: 2023-03-31T15:45:47+08:00
 draft: false
 nav_weight: 1
@@ -17,8 +16,6 @@ categories:
 tags:
   - Blog
 images:
-aliases:
-  - /en/docs/modules/blog/archives/
 ---
 
 The blog module provides the basic layouts and templates for blog site.

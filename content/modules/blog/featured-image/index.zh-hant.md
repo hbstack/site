@@ -3,7 +3,6 @@ type: docs
 aliases:
   - /zh-hant/docs/modules/blog/featured-image/
 title: "博客特色圖片"
-title: "特色圖片"
 date: 2023-03-31T16:50:16+08:00
 draft: false
 nav_icon:

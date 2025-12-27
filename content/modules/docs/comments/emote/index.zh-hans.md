@@ -1,7 +1,6 @@
 ---
 type: docs
 title: "文档 Emote 评论引擎"
-title: "Emote"
 date: 2023-03-31T16:42:09+08:00
 draft: false
 series:

@@ -3,7 +3,6 @@ type: docs
 aliases:
   - /en/docs/modules/blog/disqus/
 title: "Blog Disqus Comments Engine"
-title: "Disqus"
 date: 2023-03-31T16:42:09+08:00
 draft: false
 series:

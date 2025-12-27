@@ -3,8 +3,6 @@ type: docs
 aliases:
   - /zh-hant/docs/develop/
 title: "開發指南"
-aliases:
-  - /zh-hant/docs/develop/
 menu:
   main:
     parent: docs

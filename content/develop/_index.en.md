@@ -3,8 +3,6 @@ type: docs
 aliases:
   - /en/docs/develop/
 title: "Develop Manual"
-aliases:
-  - /en/docs/develop/
 menu:
   main:
     parent: docs

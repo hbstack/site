@@ -3,7 +3,6 @@ type: docs
 aliases:
   - /zh-hant/docs/modules/blog/overview/
 title: "博客概覽"
-linkTitle: "概覽"
 date: 2023-03-31T15:45:47+08:00
 draft: false
 nav_weight: 1
@@ -17,8 +16,6 @@ categories:
 tags:
   - 博客
 images:
-aliases:
-  - /zh-hant/docs/modules/blog/archives/
 ---
 
 博客模塊為博客站點提供了基本的佈局和模板。
