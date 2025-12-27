@@ -31,7 +31,7 @@ authors:
 | Parameter      |  Type  | Required | Default | Description                          |
 | -------------- | :----: | :------: | :-----: | ------------------------------------ |
 | `bottom`       | string |    -     | `20px`  | `bottom` 属性。                      |
-| `comments`     | boolean|    -     | `true`  | 为 `true` 时全局禁用评论。            |
+| `comments`     | boolean|    -     | `true`  | 为 `false` 时全局禁用评论。            |
 | `repo`         | object |    -     |    -    | 仓库设置。                           |
 | `repo.branch`  | string |    -     | `main`  | 分支名称。                           |
 | `repo.repo`    | string |    Y     |    -    | 仓库名称，如 `user/name`。           |
