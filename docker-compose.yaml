@@ -3,7 +3,7 @@ name: hbstack-site
 services:
   dev:
     env_file: .env
-    image: hugomods/hugo:exts-non-root
+    image: ghcr.io/hugomods/hugo:exts
     command: npm run dev -- --bind 0.0.0.0
     ports:
       - 7070:7070
@@ -11,12 +11,12 @@ services:
       - 7072:7072
     volumes:
       - ./:/src
-      - ~/.cache/hugo_cache:/tmp/hugo_cache
+      - hugo_cache:/tmp/hugo_cache
       - ~/Workspaces:/workspaces
 
   prod:
     env_file: .env
-    image: hugomods/hugo:exts-non-root
+    image: ghcr.io/hugomods/hugo:exts
     command: npm run prod -- --bind 0.0.0.0
     ports:
       - 7075:7075
@@ -24,5 +24,9 @@ services:
       - 7077:7077
     volumes:
       - ./:/src
-      - ~/.cache/hugo_cache:/tmp/hugo_cache
+      - hugo_cache:/tmp/hugo_cache
       - ~/Workspaces:/workspaces
+
+volumes:
+  hugo_cache:
+    external: true
